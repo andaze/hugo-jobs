@@ -3,26 +3,28 @@
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <h2 class="headlineLv02NumEn"><span class="headlineNum">1</span> <span class="headlineEn">ADVANTAGE</span>
-          ベイジで働くメリット</h2>
-        <p>ベイジは他の会社と何が違うのか。ベイジで働くことはどんな意味を持つのか。応募者の方々が真っ先に感じる疑問に、お答えさせていただきます。</p>
-        <ul class="listLink01">
-          <li><a href="https://baigie.me/job/merit/feature/">ベイジの特長</a></li>
-          <li><a href="https://baigie.me/job/merit/8things/">ベイジで得られる8つのこと</a></li>
-          <li><a href="https://baigie.me/job/merit/occupation/">職種紹介</a></li>
-          <li><a href="https://baigie.me/job/merit/events/">社内制度・イベント</a></li>
-        </ul>
+          {{ with .Site.Params.advantageTitle }}  {{ . }} {{ end }}</h2>
+           {{ with .Site.GetPage "merit" }}
+              <p>{{ .Params.Intro }}</p>
+                {{ range .Sections.ByTitle }}
+                <ul class="listLink01">
+                  <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+                </ul>
+              {{ end }}
+              {{ end }}
       </div>
 
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <h2 class="headlineLv02NumEn"><span class="headlineNum">2</span> <span class="headlineEn"> VISIONS </span>
-          ビジョンと育成方針</h2>
-        <p>私たちは、どんな職種・どんな業界でも通用する優秀で力強い人材の育成を目指しています。そんな私たちの考え方を詳しくお話しします。</p>
-        <ul class="listLink01">
-          <li><a href="https://baigie.me/job/vision/perspective/">業界の現状と課題</a></li>
-          <li><a href="https://baigie.me/job/vision/policy/">育成の基本方針</a></li>
-          <li><a href="https://baigie.me/job/vision/future/">会社の将来像</a></li>
-          <li><a href="https://baigie.me/job/vision/guideline/">2つの行動指針</a></li>
-        </ul>
+      {{ with .Site.Params.visionTitle }} {{ . }}  {{ end }} </h2>
+        {{ with .Site.GetPage "vision" }}
+          <p>{{ .Params.Intro }}</p>
+        {{ range .Sections.ByTitle }}
+          <ul class="listLink01">
+            <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+          </ul>  
+        {{ end }}
+        {{ end }}    
       </div>
 
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row" style="margin-top: 20px;">
       <div class="col-lg-2 col-xs-12 col-sm-6 col-md-6">
-        <h2><img src="images/h_logo.png" height="40px" ; width="50px" /> </h2>
+        <h2><img src="{{ `images/h_logo.png` | absURL }}" height="40px" ; width="50px" /> </h2>
         <p class="footercolsize">株式会社ベイジ / baigie inc.<br>
           〒155-0033<br>
           東京都世田谷区代田6-6-1<br>TOKYU REIT下北沢スクエア 3F<br>
@@ -91,21 +91,24 @@
 <div id="preloader"></div>
 
 <!-- Vendor JS Files -->
-<script src="{{ `static/plugins/jquery/jquery.min.js` | absURL }}"></script>
+<script src="{{ `plugins/jquery/jquery.min.js` | absURL }}"></script>
 <script src="{{ `plugins/bootstrap/js/bootstrap.bundle.min.js` | absURL }}"></script>
-<script src="{{ `static/plugins/wow/wow.min.js` | absURL }}"></script>
-<script src="{{ `static/plugins/isotope-layout/isotope.pkgd.min.js` | absURL }}"></script>
-<script src="{{ `static/plugins/nivo-slider/js/jquery.nivo.slider.js` | absURL }}"></script>
-<script src="{{ `static/plugins/owl.carousel/owl.carousel.min.js` | absURL }}"></script>
-<script src="{{ `static/plugins/js/menu.js` | absURL }}"></script>
-<script src="{{ `static/plugins/php-email-form/validate.js` | absURL }}"></script>
-<script src="{{ `static/plugins/appear/jquery.appear.js` | absURL }}"></script>
-<script src="{{ `static/plugins/knob/jquery.knob.js` | absURL }}"></script>
-<script src="{{ `static/plugins/parallax/parallax.js` | absURL }}"></script>
-<script src="{{ `static/plugins/venobox/venobox.min.js` | absURL }}"></script>
+<script src="{{ `plugins/wow/wow.min.js` | absURL }}"></script>
+<script src="{{ `plugins/isotope-layout/isotope.pkgd.min.js` | absURL }}"></script>
+<script src="{{ `plugins/nivo-slider/js/jquery.nivo.slider.js` | absURL }}"></script>
+<script src="{{ `plugins/owl.carousel/owl.carousel.min.js` | absURL }}"></script>
+<script src="{{ `plugins/php-email-form/validate.js` | absURL }}"></script>
+<script src="{{ `plugins/appear/jquery.appear.js` | absURL }}"></script>
+<script src="{{ `plugins/knob/jquery.knob.js` | absURL }}"></script>
+<script src="{{ `plugins/parallax/parallax.js` | absURL }}"></script>
+<script src="{{ `plugins/venobox/venobox.min.js` | absURL }}"></script>
 
 
 <!-- Template Main JS File -->
+{{ $styles := resources.Get "js/menu.js" | minify}}
+
+<script src="{{ $styles.Permalink }}"></script>
+
 {{ $styles := resources.Get "js/main.js" | minify}}
 <script src="{{ $styles.Permalink }}"></script> 
 <script>

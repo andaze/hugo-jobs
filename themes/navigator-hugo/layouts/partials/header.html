@@ -1,5 +1,3 @@
-<body data-spy="scroll" data-target="#navbar-example">
-
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div class="container d-flex">
@@ -7,22 +5,22 @@
      
      <div  id="mySidenav" class="sidenav responsive">
        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-       <a href="#">ホーム</a>
-       <a href="#">働くメリット</a>
-       <a href="#">ビジョン</a>
-       <a href="#">オフィス</a>
-       <a href="#">募集要項</a>
-       <a href="#">エントリー</a>
+       {{ range .Site.Menus.item }}
+        <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+       {{ end }}
       </div>
       <span class="responsive" style="margin: 8px 8px;font-size:30px;color:white;cursor:pointer" onclick="openNav()">&#9776; </span>
       <div class="mobile-logo mr-auto">
         <div>
-          <h7><img src="images/h_logo.png" height="40px" ; width="50px" />&nbsp; <span>株式会社ベイジ 採用サイト</span></h7>
+          <h7><img src="{{ `images/h_logo.png` | absURL }}" height="40px" ; width="50px" />&nbsp; <span>{{ with .Site.Params.headerTitle }} {{ . }} {{ end }}</span></h7>
+        
         </div>
       </div> 
         <!-- ===== Desktop menu ===== -->
             
         <!--<button data-trigger="#navbar_main" class="d-lg-none btn btn-black" type="button"> <li class="fa fa-bars bars" style="font-size:25px;"></li> </button>-->
+      
+        {{ range .Site.Menus.item }}
         <nav id="navbar_main" class="mobile-offcanvas  navbar-expand-lg">
         <div class="offcanvas-header">  
               <!--<button class="btn btn-black btn-close float-right"> &times </button>
@@ -30,15 +28,17 @@
            </div>
            
           <ul class="navbar-nav">
-            <li class="nav-menu active"><a class="nav-link" href="#header">ホーム</a></li>
-            <li class="nav-menu"><a class="nav-link" href="#about">働くメリット</a></li>
-            <li class="nav-menu"><a class="nav-link" href="#services">ビジョン</a></li>
-            <li class="nav-menu"><a class="nav-link" href="#team">メッセージ</a></li>
-            <li class="nav-menu"><a class="nav-link" href="#portfolio">オフィス</a></li>
-            <li class="nav-menu"><a class="nav-link" href="#blog">募集要項</a></li>
-            <li class="nav-menu"><a class="nav-link" href="#contact">エントリー</a></li>
+            <li class="nav-menu active"><a class="nav-link" href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a></li>
+            
           </ul>
         </nav>
+        {{ end }}
+        <span class="d-none d-lg-block d-xl-block" style="margin:auto;">
+          {{ range .Site.Params.listeLangues }}
+          {{ partial "flags.html" (dict "site" $.Site "liste" .) }}
+        {{ end }}
+         
+        </span>
         <!-- .nav-menu -->
        
       </div>

@@ -5,5 +5,5 @@ draft: false
 description: "This is meta description"
 weight: 2
 author: "admin"
-intro: "What makes Bage different from other companies? What does it mean to work at Bage? We will answer the questions that applicants feel first."
+intro: "We aim to develop excellent and powerful human resources who can work in any occupation and in any industry. I will talk about our way of thinking in detail."
 ---

@@ -3,11 +3,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>採用サイト｜東京のWeb制作会社・ホームページ制作会社｜株式会社ベイジ｜baigie inc.</title>
+  <title>
+    採用サイト｜東京のWeb制作会社・ホームページ制作会社｜株式会社ベイジ｜baigie inc.</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-
+  <link href="{{ `images/favicon.png` | absURL }}" rel="icon">
   <!-- Vendor CSS Files -->
   <link href="{{ `plugins/bootstrap/css/bootstrap.min.css` | absURL }} " rel="stylesheet">
   <link href="{{ `plugins/animate.css/animate.min.css` | absURL }}" rel="stylesheet">
@@ -21,9 +22,13 @@
   <!--ADD CSS-->
   {{ $styles := resources.Get "css/style.css" | minify}}
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
-  <link href="{{ `css/share.css` | absURL }}" rel="stylesheet" type="text/css">
+  {{ $styles := resources.Get "css/share.css" | minify}}
+  <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
   {{ $styles := resources.Get "css/advantages.css" | minify}}
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
+  {{ $styles := resources.Get "css/common.css" | minify}}
+  <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
+  
   <style>
     .mobile-margin {
       margin-bottom: 10px;
