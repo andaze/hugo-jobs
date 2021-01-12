@@ -1,0 +1,13 @@
+{{ define "main" }}
+    {{ partial "merit-slider.html" . }}
+    <h1 style="padding-top: 5px; text-align: center;">{{ .Title }}</h1><br>
+    <h2 style="text-align: center;">{{ .Description }}</h2>
+    <div style="text-align: center;">
+        <img src = "{{ with .Params.image }} {{ . | absURL }} {{ end }}" class="w-50 mb-3" alt="Post-Image">
+    </div>
+    <div class="container">
+        {{ .Content }}
+    </div>
+     {{ partial "merit-website.html" . }}
+    {{ partial "merit-requirment.html" . }}
+{{ end }}

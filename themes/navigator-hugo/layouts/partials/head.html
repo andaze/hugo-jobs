@@ -1,0 +1,90 @@
+<head>
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>採用サイト｜東京のWeb制作会社・ホームページ制作会社｜株式会社ベイジ｜baigie inc.</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ `plugins/bootstrap/css/bootstrap.min.css` | absURL }} " rel="stylesheet">
+  <link href="{{ `plugins/animate.css/animate.min.css` | absURL }}" rel="stylesheet">
+  <link href="{{ `plugins/nivo-slider/css/nivo-slider.css` | absURL }}" rel="stylesheet">
+  <link href="{{ `plugins/owl.carousel/assets/owl.carousel.min.css` | absURL }}" rel="stylesheet">
+  <link href="{{ `plugins/font-awesome/css/font-awesome.min.css` | absURL }}" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="{{ `plugins/css/style.css` | absURL }}" rel="stylesheet">
+
+
+  <!--ADD CSS-->
+  {{ $styles := resources.Get "css/style.css" | minify}}
+  <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
+  <link href="{{ `css/share.css` | absURL }}" rel="stylesheet" type="text/css">
+  {{ $styles := resources.Get "css/advantages.css" | minify}}
+  <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
+  <style>
+    .mobile-margin {
+      margin-bottom: 10px;
+    }
+/* Responsive menu  */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 30px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+   
+.responsive
+{
+    display:none;
+}
+
+@media only screen and (max-width: 768px)
+{
+  .responsive
+      {
+        display:block;        
+      }
+    .logo
+      {
+            display:none;
+      }
+}
+
+  </style>
+</head>
+  

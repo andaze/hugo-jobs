@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<html lang="en">
+{{- partial "head.html" . -}}
+<body data-spy="scroll" data-target="#navbar-example">
+    
+  {{ $folder := "/"}}
+  {{ with .Site.GetPage $folder }}
+  {{ range .Sections.ByTitle }}
+
+
+    <nav class="nav-menu d-none d-lg-block">
+        <ul>
+            <li class="active"><a href="{{ .URL }}">{{ .Title }}</a></li>
+        </ul>
+    </nav>
+   
+    {{ end }}
+    {{ end }}
+   {{ partial "header.html" . }}
+   <div id="content">
+    {{- block "main" . }}{{- end }}
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

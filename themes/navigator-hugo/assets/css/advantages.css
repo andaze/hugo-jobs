@@ -1,0 +1,220 @@
+.AdvantageArea
+{
+    margin-left:120px;
+    margin-right:120px;
+    line-height: 40px;
+}
+.AdvantageArea > p
+{
+    margin: 0 0 20px;
+    line-height: 2.25;
+    font-size: 114.3%;
+}
+
+.AdvantageArea>h1{
+    margin: 0 0 30px;
+    font-size: 200%;
+    font-weight: bold ;
+  }
+
+.AdvantageArea>h2 {
+    margin: 0px 0 15px;
+    padding: 0 0 10px;
+    font-size: 142.9%;
+    font-weight: bold;
+    /* border-bottom: #E5E5E5 solid 1px; */
+    background: url(../img/h2_line.png) no-repeat 0 bottom;
+    background-size: 0 1px;
+}
+.AdvantageArea>h3 {
+    margin: 40px 0 15px 0;
+    font-size: 114.3%;
+    font-weight: bold;
+  }
+
+  .AdvantageArea >ul>li
+  {
+    margin: 0 0 10px;
+    padding: 0 0 0 20px;
+    font-size: 114.3%;
+    background: url(images/ico_circle_gold.gif) 0 0.6em no-repeat;
+  }
+  
+  .AdvantageArea>dl
+  {
+    color: blue;
+  }
+
+
+.mainBlock {
+    
+    padding: 40px 0 80px;
+    border-top: #e5e5e5 solid 1px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+  /* page are */
+
+  .pageArea {
+    margin: 0 0 55px;
+  }
+  
+  .pageArea li {
+    margin: 0 0 15px;
+    line-height: 1.4;
+  }
+  
+  .pageArea a {
+    padding: 0 0 0 22px;
+    color: #afa86f;
+    background: url(images/ico_arw_page_anchor.gif) 0 45% no-repeat;
+  }
+
+  .pageArea2 {
+    padding: 0 0 0 22px;
+    color: #afa86f;
+    background: url(images/ico_circle_gold.gif) 0 45% no-repeat;
+  }
+
+ .AdvantageArea>h2>span
+ {
+  color: #afa86f;
+ }
+
+/* image section */
+
+  .Imgaes {
+    margin: 0 auto 50px;
+    text-align: center;
+    height:40%;
+    width:60%;
+    
+  }
+  .Imgaes2 {
+    margin: 0 auto 50px;
+    text-align: center;
+
+    
+  }
+
+  .boxImg .imgCaption {
+    text-align: left;
+    font-size: 85.7%;
+    line-height: 2;
+  }
+  
+/* advantage section*/
+.artical_heading
+{
+    font-weight: 700;
+    text-align: center;
+
+}
+.artical_head1
+{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.artical_head2
+{
+    display: block;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    padding: 25px;
+
+}
+.related_area
+{
+    margin-left: -24px;
+    margin-top: -24px;
+}
+
+.block{
+  box-sizing: border-box;
+  height: 270px;
+  padding: 30px 20px 20px 20px;
+  border: 1px solid #ddd;
+  transition: background 0.2s 0s ease;
+  margin-top: 10px;
+}
+
+.block:hover {
+    background: #eee;
+    opacity: 1; /* デフォルトでopacityをいじっているのでそれを打ち消す*/
+}
+
+.block__heading {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.block__description {
+  font-size: 14px;
+  margin-top: 4px;
+}
+.block__more {
+  font-size: 14px;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+}
+/* button section */
+.secondblock
+{
+    
+    border-top:#e5e5e5 solid 1px;
+    padding: 40px 0 80px;
+    margin-left:120px;
+    margin-right:120px;
+}
+
+.btnNext
+{
+    text-align: center;
+   
+}
+.btnNextimg>li>a>span
+{
+    padding: 0 0 0 17px;
+    background: url(images/ico_arw_btn_next.gif) 0 40% no-repeat;
+}
+.btnNextimg li a:hover {
+    color: #fff;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    background-color: #afa86f;
+  }
+  
+  .btnNextimg li a:hover span {
+    background: url(/job/common/img/ico_arw_btn_next_fff.gif) 0 40% no-repeat;
+  }
+.link2
+{
+    display: inline-block;
+    width: 260px;
+    margin: 0px 0 40px;
+    padding: 14px 0;
+    font-size: 114.3%;
+    text-align: center;
+    border: #afa86f solid 1px;
+    background-color: #fff;
+}
+
+/* */
+.topsection
+  {
+    height:60%;
+    background:url("images/Advantage_header.jpg");
+    background-repeat:no-repeat; 
+    background-size:cover;
+    background-attachment:fixed;
+    margin-bottom:50px;
+  }
+
+
+
+

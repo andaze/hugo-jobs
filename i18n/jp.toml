@@ -1,0 +1,42 @@
+[about]
+other = "JP About"
+[service]
+other = "JP Service"
+[portfolio]
+other = "JP Portfolio"
+[blog]
+other = "JP Blog"
+[contact]
+other = "JP Contact"
+
+[benefits]
+other = "ベイジで働くメリット"
+[features]
+other = "- ベイジの特長"
+[8thing]
+other = "- ベイジで得られる8つのこと"
+[job]
+other = "- 職種紹介"
+[inhouse]
+other = "- 社内制度・イベント"
+
+
+[partners]
+other = "JP Partners"
+[faqs]
+other = "JP FAQ's"
+[badges]
+other = "JP Badges"
+
+[merit]
+other = "働くことの利点"
+[vision]
+other = "ビジョン"
+[message]
+other = "メッセージ"
+[office]
+other = "オフィス"
+[applicationRequirements]
+other = "募集要項"
+[entry]
+other = "エントリー"

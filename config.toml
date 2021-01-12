@@ -1,0 +1,297 @@
+baseURL = "http://localhost/baigie/"
+languageCode = "en-us"
+title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "navigator-hugo"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = "" # your analitics ID
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
+
+# Site Params
+[params]
+logo = "images/logo.png"
+
+# Gestion des langues : FR / EN / NL / DE
+[[Params.listeLangues]]
+code = "jp"
+[[Params.listeLangues]]
+code = "en"
+
+# meta data
+author = "Themefisher"
+description = "This is meta description"
+
+# Gestion des langues : FR / EN / NL / DE
+[Languages]
+############ 1 - Site en FRANCAIS
+[Languages.jp]
+weight = 1
+languageCode = "jp-jp"
+title = "FRANCAIS Example site multi-language"
+dateFormat = "2 January 2006"
+
+home = "FR Home"
+logo = "images/logo.png"
+menufixed = false
+headerTitle = " 株式会社ベイジ 採用サイト"
+homeavm = ["ADVANTAGE", "VISION", "MESSAGE" ]
+advantagetitle = "ベイジで働くメリット"
+footerEmpInformationTitle = "雇用情報ホーム"
+footerVisionAndDevlopmenTitle = "ビジョンと育成方針"
+footerLogo = "{{ `images/h_logo.png` | absURL }}"
+footerOfficeTitle = "オフィスと周辺"
+footerEntryTitle = "エントリー"
+footerAddress = "株式会社ベイジ / baigie inc.〒155-0033東京都世田谷区代田6-6-1TOKYU REIT下北沢スクエア 3F"
+footerMail = "mail.info@baigie.me"
+footerTel =  "tel. 03-6407-8750"
+footerfax = "fax. 03-6407-8751"
+
+# Hero Area Section
+[Languages.jp.params.hero]
+enable  = true
+heading = "最高のビジネス情報"
+heading1 = "私たちはあなたがあなたのビジネスを始めるのを助けるビジネスにいます"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+button  = true
+btnText = "Know More"
+btnURL  = "https://themefisher.com/"
+videoThumb = "images/slider/video-player-thumb.jpg"
+videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+
+# About 2 Section
+[Languages.jp.params.aboutSm]
+enable  = true
+title   = "FRANCAIS We have explored the digital landscape with passion for a long time"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
+
+# Blog Section On Homepage
+[Languages.jp.params.blog]
+enable  = true
+topTitle= "OUR UNTOLD STORY"
+title   = "FRANCAIS Blog."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+# Contact Section
+[Languages.jp.params.contact]
+enable  = true
+topTitle= "DROP US A NOTE"
+title   = "FRANCAIS Contact Us."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = "14/05, Stockhome <br> Victori Palace , United States"
+phone   = "(03) 9283 2617"
+fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+[Languages.jp.params.cta]
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "FRANCAIS Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Nous contacter"
+
+############# 2 - Site en ENGLISH
+[Languages.en]
+weight = 2
+languageCode = "en-us"
+title = "Example site multi-language"
+dateFormat = "January 2, 2006"
+home = "EN Home"
+logo = "images/logo.png"
+menufixed = false
+headerTitle = "Beiji Co., Ltd. recruitment site"
+advantagetitle =  "Benefits of working at Bage"
+footerLogo = "images/h_logo.png"
+footerEmpInformationTitle = "Employment Information Home"
+footerVisionAndDevlopmenTitle = "Vision and development policy"
+footerOfficeTitle = "Office and surroundings"
+footerEntryTitle = "entry"
+footerAddress = "Co., Ltd. Beiji / baigie inc.Yubinbango155-0033, Setagaya-ku, Tokyo Shirota 6-6-1, TOKYU REIT Shimokitazawa Square 3F"
+footerMail = "Mail.info@baigie.me"
+footerTel =  "Tel. 03-6407-8750"
+footerfax = "Fax. 03-6407-8751"
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable  = true
+heading = "The Best Business Information"
+heading1 = "We're In The Business Of Helping You Start Your Business"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+button  = true
+btnText = "Know More"
+btnURL  = "https://themefisher.com/"
+videoThumb = "images/slider/video-player-thumb.jpg"
+videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+enable  = true
+title   = "We have explored the digital landscape with passion for a long time"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+enable  = true
+topTitle= "OUR UNTOLD STORY"
+title   = "Blog."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+# Contact Section
+[Languages.en.params.contact]
+enable  = true
+topTitle= "DROP US A NOTE"
+title   = "Contact Us."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = "14/05, Stockhome <br> Victori Palace , United States"
+phone   = "(03) 9283 2617"
+fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+[Languages.en.params.cta]
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Contact Us"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+# Navbar Menus
+[[menu.nav]]
+name    = "about"
+url     = "about"
+weight  = 2
+[[menu.nav]]
+name    = "service"
+url     = "service"
+weight  = 3
+[[menu.nav]]
+name    = "portfolio"
+url     = "portfolio"
+weight  = 4
+[[menu.nav]]
+name    = "blog"
+url     = "blog"
+weight  = 5
+[[menu.nav]]
+name    = "contact"
+url     = "contact"
+weight  = 6
+
+# Footer Employment Information Home Menu
+[[menu.emp]]
+name    = "benefits"
+url     = "benefits"
+weight  = 1
+[[menu.emp]]
+parent = "emplink"
+name    = "features"
+url     = "features"
+weight  = 1
+[[menu.emp]]
+parent = "emplink"
+name    = "8thing"
+url     = "8thing"
+weight  = 2
+[[menu.emp]]
+parent = "emplink"
+name    = "job"
+url     ="job"
+weight  = 3
+[[menu.emp]]
+parent = "emplink"
+name    = "inhouse"
+url     = "inhouse"
+weight  = 4
+
+# Footer Vision and development policy Menu
+[[menu.vision]]
+name    = "industry"
+url     = "industry"
+weight  = 1
+[[menu.vision]]
+name    = "policy"
+url     = "policy"
+weight  = 2
+[[menu.vision]]
+name    = "futureimg"
+url     = "futureimg"
+weight  = 3
+[[menu.vision]]
+name    = "2code"
+url     = "2code"
+weight  = 4
+
+#Footer Message to applicants Menu
+[[menu.applicant]]
+name    = "messagetoaplicant"
+url     = "messagetoaplicant"
+weight  = 5
+# Footer Office and surroundings Menu
+[[menu.office]]
+name    = "galary"
+url     ="galary"
+weight  =1
+
+# Footer Entry Menu
+[[menu.entry]]
+name    = "galary"
+url     ="galary"
+weight  =1
+
+[[menu.item]]
+name    = "merit"
+url     = "merit"
+weight  = 1
+[[menu.item]]
+name    = "vision"
+url     = "vision"
+weight  =  2
+[[menu.item]]
+name   = "message"
+url    = "message"
+weight = 3
+[[menu.item]]
+name   = "office"
+url    = "office"
+weight = 4
+[[menu.item]]
+name   = "applicationRequirements"
+url    = "applicationRequirements"
+weight = 5
+[[menu.item]]
+name   = "entry"
+url    = "entry"
+weight = 6
