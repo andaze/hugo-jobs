@@ -6,18 +6,17 @@
       <div class="col-md-6 col-sm-6 col-xs-12">
         <div class="well-middle">
           <div class="single-well">
-            <a href="#">
-              <h2 class="headlineLv02NumEn"><span class="headlineNum" style="color: #afa86f;">4</span> <span
-                  class="headlineEn">OFFICE</span> オフィスと周辺</h2>
-            </a>
-            <p>
-              ベイジがオフィスを構える下北沢は、交通の便もよく、ランチに通える飲食店も多い、とても働きやすい街です。オフィスは駅から徒歩3分のガラス張りの綺麗な建物の中にあります。ベイジで働くとどんな毎日になるのだろう、などということを想像しながらご覧ください。
-            </p>
-            <ul class="listLink01">
-              <li><a href="https://baigie.me/" target="_blank">株式会社ベイジ：ホーム</a></li>
-              <li><a href="https://baigie.me/sogitani/" target="_blank">ベイジ社長ブログ</a></li>
-              <li><a href="https://baigie.me/nippo/" target="_blank">ベイジの日報</a></li>
-            </ul>
+            
+              <h2 class="headlineLv02NumEn" style="color: #afa86f;"><span class="headlineNum" >{{ with .Site.Params.officeid }} {{ . }} {{ end }}</span> <span
+                  class="headlineEn">OFFICE</span>   {{ with .Site.Params.messageTitle }} {{ . }}  {{ end }}</h2>
+              {{ with .Site.GetPage "office" }}
+                  <p>{{ .Params.Intro }}</p>
+               {{ range .Sections.ByWeight }}
+               <ul class="listLink01">
+                <li><a href="{{ .URL }}" target="_blank">{{ .Title }}</a></li>
+              </ul> 
+              {{ end }}
+              {{ end }}
           </div>
         </div>
       </div>

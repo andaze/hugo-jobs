@@ -1,4 +1,4 @@
-baseURL = "http://localhost/baigie/"
+baseURL = "http://baigie.ameio.in/"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "navigator-hugo"
@@ -47,6 +47,12 @@ headerTitle = " 株式会社ベイジ 採用サイト"
 homeavm = ["ADVANTAGE", "VISION", "MESSAGE" ]
 advantagetitle = "ベイジで働くメリット"
 visionTitle =   "ビジョンと育成方針"
+messageTitle = "応募者へのメッセージ"
+officeid    =   "4"
+officeTitle = "オフィスと周辺"
+requirementTitle = "募集職種と募集要項"
+entryTitle  = "応募専用フォーム"
+entryBoxTitle = ">応募はこちらから"
 footerEmpInformationTitle = "雇用情報ホーム"
 footerVisionAndDevlopmenTitle = "ビジョンと育成方針"
 footerLogo = "{{ `images/h_logo.png` | absURL }}"
@@ -56,6 +62,10 @@ footerAddress = "株式会社ベイジ / baigie inc.〒155-0033東京都世田�
 footerMail = "mail.info@baigie.me"
 footerTel =  "tel. 03-6407-8750"
 footerfax = "fax. 03-6407-8751"
+footerhome = "株式会社ベイジ：ホーム"
+footerblog = "ベイジ社長ブログ"
+footerReport =  "ベイジの日報"
+
 
 # Hero Area Section
 [Languages.jp.params.hero]
@@ -120,6 +130,12 @@ menufixed = false
 headerTitle = "Beiji Co., Ltd. recruitment site"
 advantagetitle =  "Benefits of working at Bage"
 visionTitle = "Vision and development policy"
+messageTitle = "Message to applicants"
+officeid = "Four"
+officeTitle = "Office and surroundings"
+requirementTitle = "Recruitment type and recruitment guidelines"
+entryTitle  = "Application-only form"
+entryBoxTitle = "> Click here to apply"
 footerLogo = "images/h_logo.png"
 footerEmpInformationTitle = "Employment Information Home"
 footerVisionAndDevlopmenTitle = "Vision and development policy"
@@ -129,6 +145,9 @@ footerAddress = "Co., Ltd. Beiji / baigie inc.Yubinbango155-0033, Setagaya-ku, T
 footerMail = "Mail.info@baigie.me"
 footerTel =  "Tel. 03-6407-8750"
 footerfax = "Fax. 03-6407-8751"
+footerhome = "Beiji Co., Ltd .: Home"
+footerblog = "Beiji President's Blog"
+footerReport =  "Beiji's daily report"
 
 # cookies
 [params.cookies]
