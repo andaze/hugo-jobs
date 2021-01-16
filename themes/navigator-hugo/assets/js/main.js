@@ -131,6 +131,7 @@
     pauseTime: 5000,
     // startSlide: 0,
     directionNav: false,
+    controlNav:true,
     controlNavThumbs: false,
     pauseOnHover: false,
     manualAdvance: true,

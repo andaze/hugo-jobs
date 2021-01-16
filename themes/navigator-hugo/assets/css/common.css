@@ -870,6 +870,9 @@ body.allLoaded .kv05 {
   font-weight: 900;
   font-size: 215.6%;
   color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .headlineLv03NumEn {

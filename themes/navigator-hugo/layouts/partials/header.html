@@ -4,9 +4,14 @@
      <!-- ===== Responsive menu ==== -->
      
      <div  id="mySidenav" class="sidenav responsive">
+      <span> 
+      {{ range .Site.Params.listeLangues }}
+         {{ partial "flags.html" (dict "site" $.Site "liste" .) }}
+       {{ end }}
+      </span>
        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
        {{ range .Site.Menus.item }}
-        <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+        <a href="{{ .URL | absLangURL }}"><h6 style="color: white;">{{ i18n .Name }}</h6></a>
        {{ end }}
       </div>
       <span class="responsive" style="margin: 8px 8px;font-size:30px;color:white;cursor:pointer" onclick="openNav()">&#9776; </span>
@@ -22,7 +27,8 @@
       
         {{ range .Site.Menus.item }}
         <nav id="navbar_main" class="mobile-offcanvas  navbar-expand-lg">
-        <div class="offcanvas-header">  
+        
+          <div class="offcanvas-header">  
               <!--<button class="btn btn-black btn-close float-right"> &times </button>
               <h5 class="py-2 text-white"></h5>-->
            </div>
