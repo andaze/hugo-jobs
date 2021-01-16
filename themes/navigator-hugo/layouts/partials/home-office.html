@@ -7,8 +7,8 @@
         <div class="well-middle">
           <div class="single-well">
             
-              <h2 class="headlineLv02NumEn" style="color: #afa86f;"><span class="headlineNum" >{{ with .Site.Params.officeid }} {{ . }} {{ end }}</span> <span
-                  class="headlineEn">OFFICE</span>   {{ with .Site.Params.messageTitle }} {{ . }}  {{ end }}</h2>
+              <h2 class="headlineLv02NumEn" style="color: #afa86f;"><span class="headlineNum" >4</span> 
+                <span class="headlineEn">OFFICE</span>   {{ with .Site.Params.messageTitle }} {{ . }}  {{ end }}</h2>
               {{ with .Site.GetPage "office" }}
                   <p>{{ .Params.Intro }}</p>
                {{ range .Sections.ByWeight }}

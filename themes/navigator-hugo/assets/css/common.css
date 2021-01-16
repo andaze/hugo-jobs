@@ -850,6 +850,9 @@ body.allLoaded .kv05 {
 .headlineLv02NumEn {
   display: block;
   color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 

@@ -11,7 +11,7 @@
       </span>
        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
        {{ range .Site.Menus.item }}
-        <a href="{{ .URL | absLangURL }}"><h6 style="color: white;">{{ i18n .Name }}</h6></a>
+        <a href="{{ .URL | absLangURL }}"><span style="color: white;">{{ i18n .Name }}</span></a>
        {{ end }}
       </div>
       <span class="responsive" style="margin: 8px 8px;font-size:30px;color:white;cursor:pointer" onclick="openNav()">&#9776; </span>
