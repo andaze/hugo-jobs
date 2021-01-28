@@ -6,43 +6,95 @@ description: "This is Future description"
 weight: 1
 ---
 
-### Introduction
+### **Features of Beiji**
 
-### Bage Features
-  In recent years, the attention on Bage has rapidly increased, and we have received many requests for lectures and interviews. I believe that the reason why we are attracting so much attention in the industry despite being a small web production company is because we are continuing to study the three areas necessary for the web.
-  
-  [Our Strengths in Business](#sectionBlock1)
-  [Differences from other companies in the industry](#sectionBlock2)
-  [Differences from Business Companies](#sectionBlock3)
+ ###### Beiji Co., Ltd. is a web production company with a total of 14 people (as of October 2018). Here, we would like to would like to introduce our features as a business and workplace.
 
-  
 
-  ####  <a id="sectionBlock1"></a>Our Strengths in Business 
-  Isn't it obvious that a company involved in production should be good at marketing, design, and management? You might think so. However, many companies have their strengths and weaknesses in these areas, and the characteristics of their business have a great impact on the way they work. This section will explain the differences in detail.
+![Image not available](ico_arw_page_anchor.gif "Title")  [**Our strengths in business**](www.whatsappweb.com)   
 
-##### Marketing skills to understand the business structurally and get to the root of the problem
-  In the strategy phase, we use a number of frameworks and repeat research and analysis over a period of about two months, and the total number of documents we create during this period exceeds one sheet. These solid strategic proposals are the source of our equal relationship with our clients. This knowledge is also utilized in the management of the company, and in 2006 we received more than 400 inquiries per year. It is rare to find a web production company in Japan that has such a successful website. Working at Baisi, you will experience a marketing culture that is unique for a web production company.
+![Image not available](ico_arw_page_anchor.gif "Title") [**Differences from other companies in the same industry**]()   
 
-##### Highest level of design capability in Japan
-  The reason we incorporate marketing and UX design approaches into our web development is to pursue the essence of design, which is problem solving, but we also consider creative elements such as copy, photography, visuals, and engineering as very important design elements. I also consider creative elements such as copy, photography, visuals, and engineering as very important elements of design. In this way, we believe that everything from the concept to the styling and engineering details are necessary for "high quality design," and we have established a system that allows us to be consistent within the company.
+![Image not available](ico_arw_page_anchor.gif "Title") [**Difference from operating company**]()   
 
-##### Management skills to ensure smooth project progress
-  In 2018, we created a workflow that is broken down into about 140 tasks based on the know-how we have cultivated in our work. In 2018, we created a workflow broken down into about 140 tasks based on the know-how we have accumulated through our work. Each task has a defined job function and documentation, which enables highly productive project progress without dependency. Also essential for stable management is the integration of shared values, customer selection, and recruitment strategies. We have developed a unique management model based on our behavioral guidelines and an organizational design that allows business elements to work closely and interact with each other.
-#### <a id="sectionBlock2"></a>Differences from other companies in the industry
-  Isn't it obvious that a company involved in production should be good at marketing, design, and management? You might think so. However, many companies have their strengths and weaknesses in these areas, and the characteristics of their business have a great impact on the way they work. This section will explain the differences in detail.
-##### General web development company
-  While they are good at design and development, they tend to be bad at marketing and management. They tend to have an individualistic work style, and there is a tendency to work in an ad hoc manner. This is a great environment to acquire skills in a short period of time, but they are weak in business and cannot break free from the position of a production company, which tends to lead to a slavish relationship with clients and an exhausting workplace. In order to determine whether the work environment is healthy, it is necessary to check the percentage of direct business dealings and the specific management methods.
-##### General Advertising Agencies
-  The main business is to handle all aspects of advertising, not specializing in the web, and in many cases, production is outsourced to outside subcontractors. In many cases, production is subcontracted to outside companies. There are also companies that emphasize customer relations rather than rational decision making, as business practices before the Internet remain strong. In general, this is not a good place for designers and engineers to work, but there are cases where there are in-house production teams that focus on operations. In that case, you will need to check what they do as actual operations.
-##### General web marketing/consulting company
-  Basically, I am good at planning marketing strategies using the web. While they are strong at proposing strategies and conducting research, they are not very good at web design and implementation, and do not have much ability to make plans come to fruition. Also, if they specialize in operational advertising, SEO, or specific solutions, they may focus on selling their methods and only do certain limited areas of marketing. This is not a good place for designers and engineers to work, but it is a good option for consultants and directors.
-##### In the case of Bage
-  As a business form, we are both a web production company with strong design skills and a web marketing company with strong marketing skills. Unlike advertising agencies, we insist on consistent internal production, so we have all the knowledge necessary for web production in-house, and we have a management system in place that allows us to consistently handle everything from strategy to delivery. With these strengths, we are able to avoid unreasonable deadlines and create a healthy work environment by seeking an equal relationship with our clients.
-##### <a id="sectionBlock3"></a> Differences from Business Companies
-  In recent years, the comparison between operating companies and contract companies is often discussed as a place for designers, engineers, and marketers to work. So here is an explanation of the difference in working style between a typical business company and a baiji.
-##### General business company
-  A generic term for companies that operate their own business. There is a wide range of industries, business types, and sizes, but the clients are internal, deadlines are loose, and work can be done in a relatively relaxed manner. One of the advantages of working for a business company is the close proximity to the business side. However, there are many times when you are continuously involved in a single business, and if you work for a business company when you are inexperienced, you may not be able to acquire a wide range of skills. In addition, since design and web production are not the main business for a business company, there is no established reputation, and changes in the business environment may lead to organizational downsizing or reassignment.
-##### General Trustee Company
- We are a general web production company, design company, and system development company. The client is an external company. In addition to specialized knowledge, the ability to build relationships with clients is also important, and working for a company that cannot choose its clients tends to be exhausting. The work is limited to specific fields such as design and systems, and there are few opportunities to get involved in the upstream. On the other hand, you can gain a wealth of experience in specialized areas such as design and systems. They also have a culture rooted in design and systems, and are familiar with education. Since production and development are the main focus of the business, it is unlikely that you will suddenly change your job title.
-##### In the case of Bage
-  Since we are a web production company, we naturally have the strong nature of a contracting company. However, we minimize the problems that contract companies tend to have by strengthening our marketing capabilities to increase inquiries and select customers, taking a consultative and proposal-based stance to take the initiative, and developing management to prevent confusion in projects. There are also many opportunities to learn about business as you are deeply involved with clients and can propose strategies to management. Career paths from designers and engineers also exist within the company.  
+&nbsp;
+&nbsp;
+#### **Our strengths in business**
+
+###### In recent years, attention to Bage has risen rapidly, and many requests for lectures and interviews have come in. In this way, despite being a small web production company, I think that the reason why it is attracting a lot of attention in the industry is that it is honestly continuing to study the three areas necessary for the web.
+
+![Image not available](Capture.PNG "Title")
+
+&nbsp;
+&nbsp;
+
+###### **Marketing ability to grasp the business structurally and approach the essence of the problem**
+
+###### In the strategic phase, we utilize a number of frameworks and repeat research and analysis for about two months, and the total number of documents produced during this period exceeds 300. This bold strategic proposal is the source of equal relationships with our customers. In addition, these findings are also utilized in our own management, and in 2017 we received more than 400 inquiries annually. There are few web production companies in Japan that have their own websites that produce such results. When you work at Bage, you can experience a marketing culture that is different for a web production company.    
+&nbsp;
+&nbsp;
+###### **Japan's highest level of design power**
+
+###### We're incorporating marketing and UX design approaches into web production to pursue the essence of problem-solving design, but on the other hand, creative elements such as copy, photography, visuals, and engineering are also very much. I see it as an important element of design. In this way, we believe that everything from concept to styling and engineering details is necessary for "quality design", and we have established a system that can be consistent within the company.   
+&nbsp;
+&nbsp;
+###### **Management ability to realize smooth project progress**
+###### Even if you can propose a good marketing plan and design, the project will not succeed unless it progresses smoothly. In 2018, we created a workflow that was broken down into about 140 tasks based on the know-how cultivated in our work. Functions and documents are defined for each task, enabling highly productive project progress without personalization. In addition, sharing values, selecting customers, and integrating hiring strategies are essential for stable management. We have built a unique management model based on the Code of Conduct, and are designing an organization that allows business elements to work closely together and interact with each other.   
+&nbsp;
+&nbsp;
+#### **Differences from other companies in the same industry**
+
+
+&nbsp;
+&nbsp;
+###### Is it natural that a company involved in web production is good at marketing, design, and management? You might think that. However, many companies have areas of strength and weakness, and their business characteristics have a great impact on the way they work. Here we will explain the difference in detail.   
+
+![Image Not Available](tableimg.svg "TITLE")
+
+It is just a general classification, and in reality, each company has its own individuality. From the beginning, Bage's concept is to    
+complete all of them in-house.
+&nbsp;
+&nbsp;
+
+###### **General web production company**
+###### While they are good at design and development, they tend to be weak at marketing and management. Personal work styles have taken root, and there are some occasional jobs. It is the best environment to acquire skills in a short period of time, but because it is weak in business and cannot escape from the position of a production company, it is easy to fall into a slave relationship with customers and the workplace tends to be exhausted. In order to judge whether the working environment is healthy, it is necessary to confirm the ratio of direct transactions and specific management methods.  
+&nbsp;
+&nbsp; 
+
+###### **General advertising agency**
+###### My main business is to handle advertising in general, and I am not specialized in the web, and in many cases I outsource the production to an external partner company. Some companies retain their pre-Internet business practices and place more importance on customer relationships than rational judgment. Generally, it is difficult for designers and engineers to find employment, but there are cases where there is an in-house production team that focuses on operations. In that case, you will need to check what you are doing in your business.   
+
+###### **General web marketing / consulting company**
+###### Basically, I am good at planning marketing strategies using the web. While he is strong in strategic proposals and research, he is not familiar with web design and implementation, and he does not have much power to realize the project. Also, if you specialize in operational advertising, SEO, specific solutions, etc., it is important to sell the method, and you may be doing only a limited area of ​​marketing. It is difficult to find a job for a designer or engineer, but it is easy to choose a job for a consultant or director.   
+&nbsp;
+&nbsp;
+
+###### **In the case of Bage**
+###### As a business form, it has both aspects of a web production company that is strong in design and a web marketing company that is strong in marketing. Unlike advertising agencies, we are particular about consistent production internally, so we have all the knowledge necessary for web production in-house, and we also have a management system that can consistently handle everything from strategy to delivery. Armed with these strengths, we are able to avoid unreasonable deadlines and create a healthy work environment by asking clients to have equal relationships.    
+&nbsp;
+&nbsp;
+
+#### **Difference from operating company**
+
+&nbsp;
+&nbsp;
+###### In recent years, the comparison between operating companies and contractors has often been a debate as a place for designers, engineers and marketers to work. Therefore, here, I will explain the differences in working styles between general business companies and Bage.    
+&nbsp;
+&nbsp;
+
+###### **General business company**
+###### It is a general term for companies that run their own businesses. There are a wide variety of industries, formats, and scales, but the client is in-house, the delivery time is lenient, and you can work relatively comfortably. One of the merits of working at a business company is that it is close to the business side. However, I often continue to be  involved in one business, and if I work for a business company when I am inexperienced, I may not be able to acquire a wide range of skills. In addition, since design and web production are not the main business for business companies, evaluation has not been established, and there is a possibility that organizational shrinkage or relocation may occur due to changes in the business environment.    
+&nbsp;
+&nbsp;
+
+###### **General contractor**
+###### It is a general web production company, design company, system development company. The client is an outside company. In addition to specialized knowledge, the ability to build relationships with customers is also important, and working at a company that cannot choose customers tends to be exhausting. The business content is limited to specific fields such as design and systems, and there are few opportunities to be involved in the upstream. On the other hand, you can gain a wealth of experience in specialized areas such as design and systems. It also has a culture rooted in design and systems, and is familiar with education. Since production and development are the main business entities, it is unlikely that a sudden change of occupation will occur.   
+&nbsp;
+&nbsp;
+###### **In the case of Bage**
+###### Since we are a web production company, we naturally have a strong character as a contractor. However, depending on the work style, such as strengthening marketing power, increasing inquiries and selecting customers, taking the initiative by taking a consulting type / proposal type stance, and improving management to prevent project confusion, the contractor company Minimizes prone problems. There are many opportunities to learn about business because we are deeply involved with customers and can propose strategies to management. Career paths from designers and engineers also exist within the company.   
+&nbsp;
+&nbsp;
+
+---
+How do these characteristics of Bage affect the way employees work? The next page will explain that in detail.
