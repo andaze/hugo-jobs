@@ -1,7 +1,11 @@
 {{ define "main" }}
     {{ partial "merit-slider.html" . }}
     <div class="container">
-       <!-- {{ .Params.Intro }}-->
+        <div class="artical_heading">
+            {{ .Params.Intro }}
+        </div>
+             
+        
        {{ .Content}}
     </div>
      {{ partial "merit-advantage.html" . }}
