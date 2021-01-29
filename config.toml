@@ -79,6 +79,8 @@ Endtitle = " 詳しく見る"
 enable  = true
 heading = "最高のビジネス情報"
 heading1 = "私たちはあなたがあなたのビジネスを始めるのを助けるビジネスにいます"
+advheading1 = "ADVANTAGE"
+advheading2 = "ベイジで働くメリット"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 button  = true
 btnText = "Know More"
@@ -156,6 +158,13 @@ footerhome = "Beiji Co., Ltd .: Home"
 footerblog = "Beiji President's Blog"
 footerReport =  "Beiji's daily report"
 
+#list Page
+description1 = " Bage Inc. is a web development company with a total of 14 employees (as of October 2018). Here are some of our strengths in business and what sets us apart from other companies."
+description2 = " The most important thing we focus on in our hiring strategy is the significance of working at Vage. Here are 8 things you can gain from working at Vage."
+description3 = "At Baisi, we undertake the entire process of web development, from strategy to development, and we have the in-house talent to complete it. Here are some definitions of our in-house capabilities"
+description4 = "At Baisi, we are implementing a variety of initiatives to improve the skills of each individual, strengthen organizational capabilities, and promote smooth human relations. Here we introduce some of the most common ones."
+Endtitle = " See more."
+
 # cookies
 [params.cookies]
 enable = true
@@ -166,6 +175,8 @@ expire_days = 2
 enable  = true
 heading = "The Best Business Information"
 heading1 = "We're In The Business Of Helping You Start Your Business"
+advheading1 = "ADVANTAGE"
+advheading2 = "Benefits of Working at Vage"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 button  = true
 btnText = "Know More"

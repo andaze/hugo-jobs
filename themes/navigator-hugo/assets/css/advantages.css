@@ -236,8 +236,7 @@
 .text1
   {
       position:absolute;
-      top:30%;
-     
+      top:50%;     
       color:white;
       font-size:360%;
       font-weight:850;
@@ -246,8 +245,8 @@
   }
   .text2{
       position:absolute;
-      top:36%;
-    
+      top:60%;
+
       color:#afa86f;
       font-size:15px;
       font-weight:600;
@@ -255,190 +254,14 @@
       text-align:center;
   }
    
-  /*@media screen and (min-width :481px) and (max-width :768px)
-  {
-    .text1
-    {
-      
-      top:34%
-    }
-    .text2
-    {
-     
-      top:44%;
-    }
-    .headerImage
-    {
-      height: 250px;
-    }
-   
-  }*/
-  /*@media screen and (device-width :768px) and (device-height :1024px)
-  {
-    .text1
-    {
-      top:15%
-    }
-    .text2
-    {
-      top:19%;
-    }
-   
-    .headerImage
-    {
-      height: 298px;
-    }
-  }*/
   
-
-
-/*  @media screen and (device-width: 320px) and (device-height: 568px) 
-  {
-    .text1
-    {
-        top:21%;
-        left:12%;
-    }
-    .text2
-    {
-        top:27%;
-    }
-  }*/
-  /* @media screen and (min-width :320px) and (max-width :480px)
-  {
-    .text1
-    {
-      top:25%;
-    }
-    .text2
-    {
-      top:32%;
-    }
-    .area-padding {
-      padding: 0px 20px 50px 20px;
-    }
-  } */
-  @media only screen and (min-device-width: 375px)  and (min-device-height: 812px) and (orientation: landscape) { 
-    .text1
-    {
-      top:22%;
-    }
-    .text2
-    {
-      top:26%;
-    }
-}
-
-  /* iphone 7/8/9 and iphone 7/6/8 plus*/
-  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait)
-   {
-   .text1
-    {
-      top:22%;
-    }
-    .text2
-    {
-      top:26%;
-    }
-
-   } 
-   @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation:landscape)
-   {
-   .text1
-    {
-      top:38%;
-    }
-    .text2
-    {
-      top:46%;
-    }
-    .headerImage
-    {
-      height: 305px;  
-    }
-
-   }
-  
-
   /* iphone 5/SE*/
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait)
   {
     .text1
     {
-      top:28%;
-      font-size:42px ;
+      font-size:315%;
     }
-    .text2
-    {
-      top:33%;
-    }
-    .headerImage
-    {
-      height: 305px;
-    }
+   
   }
-  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape)
-  {
-    .text1
-    {
-      top:32%;
-    }
-    .text2
-    {
-      top:42%;
-    }
-    .headerImage
-    {
-      height: 222px;
-    }
-  }
-
-  /* ipad */
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
-  {
-    .text1
-    {
-      top:18%;
-    }
-    .text2
-    {
-      top:21%;
-    }
-  }
-  @media only screen 
-  and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)
-  {
-    .text1
-    {
-      top:24%;
-    }
-    .text2
-    {
-      top:29%;
-    }
-  }
-
-  /*ipad pro*/
-  @media only screen  and (min-device-width: 1024px) and (max-device-width: 1366px)  and (orientation: landscape)  
-  {
-    .text1
-    {
-      top:18%;
-    }
-    .text2
-    {
-      top:21%;
-    }
-  }
-
-  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait)
-  {
-    .text1
-    {
-      top:14%;
-    }
-    .text2
-    {
-      top:17%;
-    } 
-  }
+ 
