@@ -5,6 +5,7 @@ draft: false
 description: "This is meta description"
 weight: 2
 author: "admin"
-intro: "What makes Bage different from other companies? What does it mean to work at Bage? We will answer the questions that applicants feel first."
+intro: "What makes Bage different from other companies? What does it mean to work at Bage? 
+        We will answer the questions that applicants feel first."
 ---
 

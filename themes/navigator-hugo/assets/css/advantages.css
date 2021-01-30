@@ -125,13 +125,15 @@
     display: block;
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
 }
 .artical_head2
 {
     display: block;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 16px;
-    padding: 25px;
+    text-align: center;
 
 }
 .related_area

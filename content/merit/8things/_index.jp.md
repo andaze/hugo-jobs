@@ -5,6 +5,8 @@ image: jp/merit/8things/1.jpg
 draft: false
 description: "This is 8 Things description"
 weight: 2 
+advtitle2: "ベイジで働くメリット"
+advtitle3: "ADVANTAGE"
 ---
 
 ### Introduction
