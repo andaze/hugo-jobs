@@ -8,10 +8,12 @@
             {{ .Content}}
             </div>
             <div class="artical_head1">
-               <span>{{ .Params.advtitle2}}</span>  
+                {{ with .Site.Params.advantagetitle }}
+                    <span><b>{{ . }}</b></span>
+               {{ end }}  
             </div>
             <div class="artical_head2">
-                <span>{{ .Params.advtitle3}}</span> 
+                <h6><b>{{ .Params.advtitle3}}</b></h6> 
              </div>       
         </div>
      {{ partial "merit-advantage.html" . }}
