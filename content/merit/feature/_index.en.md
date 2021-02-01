@@ -13,7 +13,7 @@ advtitle3: "ADVANTAGE"
  ###### Beiji Co., Ltd. is a web production company with a total of 14 people (as of October 2018). Here, we would like to would like to introduce our features as a business and workplace.
 
 
-![Image not available](ico_arw_page_anchor.gif "Title")  [**Our strengths in business**](www.whatsappweb.com)   
+![Image not available](ico_arw_page_anchor.gif "Title")  [**Our strengths in business**]()   
 
 ![Image not available](ico_arw_page_anchor.gif "Title") [**Differences from other companies in the same industry**]()   
 
@@ -100,3 +100,6 @@ complete all of them in-house.
 
 ---
 How do these characteristics of Bage affect the way employees work? The next page will explain that in detail.
+
+&nbsp; &nbsp; &nbsp;  ![Image not available](ico_arw_btn_next.gif "Title")  [**8 Things you can get with Bage**](http://localhost:1313/en/merit/8things/)   
+

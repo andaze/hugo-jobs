@@ -7,11 +7,10 @@
             <div class="sectionblock">        
             {{ .Content}}
             </div>
+       
             <div class="artical_head1">
-                {{ with .Site.Params.advantagetitle }}
-                    <span><b>{{ . }}</b></span>
-               {{ end }}  
-            </div>
+                <span><b>{{ .Params.advtitle2 }}</b></span>
+               </div>
             <div class="artical_head2">
                 <h6><b>{{ .Params.advtitle3}}</b></h6> 
              </div>       

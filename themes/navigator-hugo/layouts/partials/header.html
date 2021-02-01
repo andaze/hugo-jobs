@@ -41,7 +41,7 @@
         {{ end }}
         <span class="d-none d-lg-block d-xl-block" style="margin:auto;">
           {{ range .Site.Params.listeLangues }}
-          {{ partial "flags.html" (dict "site" $.Site "liste" .) }}
+          {{ partial "flags.html" (dict "site" $.Site "liste" . "Permalink" $.Permalink) }}
         {{ end }}
          
         </span>

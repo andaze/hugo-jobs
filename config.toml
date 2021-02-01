@@ -71,7 +71,7 @@ description1 = " 株式会社ベイジは、全14名（2018年10月現在）のw
 description2 = " 採用戦略を考えるうえで私たちが一番重視しているのは「ベイジで働く意義」です。このとても大事な意義を、「ベイジで得られる8つのこと」としてご紹介します。"
 description3 = "ベイジでは、web制作の戦略から開発までの全工程を請け負っており、それを完遂できる職能を社内にそろえています。ここでは社内の職能の定義をご紹介します。"
 description4 = "ベイジでは、各人のスキルアップと、組織力の強化、円滑な人間関係を目指し、さまざまな取り組みを行っています。ここではその代表的なものをご紹介します。"
-Endtitle = " 詳しく見る"
+Endtitle = "> 詳しく見る"
 
 
 # Hero Area Section
@@ -163,7 +163,7 @@ description1 = " Bage Inc. is a web development company with a total of 14 emplo
 description2 = " The most important thing we focus on in our hiring strategy is the significance of working at Vage. Here are 8 things you can gain from working at Vage."
 description3 = "At Baisi, we undertake the entire process of web development, from strategy to development, and we have the in-house talent to complete it. Here are some definitions of our in-house capabilities"
 description4 = "At Baisi, we are implementing a variety of initiatives to improve the skills of each individual, strengthen organizational capabilities, and promote smooth human relations. Here we introduce some of the most common ones."
-Endtitle = " See more."
+Endtitle = "> See more."
 
 # cookies
 [params.cookies]

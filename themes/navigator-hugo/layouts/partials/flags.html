@@ -3,10 +3,21 @@
 {{ $icone_end_url := ".gif" }}
 <!-- Utilise ".liste" et ".site" passés dans le scope du range pour obtenir .Site.Language-->
 {{ $icone_url := delimit (slice $icone_base_url .liste.code $icone_end_url) "" }}
+{{ $var := .liste.code }}
 <!-- TODO : Faire un style adapté aux drapeaux/langue + highligh l'actuel -->
 {{ if eq (string .liste.code) (string .site.Language) }}
-    <a href="{{ .liste.code | absURL }}" class="selected" style="display: inline;"><img src= {{ $icone_url | absURL }} alt="IMAGE" />
-    {{ else }}
-    <a href="{{ .liste.code | absURL }}" style="display: inline;"><img src= {{ $icone_url | absURL }} alt="IMAGE" />
+    {{ $cururl := .Permalink }}
+    <a href="{{ $cururl }}" class="selected" style="display: inline;"><img src= {{ $icone_url | absURL }} alt="IMAGE" />
+{{ else }}
+    {{ if eq ($var) ("en") }}
+        {{ $cururl:= .Permalink }}
+        {{ $new:= replace $cururl "jp" "en" }}
+        <a href="{{ $new }}" style="display: inline;"><img src= {{ $icone_url | absURL }} alt="IMAGE" />
+    {{ end }}
+    {{ if eq ($var) ("jp") }}
+        {{ $cururl:= .Permalink }}
+        {{ $new:= replace $cururl "en" "jp" }}
+        <a href="{{ $new }}" style="display: inline;"><img src= {{ $icone_url | absURL }} alt="IMAGE" />
+    {{ end }}
 {{ end }}
 </a>
