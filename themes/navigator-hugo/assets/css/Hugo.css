@@ -22,4 +22,12 @@
   {
       color: #afa86f;
   }
-
+  .sectionblock > h6 
+  {
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .sectionblock>h4 
+  {
+    padding-top: 68px;
+}

@@ -11,12 +11,12 @@
 {{ else }}
     {{ if eq ($var) ("en") }}
         {{ $cururl:= .Permalink }}
-        {{ $new:= replace $cururl "jp" "en" }}
+        {{ $new:= replace $cururl "/jp/" "/en/" }}
         <a href="{{ $new }}" style="display: inline;"><img src= {{ $icone_url | absURL }} alt="IMAGE" />
     {{ end }}
     {{ if eq ($var) ("jp") }}
         {{ $cururl:= .Permalink }}
-        {{ $new:= replace $cururl "en" "jp" }}
+        {{ $new:= replace $cururl "/en/" "/jp/" }}
         <a href="{{ $new }}" style="display: inline;"><img src= {{ $icone_url | absURL }} alt="IMAGE" />
     {{ end }}
 {{ end }}

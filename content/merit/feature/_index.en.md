@@ -7,20 +7,18 @@ weight: 1
 advtitle2: "Benefits of working at Bage"
 advtitle3: "ADVANTAGE"
 ---
-
 ### **Features of Beiji**
 
  ###### Beiji Co., Ltd. is a web production company with a total of 14 people (as of October 2018). Here, we would like to would like to introduce our features as a business and workplace.
 
 
-![Image not available](ico_arw_page_anchor.gif "Title")  [**Our strengths in business**]()   
+![Image not available](ico_arw_page_anchor.gif "Title")  [**Our strengths in business**](#our-strengths-in-business)   
 
-![Image not available](ico_arw_page_anchor.gif "Title") [**Differences from other companies in the same industry**]()   
+![Image not available](ico_arw_page_anchor.gif "Title") [**Differences from other companies in the same industry**](#differences-from-other-companies-in-the-same-industry)   
 
-![Image not available](ico_arw_page_anchor.gif "Title") [**Difference from operating company**]()   
+![Image not available](ico_arw_page_anchor.gif "Title") [**Difference from operating company**](#difference-from-operating-company)   
 
-&nbsp;
-&nbsp;
+
 #### **Our strengths in business**
 
 ###### In recent years, attention to Bage has risen rapidly, and many requests for lectures and interviews have come in. In this way, despite being a small web production company, I think that the reason why it is attracting a lot of attention in the industry is that it is honestly continuing to study the three areas necessary for the web.
@@ -42,8 +40,7 @@ advtitle3: "ADVANTAGE"
 &nbsp;
 ###### **Management ability to realize smooth project progress**
 ###### Even if you can propose a good marketing plan and design, the project will not succeed unless it progresses smoothly. In 2018, we created a workflow that was broken down into about 140 tasks based on the know-how cultivated in our work. Functions and documents are defined for each task, enabling highly productive project progress without personalization. In addition, sharing values, selecting customers, and integrating hiring strategies are essential for stable management. We have built a unique management model based on the Code of Conduct, and are designing an organization that allows business elements to work closely together and interact with each other.   
-&nbsp;
-&nbsp;
+
 #### **Differences from other companies in the same industry**
 
 
@@ -73,8 +70,7 @@ complete all of them in-house.
 
 ###### **In the case of Bage**
 ###### As a business form, it has both aspects of a web production company that is strong in design and a web marketing company that is strong in marketing. Unlike advertising agencies, we are particular about consistent production internally, so we have all the knowledge necessary for web production in-house, and we also have a management system that can consistently handle everything from strategy to delivery. Armed with these strengths, we are able to avoid unreasonable deadlines and create a healthy work environment by asking clients to have equal relationships.    
-&nbsp;
-&nbsp;
+
 
 #### **Difference from operating company**
 
@@ -101,5 +97,5 @@ complete all of them in-house.
 ---
 How do these characteristics of Bage affect the way employees work? The next page will explain that in detail.
 
-&nbsp; &nbsp; &nbsp;  ![Image not available](ico_arw_btn_next.gif "Title")  [**8 Things you can get with Bage**](http://localhost:1313/en/merit/8things/)   
+  ![Image not available](../ico_arw_btn_next.gif "Title") [**8 Things you can get with Bage**](http://localhost:1313/en/merit/8things/)   
 
