@@ -1,0 +1,80 @@
+<section class="sectionArea">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+        <div class="block">
+          {{ with .Site.GetPage "vision/perspective" }}
+          <a href=" {{ .URL }}">
+            <div class="block__heading">
+              {{ .Title }}
+            </div>
+            {{ end}}
+            <div class="block__description">
+              {{ with .Site.Params.vision_description1 }} {{ . }} {{ end }}
+            </div>
+            <div class="block__more">
+              {{ with .Site.Params.Endtitle }} {{ . }} {{ end }}
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-sm-12 col-xs-12">
+        <div class="block">
+          {{ with .Site.GetPage "vision/policy" }}
+          <a href="{{ .URL }}">
+            <div class="block__heading">
+              {{ .Title}}
+            </div>
+            {{ end}}
+            <div class="block__description">
+              {{ with .Site.Params.vision_description2 }} {{ . }} {{ end }}
+            </div>
+            <div class="block__more">
+              {{ with .Site.Params.Endtitle }} {{ . }} {{ end }}
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-sm-12 col-xs-12">
+        <div class="block">
+          {{ with .Site.GetPage "vision/future" }}
+          <a href="{{ .URL }}">
+            <div class="block__heading">
+              {{.Title}}
+            </div>
+            {{ end}}
+            <div class="block__description">
+              {{ with .Site.Params.vision_description3 }} {{ . }} {{ end }}
+            </div>
+            <div class="block__more">
+              {{ with .Site.Params.Endtitle }} {{ . }} {{ end }}
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-sm-12 col-xs-12">
+        <div class="block">
+          {{ with .Site.GetPage "vision/guideline" }}
+          <a href="{{ .URL }}">
+            <div class="block__heading">
+              {{ .Title}}
+            </div>
+            {{ end}}
+            <div class="block__description">
+              {{ with .Site.Params.vision_description4 }} {{ . }} {{ end }}
+            </div>
+            <div class="block__more">
+              {{ with .Site.Params.Endtitle }} {{ . }} {{ end }}
+
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

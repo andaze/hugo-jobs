@@ -225,10 +225,20 @@
 
 /* advantage header section */
 
-.headerImage
+.headerImagemerit
 {
   height:360px;
   background:url("../../images/img_mainv_merit.jpg");
+  background-repeat:no-repeat; 
+  background-size:cover;
+  background-attachment:fixed;
+  margin-bottom:50px;
+  width:100%;
+}
+.headerImagevision
+{
+  height:360px;
+  background:url("../../images/backgroundimage/bnr_facebook.jpg");
   background-repeat:no-repeat; 
   background-size:cover;
   background-attachment:fixed;

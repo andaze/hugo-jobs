@@ -13,11 +13,11 @@ advtitle3: "ADVANTAGE"
  ###### 株式会社ベイジは、全14名（2018年10月現在）のweb制作会社です。ここではビジネスおよび職場としての私たちの特長についてご紹介します。
 
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**ビジネスにおける私たちの強み**](#ビジネスにおける私たちの強み)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**ビジネスにおける私たちの強み**](#ビジネスにおける私たちの強み)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title") [**同業他社との違い**](#同業他社との違い)   
+![Image not available](../../ico_arw_page_anchor.gif "Title") [**同業他社との違い**](#同業他社との違い)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title") [**事業会社との違い**](#事業会社との違い)   
+![Image not available](../../ico_arw_page_anchor.gif "Title") [**事業会社との違い**](#事業会社との違い)   
 
 
 #### **ビジネスにおける私たちの強み**

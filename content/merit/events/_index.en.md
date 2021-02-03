@@ -13,29 +13,29 @@ advtitle3: "ADVANTAGE"
 ###### At our company, we are implementing a variety of initiatives to improve the skills of each individual, strengthen our organizational capabilities, and promote smooth human relations. On this page, we will introduce some of the most popular ones.
 &nbsp;
 
-![Images not available](../ico_arw_page_anchor.gif "Title") [**Daily Report**](#daily-report)   
+![Images not available](../../ico_arw_page_anchor.gif "Title") [**Daily Report**](#daily-report)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**Project Meeting**](#project-meeting)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Project Meeting**](#project-meeting)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**Weekly meeting**](#weekly-meeting)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Weekly meeting**](#weekly-meeting)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**JS Study Group**](#js-study-group)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**JS Study Group**](#js-study-group)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**Study session by job category**](#study-session-by-job-category)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Study session by job category**](#study-session-by-job-category)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**President's study meeting**](#president's-study-meeting)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**President's study meeting**](#president's-study-meeting)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**Closing meeting**](#closing-meeting)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Closing meeting**](#closing-meeting)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**Younger employees only 1-on-1**](#younger-employees-only-1-on-1)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Younger employees only 1-on-1**](#younger-employees-only-1-on-1)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**Annual meeting / Irregular meeting**](#annual-interviews--semi-regular-interviews--occasional-interviews)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Annual meeting / Irregular meeting**](#annual-interviews--semi-regular-interviews--occasional-interviews)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**Bage summit**](#bage-summit)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Bage summit**](#bage-summit)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**Work hour restrictions**](#work-hour-restrictions)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Work hour restrictions**](#work-hour-restrictions)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**Document formatting**](#document-formatting)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Document formatting**](#document-formatting)   
 
 #### **Daily Report**
 &nbsp;

@@ -12,11 +12,11 @@ advtitle3: "ADVANTAGE"
  ###### Beiji Co., Ltd. is a web production company with a total of 14 people (as of October 2018). Here, we would like to would like to introduce our features as a business and workplace.
 
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**Our strengths in business**](#our-strengths-in-business)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Our strengths in business**](#our-strengths-in-business)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title") [**Differences from other companies in the same industry**](#differences-from-other-companies-in-the-same-industry)   
+![Image not available](../../ico_arw_page_anchor.gif "Title") [**Differences from other companies in the same industry**](#differences-from-other-companies-in-the-same-industry)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title") [**Difference from operating company**](#difference-from-operating-company)   
+![Image not available](../../ico_arw_page_anchor.gif "Title") [**Difference from operating company**](#difference-from-operating-company)   
 
 
 #### **Our strengths in business**

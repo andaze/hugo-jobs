@@ -13,19 +13,19 @@ advtitle3: "ADVANTAGE"
 ###### Since we undertake the entire process of web development, from strategy to development, we have all the skills to complete it. Here are some definitions of job functions that appear in internal conversations. However, we do not believe that all employees need to follow these uniform job definitions. For example, even if you have the same title of "director," the skills you acquire are not one and the same for each person. Rather than imposing a standardized skill set based on job titles, the system is structured so that each person can work freely according to their own wishes and aptitudes.
 &nbsp;
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**Project Manager**](#project-manager)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Project Manager**](#project-manager)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**consultant**](#consultant)       
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**consultant**](#consultant)       
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**UX Researcher**](#ux-researcher)       
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**UX Researcher**](#ux-researcher)       
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**director**](#director)   
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**director**](#director)   
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**Designer**](#designer)       
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Designer**](#designer)       
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**copywriter**](#copywriter)       
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**copywriter**](#copywriter)       
 
-![Image not available](../ico_arw_page_anchor.gif "Title")  [**engineer**](#engineer)       
+![Image not available](../../ico_arw_page_anchor.gif "Title")  [**engineer**](#engineer)       
 
 #### **Project Manager**
 &nbsp;
