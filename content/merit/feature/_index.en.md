@@ -6,6 +6,7 @@ description: "This is Future description"
 weight: 1
 advtitle2: "Benefits of working at Bage"
 advtitle3: "ADVANTAGE"
+feature_description: " Bage Inc. is a web development company with a total of 14 employees (as of October 2018). Here are some of our strengths in business and what sets us apart from other companies."
 ---
 ### **Features of Beiji**
 

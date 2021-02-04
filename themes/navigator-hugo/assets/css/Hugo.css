@@ -30,4 +30,9 @@
   .sectionblock>h4 
   {
     padding-top: 68px;
+    
+  }
+  .sectionblock > ul{
+  list-style-type: disc !important;
+  margin-left: 15px;
 }

@@ -7,6 +7,8 @@ description: "This is 8 Things description"
 weight: 1
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"
+perspective_description: "私たちのビジョンや育成方針は、業界の現状や未来と密接し、その問題意識が前提にあります。ここでは、業界の現状と課題への私たちの考え方について解説します。"
+
 ---
 
 ### **業界の現状と課題**

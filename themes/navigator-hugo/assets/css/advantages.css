@@ -245,6 +245,16 @@
   margin-bottom:50px;
   width:100%;
 }
+.headerImagemessage
+{
+  height:360px;
+  background:url("../../images/backgroundimage/message_bg.jpg");
+  background-repeat:no-repeat; 
+  background-size:cover;
+  background-attachment:fixed;
+  margin-bottom:50px;
+  width:100%;
+}
 .text1
   {
       position:absolute;

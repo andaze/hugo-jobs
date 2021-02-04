@@ -67,14 +67,6 @@ footerblog = "ベイジ社長ブログ"
 footerReport =  "ベイジの日報"
 
 #list Page
-merit_description1 = " 株式会社ベイジは、全14名（2018年10月現在）のweb制作会社です。ここではビジネスにおける私たちの強みと、他社との違いについてご紹介します。"
-merit_description2 = " 採用戦略を考えるうえで私たちが一番重視しているのは「ベイジで働く意義」です。このとても大事な意義を、「ベイジで得られる8つのこと」としてご紹介します。"
-merit_description3 = "ベイジでは、web制作の戦略から開発までの全工程を請け負っており、それを完遂できる職能を社内にそろえています。ここでは社内の職能の定義をご紹介します。"
-merit_description4 = "ベイジでは、各人のスキルアップと、組織力の強化、円滑な人間関係を目指し、さまざまな取り組みを行っています。ここではその代表的なものをご紹介します。"
-vision_description1 = "私たちのビジョンや育成方針は、業界の現状や未来と密接し、その問題意識が前提にあります。ここでは、業界の現状と課題への私たちの考え方について解説します。"
-vision_description2 = "私たちが育てたいのは、Webサイトを作る人ではなく、将来にわたって活躍し続けられる人材です。ここでは、ベイジの育成方針についてご紹介します。"
-vision_description3 = "長く活躍できる人材を育てるためには私たちの会社自体の計画も明確にしておかなくてはなりません。ここでは、会社の将来像についてご紹介します。"
-vision_description4 = "ベイジでは、ビジョンとアイデンティティーを社内に浸透させて、スタッフが働くうえでの「前提条件」を揃えるために、2つの行動指針を用意しています。"
 Endtitle = "> 詳しく見る"
 
 
@@ -87,6 +79,8 @@ advheading1 = "ADVANTAGE"
 advheading2 = "ベイジで働くメリット"
 visionheading1 = "VISION"
 visionheading2 = "ビジョンと育成方針"
+messageheading1 = "MESSAGE"
+messageheading2 = "応募者へのメッセージ"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 button  = true
 btnText = "Know More"
@@ -165,14 +159,6 @@ footerblog = "Beiji President's Blog"
 footerReport =  "Beiji's daily report"
 
 #list Page
-merit_description1 = " Bage Inc. is a web development company with a total of 14 employees (as of October 2018). Here are some of our strengths in business and what sets us apart from other companies."
-merit_description2 = " The most important thing we focus on in our hiring strategy is the significance of working at Vage. Here are 8 things you can gain from working at Vage."
-merit_description3 = "At Baisi, we undertake the entire process of web development, from strategy to development, and we have the in-house talent to complete it. Here are some definitions of our in-house capabilities"
-merit_description4 = "At Baisi, we are implementing a variety of initiatives to improve the skills of each individual, strengthen organizational capabilities, and promote smooth human relations. Here we introduce some of the most common ones."
-vision_description1 = "Our vision and training policies are closely related to the current state and future of the industry, and are premised on our awareness of these issues. In this section, we explain our approach to the current state of the industry and its issues."
-vision_description2 = "What we want to develop is not just people who create websites, but people who can continue to be active in the future. Here, we introduce our training policy."
-vision_description3 = "In order to develop a long-lasting workforce, we must also have a clear plan for our company itself. In this section, we will discuss the company's future vision."
-vision_description4 = "In order to spread our vision and identity throughout the company and to align the 'prerequisites' for our staff to work, we have prepared two action guidelines."
 Endtitle = "> Read more."
 
 # cookies
@@ -189,6 +175,8 @@ advheading1 = "ADVANTAGE"
 advheading2 = "Benefits of Working at Vage"
 visionheading1 = "VISION"
 visionheading2 = "Vision and Training Policy"
+messageheading1 = "MESSAGE"
+messageheading2 = "Message to Applicants"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 button  = true
 btnText = "Know More"

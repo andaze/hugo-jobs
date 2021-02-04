@@ -6,6 +6,8 @@ description: "This is event description"
 weight: 4
 advtitle2: "ベイジで働くメリット"
 advtitle3: "ADVANTAGE"
+events_description: "ベイジでは、各人のスキルアップと、組織力の強化、円滑な人間関係を目指し、さまざまな取り組みを行っています。ここではその代表的なものをご紹介します。"
+
 ---
 
 ### **社内制度・イベント**

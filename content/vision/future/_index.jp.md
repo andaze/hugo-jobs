@@ -6,6 +6,8 @@ description: "This is Future description"
 weight: 3
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"
+future_description: "長く活躍できる人材を育てるためには私たちの会社自体の計画も明確にしておかなくてはなりません。ここでは、会社の将来像についてご紹介します。"
+
 ---
 
 ### **会社の将来像**

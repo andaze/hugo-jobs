@@ -6,6 +6,9 @@ description: "This is Occupation description"
 weight: 2
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
+policy_description: "What we want to develop is not just people who create websites, but people who can continue to be active in the future. Here, we introduce our training policy."
+
+
 ---
 
 ### **Our Training Policy**

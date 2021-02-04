@@ -6,6 +6,8 @@ description: "This is Occupation description"
 weight: 3
 advtitle2: "Benefits of working at Bage"
 advtitle3: "ADVANTAGE"
+job_description: "At Baisi, we undertake the entire process of web development, from strategy to development, and we have the in-house talent to complete it. Here are some definitions of our in-house capabilities"
+
 ---
 
 ### **Occupation Introduction**
@@ -67,15 +69,15 @@ advtitle3: "ADVANTAGE"
 &nbsp;
 ###### At Vage, we aim to organize our team more efficiently. For this reason, we do not have the following positions within the company, but rather collaborate with outside experts when necessary.
 &nbsp;
-* ![Image not available](../ico_circle_gold.gif "Title")  &nbsp; Sales Representative      
+* Sales Representative      
   
-* ![Image not available](../ico_circle_gold.gif "Title")  &nbsp; Public Relations      
+* Public Relations      
 
-* ![Image not available](../ico_circle_gold.gif "Title")  &nbsp; Human Resources      
+* Human Resources      
 
-* ![Image not available](../ico_circle_gold.gif "Title")  &nbsp; photographer      
+* photographer      
 
-* ![Image not available](../ico_circle_gold.gif "Title")  &nbsp; translation       
+* translation       
 ---
 
 What ties these multiple jobs together are the internal systems and events that arise from the workflow. In the following pages, we will introduce you to some of these internal systems and events at Baisi.

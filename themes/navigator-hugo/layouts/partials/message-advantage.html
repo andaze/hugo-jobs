@@ -6,15 +6,15 @@
       </div>
       <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
         <div class="block">
-          {{ with .Site.GetPage "merit/feature" }}
-            <a href=" {{ .URL }}">        
-            <div class="block__heading">
-            {{ .Title}} 
-            </div>
-            <div class="block__description">
-              {{ .Params.feature_description }} 
-          {{ end}}
+          {{ with .Site.GetPage "message/president" }}
+          <a href=" {{ .URL }}">        
+          <div class="block__heading">
+          {{ .Title}} 
           </div>
+          <div class="block__description">
+            {{ .Params.president_description }} 
+          </div>
+          {{ end }}
           <div class="block__more">
             {{ with .Site.Params.Endtitle }}  {{ . }} {{ end }}    
           </div>
@@ -23,15 +23,15 @@
       </div>          
       <div class="col-lg-3  col-md-6 col-sm-12 col-xs-12">
         <div class="block">
-          {{ with .Site.GetPage "merit/8things" }}
+          {{ with .Site.GetPage "message/voice" }}
           <a href="{{ .URL }}">         
           <div class="block__heading">
           {{ .Title}} 
           </div>
           <div class="block__description">
-            {{ .Params.things_description }}
+            {{ .Params.voice_description }}
           </div>
-          {{ end}}
+          {{ end }}
           <div class="block__more">
             {{ with .Site.Params.Endtitle }}  {{ . }} {{ end }} 
            
@@ -41,15 +41,15 @@
       </div>
       <div class="col-lg-3  col-md-6 col-sm-12 col-xs-12">
         <div class="block">
-            {{ with .Site.GetPage "merit/occupation" }}
-              <a href="{{ .URL }}">
-              <div class="block__heading">
-              {{.Title}}       
-              </div>
-              <div class="block__description">
-                {{ .Params.job_description }}  
-            {{ end}}
+            {{ with .Site.GetPage "message/tips" }}
+            <a href="{{ .URL }}">
+            <div class="block__heading">
+            {{.Title}}       
             </div>
+            <div class="block__description">
+              {{ .Params.tips_description }}
+            </div>
+            {{ end }}
             <div class="block__more">
               {{ with .Site.Params.Endtitle }}  {{ . }} {{ end }} 
            
@@ -59,15 +59,15 @@
       </div>
       <div class="col-lg-3  col-md-6 col-sm-12 col-xs-12">
         <div class="block">
-            {{ with .Site.GetPage "merit/events" }}
+            {{ with .Site.GetPage "message/mistake" }}
             <a href="{{ .URL }}">         
             <div class="block__heading">
             {{ .Title}}       
             </div>
             <div class="block__description">
-              {{ .Params.events_description }} 
+              {{ .Params.mistake_description }} 
             </div>
-            {{ end}}
+            {{ end }}
             <div class="block__more">
               {{ with .Site.Params.Endtitle }}  {{ . }} {{ end }} 
            

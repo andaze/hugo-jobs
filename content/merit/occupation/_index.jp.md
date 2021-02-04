@@ -6,6 +6,8 @@ description: "This is Occupation description"
 weight: 3
 advtitle2: "ベイジで働くメリット"
 advtitle3: "ADVANTAGE"
+job_description: "ベイジでは、web制作の戦略から開発までの全工程を請け負っており、それを完遂できる職能を社内にそろえています。ここでは社内の職能の定義をご紹介します。"
+
 ---
 
 ### **職種紹介**
@@ -68,15 +70,15 @@ advtitle3: "ADVANTAGE"
 
 
 
-* ![Image not available](../ico_circle_gold.gif "Title")  &nbsp; 営業担当      
+* 営業担当      
   
-* ![Image not available](../ico_circle_gold.gif "Title")  &nbsp; 広報担当      
+* 広報担当      
 
-* ![Image not available](../ico_circle_gold.gif "Title")  &nbsp; 人事担当      
+* 人事担当      
 
-* ![Image not available](../ico_circle_gold.gif "Title")  &nbsp; カメラマン      
+* カメラマン      
 
-* ![Image not available](../ico_circle_gold.gif "Title")  &nbsp; 翻訳    
+* 翻訳    
 ---
 
 こういった複数の職種をつなぎ合わせているのが、ワークフローから発生している社内制度やイベントです。次のページでは、そういったベイジの社内制度やイベントをご紹介いたします。

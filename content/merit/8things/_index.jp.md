@@ -7,6 +7,8 @@ description: "This is 8 Things description"
 weight: 2 
 advtitle2: "ベイジで働くメリット"
 advtitle3: "ADVANTAGE"
+things_description: " 採用戦略を考えるうえで私たちが一番重視しているのは「ベイジで働く意義」です。このとても大事な意義を、「ベイジで得られる8つのこと」としてご紹介します。"
+
 ---
 
 ### **ベイジで得られる8つのこと**

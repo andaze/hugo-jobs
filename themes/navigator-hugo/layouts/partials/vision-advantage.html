@@ -11,10 +11,10 @@
             <div class="block__heading">
               {{ .Title }}
             </div>
-            {{ end}}
             <div class="block__description">
-              {{ with .Site.Params.vision_description1 }} {{ . }} {{ end }}
+              {{ .Params.perspective_description }} 
             </div>
+            {{ end}}
             <div class="block__more">
               {{ with .Site.Params.Endtitle }} {{ . }} {{ end }}
             </div>
@@ -28,10 +28,10 @@
             <div class="block__heading">
               {{ .Title}}
             </div>
-            {{ end}}
             <div class="block__description">
-              {{ with .Site.Params.vision_description2 }} {{ . }} {{ end }}
+              {{ .Params.policy_description }} 
             </div>
+            {{ end}}
             <div class="block__more">
               {{ with .Site.Params.Endtitle }} {{ . }} {{ end }}
 
@@ -46,10 +46,10 @@
             <div class="block__heading">
               {{.Title}}
             </div>
-            {{ end}}
             <div class="block__description">
-              {{ with .Site.Params.vision_description3 }} {{ . }} {{ end }}
+              {{ .Params.future_description }} 
             </div>
+            {{ end}}
             <div class="block__more">
               {{ with .Site.Params.Endtitle }} {{ . }} {{ end }}
 
@@ -64,10 +64,10 @@
             <div class="block__heading">
               {{ .Title}}
             </div>
-            {{ end}}
             <div class="block__description">
-              {{ with .Site.Params.vision_description4 }} {{ . }} {{ end }}
+              {{ .Params.guideline_description }} 
             </div>
+            {{ end}}
             <div class="block__more">
               {{ with .Site.Params.Endtitle }} {{ . }} {{ end }}
 

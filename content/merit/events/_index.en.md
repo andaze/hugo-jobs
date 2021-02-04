@@ -6,6 +6,8 @@ description: "This is event description"
 weight: 4
 advtitle2: "Benefits of working at Bage"
 advtitle3: "ADVANTAGE"
+events_description: "At Baisi, we are implementing a variety of initiatives to improve the skills of each individual, strengthen organizational capabilities, and promote smooth human relations. Here we introduce some of the most common ones."
+
 ---
 
 ### **Internal systems and events**

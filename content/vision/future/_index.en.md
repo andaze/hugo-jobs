@@ -6,6 +6,8 @@ description: "This is Future description"
 weight: 3
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
+future_description: "In order to develop a long-lasting workforce, we must also have a clear plan for our company itself. In this section, we will discuss the company's future vision."
+
 ---
 
 ### **Future Vision of the Company**

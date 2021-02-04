@@ -6,6 +6,8 @@ description: "This is Future description"
 weight: 1
 advtitle2: "ベイジで働くメリット"
 advtitle3: "ADVANTAGE"
+feature_description: " 株式会社ベイジは、全14名（2018年10月現在）のweb制作会社です。ここではビジネスにおける私たちの強みと、他社との違いについてご紹介します。"
+
 ---
 
 ### **ベイジの特長**
