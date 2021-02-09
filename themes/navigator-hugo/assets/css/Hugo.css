@@ -36,3 +36,9 @@
   list-style-type: disc !important;
   margin-left: 15px;
 }
+code{
+  color: #afa86f;
+}
+.seniormargin{
+  margin: 10px 0;
+}
