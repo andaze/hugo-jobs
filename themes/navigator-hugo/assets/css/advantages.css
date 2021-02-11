@@ -255,6 +255,16 @@
   margin-bottom:50px;
   width:100%;
 }
+.headerImageoffice
+{
+  height:360px;
+  background:url("../../images/backgroundimage/office_bg.jpg");
+  background-repeat:no-repeat; 
+  background-size:cover;
+  background-attachment:fixed;
+  margin-bottom:50px;
+  width:100%;
+}
 .text1
   {
       position:absolute;
