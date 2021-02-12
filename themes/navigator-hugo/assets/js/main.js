@@ -112,6 +112,7 @@
         }, 1500, 'easeInOutExpo');
       }
     }
+      $('.maplink a').attr('target', '_blank');
   });
 
   /*----------------------------
