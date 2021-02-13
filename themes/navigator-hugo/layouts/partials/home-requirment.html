@@ -26,7 +26,7 @@
               {{ with .Site.GetPage "Entry"}}
               <p> {{ .Params.Intro }} </p>
               {{ end }}
-              <ul class="ulBtnEntry">
+              <ul class="ulBtnEntry" style="list-style: none !important;">
                 <li style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;"><a
                     style = "color: #afa86f;" href="{{ .URL }}"><span>{{ with .Site.Params.entryBoxTitle }} {{ . }} {{ end }}</span></a></li>
               </ul>

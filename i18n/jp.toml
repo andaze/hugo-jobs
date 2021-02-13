@@ -36,7 +36,7 @@ other = "ビジョン"
 other = "メッセージ"
 [office]
 other = "オフィス"
-[applicationRequirements]
+[applicationrequirements]
 other = "募集要項"
 [entry]
 other = "エントリー"

@@ -47,7 +47,11 @@ a > em > strong > code {
     font-style:normal;
     text-decoration:underline;
 }
-ul{
-  list-style-type: disc !important;
-  
+div > ul{
+  list-style-type: disc !important; 
+}
+.requirement_ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

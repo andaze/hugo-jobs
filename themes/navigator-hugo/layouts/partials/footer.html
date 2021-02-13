@@ -19,7 +19,7 @@
           {{ with .Site.GetPage "/" }}
           {{ range .Sections.ByWeight }}
           <div class="col-lg-4 col-md-4 col-12 col-sm-12 mb-3"> 
-            <ul>
+            <ul style="list-style: none !important;">
               {{ $footertitel := .File.Dir }}
               {{ $demo := strings.TrimRight "\\" $footertitel }}
               {{ if where .Site.Menus.item "Name" "in" $demo  }}  
@@ -38,7 +38,7 @@
         </div>
       
         <div class="col-lg-3 col-md-12 col-sm-12 col-12" style="padding-top: 10px;">
-            <ul>
+            <ul style="list-style: none !important;">
               <li class="colsize"><a href="{{ .URL | absLangURL }}" target="_blank"> {{ with .Site.Params.footerhome }}  {{ . }} {{ end }}</a></li>
               <li class="colsize"><a href="https://baigie.me/sogitani/" target="_blank">{{ with .Site.Params.footerblog  }} {{ . }} {{ end }}</a></li>
               <li class="colsize"><a href="https://baigie.me/nippo/" target="_blank">{{ with .Site.Params.footerReport }} {{ . }} {{ end }}</a></li>
