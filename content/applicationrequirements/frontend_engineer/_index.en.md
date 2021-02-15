@@ -8,3 +8,9 @@ advtitle2: "Available Positions/ Application Guidelines"
 advtitle3: "REQUIREMENT"
 frontend_engineer_description: "We are looking for front-end engineers who can use HTML/CSS, JavaScript, PHP, WordPress and other related technologies."
 ---
+
+### **front-end engineer**
+&nbsp;
+###### We are looking for front-end engineers who can use HTML/CSS, JavaScript, and related technologies such as PHP and WordPress.
+---
+{{< frontend_engineer_en >}}

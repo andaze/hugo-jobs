@@ -9,3 +9,9 @@ advtitle3: "REQUIREMENT"
 businessDesigner_description: "業務システムやSaaSなどのアプリケーション、ソフトウェアの設計やUIデザインを担当するデザイナーを募集しています。"
 
 ---
+
+### **業務システムUIデザイナー**
+&nbsp;
+###### 業務システムやSaaSなどのアプリケーション、ソフトウェアの設計やUIデザインを担当するデザイナーを募集しています。（実務未経験でも応募可能です）
+---
+{{< businessdesigner_jp >}}

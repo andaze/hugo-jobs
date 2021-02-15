@@ -8,3 +8,9 @@ advtitle2: "Available Positions/ Application Guidelines"
 advtitle3: "REQUIREMENT"
 WriterEditorialStaff_description: "We are looking for writers to create and write content for our clients and our company. (You can apply even if you have no practical experience.)"
 ---
+
+### **Writer/Editorial Staff**
+&nbsp;
+###### We are looking for writers who can create and write content for our clients and our company. (You can apply even if you have no practical experience.)
+---
+{{< writereditorialstaff_en >}}

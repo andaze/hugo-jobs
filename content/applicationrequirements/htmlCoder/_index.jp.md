@@ -8,3 +8,9 @@ advtitle2: "募集職種・募集要項"
 advtitle3: "REQUIREMENT"
 htmlCoder_description: "webサイトやアプリケーションのコーディングを行うHTMLコーダーを募集しています。（実務未経験でも応募可能です）"
 ---
+
+### **HTMLコーダー**
+&nbsp;
+###### webサイトやアプリケーションのコーディングを行うHTMLコーダーを募集しています。（実務未経験でも応募可能です）
+---
+{{< htmlcoder_jp >}}
