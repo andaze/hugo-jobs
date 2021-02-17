@@ -46,7 +46,7 @@ other = "Vision"
 other = "Message"
 [office]
 other = "Office"
-[applicationRequirements]
+[applicationrequirements]
 other = "Application Requirements"
 [entry]
 other = "Entry"

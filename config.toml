@@ -67,12 +67,25 @@ footerhome = "株式会社ベイジ：ホーム"
 footerblog = "ベイジ社長ブログ"
 footerReport =  "ベイジの日報"
 
+#list Page
+Endtitle = "> 詳しく見る"
+
 
 # Hero Area Section
 [Languages.jp.params.hero]
 enable  = true
 heading = "最高のビジネス情報"
 heading1 = "私たちはあなたがあなたのビジネスを始めるのを助けるビジネスにいます"
+advheading1 = "ADVANTAGE"
+advheading2 = "ベイジで働くメリット"
+visionheading1 = "VISION"
+visionheading2 = "ビジョンと育成方針"
+messageheading1 = "MESSAGE"
+messageheading2 = "応募者へのメッセージ"
+officeheading1 = "OFFICE"
+officeheading2 = "オフィスと周辺"
+requirementheading1 = "REQUIREMENT"
+requirementheading2 = "募集職種・募集要項"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 button  = true
 btnText = "Know More"
@@ -150,6 +163,9 @@ footerhome = "Beiji Co., Ltd .: Home"
 footerblog = "Beiji President's Blog"
 footerReport =  "Beiji's daily report"
 
+#list Page
+Endtitle = "> Read more."
+
 # cookies
 [params.cookies]
 enable = true
@@ -160,6 +176,16 @@ expire_days = 2
 enable  = true
 heading = "The Best Business Information"
 heading1 = "We're In The Business Of Helping You Start Your Business"
+advheading1 = "ADVANTAGE"
+advheading2 = "Benefits of Working at Vage"
+visionheading1 = "VISION"
+visionheading2 = "Vision and Training Policy"
+messageheading1 = "MESSAGE"
+messageheading2 = "Message to Applicants"
+officeheading1 = "OFFICE"
+officeheading2 ="Office and surroundings"
+requirementheading1 = "REQUIREMENT"
+requirementheading2 = "Job Categories and Application Guidelines"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 button  = true
 btnText = "Know More"
@@ -310,8 +336,8 @@ name   = "office"
 url    = "office"
 weight = 4
 [[menu.item]]
-name   = "applicationRequirements"
-url    = "applicationRequirements"
+name   = "applicationrequirements"
+url    = "applicationrequirements"
 weight = 5
 [[menu.item]]
 name   = "entry"

@@ -1,0 +1,21 @@
+{{ define "main" }}
+    {{ partial "vision-slider.html" . }}
+        <div class="container"> 
+            <div class="artical_heading">
+                {{ .Params.Intro }}
+            </div>
+            <div class="sectionblock">        
+            {{ .Content}}
+            </div>
+       
+            <div class="artical_head1">
+                <span><b>{{ .Params.advtitle2 }}</b></span>
+               </div>
+            <div class="artical_head2">
+                <h6><b>{{ .Params.advtitle3}}</b></h6> 
+             </div>       
+        </div>
+     {{ partial "vision-advantage.html" . }}
+    {{ partial "home-requirment.html" . }}
+    {{ partial "home-website.html" . }}
+{{ end }}

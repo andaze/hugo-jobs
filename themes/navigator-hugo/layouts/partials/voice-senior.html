@@ -1,0 +1,107 @@
+{{ $id := replaceRE "(\\s)" "" .page.Params.Name }}
+<div id ="{{ $id }}" class="sectionblock" style="padding-top: 60px;">
+    <!-- <table class="table table-responsive table-borderless">
+        <tbody>
+          <tr>
+            
+            {{ if eq (.page.Params.image) ("") }}
+            {{ else }}
+            
+            <td width="30%" rowspan="6"><img src="{{ .imagepath }}{{ .page.Params.Image }}" width="auto" height="auto" alt="Images Not available"></td>
+
+            {{ end }}  
+            
+            <td width="70%" colspan="2"><h3><b>{{ .page.Params.Name }}</b></h3></td>
+          </tr>
+          <tr>
+            {{ if eq (.page.Params.TypeofworkAnswer) ("") }}
+            {{ else }}
+            <td width="30%"><b style="color: #afa86f;">{{ .page.Params.TypeofworkHeading }}</b></td>
+            <td>{{ .page.Params.TypeofworkAnswer }}</td>
+            {{ end }}
+          </tr>
+          <tr>
+            {{ if eq (.page.Params.JoiningAnswer) ("") }}
+            {{ else }}
+            <td width="30%"><b style="color: #afa86f;">{{ .page.Params.JoiningHeading }}</b></td>
+            <td>{{ .page.Params.JoiningAnswer }}</td>
+            {{ end }}
+          </tr>
+          <tr>
+            {{ if eq (.page.Params.DobAnswer) ("") }}
+            {{ else }}
+            <td width="30%"><b style="color: #afa86f;">{{ .page.Params.DobHeading }}</b></td>
+            <td>{{ .page.Params.DobAnswer }}</td>
+            {{ end }}
+          </tr>
+          <tr>
+            {{ if eq (.page.Params.BirthplaceAnswer) ("") }}
+            {{ else }}
+            <td width="30%"><b style="color: #afa86f;">{{ .page.Params.BirthplaceHeading }}</b></td>
+            <td>{{ .page.Params.BirthplaceAnswer }}</td>
+            {{ end }}
+          </tr>
+          <tr>
+            {{ if eq (.page.Params.WorkexpAnswer) ("") }}
+            {{ else }}
+            <td width="30%"><b style="color: #afa86f;">{{ .page.Params.WorkexpHeading }}</b></td>
+            <td>{{ .page.Params.WorkexpAnswer }}</td>
+            {{ end }}
+          </tr>
+        </tbody>
+      </table>
+      {{ .page.Content }} -->
+      <div class="row">
+        {{ if eq (.page.Params.image) ("") }}
+        {{ else }}
+        <div class="col-12 col-sm-12 col-md-4 col-lg-3" style="text-align: center;">
+            <img src="{{ .imagepath }}{{ .page.Params.Image }}" width="auto" height="auto" alt="Images Not available">
+          </div>
+        {{ end }}  
+        <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+          {{ if eq (.page.Params.Name) ("") }}
+          {{ else }}
+            <div class="row seniormargin">
+              <div class="col"> <h3><b>{{ .page.Params.Name }}</b></h3> 
+              </div>
+            </div>
+          {{ end }}
+          {{ if eq (.page.Params.TypeofworkAnswer) ("") }}
+          {{ else }}
+            <div class="row seniormargin">
+              <div class="col-5" style="color: #afa86f;"><b>{{ .page.Params.TypeofworkHeading }}</b></div>
+              <div class="col-7">{{ .page.Params.TypeofworkAnswer }}</div>
+            </div>
+          {{ end }}
+          {{ if eq (.page.Params.JoiningAnswer) ("") }}
+          {{ else }}
+            <div class="row seniormargin">
+              <div class="col-5" style="color: #afa86f;"><b>{{ .page.Params.JoiningHeading }}</b></div>
+              <div class="col-7">{{ .page.Params.JoiningAnswer }}</div>
+            </div>
+          {{ end }}
+          {{ if eq (.page.Params.DobAnswer) ("") }}
+          {{ else }}
+            <div class="row seniormargin">
+              <div class="col-5" style="color: #afa86f;"><b>{{ .page.Params.DobHeading }}</b></div>
+              <div class="col-7">{{ .page.Params.DobAnswer }}</div>
+            </div>
+          {{ end }}
+          {{ if eq (.page.Params.BirthplaceAnswer) ("") }}
+          {{ else }}
+            <div class="row seniormargin">
+              <div class="col-5" style="color: #afa86f;"><b>{{ .page.Params.BirthplaceHeading }}</b></div>
+              <div class="col-7">{{ .page.Params.BirthplaceAnswer }}</div>
+            </div>
+          {{ end }}
+          {{ if eq (.page.Params.WorkexpAnswer) ("") }}
+          {{ else }}
+            <div class="row seniormargin">
+              <div class="col-5" style="color: #afa86f;"><b>{{ .page.Params.WorkexpHeading }}</b></div>
+              <div class="col-7">{{ .page.Params.WorkexpAnswer }}</div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    
+</div>

@@ -117,7 +117,7 @@
   text-align: center;
   font-size: 20px;
   line-height: 1.75;
-  margin-bottom: 30px;
+  white-space: pre-line;
 
 }
 .artical_head1
@@ -125,13 +125,15 @@
     display: block;
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
 }
 .artical_head2
 {
     display: block;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 16px;
-    padding: 25px;
+    text-align: center;
 
 }
 .related_area
@@ -223,7 +225,7 @@
 
 /* advantage header section */
 
-.headerImage
+.headerImagemerit
 {
   height:360px;
   background:url("../../images/img_mainv_merit.jpg");
@@ -233,11 +235,50 @@
   margin-bottom:50px;
   width:100%;
 }
+.headerImagevision
+{
+  height:360px;
+  background:url("../../images/backgroundimage/bnr_facebook.jpg");
+  background-repeat:no-repeat; 
+  background-size:cover;
+  background-attachment:fixed;
+  margin-bottom:50px;
+  width:100%;
+}
+.headerImagemessage
+{
+  height:360px;
+  background:url("../../images/backgroundimage/message_bg.jpg");
+  background-repeat:no-repeat; 
+  background-size:cover;
+  background-attachment:fixed;
+  margin-bottom:50px;
+  width:100%;
+}
+.headerImageoffice
+{
+  height:360px;
+  background:url("../../images/backgroundimage/office_bg.jpg");
+  background-repeat:no-repeat; 
+  background-size:cover;
+  background-attachment:fixed;
+  margin-bottom:50px;
+  width:100%;
+}
+.headerImagerequirement
+{
+  height:360px;
+  background:url("../../images/backgroundimage/requrement_bg.jpg");
+  background-repeat:no-repeat; 
+  background-size:cover;
+  background-attachment:fixed;
+  margin-bottom:50px;
+  width:100%;
+}
 .text1
   {
       position:absolute;
-      top:30%;
-      left:40%;
+      top:50%;     
       color:white;
       font-size:360%;
       font-weight:850;
@@ -246,134 +287,23 @@
   }
   .text2{
       position:absolute;
-      top:36%;
-      left:45%;
+      top:60%;
+
       color:#afa86f;
       font-size:15px;
       font-weight:600;
       padding:5px;
+      text-align:center;
+  }
+   
+  
+  /* iphone 5/SE*/
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait)
+  {
+    .text1
+    {
+      font-size:315%;
+    }
+   
   }
  
-  @media screen and (min-width :480px) and (max-width :768px)
-  {
-    .text1
-    {
-      left:24%;
-      top:35%;
-    }
-    .text2
-    {
-      left:36%;
-      top:46%;
-    }
-    .headerImage
-    {
-        height: 280px;
-    }
-  }
-  @media screen and (min-width :768px) and (max-width :480px)
-  {
-    .text1
-    {
-      left:20%;
-      top:20%;
-    }
-    .text2
-    {
-      left:36%;
-      top:26%;
-    }
-    .headerImage
-    {
-        height: 280px;
-    }
-  }
-  @media screen and (min-width :768px) and (max-width :1024px)
-  {
-    .text1
-    {
-      left:32%;
-      top:16%
-    }
-    .text2
-    {
-      left:42%;
-      top:20%;
-    }
-   
-    .headerImage
-    {
-      height: 366px;
-    }
-  }
-  @media screen and (min-width :1024px) and (max-width :768px)
-  {
-    .text1
-    {
-      left:32%;
-      top:26%
-    }
-    .text2
-    {
-      left:42%;
-      top:31%;
-    }
-   
-    .headerImage
-    {
-      height: 366px;
-    }
-  }
-  
-  @media screen and (min-width :320px) and (max-width :480px)
-  {
-    .text1
-    {
-      left:16%;
-      font-size: 39px;
-      top:16%;
-    }
-    .text2
-    {
-      left:28%;
-      top:20%;
-    }
-    
-    .headerImage
-    {
-        height: 245px;
-    }
-    .area-padding {
-        padding: 0px 20px 50px 20px;
-      }
-  }
-    
-  @media only screen and (min-width: 1200px)
-  {
-    .secondblock
-    {
-      width: 760px;
-      margin: 0 auto;
-    }
-    .block
-    {
-        height:230px;
-        width: 270px;
-    }
-  }
-
-  @media screen and (device-width: 320px) and (device-height: 568px) 
-  {
-    .text1
-    {
-        top:21%;
-        left:12%;
-    }
-    .text2
-    {
-        top:27%;
-    }
-  }
-  
-  
-

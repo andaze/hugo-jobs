@@ -19,7 +19,7 @@
           {{ with .Site.GetPage "/" }}
           {{ range .Sections.ByWeight }}
           <div class="col-lg-4 col-md-4 col-12 col-sm-12 mb-3"> 
-            <ul>
+            <ul style="list-style: none !important;">
               {{ $footertitel := .File.Dir }}
               {{ $demo := strings.TrimRight "\\" $footertitel }}
               {{ if where .Site.Menus.item "Name" "in" $demo  }}  
@@ -38,7 +38,7 @@
         </div>
       
         <div class="col-lg-3 col-md-12 col-sm-12 col-12" style="padding-top: 10px;">
-            <ul>
+            <ul style="list-style: none !important;">
               <li class="colsize"><a href="{{ .URL | absLangURL }}" target="_blank"> {{ with .Site.Params.footerhome }}  {{ . }} {{ end }}</a></li>
               <li class="colsize"><a href="https://baigie.me/sogitani/" target="_blank">{{ with .Site.Params.footerblog  }} {{ . }} {{ end }}</a></li>
               <li class="colsize"><a href="https://baigie.me/nippo/" target="_blank">{{ with .Site.Params.footerReport }} {{ . }} {{ end }}</a></li>
@@ -50,7 +50,7 @@
 </footer>
 
 
-<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<button onclick="topFunction()" id="myBtn" class="back-to-top"><i class="fa fa-chevron-up"></i></button>
 <div id="preloader"></div>
 
 <!-- Vendor JS Files -->
@@ -60,11 +60,11 @@
 <script src="{{ `plugins/isotope-layout/isotope.pkgd.min.js` | absURL }}"></script>
 <script src="{{ `plugins/nivo-slider/js/jquery.nivo.slider.js` | absURL }}"></script>
 <script src="{{ `plugins/owl.carousel/owl.carousel.min.js` | absURL }}"></script>
-<script src="{{ `plugins/php-email-form/validate.js` | absURL }}"></script>
+<!--<script src="{{ `plugins/php-email-form/validate.js` | absURL }}"></script>
 <script src="{{ `plugins/appear/jquery.appear.js` | absURL }}"></script>
 <script src="{{ `plugins/knob/jquery.knob.js` | absURL }}"></script>
 <script src="{{ `plugins/parallax/parallax.js` | absURL }}"></script>
-<script src="{{ `plugins/venobox/venobox.min.js` | absURL }}"></script>
+<script src="{{ `plugins/venobox/venobox.min.js` | absURL }}"></script>-->
 
 
 <!-- Template Main JS File -->
@@ -82,4 +82,23 @@
     function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
     }
+
+    var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 10;
+        document.documentElement.scrollTop = 10;
+      }
 </script>

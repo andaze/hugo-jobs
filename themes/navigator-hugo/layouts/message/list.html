@@ -1,0 +1,41 @@
+{{ define "main" }}
+    {{ partial "message-slider.html" . }}
+        <div class="container"> 
+            <div class="artical_heading">
+                {{ .Params.Intro }}
+            </div>
+            <div class="sectionblock">        
+            {{ .Content}}
+            </div>
+            {{ if or (eq (.Permalink) ("http://localhost:1313/en/message/voice/")) (eq (.Permalink) ("http://localhost:1313/jp/message/voice/")) }}
+            {{ $cururl:= .Permalink }}
+            {{ $imagepath:= replace $cururl "/jp/" "/en/" }}
+                
+            {{ range .Pages }}
+            <div class="sectionblock">
+                
+                <img src = "{{ $imagepath }}image/ico_arw_page_anchor.gif"/>
+                {{ $id := replaceRE "(\\s)" "" .Params.Name }}                
+                <a href="#{{ $id }}" style="color: #afa86f">{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a>
+            </div>
+                    <br>
+                {{ end }}
+                <br>
+                    
+            {{ range .Pages }}
+
+                    {{ partial "voice-senior.html" (dict "page" . "imagepath" $imagepath) }}
+                    <br>
+                {{ end }}
+            {{ end }}
+            <div class="artical_head1">
+                <span><b>{{ .Params.advtitle2 }}</b></span>
+               </div>
+            <div class="artical_head2">
+                <h6><b>{{ .Params.advtitle3}}</b></h6> 
+             </div>       
+        </div>
+     {{ partial "message-advantage.html" . }}
+    {{ partial "home-requirment.html" . }}
+    {{ partial "home-website.html" . }}
+{{ end }}

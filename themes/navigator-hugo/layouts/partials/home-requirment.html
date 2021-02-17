@@ -1,6 +1,6 @@
 <!-- start resusable-->
     <!-- ======= Entry Section ======= -->
-    <div id="about" class="about-area area-padding">
+    <div id="about" class="about-area area-padding1">
       <div class="container">
 
         <div class="row">
@@ -8,7 +8,7 @@
             <div class="well-left">
               <div class="single-well">
                 <h2 class="headlineLv02NumEn" style="color: #afa86f;"><span class="headlineEn">REQUIREMENT</span> {{ with .Site.Params.requirementTitle }} {{ . }} {{ end }}</h2>
-                {{ with .Site.GetPage "requirement" }}
+                {{ with .Site.GetPage "applicationrequirements" }}
                 <p>{{ .Params.Intro }} </p>
                 {{ range .Sections.ByWeight }}
                   <ul class="listLink01">
@@ -26,7 +26,7 @@
               {{ with .Site.GetPage "Entry"}}
               <p> {{ .Params.Intro }} </p>
               {{ end }}
-              <ul class="ulBtnEntry">
+              <ul class="ulBtnEntry" style="list-style: none !important;">
                 <li style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;"><a
                     style = "color: #afa86f;" href="{{ .URL }}"><span>{{ with .Site.Params.entryBoxTitle }} {{ . }} {{ end }}</span></a></li>
               </ul>

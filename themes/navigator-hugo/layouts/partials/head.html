@@ -27,6 +27,9 @@
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
   {{ $styles := resources.Get "css/common.css" | minify}}
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
+  {{ $styles := resources.Get "css/Hugo.css" | minify}}
+  <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
+  
   
   <style>
     .mobile-margin {
