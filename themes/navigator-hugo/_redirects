@@ -1,4 +1,2 @@
-[[redirects]]
-  from = "/*"
-  to = "/login"
-  status = 302
+# Redirects from what the browser requests to what we serve
+/*            https://www.google.com
