@@ -1,0 +1,14 @@
+ErrorDocument 400 /en/bad-request.html
+ErrorDocument 401 /en/unauthorised.html
+ErrorDocument 403 /en/forbidden.html
+ErrorDocument 404 /en/file-not-found.html
+ErrorDocument 500 /en/internal-server-error.html
+
+AuthType Basic
+
+AuthName "Password Protected Area"
+
+AuthUserFile /home/ameio/public_html/baigie/.htpasswd
+
+Require valid-user
+
