@@ -24,10 +24,9 @@
               {{ $footertitel := .File.Dir }}
               {{ $demo := strings.TrimRight "\\//" $footertitel }}
               {{ if where .Site.Menus.item "Name" "in" $demo  }}
-              {{ $demo }}
               <li class="colsize"><h6><a style = "color:white;" href="{{ .URL | absLangURL }}"><b>{{ .Title }}</b></a> </h6></li>
                 {{ with .Site.GetPage $demo }}
-                {{ range .Sections.ByTitle }}
+                {{ range .Sections.ByWeight }}
                   <li class="colsize"><a href="{{ .URL | absLangURL }}" class="link2Foot"> - {{ .Title }}</a></li>
                 {{ end }}
                 {{ end }}
