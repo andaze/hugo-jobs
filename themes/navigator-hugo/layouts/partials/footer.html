@@ -22,7 +22,7 @@
           <div class="col-lg-4 col-md-4 col-12 col-sm-12 mb-3"> 
             <ul style="list-style: none !important;">
               {{ $footertitel := .File.Dir }}
-              {{ $demo := strings.TrimRight "\\" $footertitel }}
+              {{ $demo := strings.TrimRight "\\//" $footertitel }}
               {{ if where .Site.Menus.item "Name" "in" $demo  }}
               {{ $demo }}
               <li class="colsize"><h6><a style = "color:white;" href="{{ .URL | absLangURL }}"><b>{{ .Title }}</b></a> </h6></li>
