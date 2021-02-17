@@ -1,0 +1,57 @@
+
+@media only screen and (min-width: 1200px)
+  {
+    .sectionblock
+    {
+      width: 760px;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 762px)
+  {
+    .sectionblock
+    {
+     width:100%;
+     margin:0 auto;
+     }
+    
+  }
+
+  .sectionblock > p > a
+  {
+      color: #afa86f;
+  }
+  .sectionblock > h6 
+  {
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .sectionblock>h4 
+  {
+    padding-top: 68px;
+    
+  }
+  .sectionblock > ul{
+  list-style-type: disc !important;
+  margin-left: 15px;
+}
+code{
+  color: #afa86f;
+}
+.seniormargin{
+  margin: 10px 0;
+}
+
+a > em > strong > code {
+    font-style:normal;
+    text-decoration:underline;
+}
+div > ul{
+  list-style-type: disc !important; 
+}
+.requirement_ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

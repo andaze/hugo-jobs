@@ -7,7 +7,7 @@
            {{ with .Site.GetPage "merit" }}
               <p>{{ .Params.Intro }}</p>
                 {{ range .Sections.ByWeight }}
-                <ul class="listLink01">
+                <ul class="listLink01" style="list-style: none !important;">
                   <li><a href="{{ .URL }}">{{ .Title }}</a></li>
                 </ul>
               {{ end }}
@@ -20,7 +20,7 @@
         {{ with .Site.GetPage "vision" }}
           <p>{{ .Params.Intro }}</p>
         {{ range .Sections.ByWeight }}
-          <ul class="listLink01">
+          <ul class="listLink01" style="list-style: none !important;">
             <li><a href="{{ .URL }}">{{ .Title }}</a></li>
           </ul>  
         {{ end }}
@@ -33,7 +33,7 @@
           {{ with .Site.GetPage "message" }}
           <p>{{ .Params.Intro }}</p>
           {{ range .Sections.ByWeight }}
-          <ul class="listLink01">
+          <ul class="listLink01" style="list-style: none !important;">
           <li><a href="{{ .URL }}">{{ .Title }}</a></li>
         </ul>
         {{ end }}
