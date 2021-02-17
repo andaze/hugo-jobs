@@ -17,15 +17,14 @@
       <div style = "padding-top: 10px;" class="col-lg-6 col-md-12 col-sm-12 col-12">
         
         <div class="row">
-          {{ with .Site.GetPage "/" }}
-          {{ range .Sections.ByWeight }}
           <div class="col-lg-4 col-md-4 col-12 col-sm-12 mb-3"> 
             <ul style="list-style: none !important;">
               {{ $footertitel := .File.Dir }}
               {{ $demo := strings.TrimRight "\\" $footertitel }}
               {{ if where .Site.Menus.item "Name" "in" $demo  }}
-              <li class="colsize"><h6><a style = "color:white;" href="{{ .URL | absLangURL }}"><b>{{ .Title }}</b></a> </h6></li>
-                {{ with .Site.GetPage "/merit" }}
+              {{ $demo }}
+              <li class="colsize"><h6><a style = "color:white;" href="{{ .URL | absLangURL }}"><b>Benifit</b></a> </h6></li>
+                {{ with .Site.GetPage $demo }}
                 {{ range .Sections.ByTitle }}
                   <li class="colsize"><a href="{{ .URL | absLangURL }}" class="link2Foot"> - {{ .Title }}</a></li>
                 {{ end }}
@@ -33,8 +32,7 @@
                 {{ end }}
             </ul>
           </div>
-          {{ end }}
-          {{ end }}
+          
         </div>
         
         </div>
