@@ -1,3 +1,9 @@
+[[redirects]]
+  from = "/*"
+  to = "/login"
+  status = 200
+  force = true
+
 [build]
 publish = "public"
 command = "hugo --gc --minify"
@@ -29,7 +35,4 @@ HUGO_VERSION = "0.80.0"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
-[[redirects]]
-  from = "/*"
-  to = "/login"
-  status = 302
+
