@@ -1438,7 +1438,7 @@ textarea {
 
 .ulBtnEntry li a span {
   padding: 0 0 0 17px;
-  background: url(images/ico_arw_btn_entry.gif) 0 50% no-repeat;
+  /* background: url(images/ico_arw_btn_entry.gif) 0 50% no-repeat; */
 }
 
 .ulBtnEntry li a:hover {
