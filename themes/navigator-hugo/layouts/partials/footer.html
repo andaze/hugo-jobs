@@ -75,12 +75,12 @@
 {{ $owlCarousel := resources.Get "plugins/owl.carousel/owl.carousel.min.js" }}
 
 {{ $concatjs := slice $jquery $wow $isoTope $jqueryNivo $owlCarousel | resources.Concat "js/bundle_mini.js" }}
-<script src="{{ $concatjs.Permalink }}"></script>
+<script defer src="{{ $concatjs.Permalink }}"></script>
 
 {{ $menu := resources.Get "js/menu.js" }}
 {{ $main := resources.Get "js/main.js" }}
 {{ $concatjs := slice $menu $main | resources.Concat "js/bundle.js" | resources.Minify }}
-<script src="{{ $concatjs.Permalink }}"></script>
+<script defer src="{{ $concatjs.Permalink }}"></script>
 <!-- Template Main JS File -->
 <!-- {{ $styles := resources.Get "js/menu.js" | minify}}
 <script src="{{ $styles.Permalink }}"></script>
