@@ -1,8 +1,8 @@
-[[redirects]]
- from = "/*"
- to = "/en/login"
- status = 302
- force = true
+# [[redirects]]
+#  from = "/*"
+#  to = "/en/login"
+#  status = 302
+#  force = true
 
 [build]
 publish = "public"
