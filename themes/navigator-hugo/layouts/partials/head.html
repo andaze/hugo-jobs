@@ -12,18 +12,20 @@
   <link href="{{ `plugins/bootstrap/css/bootstrap.min.css` | absURL }} " rel="stylesheet">
   <link href="{{ `plugins/animate.css/animate.min.css` | absURL }}" rel="stylesheet">
   <link href="{{ `plugins/nivo-slider/css/nivo-slider.css` | absURL }}" rel="stylesheet">
-  <link href="{{ `plugins/owl.carousel/assets/owl.carousel.min.css` | absURL }}" rel="stylesheet">
+  <!-- <link href="{{ `plugins/owl.carousel/assets/owl.carousel.min.css` | absURL }}" rel="stylesheet"> -->
   <!-- <link href="{{ `plugins/font-awesome/css/font-awesome.min.css` | absURL }}" rel="stylesheet"> -->
   <!-- Template Main CSS File -->
 
+  
 
   <!--ADD CSS-->
+{{ $owlCarousel := resources.Get "plugins/owl.carousel/assets/owl.carousel.min.css" }}
 {{ $style := resources.Get "css/style.css" }}
 {{ $advantage := resources.Get "css/advantages.css" }}
 {{ $common := resources.Get "css/common.css" }}
 {{ $Hugo := resources.Get "css/Hugo.css" }}
 
-{{ $styles := slice $style $advantage $common $Hugo | resources.Concat "bundle.css" | minify | fingerprint }}
+{{ $styles := slice $owlCarousel $style $advantage $common $Hugo | resources.Concat "bundle.css" | minify | fingerprint }}
 
 <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
