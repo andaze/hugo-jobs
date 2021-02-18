@@ -18,12 +18,20 @@
 
 
   <!--ADD CSS-->
-  {{ $styles := resources.Get "css/style.css" | minify}}
-  <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
+{{ $base := resources.Get "css/style.css" }}
+{{ $syntax := resources.Get "css/advantages.css" }}
+
+{{ $style := slice $base $syntax | resources.Concat "bundle.css" | minify | fingerprint }}
+
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+
+
+  <!-- {{ $styles := resources.Get "css/style.css" | minify}}
+  <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css"> -->
   <!-- {{ $styles := resources.Get "css/share.css" | minify}}
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css"> -->
-  {{ $styles := resources.Get "css/advantages.css" | minify}}
-  <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
+  <!-- {{ $styles := resources.Get "css/advantages.css" | minify}}
+  <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css"> -->
   {{ $styles := resources.Get "css/common.css" | minify}}
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
   {{ $styles := resources.Get "css/Hugo.css" | minify}}
