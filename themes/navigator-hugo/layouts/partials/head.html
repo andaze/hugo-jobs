@@ -18,12 +18,14 @@
 
 
   <!--ADD CSS-->
-{{ $base := resources.Get "css/style.css" }}
-{{ $syntax := resources.Get "css/advantages.css" }}
+{{ $style := resources.Get "css/style.css" }}
+{{ $advantage := resources.Get "css/advantages.css" }}
+{{ $common := resources.Get "css/common.css" }}
+{{ $Hugo := resources.Get "css/Hugo.css" }}
 
-{{ $style := slice $base $syntax | resources.Concat "bundle.css" | minify | fingerprint }}
+{{ $styles := slice $style $advantage $common $Hugo | resources.Concat "bundle.css" | minify | fingerprint }}
 
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
 
   <!-- {{ $styles := resources.Get "css/style.css" | minify}}
@@ -32,11 +34,11 @@
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css"> -->
   <!-- {{ $styles := resources.Get "css/advantages.css" | minify}}
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css"> -->
-  {{ $styles := resources.Get "css/common.css" | minify}}
+  <!-- {{ $styles := resources.Get "css/common.css" | minify}}
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
   {{ $styles := resources.Get "css/Hugo.css" | minify}}
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
-  
+   -->
   
   <style>
     .mobile-margin {
