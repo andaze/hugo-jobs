@@ -68,16 +68,25 @@
 <script src="{{ `plugins/parallax/parallax.js` | absURL }}"></script>
 <script src="{{ `plugins/venobox/venobox.min.js` | absURL }}"></script> -->
 
-<!-- {{ $menu := resources.Get "js/menu.js" }}
+{{ $jquery := resources.Get "plugins/jquery/jquery.min.js" }}
+{{ $wow := resources.Get "plugins/wow/wow.min.js" }}
+{{ $isoTope := resources.Get "plugins/isotope-layout/isotope.pkgd.min.js" }}
+{{ $jqueryNivo := resources.Get "plugins/nivo-slider/js/jquery.nivo.slider.js" }}
+{{ $owlCarousel := resources.Get "plugins/owl.carousel/owl.carousel.min.js" }}
+
+{{ $concatjs := slice $jquery $wow $isoTope $jqueryNivo $owlCarousel | resources.Concat "js/bundle_mini.js" }}
+<script src="{{ $concatjs.Permalink }}"></script>
+
+{{ $menu := resources.Get "js/menu.js" }}
 {{ $main := resources.Get "js/main.js" }}
 {{ $concatjs := slice $menu $main | resources.Concat "js/bundle.js" | resources.Minify }}
-<script src="{{ $concatjs.Permalink }}"></script> -->
+<script src="{{ $concatjs.Permalink }}"></script>
 <!-- Template Main JS File -->
-{{ $styles := resources.Get "js/menu.js" | minify}}
+<!-- {{ $styles := resources.Get "js/menu.js" | minify}}
 <script src="{{ $styles.Permalink }}"></script>
 
-{{ $styles := resources.Get "js/main.js" | minify}}
-<script src="{{ $styles.Permalink }}"></script> 
+{{ $styles := resources.Get "js/main.js" | minify}} -->
+<!-- <script src="{{ $styles.Permalink }}"></script>  -->
 <script>
     function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
