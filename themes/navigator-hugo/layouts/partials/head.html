@@ -32,7 +32,7 @@
 
 {{ $styles := slice $style $advantage $common $Hugo | resources.Concat "bundle.css" | minify | fingerprint }}
 
-<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
 
 
   <!-- {{ $styles := resources.Get "css/style.css" | minify}}
