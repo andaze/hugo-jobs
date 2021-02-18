@@ -61,7 +61,7 @@
 <script src="{{ `plugins/wow/wow.min.js` | absURL }}"></script>
 <!-- <script src="{{ `plugins/isotope-layout/isotope.pkgd.min.js` | absURL }}"></script> -->
 <script src="{{ `plugins/nivo-slider/js/jquery.nivo.slider.js` | absURL }}"></script>
-<script src="{{ `plugins/owl.carousel/owl.carousel.min.js` | absURL }}"></script>
+<!-- <script src="{{ `plugins/owl.carousel/owl.carousel.min.js` | absURL }}"></script> -->
 <!--<script src="{{ `plugins/php-email-form/validate.js` | absURL }}"></script>
 <script src="{{ `plugins/appear/jquery.appear.js` | absURL }}"></script>
 <script src="{{ `plugins/knob/jquery.knob.js` | absURL }}"></script>
@@ -71,7 +71,6 @@
 
 <!-- Template Main JS File -->
 {{ $styles := resources.Get "js/menu.js" | minify}}
-
 <script src="{{ $styles.Permalink }}"></script>
 
 {{ $styles := resources.Get "js/main.js" | minify}}
