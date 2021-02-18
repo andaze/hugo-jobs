@@ -66,9 +66,12 @@
 <script src="{{ `plugins/appear/jquery.appear.js` | absURL }}"></script>
 <script src="{{ `plugins/knob/jquery.knob.js` | absURL }}"></script>
 <script src="{{ `plugins/parallax/parallax.js` | absURL }}"></script>
-<script src="{{ `plugins/venobox/venobox.min.js` | absURL }}"></script>-->
+<script src="{{ `plugins/venobox/venobox.min.js` | absURL }}"></script> -->
 
-
+<!-- {{ $menu := resources.Get "js/menu.js" }}
+{{ $main := resources.Get "js/main.js" }}
+{{ $concatjs := slice $menu $main | resources.Concat "js/bundle.js" | resources.Minify }}
+<script src="{{ $concatjs.Permalink }}"></script> -->
 <!-- Template Main JS File -->
 {{ $styles := resources.Get "js/menu.js" | minify}}
 <script src="{{ $styles.Permalink }}"></script>

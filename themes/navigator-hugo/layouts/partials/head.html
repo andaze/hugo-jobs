@@ -9,23 +9,29 @@
 
   <link href="{{ `images/favicon.png` | absURL }}" rel="icon">
   <!-- Vendor CSS Files -->
-  <link href="{{ `plugins/bootstrap/css/bootstrap.min.css` | absURL }} " rel="stylesheet">
+  <!-- <link href="{{ `plugins/bootstrap/css/bootstrap.min.css` | absURL }} " rel="stylesheet">
   <link href="{{ `plugins/animate.css/animate.min.css` | absURL }}" rel="stylesheet">
   <link href="{{ `plugins/nivo-slider/css/nivo-slider.css` | absURL }}" rel="stylesheet">
-  <!-- <link href="{{ `plugins/owl.carousel/assets/owl.carousel.min.css` | absURL }}" rel="stylesheet"> -->
-  <!-- <link href="{{ `plugins/font-awesome/css/font-awesome.min.css` | absURL }}" rel="stylesheet"> -->
+  <link href="{{ `plugins/font-awesome/css/font-awesome.min.css` | absURL }}" rel="stylesheet"> -->
   <!-- Template Main CSS File -->
 
-  
+{{ $bootstrap_mini := resources.Get "plugins/bootstrap/css/bootstrap.min.css" }}
+{{ $animate_mini := resources.Get "plugins/animate.css/animate.min.css" }}
+{{ $nivoSlider_mini := resources.Get "plugins/nivo-slider/css/nivo-slider.css" }}
+{{ $owlCarousel := resources.Get "plugins/owl.carousel/assets/owl.carousel.min.css" }}
+{{ $style_mini := slice $bootstrap_mini $animate_mini $nivoSlider_mini $owlCarousel | resources.Concat "bundle-mini.css" | fingerprint }}
+
+<link rel="stylesheet" href="{{ $style_mini.Permalink }}" integrity="{{ $style_mini.Data.Integrity }}">
+
 
   <!--ADD CSS-->
-{{ $owlCarousel := resources.Get "plugins/owl.carousel/assets/owl.carousel.min.css" }}
 {{ $style := resources.Get "css/style.css" }}
+{{ $style }}
 {{ $advantage := resources.Get "css/advantages.css" }}
 {{ $common := resources.Get "css/common.css" }}
 {{ $Hugo := resources.Get "css/Hugo.css" }}
 
-{{ $styles := slice $owlCarousel $style $advantage $common $Hugo | resources.Concat "bundle.css" | minify | fingerprint }}
+{{ $styles := slice $style $advantage $common $Hugo | resources.Concat "bundle.css" | minify | fingerprint }}
 
 <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
