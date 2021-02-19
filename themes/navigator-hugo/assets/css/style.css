@@ -225,7 +225,7 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
   box-shadow: none !important;
 }
 
-div#preloader {
+#preloader {
   position: fixed;
   left: 0;
   top: 0;
@@ -233,7 +233,7 @@ div#preloader {
   width: 100%;
   height: 100%;
   overflow: visible;
-  /* background: #fff url("../img/preloader.gif") no-repeat center center; */
+  background: #fff url("../images/preloader.gif") no-repeat center center;
 }
 
 ::-moz-selection {
