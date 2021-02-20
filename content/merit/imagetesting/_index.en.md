@@ -9,6 +9,6 @@ advtitle3: "ADVANTAGE"
 feature_description: " Bage Inc. is a web development company with a total of 14 employees (as of October 2018). Here are some of our strengths in business and what sets us apart from other companies."
 ---
 
-<!-- ![Image not available](imgTesting.jpg "Title") -->
+![Image not available](imgTesting.jpg "Title")
 
-{{< img src="imgTesting" type="jpg" alt="" caption="Ascendia - ProgPower 2016" >}}
+{{< imagedisplay imgTesting "290" "690" "760" >}}
