@@ -100,3 +100,4 @@ How do these characteristics of Bage affect the way employees work? The next pag
 
   ![Image not available](../ico_arw_btn_next.gif "Title") [**8 Things you can get with Bage**](http://localhost:1313/en/merit/8things/)   
 
+{{< nextButtonBox name="8 Things you can get from a Bage" >}}
