@@ -1,25 +1,50 @@
-{{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
-{{ $command := .Get 1 }}
-{{ $options := .Get 2 }}
-{{ if eq $command "Fit"}}
-{{ .Scratch.Set "image" ($original.Fit $options) }}
-{{ else if eq $command "Resize"}}
-{{ .Scratch.Set "image" ($original.Resize $options) }}
-{{ else if eq $command "Fill"}}
-{{ .Scratch.Set "image" ($original.Fill $options) }}
-{{ else }}
-{{ errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
-{{ end }}
-{{ $image := .Scratch.Get "image" }}
-<!-- <figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc"> -->
-	<img style="max-width: 100%; width: auto; height: auto;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
-	<!-- <figcaption> -->
-	<!-- <small>
-	{{ with .Inner }}
-	{{ . }}
-	{{ else }}
-	.{{ $command }} "{{ $options }}"
-	{{ end }}
-	</small>
-	</figcaption> -->
-</figure>  
+
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+{{ $size1 := .Get 1 }}
+{{ $size2 := .Get 2 }}
+{{ $size3 := .Get 3}}
+
+{{ $smallw := printf "%s%s" $size1 "x" }}
+{{ $mediumw := printf "%s%s" $size2 "x" }}
+{{ $largew := printf "%s%s" $size3 "x" }}
+
+
+<!-- {{  printf "%d%s" $smallw "x"}} -->
+ 
+
+{{ $small := $src.Resize $smallw }}
+{{ $medium := $src.Resize $mediumw }}
+{{ $large := $src.Resize $largew }}
+<!-- <img 
+srcset='
+{{ if ge $src.Width "2500" }}
+    {{ with $large.RelPermalink }}{{.}} 2500w{{ end }}
+  {{ end }}
+  {{ if ge $src.Width "1024" }}
+  {{ with $medium.RelPermalink }}, {{.}} 1024w{{ end }}
+  {{ end }}
+  {{ if ge $src.Width "640" }}
+  {{ with $small.RelPermalink }}, {{.}} 640w{{ end }}
+  {{ end }}
+' sizes="(max-width: 375px) $size1,
+(max-width: 768px) $size2,
+$size3"
+src="{{ $src.RelPermalink }}"
+/> -->
+
+<img 
+srcset='
+    {{ with $large.RelPermalink }}{{.}} 2500w{{ end }}
+  {{ with $medium.RelPermalink }}, {{.}} 1024w{{ end }}
+  {{ with $small.RelPermalink }}, {{.}} 640w{{ end }}
+' sizes="(max-width: 375px) $size1,
+(max-width: 768px) $size2,
+$size3"
+src="{{ $src.RelPermalink }}"
+/>
+
+<picture alt="description">
+  <source src="{{ with $large.RelPermalink }}{{.}} 2500w{{ end }}">
+  <source src="{{ with $medium.RelPermalink }}, {{.}} 1024w{{ end }}" media="(min-width: 400px)">
+  <source src="{{ with $small.RelPermalink }}, {{.}} 640w{{ end }}" media="(min-width: 800px)">
+</picture>
