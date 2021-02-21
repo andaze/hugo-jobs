@@ -1,10 +1,14 @@
+{{ $link := .Page.Permalink }}
+{{ $link }}
+
 <div class="container">
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12" style="margin: 0 auto;">
     <div class="well-middle">
       <ul class="ulBtnEntry" style="list-style: none !important;">
-        <li style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;"><a
-            style = "color: #afa86f;" href="http://localhost:1313/en/merit/8things/"><span>Next Page</span></a></li>
+        <li style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;"><a 
+            style = "color: #afa86f;" href="{{ .Page.Permalink }}"> <img src="../../ico_arw_btn_entry1.gif">
+            <span>{{ .Get "name" }}</span></a></li>
       </ul>
     </div>
   </div>

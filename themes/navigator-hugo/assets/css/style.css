@@ -158,7 +158,7 @@ a {
 }
 
 a:hover {
-  color: #3EC1D5;
+  color: #333;
   text-decoration: none;
 }
 
@@ -233,7 +233,7 @@ div#preloader {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../../../../static/images/preloader.gif") no-repeat center center;
+  background: #fff url("../images/preloader.gif") no-repeat center center;
 }
 
 ::-moz-selection {
@@ -473,7 +473,7 @@ navabr menu
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #3ec1d5;
+  /* color: #3ec1d5; */
   text-decoration: none;
 }
 

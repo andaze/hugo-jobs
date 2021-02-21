@@ -1,5 +1,8 @@
+# baseURL = "http://baigie.ameio.in/"
+# baseURL = "https://agitated-mestorf-74b768.netlify.app"
+# baseURL = "http://localhost/baigie/"
 baseURL = "https://hugojob.ameio.in/"
-# baseURL = "https://agitated-mestorf-74b768.netlify.app/"
+
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "navigator-hugo"

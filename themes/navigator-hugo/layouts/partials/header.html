@@ -18,7 +18,6 @@
       <div class="mobile-logo mr-auto">
         <div>
           <h7><a href="{{ .Site.Language.Lang | absLangURL }}"><img src="{{ `images/h_logo.png` | absURL }}" height="40px" ; width="50px" />&nbsp; <span style="color: rgb(175, 168, 111) !important;">{{ with .Site.Params.headerTitle }} {{ . }} {{ end }}</span></a></h7>
-        
         </div>
       </div> 
         <!-- ===== Desktop menu ===== -->
@@ -28,10 +27,10 @@
         {{ range .Site.Menus.item }}
         <nav id="navbar_main" class="mobile-offcanvas  navbar-expand-lg">
         
-          <div class="offcanvas-header">  
+          <!-- <div class="offcanvas-header">   -->
               <!--<button class="btn btn-black btn-close float-right"> &times </button>
               <h5 class="py-2 text-white"></h5>-->
-           </div>
+           <!-- </div> -->
            
           <ul class="navbar-nav">
             <li class="nav-menu active">
