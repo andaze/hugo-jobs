@@ -853,6 +853,10 @@ body.allLoaded .kv05 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 16px;
+  font-family: "Noto Sans JP", "游ゴシック Medium", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 
 
@@ -869,13 +873,15 @@ body.allLoaded .kv05 {
 .headlineLv02NumEn .headlineEn a {
   display: block;
   margin: 7px 7px 7px 2px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro" , sans-serif;
   font-weight: 900;
-  font-size: 215.6%;
-  color: #333;
+  font-size: 32px;
+  font-style: normal;
+  color: #333333;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  line-height: 32px;
 }
 
 .headlineLv03NumEn {
