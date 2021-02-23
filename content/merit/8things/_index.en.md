@@ -8,6 +8,7 @@ weight: 2
 advtitle2: "Benefits of working at Bage"
 advtitle3: "ADVANTAGE"
 things_description: " The most important thing we focus on in our hiring strategy is the significance of working at Vage. Here are 8 things you can gain from working at Vage."
+# nextPageBtn: true
 
 ---
 
@@ -79,3 +80,4 @@ things_description: " The most important thing we focus on in our hiring strateg
 ---
 These benefits are equally available to all employees, regardless of their work history or position. In the following pages, we will introduce you to some of the different types of jobs that exist within BAYJ.
 
+{{< nextButtonBox >}}

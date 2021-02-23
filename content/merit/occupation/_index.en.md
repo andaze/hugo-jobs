@@ -7,6 +7,7 @@ weight: 3
 advtitle2: "Benefits of working at Bage"
 advtitle3: "ADVANTAGE"
 job_description: "At Baisi, we undertake the entire process of web development, from strategy to development, and we have the in-house talent to complete it. Here are some definitions of our in-house capabilities"
+# nextPageBtn: true
 
 ---
 
@@ -81,3 +82,5 @@ job_description: "At Baisi, we undertake the entire process of web development, 
 ---
 
 What ties these multiple jobs together are the internal systems and events that arise from the workflow. In the following pages, we will introduce you to some of these internal systems and events at Baisi.
+
+{{< nextButtonBox >}}

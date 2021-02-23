@@ -7,6 +7,7 @@ weight: 1
 advtitle2: "ベイジで働くメリット"
 advtitle3: "ADVANTAGE"
 feature_description: " 株式会社ベイジは、全14名（2018年10月現在）のweb制作会社です。ここではビジネスにおける私たちの強みと、他社との違いについてご紹介します。"
+# nextPageBtn: true
 
 ---
 
@@ -100,6 +101,4 @@ feature_description: " 株式会社ベイジは、全14名（2018年10月現在�
 ---
 このようなベイジの特徴は、社員の働き方にどういう影響を及ぼすのでしょうか？次のページでは、そのことについて詳しく解説します。
 
-![画像は利用できません](../ico_arw_btn_next.gif "題名") [**ベイジで得られる8つのこと**](http://localhost:1313/en/merit/8things/)   
-
-{{< nextButtonBox name="ベイジで得られる8つのこと" >}}
+{{< nextButtonBox >}}

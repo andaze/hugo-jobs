@@ -72,3 +72,5 @@ policy_description: "What we want to develop is not just people who create websi
 
 ---
 So, with this kind of training policy, what direction is our company trying to take? I will discuss this in detail on the next page.
+
+{{< nextButtonBox >}}

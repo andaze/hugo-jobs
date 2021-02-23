@@ -43,7 +43,8 @@ president_description: "This is a message from our representative, Mekitani, to 
 
 If you have started to get interested in working at Vage, the next step is to take a look at the people who actually work at Vage. You may find someone who can be your role model.
 
-# &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box here
+<!-- # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box here -->
+{{< nextButtonBox >}}
 
 #### **For people in their 20s who are applying with experience**
 &nbsp;
@@ -66,7 +67,8 @@ If you have started to get interested in working at Vage, the next step is to ta
 &nbsp;
 If you have started to get interested in working at Vage, the next step is to take a look at the people who actually work at Vage. You may find someone who can be your role model.
 
-# &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box here
+<!-- # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box here -->
+{{< nextButtonBox >}}
 
 #### **For people in their 30s and older who are applying with experience**
 &nbsp;
@@ -88,4 +90,6 @@ If you have started to get interested in working at Vage, the next step is to ta
 ---
 &nbsp;
 If you've started to get interested in working at Vage, the next step is to take a look at some of the senior people who actually work at Vage. They may be a reflection of your future.
-# &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box here
+<!-- # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box here -->
+
+{{< nextButtonBox >}}

@@ -62,3 +62,5 @@ perspective_description: "Our vision and training policies are closely related t
 
 ---
 Considering these future predictions and the current situation, you can see in the following pages what kind of training policy we have in place.
+
+{{< nextButtonBox >}}
