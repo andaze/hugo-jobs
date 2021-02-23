@@ -55,3 +55,6 @@ div > ul{
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+h6{
+  line-height: 30px;
+}

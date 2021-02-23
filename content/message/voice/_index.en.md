@@ -7,6 +7,8 @@ weight: 2
 advtitle2: "Message to Applicants"
 advtitle3: "MESSAGE"
 voice_description: "We would like to introduce our seniors who are actually working at BAYJ. You may find someone who can be your role model."
+nextPageBtn: true
+
 ---
 
 ### **Voices of Seniors**

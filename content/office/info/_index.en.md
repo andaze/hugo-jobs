@@ -217,4 +217,5 @@ info_description: "Shimokitazawa, where our office is located, is a charming tow
 ---
 Our office is located in an easily accessible area, just a 3-minute walk from Shimokitazawa. Please see here for a detailed map of the area and transportation.
 
+{{< nextButtonBox >}}
  

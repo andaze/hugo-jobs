@@ -60,3 +60,5 @@ gallery_description: "Here is our office. It's not a big office, but it's laid o
 &nbsp; 
 
 On the next page, we will introduce some of the stores in the area that we often use for shopping and eating. There are many stores in Shimokitazawa, and I am sure you will enjoy them.
+
+{{< nextButtonBox >}}
