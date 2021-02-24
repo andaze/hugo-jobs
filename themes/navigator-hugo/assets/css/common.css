@@ -857,8 +857,15 @@ body.allLoaded .kv05 {
   font-family: "Noto Sans JP", "游ゴシック Medium", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
   font-style: normal;
   font-weight: 700;
-}
 
+}
+.headlineNumber{
+  float: left;
+  margin: -10px 15px 0 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 4.625rem;
+  font-weight: 400;  
+}
 
 .headlineLv02NumEn .headlineNum,
 .headlineLv02NumEn .headlineNum a {
@@ -867,21 +874,20 @@ body.allLoaded .kv05 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   font-size: 583.3%;
+
 }
 
 .headlineLv02NumEn .headlineEn,
 .headlineLv02NumEn .headlineEn a {
   display: block;
-  margin: 7px 7px 7px 2px;
-  font-family: "Source Sans Pro" , sans-serif;
+  margin: 0 0 7px;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 900;
-  font-size: 32px;
-  font-style: normal;
+  font-size: 2rem;
   color: #333333;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  line-height: 32px;
 }
 
 .headlineLv03NumEn {
@@ -921,6 +927,7 @@ body.allLoaded .kv05 {
   color: #333;
   text-align: center;
 }
+
 
 .boxIndexMain {
   padding: 25px 0 50px;
@@ -1058,8 +1065,12 @@ body.allLoaded .kv05 {
 /* list -------------------------------------------------- */
 
 .listLink01 {
-  font-size: 85.7%;
+  font-size: 16px;
   border-bottom: #8c8659 dotted 1px;
+  font-family: "Noto Sans JP , Yu Gothic Medium , YuGothic, Hiragino Kaku Gothic ProN, Meiryo, Meiryo, sans-serif";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
 }
 
 .listLink01 li {
