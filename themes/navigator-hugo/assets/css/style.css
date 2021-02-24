@@ -225,7 +225,7 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
   box-shadow: none !important;
 }
 
-div#preloader {
+#preloader {
   position: fixed;
   left: 0;
   top: 0;
