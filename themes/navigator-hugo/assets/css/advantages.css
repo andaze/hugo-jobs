@@ -144,7 +144,7 @@
 
 .block{
   box-sizing: border-box;
-  height: 275px;
+  height: 300px;
   padding: 30px 20px 20px 20px;
   border: 1px solid #ddd;
   transition: background 0.2s 0s ease;
@@ -159,19 +159,31 @@
 }
 
 .block__heading {
-  font-weight: bold;
-  font-size: 16px;
+  font-size: 1.125rem;
+  font-family: "Noto Sans JP" , "Yu Gothic Medium" , "YuGothic", "Hiragino Kaku Gothic ProN", "Meiryo","Meiryo", sans-serif;
+  font-style: normal;
+  line-height: 31px;
+  font-weight: 600;
+  overflow : hidden;
+  text-overflow: ellipsis; 
+  white-space: nowrap;
 }
 
 .block__description {
-  font-size: 14px;
+  font-size: 1rem;
   margin-top: 4px;
+  line-height: 27px;
+  color:#333333;
+  font-family:   "YuGothic", "Hiragino Kaku Gothic ProN", "Meiryo", "Meiryo", sans-serif;
 }
 .block__more {
-  font-size: 14px;
+  font-size: 1rem;
   margin-top: 12px;
   display: flex;
   align-items: center;
+  font-family:   "YuGothic", "Hiragino Kaku Gothic ProN", "Meiryo", "Meiryo", sans-serif;
+  font-style: normal;
+  line-height: 27px;
 }
 /* button section */
 .secondblock
@@ -280,20 +292,22 @@
       position:absolute;
       top:50%;     
       color:white;
-      font-size:360%;
-      font-weight:850;
+      font-size: 3.5rem;
+      font-weight:900;
       font-family: "Source Sans Pro", sans-serif;
+      font-style: normal;
       text-align:center;
   }
   .text2{
       position:absolute;
       top:60%;
-
+      font-family: "Noto Sans JP , Aea,'a, · Aƒƒa, Medium , YuGothic , Aƒ'aƒ © A,®aƒZe§'a,' ProN W3 , Hiragino Kaku Gothic ProN , Aƒ ¡ A,¤aƒªa,ª , Meiryo , Sans-Serif ";
       color:#afa86f;
-      font-size:15px;
-      font-weight:600;
+      font-size: 16px;
+      font-weight: 600;
       padding:5px;
       text-align:center;
+      font-style: normal;
   }
    
   
