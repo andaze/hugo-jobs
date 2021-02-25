@@ -857,8 +857,15 @@ body.allLoaded .kv05 {
   font-family: "Noto Sans JP", "游ゴシック Medium", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
   font-style: normal;
   font-weight: 700;
-
 }
+.footerTitle{
+  font-family: "Noto Sans JP , Yu Gothic Medium , YuGothic,Hiragino Kaku Gothic ProN, Meiryo, Meiryo, sans-serif";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 25px;
+  color: white;
+}
+
 .headlineNumber{
   float: left;
   margin: -10px 15px 0 0;
@@ -1080,8 +1087,8 @@ body.allLoaded .kv05 {
 
 .listLink01 li a {
   display: block;
-  padding: 0 0 0 22px;
-  background: url("../images/ico_arw_circle_black_r.png") 0 45% no-repeat;
+  padding: 0 0 0 28px;
+  background: url("../images/ico_arw_circle_black_r1.svg") 0 45% no-repeat;
   list-style: none;
 }
 

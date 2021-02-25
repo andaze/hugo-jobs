@@ -42,13 +42,21 @@ footer
 
 .colsize>a{
 	color: aliceblue;
-	font-size:11px;
+  font-family: "Noto Sans JP , Yu Gothic Medium , YuGothic, Hiragino Kaku Gothic ProN, Meiryo, Meiryo, sans-serif";
+  font-style: normal;
+  font-size: .75rem;
+  line-height: 28px;
+  font-weight: 500;
 }
 .footercolsize
 
 {
 	color: aliceblue;
-	font-size:11px;
+	font-size: 14px;
+  font-family: "Noto Sans JP , Yu Gothic Medium , YuGothic, Hiragino Kaku Gothic ProN, Meiryo, Meiryo, sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
 
 }
 
