@@ -74,8 +74,8 @@
 {{ $jqueryNivo := resources.Get "plugins/nivo-slider/js/jquery.nivo.slider.js" }}
 {{ $owlCarousel := resources.Get "plugins/owl.carousel/owl.carousel.min.js" }}
 
-{{ $concatjs := slice $jquery $wow $isoTope $jqueryNivo $owlCarousel | resources.Concat "js/bundle_mini.js" }}
-<script defer src="{{ $concatjs.Permalink }}"></script>
+{{ $concatJs := slice $jquery $wow $isoTope $jqueryNivo $owlCarousel | resources.Concat "js/bundle_mini.js" }}
+<script defer src="{{ $concatJs.Permalink }}"></script>
 
 {{ $menu := resources.Get "js/menu.js" }}
 {{ $main := resources.Get "js/main.js" }}

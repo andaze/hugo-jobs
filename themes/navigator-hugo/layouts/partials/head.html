@@ -3,7 +3,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>
-    採用サイト｜東京のWeb制作会社・ホームページ制作会社｜株式会社ベイジ｜baigie inc.</title>
+    {{ with .Site.Title }} {{ . }}  {{ end }}</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- font css -->
@@ -67,7 +67,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #333333;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -105,7 +105,7 @@
     display:none;
 }
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 991px)
 {
   .responsive
       {
