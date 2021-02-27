@@ -6,9 +6,9 @@
             </div>
             <div class="sectionblock">        
             {{ .Content}}
-            {{ .Permalink }}
+            {{ .Site.BaseURL }}
             </div>
-            {{ if or (eq (.Permalink) ("clever-edison-02034e.netlify.app/en/message/voice/")) (eq (.Permalink) ("clever-edison-02034e.netlify.app/jp/message/voice/")) }}
+            {{ if or (eq (.Permalink) ("https://clever-edison-02034e.netlify.app/en/message/voice/")) (eq (.Permalink) ("https://clever-edison-02034e.netlify.app/jp/message/voice/")) }}
             {{ $cururl:= .Permalink }}
             {{ $imagepath:= replace $cururl "/jp/" "/en/" }}
                 
