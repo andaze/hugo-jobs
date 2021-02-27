@@ -1,4 +1,4 @@
-hii{{ $id := replaceRE "(\\s)" "" .page.Params.Name }}
+{{ $id := replaceRE "(\\s)" "" .page.Params.Name }}
 <div id ="{{ $id }}" class="sectionblock" style="padding-top: 60px;">
       <div class="row">
         {{ if eq (.page.Params.image) ("") }}

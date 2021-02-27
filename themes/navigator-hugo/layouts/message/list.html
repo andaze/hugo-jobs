@@ -9,13 +9,13 @@
             </div>
             {{ if or (eq (.Permalink) ("http://localhost:1313/en/message/voice/")) (eq (.Permalink) ("http://localhost:1313/jp/message/voice/")) }}
             {{ $cururl:= .Permalink }}
-            {{ $imagepath:= replace $cururl "/jp/" "/en/" }}
-                
+            {{ $imagepath:= replace $cururl "//\\jp//\\" "//\\en//\\" }}
+            {{ $imagepath }}
             {{ range .Pages }}
             <div class="sectionblock">
                 
                 <img src = "{{ $imagepath }}image/ico_arw_page_anchor.gif"/>
-                {{ $id := replaceRE "(\\s)" "" .Params.Name }}                
+                {{ $id := replaceRE "(\\s)" "" .Params.Name }}    hii            
                 <a href="#{{ $id }}" style="color: #afa86f">{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a>
             </div>
                     <br>
