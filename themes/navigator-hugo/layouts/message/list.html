@@ -7,8 +7,7 @@
             <div class="sectionblock">        
             {{ .Content}}
             </div>
-            {{ .Content}}
-            {{ if or (eq (.Permalink) ("http://localhost:1313/en/message/voice/")) (eq (.Permalink) ("http://localhost:1313/jp/message/voice/")) }}
+            hii{{ .Content}}
             {{ $cururl:= .Permalink }}
             {{ $imagepath:= replace $cururl "/jp/" "/en/" }}
                 
@@ -20,15 +19,15 @@
                 <a href="#{{ $id }}" style="color: #afa86f">{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a>
             </div>
                     <br>
-                {{ end }}
+            {{ end }}
                 <br>
                     
             {{ range .Pages }}
 
                     {{ partial "voice-senior.html" (dict "page" . "imagepath" $imagepath) }}
                     <br>
-                {{ end }}
             {{ end }}
+
             {{ partial "nextPageBtn.html" . }}
             <div class="artical_head1">
                 <span><b>{{ .Params.advtitle2 }}</b></span>
