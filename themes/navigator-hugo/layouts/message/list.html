@@ -6,6 +6,7 @@
             </div>
             <div class="sectionblock">        
             {{ .Content}}
+            {{ .Params.TypeofworkAnswer }}
             </div>
             {{ if or (eq (.Permalink) ("http://localhost:1313/en/message/voice/")) (eq (.Permalink) ("http://localhost:1313/jp/message/voice/")) }}
             {{ $cururl:= .Permalink }}
