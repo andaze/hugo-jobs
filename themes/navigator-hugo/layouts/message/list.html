@@ -8,7 +8,7 @@
             {{ .Content}}
             {{ .Permalink }}
             </div>
-            {{ if or (eq (.Permalink) ("http://localhost:1313/en/message/voice/")) (eq (.Permalink) ("http://localhost:1313/jp/message/voice/")) }}
+            {{ if or (eq (.Permalink) ("clever-edison-02034e.netlify.app/en/message/voice/")) (eq (.Permalink) ("clever-edison-02034e.netlify.app/jp/message/voice/")) }}
             {{ $cururl:= .Permalink }}
             {{ $imagepath:= replace $cururl "/jp/" "/en/" }}
                 
