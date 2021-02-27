@@ -6,8 +6,13 @@
             </div>
             <div class="sectionblock">        
             {{ .Content}}
+            {{ $baseUrlget := .Site.BaseURL }}
+            {{ $enpath := "en/message/voice/" }}
+            {{ $enurl := print $baseUrlget $enpath }}
+            {{ $jppath := "jp/message/voice/" }}
+            {{ $jpurl := print $baseUrlget $jppath }}
             </div>
-            {{ if or (eq (.Permalink) (".Site.BaseURL/en/message/voice/")) (eq (.Permalink) (".Site.BaseURL/jp/message/voice/")) }}
+            {{ if or (eq (.Permalink) ($enurl)) (eq (.Permalink) ($jpurl)) }}
             {{ $cururl:= .Permalink }}
             {{ $imagepath:= replace $cururl "/jp/" "/en/" }}
                 
