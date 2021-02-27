@@ -6,10 +6,9 @@
             </div>
             <div class="sectionblock">        
             {{ .Content}}
-
             </div>
-            {{ if or (eq (.Permalink) ("http://localhost:1313/en/message/voice/")) (eq (.Permalink) ("http://localhost:1313/jp/message/voice/")) }}
             {{ .Content}}
+            {{ if or (eq (.Permalink) ("http://localhost:1313/en/message/voice/")) (eq (.Permalink) ("http://localhost:1313/jp/message/voice/")) }}
             {{ $cururl:= .Permalink }}
             {{ $imagepath:= replace $cururl "/jp/" "/en/" }}
                 
