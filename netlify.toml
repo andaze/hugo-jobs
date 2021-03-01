@@ -1,6 +1,6 @@
 [[redirects]]
 from = "/*"
-to = "/404"
+to = "/login"
 status = 302
 force = true
 
