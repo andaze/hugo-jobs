@@ -1,7 +1,7 @@
 [[redirects]]
 from = "/*"
 to = "/404.html"
-status = 302
+status = 404
 force = true
 
 [build]
