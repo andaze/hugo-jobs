@@ -1,3 +1,8 @@
+[[redirects]]
+from = "/*"
+to = "/404"
+status = 302
+force = true
 
 [build]
 publish = "public"
