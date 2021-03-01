@@ -2,7 +2,7 @@
 from = "/*"
 to = "/404"
 status = 404
-force = false
+force = true
 
 [build]
 publish = "public"
