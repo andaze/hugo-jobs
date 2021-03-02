@@ -1,5 +1,5 @@
 ---
-title:  "Features of Beiji"
+title:  "Features of Beiji Change"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 description: "This is Future description"
@@ -54,7 +54,10 @@ feature_description: " Bage Inc. is a web development company with a total of 14
 &nbsp;
 ###### Is it natural that a company involved in web production is good at marketing, design, and management? You might think that. However, many companies have areas of strength and weakness, and their business characteristics have a great impact on the way they work. Here we will explain the difference in detail.   
 
-![Image Not Available](tableimg.svg "TITLE")
+<!-- ![Image Not Available](tableimg.png "TITLE") -->
+
+{{< imagedisplay tableimg "290" "690" "760" >}}
+
 
 
 
