@@ -1,0 +1,24 @@
+
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+{{ $size1 := .Get 1 }}
+{{ $size2 := .Get 2 }}
+{{ $size3 := .Get 3}}
+
+{{ $smallw := printf "%s%s" $size1 "x" }}
+{{ $mediumw := printf "%s%s" $size2 "x" }}
+{{ $largew := printf "%s%s" $size3 "x" }}
+ 
+
+{{ $small := $src.Resize $smallw }}
+{{ $medium := $src.Resize $mediumw }}
+{{ $large := $src.Resize $largew }}
+
+<img srcset='
+    {{ with $large.RelPermalink }}{{.}} 2500w{{ end }}
+  {{ with $medium.RelPermalink }}, {{.}} 1024w{{ end }}
+  {{ with $small.RelPermalink }}, {{.}} 640w{{ end }}
+' sizes="(max-width: 375px) $size1,
+(max-width: 768px) $size2,
+$size3"
+src="{{ $src.RelPermalink }}"
+/>

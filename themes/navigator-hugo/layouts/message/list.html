@@ -6,8 +6,13 @@
             </div>
             <div class="sectionblock">        
             {{ .Content}}
+            {{ $baseUrlget := .Site.BaseURL }}
+            {{ $enpath := "en/message/voice/" }}
+            {{ $enurl := print $baseUrlget $enpath }}
+            {{ $jppath := "jp/message/voice/" }}
+            {{ $jpurl := print $baseUrlget $jppath }}
             </div>
-            {{ if or (eq (.Permalink) ("http://localhost:1313/en/message/voice/")) (eq (.Permalink) ("http://localhost:1313/jp/message/voice/")) }}
+            {{ if or (eq (.Permalink) ($enurl)) (eq (.Permalink) ($jpurl)) }}
             {{ $cururl:= .Permalink }}
             {{ $imagepath:= replace $cururl "/jp/" "/en/" }}
                 
@@ -28,6 +33,7 @@
                     <br>
                 {{ end }}
             {{ end }}
+            {{ partial "nextPageBtn.html" . }}
             <div class="artical_head1">
                 <span><b>{{ .Params.advtitle2 }}</b></span>
                </div>

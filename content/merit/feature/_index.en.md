@@ -7,6 +7,7 @@ weight: 1
 advtitle2: "Benefits of working at Bage"
 advtitle3: "ADVANTAGE"
 feature_description: " Bage Inc. is a web development company with a total of 14 employees (as of October 2018). Here are some of our strengths in business and what sets us apart from other companies."
+# nextPageBtn: true
 ---
 ### **Features of Beiji**
 
@@ -25,6 +26,10 @@ feature_description: " Bage Inc. is a web development company with a total of 14
 ###### In recent years, attention to Bage has risen rapidly, and many requests for lectures and interviews have come in. In this way, despite being a small web production company, I think that the reason why it is attracting a lot of attention in the industry is that it is honestly continuing to study the three areas necessary for the web.
 
 ![Image not available](Capture.PNG "Title")
+
+{{< imagedisplay Capture "290" "596" "796" >}}
+
+
 
 &nbsp;
 &nbsp;
@@ -50,6 +55,7 @@ feature_description: " Bage Inc. is a web development company with a total of 14
 ###### Is it natural that a company involved in web production is good at marketing, design, and management? You might think that. However, many companies have areas of strength and weakness, and their business characteristics have a great impact on the way they work. Here we will explain the difference in detail.   
 
 ![Image Not Available](tableimg.svg "TITLE")
+
 
 It is just a general classification, and in reality, each company has its own individuality. From the beginning, Bage's concept is to    
 complete all of them in-house.
@@ -98,6 +104,4 @@ complete all of them in-house.
 ---
 How do these characteristics of Bage affect the way employees work? The next page will explain that in detail.
 
-  ![Image not available](../ico_arw_btn_next.gif "Title") [**8 Things you can get with Bage**](http://localhost:1313/en/merit/8things/)   
-
-{{< nextButtonBox name="8 Things you can get from a Bage" >}}
+{{< nextButtonBox >}}

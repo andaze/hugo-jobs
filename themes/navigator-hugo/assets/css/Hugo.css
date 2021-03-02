@@ -38,6 +38,7 @@
 }
 code{
   color: #afa86f;
+  font-size: 22px; 
 }
 .seniormargin{
   margin: 10px 0;
@@ -55,3 +56,42 @@ div > ul{
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+h6{
+  line-height: 30px;
+}
+
+/* Font Css */
+@font-face {
+  font-family: "VisuAliveYuGothicM";
+  font-weight: normal;
+  src: local("YuGothic-Medium"),
+       local("Yu Gothic Medium"),
+       local("YuGothic-Regular");
+}
+@font-face {
+  font-family: 'VisuAliveYuGothicM';
+  font-weight: bold;
+  src: local("YuGothic-Bold"),
+       local("Yu Gothic");
+}
+/**
+* Noto Sans JP (japanese) http://www.google.com/fonts/earlyaccess
+*/
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.otf) format('opentype');
+}
+
+/* End Font Css */

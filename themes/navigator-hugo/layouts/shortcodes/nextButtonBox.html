@@ -1,14 +1,38 @@
-{{ $link := .Page.Permalink }}
-{{ $link }}
+    {{ $currentUrl := .Page.RelPermalink }}
+    {{ $getpage := .Page.Section }}
+    {{ $Scratch := newScratch}}
+    {{ $Scratch.Set "nextUrl" "" }}
+    {{ $Scratch.Set "Name" "" }}
+    {{ $Scratch.Set "nextFlag" false }}
 
+    {{ with .Site.GetPage $getpage }}
+        {{ range .Sections.ByWeight }}
+            {{ $url := .URL }}
+            {{ $title := .Title }}
+            {{ $nextFlagGet := $Scratch.Get "nextFlag" }}
+            {{ if eq ($nextFlagGet) (true) }}
+                {{ $Scratch.Set "nextUrl" $url }}
+                {{ $Scratch.Set "Name" $title }}
+                {{ $Scratch.Set "nextFlag" false }}
+            {{ end }}
+
+            {{ if eq ($url) ($currentUrl) }}
+                {{ $Scratch.Set "nextFlag" true }}
+            {{ end }}
+
+        {{ end }}
+    {{ end}}
+
+    {{ $nextUrlGet := $Scratch.Get "nextUrl" }}
+    {{ $nextName := $Scratch.Get "Name" }}
 <div class="container">
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12" style="margin: 0 auto;">
     <div class="well-middle">
       <ul class="ulBtnEntry" style="list-style: none !important;">
         <li style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;"><a 
-            style = "color: #afa86f;" href="{{ .Page.Permalink }}"> <img src="../../ico_arw_btn_entry1.gif">
-            <span>{{ .Get "name" }}</span></a></li>
+            style = "color: #afa86f;" href="{{ $nextUrlGet | absURL }}"> <img src="../../ico_arw_btn_entry1.gif">
+            <span>{{ $nextName }}</span></a></li>
       </ul>
     </div>
   </div>

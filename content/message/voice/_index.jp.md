@@ -7,6 +7,7 @@ weight: 2
 advtitle2: "Message to Applicants"
 advtitle3: "MESSAGE"
 voice_description: "実際にベイジで働いている先輩たちを紹介します。あなたのロールモデルになる人が見つかるかもしれません。"
+nextPageBtn: true
 ---
 
 ### **先輩たちの声**

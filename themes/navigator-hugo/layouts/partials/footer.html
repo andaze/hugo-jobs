@@ -24,10 +24,10 @@
               {{ $footertitel := .File.Dir }}
               {{ $demo := strings.TrimRight "\\//" $footertitel }}
               {{ if where .Site.Menus.item "Name" "in" $demo  }}
-              <li class="colsize"><h6><a style = "color:white;" href="{{ .URL | absLangURL }}"><b>{{ .Title }}</b></a> </h6></li>
+              <li class="colsize"><h6><a class="footerTitle" href="{{ .URL | absLangURL }}"><b>{{ .Title }}</b></a> </h6></li>
                 {{ with .Site.GetPage $demo }}
                 {{ range .Sections.ByWeight }}
-                  <li class="colsize"><a href="{{ .URL | absLangURL }}" class="link2Foot"> - {{ .Title }}</a></li>
+                  <li class="colsize"><a  href="{{ .URL | absLangURL }}" class="link2Foot"> - {{ .Title }}</a></li>
                 {{ end }}
                 {{ end }}
                 {{ end }}
@@ -68,14 +68,14 @@
 <script src="{{ `plugins/parallax/parallax.js` | absURL }}"></script>
 <script src="{{ `plugins/venobox/venobox.min.js` | absURL }}"></script> -->
 
-{{ $jquery := resources.Get "plugins/jquery/jquery.min.js" }}
+<!-- {{ $jquery := resources.Get "plugins/jquery/jquery.min.js" }} -->
 {{ $wow := resources.Get "plugins/wow/wow.min.js" }}
 {{ $isoTope := resources.Get "plugins/isotope-layout/isotope.pkgd.min.js" }}
 {{ $jqueryNivo := resources.Get "plugins/nivo-slider/js/jquery.nivo.slider.js" }}
 {{ $owlCarousel := resources.Get "plugins/owl.carousel/owl.carousel.min.js" }}
 
-{{ $concatjs := slice $jquery $wow $isoTope $jqueryNivo $owlCarousel | resources.Concat "js/bundle_mini.js" }}
-<script defer src="{{ $concatjs.Permalink }}"></script>
+{{ $concatJs := slice $jquery $wow $isoTope $jqueryNivo $owlCarousel | resources.Concat "js/bundle_mini.js" }}
+<script defer src="{{ $concatJs.Permalink }}"></script>
 
 {{ $menu := resources.Get "js/menu.js" }}
 {{ $main := resources.Get "js/main.js" }}
@@ -88,14 +88,6 @@
 {{ $styles := resources.Get "js/main.js" | minify}} -->
 <!-- <script src="{{ $styles.Permalink }}"></script>  -->
 <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
-
     var mybutton = document.getElementById("myBtn");
 
       // When the user scrolls down 20px from the top of the document, show the button

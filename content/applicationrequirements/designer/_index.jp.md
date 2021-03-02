@@ -14,3 +14,7 @@ designer_description: "webサイトやwebアプリケーションのUIやビジ�
 ###### webサイトやwebアプリケーションのUIやビジュアルをデザインするデザイナーを募集しています。（実務未経験でも応募可能です）
 ---
 {{< designer_jp >}}
+
+&nbsp;
+
+{{< nextButtonBox >}}

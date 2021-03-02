@@ -3,10 +3,15 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>
-    採用サイト｜東京のWeb制作会社・ホームページ制作会社｜株式会社ベイジ｜baigie inc.</title>
+    {{ with .Site.Title }} {{ . }}  {{ end }}</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+  <!-- font css -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  
   <link href="{{ `images/favicon.png` | absURL }}" rel="icon">
   <!-- Vendor CSS Files -->
   <link href="{{ `plugins/bootstrap/css/bootstrap.min.css` | absURL }} " rel="stylesheet">
@@ -37,6 +42,7 @@
 
 <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
 
+{{ $jquery := resources.Get "plugins/jquery/jquery.min.js" }}
 
   <!-- {{ $styles := resources.Get "css/style.css" | minify}}
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css"> -->
@@ -62,7 +68,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #333333;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -100,7 +106,7 @@
     display:none;
 }
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 991px)
 {
   .responsive
       {

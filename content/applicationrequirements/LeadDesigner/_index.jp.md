@@ -16,3 +16,7 @@ LeadDesigner_description: "マーケティング、UX、デザイン思考に精
 ###### マーケティング、UX、デザイン思考に精通し、課題解決視点のデザインをチームで生み出せるリードデザイナーを募集しています。
 ---
 {{< leadDesign_jp >}}
+
+&nbsp;
+
+{{< nextButtonBox >}}

@@ -11,10 +11,11 @@ gallery_description: "Here is our office. It's not a big office, but it's laid o
 ### **Office Gallery**
 
 ###### Here is our office. It's not a big office, but it's laid out in a spacious environment where you can concentrate on your work.
+
+{{< imagedisplay galleryimg1 "290" "690" "760" >}}
 &nbsp;
+<!-- ![Image Not Available](galleryimg1.jpg "TITLE") -->
 
-
-![Image Not Available](galleryimg1.jpg "TITLE")
 
 ![Image Not Available](galleryimg2.jpg "TITLE")
 
@@ -60,3 +61,5 @@ gallery_description: "Here is our office. It's not a big office, but it's laid o
 &nbsp; 
 
 On the next page, we will introduce some of the stores in the area that we often use for shopping and eating. There are many stores in Shimokitazawa, and I am sure you will enjoy them.
+
+{{< nextButtonBox >}}

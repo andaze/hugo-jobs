@@ -1,56 +1,5 @@
 {{ $id := replaceRE "(\\s)" "" .page.Params.Name }}
 <div id ="{{ $id }}" class="sectionblock" style="padding-top: 60px;">
-    <!-- <table class="table table-responsive table-borderless">
-        <tbody>
-          <tr>
-            
-            {{ if eq (.page.Params.image) ("") }}
-            {{ else }}
-            
-            <td width="30%" rowspan="6"><img src="{{ .imagepath }}{{ .page.Params.Image }}" width="auto" height="auto" alt="Images Not available"></td>
-
-            {{ end }}  
-            
-            <td width="70%" colspan="2"><h3><b>{{ .page.Params.Name }}</b></h3></td>
-          </tr>
-          <tr>
-            {{ if eq (.page.Params.TypeofworkAnswer) ("") }}
-            {{ else }}
-            <td width="30%"><b style="color: #afa86f;">{{ .page.Params.TypeofworkHeading }}</b></td>
-            <td>{{ .page.Params.TypeofworkAnswer }}</td>
-            {{ end }}
-          </tr>
-          <tr>
-            {{ if eq (.page.Params.JoiningAnswer) ("") }}
-            {{ else }}
-            <td width="30%"><b style="color: #afa86f;">{{ .page.Params.JoiningHeading }}</b></td>
-            <td>{{ .page.Params.JoiningAnswer }}</td>
-            {{ end }}
-          </tr>
-          <tr>
-            {{ if eq (.page.Params.DobAnswer) ("") }}
-            {{ else }}
-            <td width="30%"><b style="color: #afa86f;">{{ .page.Params.DobHeading }}</b></td>
-            <td>{{ .page.Params.DobAnswer }}</td>
-            {{ end }}
-          </tr>
-          <tr>
-            {{ if eq (.page.Params.BirthplaceAnswer) ("") }}
-            {{ else }}
-            <td width="30%"><b style="color: #afa86f;">{{ .page.Params.BirthplaceHeading }}</b></td>
-            <td>{{ .page.Params.BirthplaceAnswer }}</td>
-            {{ end }}
-          </tr>
-          <tr>
-            {{ if eq (.page.Params.WorkexpAnswer) ("") }}
-            {{ else }}
-            <td width="30%"><b style="color: #afa86f;">{{ .page.Params.WorkexpHeading }}</b></td>
-            <td>{{ .page.Params.WorkexpAnswer }}</td>
-            {{ end }}
-          </tr>
-        </tbody>
-      </table>
-      {{ .page.Content }} -->
       <div class="row">
         {{ if eq (.page.Params.image) ("") }}
         {{ else }}
@@ -103,5 +52,9 @@
           {{ end }}
         </div>
       </div>
-    
+      <div class="row">
+        <div class="col-12" style="text-align: justify;">
+            {{ .page.Content }}
+        </div>
+      </div>
 </div>

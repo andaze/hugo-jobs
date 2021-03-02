@@ -14,3 +14,7 @@ designer_description: "We are looking for a designer to design UI and visuals fo
 ###### We are looking for designers to design UI and visuals for websites and web applications. (You can apply even if you have no practical experience.)
 ---
 {{< designer_en >}}
+
+&nbsp;
+
+{{< nextButtonBox >}}

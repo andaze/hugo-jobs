@@ -37,7 +37,9 @@ president_description: "ベイジに応募される皆様へ代表枌谷から�
 
 ベイジで働くことに興味を持ち始めたのなら、次は実際にベイジで働いている先輩たちを見てみましょう。あなたのロールモデルになる人が見つかるかもしれません。
 
-# &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box here
+<!-- # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box here -->
+{{< nextButtonBox >}}
+
 
 #### **経験者で応募される20代の方へ**
 &nbsp;
@@ -61,7 +63,9 @@ president_description: "ベイジに応募される皆様へ代表枌谷から�
 
 ベイジで働くことに興味を持ち始めたのなら、次は実際にベイジで働いている先輩たちを見てみましょう。あなたのロールモデルになる人が見つかるかもしれません。
 
-# &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box here
+<!-- # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box here -->
+{{< nextButtonBox >}}
+
 
 #### **経験者で応募される30代以上の方へ**
 &nbsp;
@@ -83,4 +87,5 @@ president_description: "ベイジに応募される皆様へ代表枌谷から�
 ---
 &nbsp;
 ベイジで働くことに興味を持ち始めたのなら、次は実際にベイジで働いている先輩たちを見てみましょう。あなたの未来を映し出しているかもしれません。
-# &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box here
+<!-- # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box here -->
+{{< nextButtonBox >}}
