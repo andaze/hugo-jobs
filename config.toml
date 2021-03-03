@@ -24,7 +24,7 @@ DefaultContentLanguage = "en"
 [params]
 logo = "images/logo.png"
 
-# Gestion des langues : FR / EN / NL / DE
+# Gestion des langues : JP / EN 
 [[Params.listeLangues]]
 code = "jp"
 [[Params.listeLangues]]
@@ -36,13 +36,12 @@ description = "This is meta description"
 
 # Gestion des langues : FR / EN / NL / DE
 [Languages]
-############ 1 - Site en FRANCAIS
+############ 1 - Site en Japanese
 [Languages.jp]
 weight = 1
 languageCode = "jp-jp"
 title = "採用サイト｜東京のWeb制作会社・ホームページ制作会社｜株式会社ベイジ｜Hugo Job inc."
 dateFormat = "2 January 2006"
-home = "FR Home"
 logo = "images/logo.png"
 menufixed = false
 headerTitle = " 株式会社ベイジ 採用サイト"
@@ -67,10 +66,8 @@ footerfax = "fax. 03-6407-8751"
 footerhome = "株式会社ベイジ：ホーム"
 footerblog = "ベイジ社長ブログ"
 footerReport =  "ベイジの日報"
-
 #list Page
 Endtitle = "> 詳しく見る"
-
 
 # Hero Area Section
 [Languages.jp.params.hero]
@@ -87,51 +84,9 @@ officeheading1 = "OFFICE"
 officeheading2 = "オフィスと周辺"
 requirementheading1 = "REQUIREMENT"
 requirementheading2 = "募集職種・募集要項"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 button  = true
 btnText = "Know More"
-btnURL  = "https://themefisher.com/"
-videoThumb = "images/slider/video-player-thumb.jpg"
-videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
-# About 2 Section
-[Languages.jp.params.aboutSm]
-enable  = true
-title   = "FRANCAIS We have explored the digital landscape with passion for a long time"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
-
-# Blog Section On Homepage
-[Languages.jp.params.blog]
-enable  = true
-topTitle= "OUR UNTOLD STORY"
-title   = "FRANCAIS Blog."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-
-# Contact Section
-[Languages.jp.params.contact]
-enable  = true
-topTitle= "DROP US A NOTE"
-title   = "FRANCAIS Contact Us."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-address = "14/05, Stockhome <br> Victori Palace , United States"
-phone   = "(03) 9283 2617"
-fax     = "+61 3827 3590"
-facebook= "https://www.facebook.com/"
-twitter = "https://twitter.com/"
-linkedin= "https://www.linkedin.com/"
-dribbble= "https://dribbble.com/"
-instagram= "https://www.instagram.com/"
-mapLatitude = "51.507351"
-mapLongitude= "-0.127758"
-mapMarker   = "images/marker.png"
-
-# Call to Action Section on About Page
-[Languages.jp.params.cta]
-enable  = true
-bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-title   = "FRANCAIS Let's Create Something Together"
-subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-btnText = "Nous contacter"
 
 ############# 2 - Site en ENGLISH
 [Languages.en]
@@ -187,160 +142,37 @@ officeheading1 = "OFFICE"
 officeheading2 ="Office and surroundings"
 requirementheading1 = "REQUIREMENT"
 requirementheading2 = "Job Categories and Application Guidelines"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 button  = true
 btnText = "Know More"
-btnURL  = "https://themefisher.com/"
-videoThumb = "images/slider/video-player-thumb.jpg"
-videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
-# About 2 Section
-[Languages.en.params.aboutSm]
-enable  = true
-title   = "We have explored the digital landscape with passion for a long time"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
 
-# Blog Section On Homepage
-[Languages.en.params.blog]
-enable  = true
-topTitle= "OUR UNTOLD STORY"
-title   = "Blog."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 
-# Contact Section
-[Languages.en.params.contact]
-enable  = true
-topTitle= "DROP US A NOTE"
-title   = "Contact Us."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-address = "14/05, Stockhome <br> Victori Palace , United States"
-phone   = "(03) 9283 2617"
-fax     = "+61 3827 3590"
-facebook= "https://www.facebook.com/"
-twitter = "https://twitter.com/"
-linkedin= "https://www.linkedin.com/"
-dribbble= "https://dribbble.com/"
-instagram= "https://www.instagram.com/"
-mapLatitude = "51.507351"
-mapLongitude= "-0.127758"
-mapMarker   = "images/marker.png"
 
-# Call to Action Section on About Page
-[Languages.en.params.cta]
-enable  = true
-bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-title   = "Let's Create Something Together"
-subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-btnText = "Contact Us"
-
-# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
-
-# Site Menus
-[menu]
-# Navbar Menus
-[[menu.nav]]
-name    = "about"
-url     = "about"
-weight  = 2
-[[menu.nav]]
-name    = "service"
-url     = "service"
-weight  = 3
-[[menu.nav]]
-name    = "portfolio"
-url     = "portfolio"
-weight  = 4
-[[menu.nav]]
-name    = "blog"
-url     = "blog"
-weight  = 5
-[[menu.nav]]
-name    = "contact"
-url     = "contact"
-weight  = 6
-
-# Footer Employment Information Home Menu
-[[menu.emp]]
-name    = "benefits"
-url     = "benefits"
-weight  = 1
-[[menu.emp]]
-parent = "emplink"
-name    = "features"
-url     = "features"
-weight  = 1
-[[menu.emp]]
-parent = "emplink"
-name    = "8thing"
-url     = "8thing"
-weight  = 2
-[[menu.emp]]
-parent = "emplink"
-name    = "job"
-url     ="job"
-weight  = 3
-[[menu.emp]]
-parent = "emplink"
-name    = "inhouse"
-url     = "inhouse"
-weight  = 4
-
-# Footer Vision and development policy Menu
-[[menu.vision]]
-name    = "industry"
-url     = "industry"
-weight  = 1
-[[menu.vision]]
-name    = "policy"
-url     = "policy"
-weight  = 2
-[[menu.vision]]
-name    = "futureimg"
-url     = "futureimg"
-weight  = 3
-[[menu.vision]]
-name    = "2code"
-url     = "2code"
-weight  = 4
-
-#Footer Message to applicants Menu
-[[menu.applicant]]
-name    = "messagetoaplicant"
-url     = "messagetoaplicant"
-weight  = 5
-# Footer Office and surroundings Menu
-[[menu.office]]
-name    = "galary"
-url     ="galary"
-weight  =1
-
-# Footer Entry Menu
-[[menu.entry]]
-name    = "galary"
-url     ="galary"
-weight  =1
-
+[[menu.item]]
+name    ="home"
+url     ="/"
+weight = 1
 [[menu.item]]
 name    = "merit"
 url     = "merit"
-weight  = 1
+weight  = 2
 [[menu.item]]
 name    = "vision"
 url     = "vision"
-weight  =  2
+weight  =  3
 [[menu.item]]
 name   = "message"
 url    = "message"
-weight = 3
+weight = 4
 [[menu.item]]
 name   = "office"
 url    = "office"
-weight = 4
+weight = 5
 [[menu.item]]
 name   = "applicationrequirements"
 url    = "applicationrequirements"
-weight = 5
+weight = 6
 [[menu.item]]
 name   = "entry"
 url    = "entry"
-weight = 6
+weight = 7
