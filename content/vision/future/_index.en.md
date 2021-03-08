@@ -14,9 +14,9 @@ future_description: "In order to develop a long-lasting workforce, we must also 
 &nbsp;
 ###### Our career path is based on the premise of developing our employees into creators who are resilient to changes in the environment and can contribute to the company for a longer period of time. In order to realize that career path, we must also have a clear plan for our company itself. Here, I would like to explain the future of Baisi.
 
-![Image Not available](../../ico_arw_page_anchor.gif)[**&nbsp; Future Business Plan**](#future-business-plan)
+![Image Not available](../../ico_arw_page_anchor.webp)[**&nbsp; Future Business Plan**](#future-business-plan)
 
-![Image Not Available](../../ico_arw_page_anchor.gif)[**&nbsp; Staff Career Path**](#staff-career-path)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; Staff Career Path**](#staff-career-path)
 
 #### **Future Business Plan**
 &nbsp;

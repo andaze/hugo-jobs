@@ -16,15 +16,15 @@ perspective_description: "Our vision and training policies are closely related t
 ###### Our vision and training policies are closely intertwined with the current situation and future of the web/IT industry, and are premised on our awareness of these issues. In this page, we explain our thinking in this area.
 &nbsp;
 
-![Image Not Available](../../ico_arw_page_anchor.gif) [**&nbsp; Rapidly shifting trends**](#rapidly-shifting-trends)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Rapidly shifting trends**](#rapidly-shifting-trends)
 
-![Image Not Available](../../ico_arw_page_anchor.gif) [**&nbsp; Us in 2030**](#us-in-2030)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Us in 2030**](#us-in-2030)
 
-![Image Not Available](../../ico_arw_page_anchor.gif) [**&nbsp; The negative effects of division of labor and uniformity**](#the-negative-effects-of-division-of-labor-and-uniformity)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; The negative effects of division of labor and uniformity**](#the-negative-effects-of-division-of-labor-and-uniformity)
 
-![Image Not Available](../../ico_arw_page_anchor.gif) [**&nbsp; Business-centered thinking that makes you stronger**](#business-centered-thinking-that-makes-you-stronger)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Business-centered thinking that makes you stronger**](#business-centered-thinking-that-makes-you-stronger)
 
-![Image Not Available](../../ico_arw_page_anchor.gif) [**&nbsp; Difficulties in Training People**](#difficulties-in-training-people)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Difficulties in Training People**](#difficulties-in-training-people)
 
 #### **Rapidly shifting trends**
 &nbsp;

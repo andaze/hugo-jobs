@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: Taketoshi Imanishi
-image: image/senior5.jpg
+image: image/senior5.webp
 typeofworkHeading : "Type of work:"
 typeofworkAnswer : "director"
 joiningHeading : "Date of entry:"

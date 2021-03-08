@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: 高塚結子
-image: image/senior6.jpg
+image: image/senior6.webp
 typeofworkHeading : "職種："
 typeofworkAnswer : "デザイナー"
 joiningHeading : "入社年月："

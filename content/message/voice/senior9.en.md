@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: Nomura Akira
-image: image/senior8.jpg
+image: image/senior8.webp
 typeofworkHeading : "Type of work:"
 typeofworkAnswer : "engineer"
 joiningHeading : "Date of entry:"

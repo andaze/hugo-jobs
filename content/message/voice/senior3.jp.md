@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: 大舘仁志
-image: image/senior3.jpg
+image: image/senior3.webp
 typeofworkHeading : "職種："
 typeofworkAnswer : "ディレクター"
 joiningHeading : "入社年月："

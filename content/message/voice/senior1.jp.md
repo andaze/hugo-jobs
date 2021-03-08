@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: 塚元舞賀
-image: image/senior1.jpg
+image: image/senior1.webp
 typeofworkHeading : "職種:"
 typeofworkAnswer : "デザイナー"
 joiningHeading : "入社年月:"

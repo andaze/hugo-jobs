@@ -14,11 +14,11 @@ president_description: "This is a message from our representative, Mekitani, to 
 ###### This is a message from our representative, Mukette Tani, to all applicants to Bage.
 &nbsp;
 
-![Image Not Available](../../ico_arw_page_anchor.gif)[**For those who apply with no experience**](#for-those-who-apply-with-no-experience)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**For those who apply with no experience**](#for-those-who-apply-with-no-experience)
 
-![Image Not Available](../../ico_arw_page_anchor.gif)[**For people in their 20s who are applying with experience**](#for-people-in-their-20s-who-are-applying-with-experience)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**For people in their 20s who are applying with experience**](#for-people-in-their-20s-who-are-applying-with-experience)
 
-![Image Not Available](../../ico_arw_page_anchor.gif)[**For people in their 30s and older who are applying with experience**](#for-people-in-their-30s-and-older-who-are-applying-with-experience)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**For people in their 30s and older who are applying with experience**](#for-people-in-their-30s-and-older-who-are-applying-with-experience)
 
 #### **For those who apply with no experience**
 &nbsp;

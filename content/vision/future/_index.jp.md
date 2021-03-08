@@ -14,9 +14,9 @@ future_description: "長く活躍できる人材を育てるためには私た�
 &nbsp;
 ###### 私たちは、社員を環境変化に強いクリエイターに育て、より長く会社に貢献できることを前提に、キャリアパスを考えています。そのキャリアパスを実現するためには、私たちの会社自体の計画も明確にしておかなくてはなりません。ここでは、そんなベイジの将来についてご説明します。
 
-![Image Not available](../../ico_arw_page_anchor.gif)[**&nbsp; 今後の事業計画**](#今後の事業計画)
+![Image Not available](../../ico_arw_page_anchor.webp)[**&nbsp; 今後の事業計画**](#今後の事業計画)
 
-![Image Not Available](../../ico_arw_page_anchor.gif)[**&nbsp; スタッフのキャリアパス**](#スタッフのキャリアパス)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; スタッフのキャリアパス**](#スタッフのキャリアパス)
 
 #### **今後の事業計画**
 &nbsp;

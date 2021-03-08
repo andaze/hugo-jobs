@@ -74,7 +74,7 @@
   .pageArea a {
     padding: 0 0 0 22px;
     color: #afa86f;
-    background: url(images/ico_arw_page_anchor.gif) 0 45% no-repeat;
+    background: url(images/ico_arw_page_anchor.webp) 0 45% no-repeat;
   }
 
   .pageArea2 {
@@ -243,7 +243,7 @@
 .headerImagemerit
 {
   height:360px;
-  background:url("../../images/img_mainv_merit.jpg");
+  background:url("../../images/img_mainv_merit.webp");
   background-repeat:no-repeat; 
   background-size:cover;
   background-attachment:fixed;
@@ -253,7 +253,7 @@
 .headerImagevision
 {
   height:360px;
-  background:url("../../images/backgroundimage/bnr_facebook.jpg");
+  background:url("../../images/backgroundimage/bnr_facebook.webp");
   background-repeat:no-repeat; 
   background-size:cover;
   background-attachment:fixed;
@@ -263,7 +263,7 @@
 .headerImagemessage
 {
   height:360px;
-  background:url("../../images/backgroundimage/message_bg.jpg");
+  background:url("../../images/backgroundimage/message_bg.webp");
   background-repeat:no-repeat; 
   background-size:cover;
   background-attachment:fixed;
@@ -273,7 +273,7 @@
 .headerImageoffice
 {
   height:360px;
-  background:url("../../images/backgroundimage/office_bg.jpg");
+  background:url("../../images/backgroundimage/office_bg.webp");
   background-repeat:no-repeat; 
   background-size:cover;
   background-attachment:fixed;
@@ -283,7 +283,7 @@
 .headerImagerequirement
 {
   height:360px;
-  background:url("../../images/backgroundimage/requrement_bg.jpg");
+  background:url("../../images/backgroundimage/requrement_bg.webp");
   background-repeat:no-repeat; 
   background-size:cover;
   background-attachment:fixed;

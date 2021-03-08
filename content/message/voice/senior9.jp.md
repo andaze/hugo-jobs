@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: 野村輝
-image: image/senior8.jpg
+image: image/senior8.webp
 typeofworkHeading : "職種："
 typeofworkAnswer : "エンジニア"
 joiningHeading : "入社年月："

@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: 今西毅寿
-image: image/senior5.jpg
+image: image/senior5.webp
 typeofworkHeading : "職種："
 typeofworkAnswer : "ディレクター"
 joiningHeading : "入社年月："

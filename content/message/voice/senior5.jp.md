@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: 酒井琢郎
-image: image/senior4.jpg
+image: image/senior4.webp
 typeofworkHeading : "職種："
 typeofworkAnswer : "エンジニア"
 joiningHeading : "入社年月："

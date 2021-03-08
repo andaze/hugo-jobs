@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: Ayaka Ikeda
-image: image/senior2.jpg
+image: image/senior2.webp
 typeofworkHeading : "Type of work:"
 typeofworkAnswer : "Designer"
 joiningHeading : "Date of entry:"

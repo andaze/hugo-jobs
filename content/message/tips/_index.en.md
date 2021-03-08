@@ -19,21 +19,21 @@ tips_description: "In this section, we have compiled some advice for those who a
 
 &nbsp;
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**Think of a natural motive for applying.**](#think-of-a-natural-motive-for-applying)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**Think of a natural motive for applying.**](#think-of-a-natural-motive-for-applying)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**Prepare as many pieces as possible.**](#prepare-as-many-pieces-as-possible)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**Prepare as many pieces as possible.**](#prepare-as-many-pieces-as-possible)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**I'll show you what I'm clipping, too.**](#ill-show-you-what-im-clipping-too)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**I'll show you what I'm clipping, too.**](#ill-show-you-what-im-clipping-too)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**Peruse web sites, blogs, and daily reports.**](#peruse-web-sites-blogs-and-daily-reports)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**Peruse web sites, blogs, and daily reports.**](#peruse-web-sites-blogs-and-daily-reports)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**Clarify the reason for leaving your previous job.**](#clarify-the-reason-for-leaving-your-previous-job)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**Clarify the reason for leaving your previous job.**](#clarify-the-reason-for-leaving-your-previous-job)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**Let's sort out the pros and cons.**](#lets-sort-out-the-pros-and-cons)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**Let's sort out the pros and cons.**](#lets-sort-out-the-pros-and-cons)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**Ask a lot of questions during the interview.**](#ask-a-lot-of-questions-during-the-interview)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**Ask a lot of questions during the interview.**](#ask-a-lot-of-questions-during-the-interview)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**Apply to as many companies in your industry as possible.**](#apply-to-as-many-companies-in-your-industry-as-possible)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**Apply to as many companies in your industry as possible.**](#apply-to-as-many-companies-in-your-industry-as-possible)
 
 #### **Think of a natural motive for applying.**
 &nbsp;

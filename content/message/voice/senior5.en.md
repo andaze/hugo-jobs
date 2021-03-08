@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: Takuro Sakai
-image: image/senior4.jpg
+image: image/senior4.webp
 typeofworkHeading : "Type of work:"
 typeofworkAnswer : "engineer"
 joiningHeading : "Date of entry:"

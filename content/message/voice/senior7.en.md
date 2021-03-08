@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: Yuko Takatsuka
-image: image/senior6.jpg
+image: image/senior6.webp
 typeofworkHeading : "Type of work:"
 typeofworkAnswer : "Designer"
 joiningHeading : "Date of entry:"

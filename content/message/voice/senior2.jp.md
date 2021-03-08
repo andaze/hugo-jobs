@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: 池田彩華
-image: image/senior2.jpg
+image: image/senior2.webp
 typeofworkHeading : "職種："
 typeofworkAnswer : "デザイナー"
 joiningHeading : "入社年月："

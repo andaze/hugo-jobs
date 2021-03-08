@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: Hitoshi Odate
-image: image/senior3.jpg
+image: image/senior3.webp
 typeofworkHeading : "Type of work:"
 typeofworkAnswer : "director"
 joiningHeading : "Date of entry:"
