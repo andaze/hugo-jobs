@@ -14,12 +14,13 @@ afeter set path you can install go using below command.
 go install
 ```
 ### Create ShortCode for Resize WebpImages
- 
-{{ $imageResource := .Page.Resources.GetMatch "*.webp" }}
+example 
+`{{ $imageResource := .Page.Resources.GetMatch "*.webp" }}
 {{ $resized := $imageResource.Resize "300px" }}
-{{ $resized.RelPermalink }}
+{{ $resized.RelPermalink }}`
+    <head>
 
-# How to Build Project
+# How to Deploy Project
 
 First of all in Run the following command for creating build for your site
 ```
