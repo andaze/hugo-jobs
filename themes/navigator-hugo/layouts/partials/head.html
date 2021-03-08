@@ -43,6 +43,7 @@
 <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
 
 {{ $jquery := resources.Get "plugins/jquery/jquery.min.js" }}
+<script src="{{ $jquery.Permalink }}"></script>
 
   <!-- {{ $styles := resources.Get "css/style.css" | minify}}
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css"> -->
