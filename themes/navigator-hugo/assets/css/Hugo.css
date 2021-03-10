@@ -93,5 +93,7 @@ h6{
        url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff) format('woff'),
        url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.otf) format('opentype');
 }
-
+figure{
+  text-align: center;
+}
 /* End Font Css */

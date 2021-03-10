@@ -18,9 +18,9 @@
   <figure>
     <picture>
       <img srcset='
-          {{ with $large.RelPermalink }}{{.}} 2500w{{ end }}
-        {{ with $medium.RelPermalink }}, {{.}} 1024w{{ end }}
-        {{ with $small.RelPermalink }}, {{.}} 640w{{ end }}
+          {{ with $large.RelPermalink }}{{.}} 1024w{{ end }}
+        {{ with $medium.RelPermalink }}, {{.}} 640w{{ end }}
+        {{ with $small.RelPermalink }}, {{.}} 320w{{ end }}
       ' sizes="(max-width: 375px) $size1,
       (max-width: 768px) $size2,
       $size3"
@@ -39,18 +39,18 @@
   {{ $mediumwebp := $webpsrc.Resize $mediumw }}
   {{ $largewebp := $webpsrc.Resize $largew }}
   <source srcset='
-  {{ with $largewebp.RelPermalink }}{{.}} 2500w{{ end }}
-  {{ with $mediumwebp.RelPermalink }}, {{.}} 1024w{{ end }}
-  {{ with $smallwebp.RelPermalink }}, {{.}} 640w{{ end }}
+  {{ with $largewebp.RelPermalink }}{{.}} 1024w{{ end }}
+  {{ with $mediumwebp.RelPermalink }}, {{.}} 640w{{ end }}
+  {{ with $smallwebp.RelPermalink }}, {{.}} 320w{{ end }}
   ' sizes="(max-width: 375px) $size1,
   (max-width: 768px) $size2,
   $size3"> 
   {{ end }}
 
       <source srcset='
-      {{ with $large.RelPermalink }}{{.}} 2500w{{ end }}
-      {{ with $medium.RelPermalink }}, {{.}} 1024w{{ end }}
-      {{ with $small.RelPermalink }}, {{.}} 640w{{ end }}
+      {{ with $large.RelPermalink }}{{.}} 1024w{{ end }}
+      {{ with $medium.RelPermalink }}, {{.}} 640w{{ end }}
+      {{ with $small.RelPermalink }}, {{.}} 320w{{ end }}
       ' sizes="(max-width: 375px) $size1,
       (max-width: 768px) $size2,
       $size3">
