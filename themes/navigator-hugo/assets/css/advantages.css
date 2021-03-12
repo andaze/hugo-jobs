@@ -305,7 +305,7 @@
   background-size:cover;
   background-attachment:fixed;
   margin-bottom:50px;
-  width:100%;
+  width:100%;  
 }
 .text1
   {   
@@ -336,7 +336,7 @@
   {
     .text1
     {
-      font-size:315%;
+      font-size:280%;
     }
    
   }
