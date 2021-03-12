@@ -72,7 +72,7 @@
 {{ $jqueryNivo := resources.Get "plugins/nivo-slider/js/jquery.nivo.slider.js" }}
 {{ $owlCarousel := resources.Get "plugins/owl.carousel/owl.carousel.min.js" }}
 {{ $lazysize :=  resources.Get "js/lazysizes.min.js" }}
-{{ $concatJs := slice $jquery $wow $isoTope $jqueryNivo $owlCarousel | resources.Concat "js/bundle_mini.js" }}
+{{ $concatJs := slice $wow $isoTope $jqueryNivo $owlCarousel | resources.Concat "js/bundle_mini.js" }}
 <script defer src="{{ $concatJs.Permalink }}" integrity="{{ $concatJs.Data.Integrity }}"></script>
 <script defer src="{{ $lazysize.Permalink }}" async></script>
 
