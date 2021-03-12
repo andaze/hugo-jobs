@@ -17,7 +17,7 @@
       <span class="responsive" style="margin: 8px 8px;font-size:30px;color:white;cursor:pointer" onclick="openNav()">&#9776; </span>
       <div class="mobile-logo mr-auto">
         <div>
-          <h7><a href="{{ .Site.Language.Lang | absLangURL }}"><img src="{{ `images/h_logo.webp` | absURL }}" height="40px" ; width="50px" />&nbsp; <span style="color: rgb(175, 168, 111) !important;">{{ with .Site.Params.headerTitle }} {{ . }} {{ end }}</span></a></h7>
+          <h7><a href="{{ .Site.Language.Lang | absLangURL }}"><img data-src="{{ `images/h_logo.webp` | absURL }}" height="40px" ; width="50px" class="lazyload" />&nbsp; <span style="color: rgb(175, 168, 111) !important;">{{ with .Site.Params.headerTitle }} {{ . }} {{ end }}</span></a></h7>
         </div>
       </div> 
         <!-- ===== Desktop menu ===== -->
