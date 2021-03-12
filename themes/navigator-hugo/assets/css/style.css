@@ -241,7 +241,7 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
   -moz-appearance: none;
   box-shadow: none !important;
 }
-
+/* 
 #preloader {
   position: fixed;
   left: 0;
@@ -251,7 +251,7 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
   height: 100%;
   overflow: visible;
   background: #fff url("../images/preloader.gif") no-repeat center center;
-}
+} */
 
 ::-moz-selection {
   background: #3EC1D5;
@@ -375,7 +375,7 @@ display: block;
   max-height: 40px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   #header {
     height: 60px;
     padding: 10px 0;
@@ -446,6 +446,7 @@ navabr menu
     overflow-y: scroll;
     overflow-x: hidden;
     transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+
   }
 
   .mobile-offcanvas.show{

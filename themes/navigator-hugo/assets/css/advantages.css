@@ -246,6 +246,16 @@
  }
 
 /* advantage header section */
+.sliderImage
+{
+  height:500px;
+  background:url("../../../../images/slider/img_keyvisual_01.webp");
+  background-repeat:no-repeat; 
+  background-size:cover;
+  background-attachment:fixed;
+  width:100%;
+  opacity: 0.8;
+}
 
 .headerImagemerit
 {
@@ -298,7 +308,7 @@
   width:100%;
 }
 .text1
-  {
+  {   
       position:absolute;
       top:50%;     
       color:white;

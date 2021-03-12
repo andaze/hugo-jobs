@@ -40,7 +40,7 @@
           </ul>
         </nav>
         {{ end }}
-        <span class="d-none d-lg-block d-xl-block" style="margin:auto;">
+        <span class="d-none d-lg-none d-xl-block" style="margin:auto;">
           {{ range .Site.Params.listeLangues }}
           {{ partial "flags.html" (dict "site" $.Site "liste" . "Permalink" $.Permalink) }}
         {{ end }}
