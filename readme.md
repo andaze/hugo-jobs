@@ -1,4 +1,6 @@
 # How to Resize WebpImage ShortCode
+### Install Go
+[Install go link](https://golang.org/doc/install)
 
 ### Download Webpbinary
 
@@ -6,14 +8,34 @@ First Of all Download the Webp Binaries and setup using this:[Webp Biaries](http
 
 ### Clone the hugo 
 Then Clone the hugo using this link : [git CLone](https://github.com/blaubaer/hugo.git).
-If the Hugo Setup Successfully then set the path of hugo repo.  
+  
 
-### Install go
+### Checkout branch: add-webp-support
+
+### Change folder hugo and Install go
+If the Hugo Setup Successfully then set the path of hugo repo.
+```
+cd hugo
+```
 afeter set path you can install go using below command.
 ```
 go install
 ```
+
+### check you user profile folder has hugo as per following path
+```
+C:\Users\ashish\go\bin
+```
+
+### check hugo verison need to following
+```
+hugo version
+```
+output:= Hugo Static Site Generator v0.69.0-DEV windows/amd64 BuildDate: unknown
+
+
 ### Create ShortCode for Resize WebpImages
+then create shortcode for resize your webp images using below example 
 Example of resize Images using Shortcode    
 
 ```html
@@ -82,7 +104,8 @@ Example of resize Images using Shortcode
   </figure>
 {{ end }}
 ```
-shortcode of above Examole:- {{< imagedisplay image "290" "640" "1024">}}
+This example create in themes/layouts/shortcode folder.
+shortcode of above Example:- {{< imagedisplay image "290" "640" "1024">}}
 
 # How to Deploy Project
 
