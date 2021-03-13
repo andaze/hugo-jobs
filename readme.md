@@ -9,6 +9,32 @@ First Of all Download the Webp Binaries and setup using this:[Webp Biaries](http
 ### Clone the hugo 
 Then Clone the hugo using this link : [git CLone](https://github.com/blaubaer/hugo.git).
   
+### Covert all  Images into Webp Using below command
+first set the root folder of your project and then run the following command. 
+1. png:- 
+```
+find ./ -type f -name '*.png' -exec sh -c 'cwebp -q 75 $1 -o "${1%.png}.webp"' _ {} \;
+```
+2. jpg:- 
+```
+find ./ -type f -name '*.jpg' -exec sh -c 'cwebp -q 75 $1 -o "${1%.jpg}.webp"' _ {} \;
+```
+3. gif:- 
+```
+find ./ -type f -name '*.gif' -exec sh -c 'cwebp -q 75 $1 -o "${1%.gif}.webp"' _ {} \;
+```
+4. PNG:- 
+```
+find ./ -type f -name '*.PNG' -exec sh -c 'cwebp -q 75 $1 -o "${1%.PNG}.webp"' _ {} \;
+```
+5. JPG:- 
+```
+find ./ -type f -name '*.JPG' -exec sh -c 'cwebp -q 75 $1 -o "${1%.JPG}.webp"' _ {} \;
+```
+6. GIF:-
+```
+find ./ -type f -name '*.GIF' -exec sh -c 'cwebp -q 75 $1 -o "${1%.GIF}.webp"' _ {} \;
+```
 
 ### Checkout branch: add-webp-support
 
