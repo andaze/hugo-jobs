@@ -248,71 +248,74 @@
 /* advantage header section */
 .sliderImage
 {
-  height:500px;
-  background:url("../../../../images/slider/img_keyvisual_01.webp");
+  height:360px;
+  background:url("../../../../images/slider/img_keyvisual_01_1403x0_resize_box.webp");
   background-repeat:no-repeat; 
   background-size:cover;
   background-attachment:fixed;
   width:100%;
   opacity: 0.8;
+  margin:50px 0 0 0;
+
 }
 
 .headerImagemerit
 {
   height:360px;
-  background:url("../../images/img_mainv_merit.webp");
+  background:url("../../../../images/backgroundimage/img_mainv_merit_2400x0_resize_box.webp");
   background-repeat:no-repeat; 
   background-size:cover;
   background-attachment:fixed;
-  margin-bottom:50px;
+  margin:50px 0 50px 0;
   width:100%;
+  
 }
 .headerImagevision
 {
   height:360px;
-  background:url("../../images/backgroundimage/bnr_facebook.webp");
+  background:url("../../../../images/backgroundimage/bnr_facebook_2400x0_resize_box.webp");
   background-repeat:no-repeat; 
   background-size:cover;
   background-attachment:fixed;
-  margin-bottom:50px;
+  margin:50px 0 50px 0;
   width:100%;
 }
 .headerImagemessage
 {
   height:360px;
-  background:url("../../images/backgroundimage/message_bg.webp");
+  background:url("../../../../images/backgroundimage/message_bg_2400x0_resize_box.webp");
   background-repeat:no-repeat; 
   background-size:cover;
   background-attachment:fixed;
-  margin-bottom:50px;
+  margin:50px 0 50px 0;
   width:100%;
 }
 .headerImageoffice
 {
   height:360px;
-  background:url("../../images/backgroundimage/office_bg.webp");
+  background:url("../../../../images/backgroundimage/office_bg_2400x0_resize_box.webp");
   background-repeat:no-repeat; 
   background-size:cover;
   background-attachment:fixed;
-  margin-bottom:50px;
+  margin:50px 0 50px 0;
   width:100%;
 }
 .headerImagerequirement
 {
   height:360px;
-  background:url("../../images/backgroundimage/requrement_bg.webp");
+  background:url("../../../../images/backgroundimage/requrement_bg_2400x0_resize_box.webp");
   background-repeat:no-repeat; 
   background-size:cover;
   background-attachment:fixed;
-  margin-bottom:50px;
+  margin:50px 0 50px 0;
   width:100%;  
 }
 .text1
   {   
       position:absolute;
-      top:50%;     
+      top:35%;     
       color:white;
-      font-size: 3.5rem;
+      font-size: 56px;
       font-weight:900;
       font-family: "Source Sans Pro", sans-serif;
       font-style: normal;
@@ -320,10 +323,10 @@
   }
   .text2{
       position:absolute;
-      top:60%;
+      top:50%;
       font-family: "Noto Sans JP , Aea,'a, · Aƒƒa, Medium , YuGothic , Aƒ'aƒ © A,®aƒZe§'a,' ProN W3 , Hiragino Kaku Gothic ProN , Aƒ ¡ A,¤aƒªa,ª , Meiryo , Sans-Serif ";
       color:#afa86f;
-      font-size: 16px;
+      font-size: 26px;
       font-weight: 600;
       padding:5px;
       text-align:center;
@@ -332,11 +335,106 @@
    
   
   /* iphone 5/SE*/
-  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait)
+  @media only screen and (min-device-width: 320px) and (max-device-width: 414px)
   {
     .text1
     {
-      font-size:280%;
+      font-size:40px;
+    }
+    .text2
+    {
+      font-size: 16px;
+    }
+   
+  }
+  @media only screen and (min-device-width: 415px) and (max-device-width: 1023px)
+  {
+    .text1
+    {
+      font-size:50px;
+    }
+    .text2
+    {
+      font-size:22px;
+    }
+   
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 414px) 
+  {
+    .sliderImage
+    {
+      background:url("../../../../images/slider/img_keyvisual_01_320x0_resize_box.webp");
+      height:150px;
+      margin-top: 60px;
+    }
+    .headerImagemerit
+    {
+      background:url("../../../../images/backgroundimage/img_mainv_merit_375x0_resize_box.webp");
+      height:150px;
+      margin-top: 60px;
+    }
+    .headerImagevision
+    {
+      background:url("../../../../images/backgroundimage/bnr_facebook_375x0_resize_box.webp");
+      height:150px;
+      margin-top: 60px;
+    }
+    .headerImagemessage
+    {
+      background:url("../../../../images/backgroundimage/message_bg_375x0_resize_box.webp");
+      height:150px;
+      margin-top: 60px;
+    }
+    .headerImageoffice
+    {
+      background:url("../../../../images/backgroundimage/office_bg_375x0_resize_box.webp");
+      height:150px;
+      margin-top: 60px;
+    }
+    .headerImagerequirement
+    {
+      background:url("../../../../images/backgroundimage/requrement_bg_375x0_resize_box.webp");
+      height:150px;
+      margin-top: 60px;
+    }
+   
+  }
+  @media only screen and (min-device-width: 415px) and (max-device-width: 1023px) 
+  {
+    .sliderImage
+    {
+      background:url("../../../../images/slider/img_keyvisual_01_768x0_resize_box.webp");
+      
+    }
+    .headerImagemerit
+    {
+      background:url("../../../../images/backgroundimage/img_mainv_merit_1023x0_resize_box.webp");
+      height:380px;
+      margin-top: 60px;
+    }
+    .headerImagevision
+    {
+      background:url("../../../../images/backgroundimage/bnr_facebook_1023x0_resize_box.webp");
+      height:380px;
+      margin-top: 60px;
+    }
+    .headerImagemessage
+    {
+      background:url("../../../../images/backgroundimage/message_bg_1023x0_resize_box.webp");
+      height:380px;
+      margin-top: 60px;
+    }
+    .headerImageoffice
+    {
+      background:url("../../../../images/backgroundimage/office_bg_1023x0_resize_box.webp");
+      height:380px;
+      margin-top: 60px;
+    }
+    .headerImagerequirement
+    {
+      background:url("../../../../images/backgroundimage/requrement_bg_1023x0_resize_box.webp");
+      height:380px;
+      margin-top: 60px;
     }
    
   }
