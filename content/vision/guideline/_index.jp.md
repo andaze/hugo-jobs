@@ -15,9 +15,9 @@ guideline_description: "ベイジでは、ビジョンとアイデンティテ�
 ###### ベイジでは、私たちのビジョンとアイデンティティーを社内に浸透させて、スタッフが働くうえでの「前提条件」を揃えるために、2種類の行動指針を用意しています。私たちが、どういう価値観で働いているかが、この指針からうかがえるのではないかと思います。
 &nbsp;
 
-![Image Not Available](../../ico_arw_page_anchor.gif)[**&nbsp; ベイジの行動指針**](#ベイジの行動指針)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; ベイジの行動指針**](#ベイジの行動指針)
 
-![Image Not Available](../../ico_arw_page_anchor.gif)[**&nbsp; 良い上司の条件**](#良い上司の条件)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; 良い上司の条件**](#良い上司の条件)
 
 #### **ベイジの行動指針**
 

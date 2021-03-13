@@ -7,17 +7,10 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- font css -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
-  
-  <link href="{{ `images/favicon.png` | absURL }}" rel="icon">
-  <!-- Vendor CSS Files -->
+  <script src="{{ `plugins/jquery/jquery.min.js` | absURL }}"></script>
+  <link href="{{ `../../../../../../images/titleLogo.png` | absURL }}" rel="icon">
   <link href="{{ `plugins/bootstrap/css/bootstrap.min.css` | absURL }} " rel="stylesheet">
-  <!-- <link href="{{ `plugins/animate.css/animate.min.css` | absURL }}" rel="stylesheet"> -->
   <link href="{{ `plugins/nivo-slider/css/nivo-slider.css` | absURL }}" rel="stylesheet">
-  <link href="{{ `plugins/font-awesome/css/font-awesome.min.css` | absURL }}" rel="stylesheet">
   <!-- <link href="{{ `plugins/owl.carousel/assets/owl.carousel.min.css` | absURL }}" rel="stylesheet"> -->
 
   <!-- Template Main CSS File -->
@@ -41,8 +34,6 @@
 {{ $styles := slice $style $advantage $common $Hugo | resources.Concat "bundle.css" | minify | fingerprint }}
 
 <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
-
-{{ $jquery := resources.Get "plugins/jquery/jquery.min.js" }}
 
   <!-- {{ $styles := resources.Get "css/style.css" | minify}}
   <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css"> -->
@@ -106,7 +97,7 @@
     display:none;
 }
 
-@media only screen and (max-width: 991px)
+@media only screen and (max-width: 1200px)
 {
   .responsive
       {

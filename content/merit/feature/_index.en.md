@@ -14,18 +14,18 @@ feature_description: " Bage Inc. is a web development company with a total of 14
  ###### Beiji Co., Ltd. is a web production company with a total of 14 people (as of October 2018). Here, we would like to would like to introduce our features as a business and workplace.
 
 
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**Our strengths in business**](#our-strengths-in-business)   
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Our strengths in business**](#our-strengths-in-business)   
 
-![Image not available](../../ico_arw_page_anchor.gif "Title") [**Differences from other companies in the same industry**](#differences-from-other-companies-in-the-same-industry)   
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**Differences from other companies in the same industry**](#differences-from-other-companies-in-the-same-industry)   
 
-![Image not available](../../ico_arw_page_anchor.gif "Title") [**Difference from operating company**](#difference-from-operating-company)   
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**Difference from operating company**](#difference-from-operating-company)   
 
 
 #### **Our strengths in business**
 
 ###### In recent years, attention to Bage has risen rapidly, and many requests for lectures and interviews have come in. In this way, despite being a small web production company, I think that the reason why it is attracting a lot of attention in the industry is that it is honestly continuing to study the three areas necessary for the web.
 
-![Image not available](Capture.PNG "Title")
+<!-- ![Image not available](Capture.PNG "Title") -->
 
 {{< imagedisplay Capture "290" "596" "796" >}}
 
@@ -54,7 +54,12 @@ feature_description: " Bage Inc. is a web development company with a total of 14
 &nbsp;
 ###### Is it natural that a company involved in web production is good at marketing, design, and management? You might think that. However, many companies have areas of strength and weakness, and their business characteristics have a great impact on the way they work. Here we will explain the difference in detail.   
 
-![Image Not Available](tableimg.svg "TITLE")
+<!-- ![Image Not Available](tableimg.png "TITLE") -->
+
+{{< imagedisplay tableimg "290" "690" "760" >}}
+
+
+
 
 
 It is just a general classification, and in reality, each company has its own individuality. From the beginning, Bage's concept is to    

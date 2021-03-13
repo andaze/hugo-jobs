@@ -19,21 +19,21 @@ tips_description: "ここでは、採用するにあたってベイジの採用�
 
 &nbsp;
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**自然な志望動機を考えよう**](#自然な志望動機を考えよう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**自然な志望動機を考えよう**](#自然な志望動機を考えよう)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**できるだけ多くの作品を用意しよう**](#できるだけ多くの作品を用意しよう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**できるだけ多くの作品を用意しよう**](#できるだけ多くの作品を用意しよう)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**クリップしているものも見せよう**](#クリップしているものも見せよう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**クリップしているものも見せよう**](#クリップしているものも見せよう)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**webサイト、ブログ、日報を熟読しよう**](#webサイト、ブログ、日報を熟読しよう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**webサイト、ブログ、日報を熟読しよう**](#webサイト、ブログ、日報を熟読しよう)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**前職の退職理由を明確にしよう**](#前職の退職理由を明確にしよう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**前職の退職理由を明確にしよう**](#前職の退職理由を明確にしよう)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**長所と短所を整理しておこう**](#長所と短所を整理しておこう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**長所と短所を整理しておこう**](#長所と短所を整理しておこう)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**面接ではたくさん質問をしよう**](#面接ではたくさん質問をしよう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**面接ではたくさん質問をしよう**](#面接ではたくさん質問をしよう)
 
-![Images Not Available](../../ico_arw_page_anchor.gif)[**同業他社にもできるだけ応募しよう**](#同業他社にもできるだけ応募しよう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**同業他社にもできるだけ応募しよう**](#同業他社にもできるだけ応募しよう)
 
 #### **自然な志望動機を考えよう**
 &nbsp;

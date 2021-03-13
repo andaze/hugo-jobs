@@ -17,28 +17,28 @@ things_description: " 採用戦略を考えるうえで私たちが一番重視�
 
 ###### 採用戦略を考えるうえで私たちが一番重視しているのは「ベイジで働く意義」です。それがなければ、ベイジという会社を選ぶ理由も、働き続ける理由もなくなるからです。これは私たちが求める人材像よりも、遥かに重要です。このとても大事な働く意義を、大きく8つにまとめてみました。
 
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**1. 人生100年時代に通用する普遍的なスキルが身に付く**](#1-nbsp人生100年時代に通用する普遍的なスキルが身に付く)    
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**1. 人生100年時代に通用する普遍的なスキルが身に付く**](#1-nbsp人生100年時代に通用する普遍的なスキルが身に付く)    
 
  
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**2. 下請けゼロだから仕事をコントロールできる**](#2-nbsp下請けゼロだから仕事をコントロールできる)   
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**2. 下請けゼロだから仕事をコントロールできる**](#2-nbsp下請けゼロだから仕事をコントロールできる)   
 
  
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**3. すぐ相談できる頼もしい仲間がいる**](#3-nbspすぐ相談できる頼もしい仲間がいる)    
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**3. すぐ相談できる頼もしい仲間がいる**](#3-nbspすぐ相談できる頼もしい仲間がいる)    
 
  
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**4. 自分の影響力を実感できる**](#4-nbsp自分の影響力を実感できる)    
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**4. 自分の影響力を実感できる**](#4-nbsp自分の影響力を実感できる)    
 
  
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**5. 様々なキャリアパスがある**](#5-nbsp様々なキャリアパスがある)    
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**5. 様々なキャリアパスがある**](#5-nbsp様々なキャリアパスがある)    
 
  
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**6. モノづくりに対して会社の理解がある**](#6-nbspモノづくりに対して会社の理解がある)   
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**6. モノづくりに対して会社の理解がある**](#6-nbspモノづくりに対して会社の理解がある)   
 
  
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**7. 社外に向けての活動を積極的に支援している**](#7-nbsp社外に向けての活動を積極的に支援している)   
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**7. 社外に向けての活動を積極的に支援している**](#7-nbsp社外に向けての活動を積極的に支援している)   
 
  
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**8. 良好な人間関係の中で仕事ができる**](#8-nbsp良好な人間関係の中で仕事ができる)    
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**8. 良好な人間関係の中で仕事ができる**](#8-nbsp良好な人間関係の中で仕事ができる)    
 
 #### `1.` **人生100年時代に通用する普遍的なスキルが身に付く**
 &nbsp;

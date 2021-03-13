@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: 長田太彪
-image: image/senior7.jpg
+image: image/senior7.webp
 typeofworkHeading : "職種："
 typeofworkAnswer : "エンジニア"
 joiningHeading : "入社年月："

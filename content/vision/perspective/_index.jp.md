@@ -16,15 +16,15 @@ perspective_description: "私たちのビジョンや育成方針は、業界の
 ###### 私たちのビジョンや育成方針は、web/IT業界の現状や未来と密接に絡み、その問題意識が前提となっています。このページでは、そのあたりの私たちの考え方について解説します。
 &nbsp;
 
-![Image Not Available](../../ico_arw_page_anchor.gif) [**&nbsp; 急速に移り変わるトレンド**](#急速に移り変わるトレンド)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 急速に移り変わるトレンド**](#急速に移り変わるトレンド)
 
-![Image Not Available](../../ico_arw_page_anchor.gif) [**&nbsp; 2030年の私たち**](#2030年の私たち)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 2030年の私たち**](#2030年の私たち)
 
-![Image Not Available](../../ico_arw_page_anchor.gif) [**&nbsp; 分業化と画一性の弊害**](#分業化と画一性の弊害)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 分業化と画一性の弊害**](#分業化と画一性の弊害)
 
-![Image Not Available](../../ico_arw_page_anchor.gif) [**&nbsp; 強くなるビジネス中心の発想**](#強くなるビジネス中心の発想)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 強くなるビジネス中心の発想**](#強くなるビジネス中心の発想)
 
-![Image Not Available](../../ico_arw_page_anchor.gif) [**&nbsp; 人を育てる難しさ**](#人を育てる難しさ)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 人を育てる難しさ**](#人を育てる難しさ)
 
 #### **急速に移り変わるトレンド**
 &nbsp;

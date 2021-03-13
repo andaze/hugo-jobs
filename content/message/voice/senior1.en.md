@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: Maiga Tsukamoto
-image: image/senior1.jpg
+image: image/senior1.webp
 typeofworkHeading : "Type of work:"
 typeofworkAnswer : "Designer"
 joiningHeading : "Date of entry:"

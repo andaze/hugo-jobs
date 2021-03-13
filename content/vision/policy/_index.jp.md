@@ -14,9 +14,9 @@ policy_description: "私たちが育てたいのは、Webサイトを作る人�
 &nbsp;
 ###### 私たちが育てたいのは、Webサイトを作る人ではなく、将来にわたって活躍し続けられる人材です。そのために私たちは、以下のようなことを考えて、日々の育成を行っています。
 
-![Image Not Available](../../ico_arw_page_anchor.gif)[**&nbsp; 変化に強い人を育てる2つの条件**](#変化に強い人を育てる2つの条件)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; 変化に強い人を育てる2つの条件**](#変化に強い人を育てる2つの条件)
 
-![Image Not Available](../../ico_arw_page_anchor.gif)[**&nbsp; ベイジで身に付く10の普遍的スキル**](#ベイジで身に付く10の普遍的スキル)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; ベイジで身に付く10の普遍的スキル**](#ベイジで身に付く10の普遍的スキル)
 
 #### **変化に強い人を育てる2つの条件**
 &nbsp;

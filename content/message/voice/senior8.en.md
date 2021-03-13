@@ -6,7 +6,7 @@ author: Admin
 description: "This is meta description"
 
 name: Taibiao Nagata
-image: image/senior7.jpg
+image: image/senior7.webp
 typeofworkHeading : "Type of work:"
 typeofworkAnswer : "engineer"
 joiningHeading : "Date of entry:"

@@ -15,9 +15,9 @@ guideline_description: "In order to spread our vision and identity throughout th
 ###### In order to spread our vision and identity throughout the company, and to set the "prerequisites" for our staff to work, we have prepared two types of behavioral guidelines. I believe that these guidelines will give you an idea of the kind of values we work with.
 &nbsp;
 
-![Image Not Available](../../ico_arw_page_anchor.gif)[**&nbsp; Baisi's Action Guidelines**](#baisis-action-guidelines)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; Baisi's Action Guidelines**](#baisis-action-guidelines)
 
-![Image Not Available](../../ico_arw_page_anchor.gif)[**&nbsp; What makes a good boss?**](#what-makes-a-good-boss)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; What makes a good boss?**](#what-makes-a-good-boss)
 #### **Baisi's Action Guidelines**
 
 ###### It is a code of conduct that should be pursued equally by all staff. We may not always act honorably, but thanks to the code of conduct, we are able to work with a common understanding.

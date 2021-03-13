@@ -16,19 +16,19 @@ job_description: "ベイジでは、web制作の戦略から開発までの全�
 ###### ベイジでは、web制作の戦略から開発までの全工程を請け負っているため、それを完遂できるすべての職能を社内にそろえています。ここでは社内の会話に登場する職能の定義をご紹介します。ただし、全社員がこれらの画一的な職種定義に従う必要はないと考えています。例えば同じディレクターという肩書であったとしても、身に付けるスキルは一つではなく、人それぞれ異なります。職能名にとらわれた紋切り型のスキルセットを押し付けるのではなく、各人の希望や適性に合わせて、自由な働き方ができるように仕組み化されています。
 &nbsp;
 
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**プロジェクトマネージャー**](#プロジェクトマネージャー)   
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**プロジェクトマネージャー**](#プロジェクトマネージャー)   
 
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**コンサルタント**](#コンサルタント)       
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**コンサルタント**](#コンサルタント)       
 
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**UXリサーチャー**](#uxリサーチャー)       
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**UXリサーチャー**](#uxリサーチャー)       
 
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**ディレクター**](#ディレクター)   
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**ディレクター**](#ディレクター)   
 
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**デザイナー**](#デザイナー)       
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**デザイナー**](#デザイナー)       
 
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**コピーライター**](#コピーライター)       
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**コピーライター**](#コピーライター)       
 
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**エンジニア**](#エンジニア)       
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**エンジニア**](#エンジニア)       
 
 #### **プロジェクトマネージャー**
 &nbsp;

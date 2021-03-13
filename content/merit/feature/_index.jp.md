@@ -16,11 +16,11 @@ feature_description: " 株式会社ベイジは、全14名（2018年10月現在�
  ###### 株式会社ベイジは、全14名（2018年10月現在）のweb制作会社です。ここではビジネスおよび職場としての私たちの特長についてご紹介します。
 
 
-![Image not available](../../ico_arw_page_anchor.gif "Title")  [**ビジネスにおける私たちの強み**](#ビジネスにおける私たちの強み)   
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**ビジネスにおける私たちの強み**](#ビジネスにおける私たちの強み)   
 
-![Image not available](../../ico_arw_page_anchor.gif "Title") [**同業他社との違い**](#同業他社との違い)   
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**同業他社との違い**](#同業他社との違い)   
 
-![Image not available](../../ico_arw_page_anchor.gif "Title") [**事業会社との違い**](#事業会社との違い)   
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**事業会社との違い**](#事業会社との違い)   
 
 
 #### **ビジネスにおける私たちの強み**
@@ -28,7 +28,9 @@ feature_description: " 株式会社ベイジは、全14名（2018年10月現在�
 ###### 近年、ベイジに対する注目度は急速に上昇し、講演や取材の依頼も多く舞い込むようになりました。このように、小さなweb制作会社でありながら、業界内で大きな注目を集めているのはひとえに、webに必要な3つの領域の研鑽を愚直に続けているからだと思っています。   
 
 
-![Image not available](Capture.PNG "Title")
+<!-- ![Image not available](Capture.PNG "Title") -->
+
+{{< imagedisplay Capture "290" "596" "796" >}}
 
 &nbsp;
 &nbsp;
@@ -53,7 +55,10 @@ feature_description: " 株式会社ベイジは、全14名（2018年10月現在�
 &nbsp;
 ###### ウェブ制作に携わる企業がマーケティング、デザイン、管理に長けているのは当然ですか？あなたはそう思うかもしれません。しかし、多くの企業には長所と短所があり、その事業特性は働き方に大きな影響を与えます。ここでは、その違いについて詳しく説明します   
 
-![Image Not Available](tableimg.svg "TITLE")
+<!-- ![Image Not Available](tableimg.svg "TITLE") -->
+
+{{< imagedisplay tableimg "290" "690" "760" >}}
+
 
 あくまで一般的な分類で、実際には会社ごとの個性は存在する。ベイジは立ち上げ当初から、そのすべてを自社で完結することを会社のコンセプトとしている。   
 &nbsp;
