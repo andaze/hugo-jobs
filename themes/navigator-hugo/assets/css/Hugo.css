@@ -79,3 +79,76 @@ figure{
   text-align: center;
 }
 /* End Font Css */
+
+/* lazyloadSupported Slider */
+
+[class*="slideshow"] {
+  width: 100%;
+  outline: none;
+  margin-top: 50px;
+}
+
+[class*="slideshow"] img {
+  display: none;
+}
+
+.image_wrapper .text_content {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: #fff;
+  text-shadow: 0 0 3px rgba(0, 0, 0, .5);
+  opacity: 1;
+}
+
+.text_content * {
+  margin: .1em 0;
+}
+.title1{
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  max-width: 70%;
+}
+
+.title2{
+  font-family: "Noto Sans JP", "游ゴシック Medium", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  color: #ffffff;
+  max-width: 60%;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 414px) 
+{
+  .title1{
+    font-size: 11px;
+    line-height: normal;
+
+  }
+  .title2{
+    font-size: 9px;
+    line-height: normal;
+    position: inherit;
+    max-width: 80%;
+  }
+}
+@media only screen and (min-device-width: 415px) and (max-device-width: 1023px) 
+{
+  .title1{
+    font-size: 18px;
+    line-height: normal;
+
+  }
+  .title2{
+    font-size: 14px;
+    line-height: normal;
+    max-width: 80%;
+  }
+}
+
+/* End lazyloadSupported Slider */

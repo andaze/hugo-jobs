@@ -246,19 +246,6 @@
  }
 
 /* advantage header section */
-.sliderImage
-{
-  height:360px;
-  background:url("../../../../images/slider/img_keyvisual_01_1403x0_resize_box.webp");
-  background-repeat:no-repeat; 
-  background-size:cover;
-  background-attachment:fixed;
-  width:100%;
-  opacity: 0.8;
-  margin:50px 0 0 0;
-
-}
-
 .headerImagemerit
 {
   height:360px;
@@ -361,12 +348,6 @@
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 414px) 
   {
-    .sliderImage
-    {
-      background:url("../../../../images/slider/img_keyvisual_01_320x0_resize_box.webp");
-      height:150px;
-      margin-top: 60px;
-    }
     .headerImagemerit
     {
       background:url("../../../../images/backgroundimage/img_mainv_merit_375x0_resize_box.webp");
@@ -401,11 +382,6 @@
   }
   @media only screen and (min-device-width: 415px) and (max-device-width: 1023px) 
   {
-    .sliderImage
-    {
-      background:url("../../../../images/slider/img_keyvisual_01_768x0_resize_box.webp");
-      
-    }
     .headerImagemerit
     {
       background:url("../../../../images/backgroundimage/img_mainv_merit_1023x0_resize_box.webp");

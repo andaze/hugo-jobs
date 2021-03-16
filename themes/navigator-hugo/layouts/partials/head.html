@@ -11,6 +11,10 @@
   <link href="{{ `../../../../../../images/titleLogo.png` | absURL }}" rel="icon">
   <link href="{{ `plugins/bootstrap/css/bootstrap.min.css` | absURL }} " rel="stylesheet">
   <link href="{{ `plugins/nivo-slider/css/nivo-slider.css` | absURL }}" rel="stylesheet">
+
+  {{ $square := resources.Get "css/square1.css" | minify }}
+  <link rel="stylesheet" href="{{ $square.Permalink }}" integrity="{{ $square.Data.Integrity }}">
+
   <!-- <link href="{{ `plugins/owl.carousel/assets/owl.carousel.min.css` | absURL }}" rel="stylesheet"> -->
 
   <!-- Template Main CSS File -->
