@@ -171,3 +171,8 @@ figure{
 
 }
 /* End language slector css */
+
+/* For Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
