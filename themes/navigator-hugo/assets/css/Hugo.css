@@ -119,23 +119,29 @@ figure{
   font-family: "Noto Sans JP", "游ゴシック Medium", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 27px;
   color: #ffffff;
   max-width: 60%;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 414px) 
 {
+  .slideshow
+  {
+  height: 250px !important;
+  }
+  .text_content
+  {
+    margin: .1em -34px;
+  }
   .title1{
-    font-size: 11px;
+    font-size: 13px;
     line-height: normal;
-
   }
   .title2{
-    font-size: 8px;
+    font-size: 10px;
     line-height: normal;
-    position: inherit;
-    max-width: 100%;
+    max-width: 90%;
   }
 }
 @media only screen and (min-device-width: 415px) and (max-device-width: 1023px) 
@@ -143,10 +149,9 @@ figure{
   .title1{
     font-size: 18px;
     line-height: normal;
-
   }
   .title2{
-    font-size: 14px;
+    font-size: 15px;
     line-height: normal;
     max-width: 80%;
   }
