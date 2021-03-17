@@ -38,6 +38,7 @@ description = "This is meta description"
 [Languages]
 ############ 1 - Site en Japanese
 [Languages.jp]
+languageName = "JP"
 weight = 1
 languageCode = "jp-jp"
 title = "採用サイト｜東京のWeb制作会社・ホームページ制作会社｜株式会社ベイジ｜Hugo Job inc."
@@ -97,6 +98,7 @@ btnText = "Know More"
 
 ############# 2 - Site en ENGLISH
 [Languages.en]
+languageName = "EN"
 weight = 2
 languageCode = "en-us"
 title = "Recruitment Site｜Tokyo Web Production Company/Home Page Production Company｜Hugo Job Corporation｜Hugo Job inc."

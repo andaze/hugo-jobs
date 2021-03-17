@@ -158,3 +158,16 @@ figure{
 }
 
 /* End lazyloadSupported Slider */
+
+/* language slector css */
+.langselector
+{
+  font-family: "noto sans jp", "yu gothic medium", YuGothic, "hiragino kaku gothic pron", Meiryo, Meiryo, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #333333;
+
+}
+/* End language slector css */

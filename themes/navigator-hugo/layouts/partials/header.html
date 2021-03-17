@@ -1,54 +1,86 @@
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div class="container d-flex">
-     <!-- ===== Responsive menu ==== -->
      
-     <div  id="mySidenav" class="sidenav responsive">
-      <span> 
-      {{ range .Site.Params.listeLangues }}
-         {{ partial "flags.html" (dict "site" $.Site "liste" . "Permalink" $.Permalink) }}
-       {{ end }}
-      </span>
-       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-       {{ range .Site.Menus.item }}
-        <a href="{{ .URL | absLangURL }}"><span style="color: white;">{{ i18n .Name }}</span></a>
-       {{ end }}
-      </div>
-      <span class="responsive" style="margin: 8px 8px;font-size:30px;color:white;cursor:pointer" onclick="openNav()">&#9776; </span>
-      <div class="mobile-logo mr-auto">
-        <div>
-          <h7><a href="{{ .Site.Language.Lang | absLangURL }}"><img src="{{ `images/h_logo.webp` | absURL }}" height="40px" ; width="50px"/>&nbsp; <span style="color: rgb(175, 168, 111) !important;">{{ with .Site.Params.headerTitle }} {{ . }} {{ end }}</span></a></h7>
+        <!-- ===== Responsive menu ==== -->
+     
+        <div  id="mySidenav" class="sidenav responsive">
+            <!-- {{ range .Site.Params.listeLangues }}
+              {{ partial "flags.html" (dict "site" $.Site "liste" . "Permalink" $.Permalink) }}
+            {{ end }} -->
+          <span style="display: block;padding-left: 23px;">
+            {{ if .IsTranslated }}
+              <select class="border-0 langselector" id="select-language" onchange="location = this.value;">
+                {{ $siteLanguages := site.Languages}}
+                {{ $pageLang := .Page.Lang}}
+                  {{ range .Page.AllTranslations }}
+                    {{ $translation := .}}
+                    {{ range $siteLanguages }}
+                      {{ if eq $translation.Lang .Lang }}
+                        {{ $selected := false }}
+                        {{ if eq $pageLang .Lang}}
+                          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
+                        {{ else }}
+                          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+                        {{ end }}
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+              </select>
+            {{ end }}
+          </span>
+
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          {{ range .Site.Menus.item }}
+            <a href="{{ .URL | absLangURL }}"><span style="color: white;">{{ i18n .Name }}</span></a>
+          {{ end }}
         </div>
-      </div> 
+
+        <span class="responsive" style="margin: 8px 8px;font-size:30px;color:white;cursor:pointer" onclick="openNav()">&#9776; </span>
+        <div class="mobile-logo mr-auto">
+          <div>
+            <h7><a href="{{ .Site.Language.Lang | absLangURL }}"><img src="{{ `images/h_logo.webp` | absURL }}" height="40px" ; width="50px"/>&nbsp; <span style="color: rgb(175, 168, 111) !important;">{{ with .Site.Params.headerTitle }} {{ . }} {{ end }}</span></a></h7>
+          </div>
+        </div> 
+
+
         <!-- ===== Desktop menu ===== -->
             
-        <!--<button data-trigger="#navbar_main" class="d-lg-none btn btn-black" type="button"> <li class="fa fa-bars bars" style="font-size:25px;"></li> </button>-->
-      
         {{ range .Site.Menus.item }}
-        <nav id="navbar_main" class="mobile-offcanvas  navbar-expand-lg">
+          <nav id="navbar_main" class="mobile-offcanvas  navbar-expand-lg">
+            <ul class="navbar-nav">
+              <li class="nav-menu active">
+                <a href="{{ .URL | absLangURL }}" class="nav-link" >{{ i18n .Name }}</a>
+              </li>
+            </ul>
+          </nav>
+        {{ end }}
         
-          <!-- <div class="offcanvas-header">   -->
-              <!--<button class="btn btn-black btn-close float-right"> &times </button>
-              <h5 class="py-2 text-white"></h5>-->
-           <!-- </div> -->
-           
-          <ul class="navbar-nav">
-            <li class="nav-menu active">
-              <a href="{{ .URL | absLangURL }}" class="nav-link" >{{ i18n .Name }}</a>
-            </li>
-            
-          </ul>
-        </nav>
-        {{ end }}
-        <span class="d-none d-lg-none d-xl-block" style="margin:auto; width: 40px;">
-          {{ range .Site.Params.listeLangues }}
-          {{ partial "flags.html" (dict "site" $.Site "liste" . "Permalink" $.Permalink) }}
-        {{ end }}
-         
+        <span class="d-none d-lg-none d-xl-block" style="margin:auto; padding-top: 5px;">
+              <!-- {{ range .Site.Params.listeLangues }}
+              {{ partial "flags.html" (dict "site" $.Site "liste" . "Permalink" $.Permalink) }}
+              {{ end }} -->
+
+          {{ if .IsTranslated }}
+            <select class="border-0 langselector" id="select-language" onchange="location = this.value;">
+              {{ $siteLanguages := site.Languages}}
+              {{ $pageLang := .Page.Lang}}
+                {{ range .Page.AllTranslations }}
+                  {{ $translation := .}}
+                  {{ range $siteLanguages }}
+                    {{ if eq $translation.Lang .Lang }}
+                      {{ $selected := false }}
+                      {{ if eq $pageLang .Lang}}
+                        <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
+                      {{ else }}
+                        <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+            </select>
+          {{ end }}
         </span>
-        <!-- .nav-menu -->
-       
       </div>
-      
     </header><!-- End Header -->
   
