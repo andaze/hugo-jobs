@@ -132,10 +132,10 @@ figure{
 
   }
   .title2{
-    font-size: 9px;
+    font-size: 8px;
     line-height: normal;
     position: inherit;
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 @media only screen and (min-device-width: 415px) and (max-device-width: 1023px) 
