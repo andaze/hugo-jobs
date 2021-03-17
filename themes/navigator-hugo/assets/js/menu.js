@@ -10,5 +10,8 @@ $('.example-1').square1({
   caption: 'none',
   theme: 'light',
   lazy_load: true
+});
 
+$( window ).resize(function() {
+  window.location.reload();
 });
