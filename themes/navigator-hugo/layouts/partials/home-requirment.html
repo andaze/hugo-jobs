@@ -25,11 +25,12 @@
               <h2 class="headlineLv02NumEn" style="color: #afa86f;"><span class="headlineEn">ENTRY</span> {{ with .Site.Params.entryTitle }} {{ . }} {{ end }}</h2>
               {{ with .Site.GetPage "Entry"}}
               <p> {{ .Params.Intro }} </p>
-              {{ end }}
+
               <ul class="ulBtnEntry" style="list-style: none !important;">
                 <li style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;"><a
                     style = "color: #afa86f;" href="{{ .URL }}"><span>{{ with .Site.Params.entryBoxTitle }} {{ . }} {{ end }}</span></a></li>
               </ul>
+              {{ end }}
             </div>
           </div>
         </div>
