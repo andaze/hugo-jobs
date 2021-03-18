@@ -56,6 +56,9 @@
 {{ $concatJs := slice $wow $isoTope $lazysize | resources.Concat "js/bundle_mini.js" }}
 <script defer src="{{ $concatJs.Permalink }}" integrity="{{ $concatJs.Data.Integrity }}" async></script>
 
+{{ $jquery_wasing := resources.Get "js/jquery.easing.min.js" }}
+<script defer src="{{ $jquery_wasing.Permalink }}" integrity="{{ $jquery_wasing.Data.Integrity }}"></script>
+
 {{ $menu := resources.Get "js/menu.js" }}
 {{ $main := resources.Get "js/main.js" }}
 {{ $concatjs := slice $menu $main | resources.Concat "js/bundle.js" | resources.Minify }}
