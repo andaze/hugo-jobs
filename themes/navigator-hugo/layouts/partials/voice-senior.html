@@ -4,7 +4,7 @@
         {{ if eq (.page.Params.image) ("") }}
         {{ else }}
         <div class="col-12 col-sm-12 col-md-4 col-lg-3" style="text-align: center;">
-            <img data-src="{{ .imagepath }}{{ .page.Params.Image }}" width="auto" height="auto" alt="Images Not available" class="lazyload">
+            <img src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{ .imagepath }}{{ .page.Params.Image }}" width="auto" height="auto" alt="Images Not available" class="lazyload">
           </div>
         {{ end }}  
         <div class="col-12 col-sm-12 col-md-8 col-lg-9">

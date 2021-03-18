@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row" style="margin-top: 20px;">
       <div class="col-lg-3 col-md-12 col-sm-12 col-12">
-          <h2><img class="lazyload" data-src="{{ `images/h_logo.webp` | absURL }}" height="40px" ; width="50px" /> </h2>
+          <h2><img class="lazyload" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{ `images/h_logo.webp` | absURL }}" height="40px" width="50px" alt="Image Not available"/> </h2>
           {{ with .Site.Params.footerAddress }}
           <p class="footercolsize"> {{ . }} {{ end }}
             <br> {{ with .Site.Params.footerMail }} {{ . }} {{ end }}
@@ -44,7 +44,7 @@
   </div>
 </footer>
 
-<button onclick="topFunction()" id="myBtn" class="back-to-top"> <img class="lazyload" data-src="{{ `../../../../images/back_to_top.png` }}" width="25px" alt=""></button>
+<button onclick="topFunction()" id="myBtn" class="back-to-top"> <img class="lazyload" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{ `../../../../images/back_to_top.png` }}" width="25px" alt=""></button>
 <div id="preloader"></div>
 
 {{ $square1 := resources.Get "js/square1.js" | resources.Minify }}

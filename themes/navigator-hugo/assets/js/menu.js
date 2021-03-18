@@ -11,7 +11,6 @@ $('.example-1').square1({
   theme: 'light',
   lazy_load: true
 });
-
-$( window ).resize(function() {
-  window.location.reload();
+$(window).bind('orientationchange', function (event) {
+  location.reload(true);
 });
