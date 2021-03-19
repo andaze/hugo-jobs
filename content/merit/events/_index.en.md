@@ -27,7 +27,7 @@ events_description: "At Baisi, we are implementing a variety of initiatives to i
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Study session by job category**](#study-session-by-job-category)   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**President's study meeting**](#president's-study-meeting)   
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Presidents study meeting**](#president's-study-meeting)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Closing meeting**](#closing-meeting)   
 

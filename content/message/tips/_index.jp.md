@@ -25,7 +25,7 @@ tips_description: "ここでは、採用するにあたってベイジの採用�
 
 ![Images Not Available](../../ico_arw_page_anchor.webp)[**クリップしているものも見せよう**](#クリップしているものも見せよう)
 
-![Images Not Available](../../ico_arw_page_anchor.webp)[**webサイト、ブログ、日報を熟読しよう**](#webサイト、ブログ、日報を熟読しよう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**webサイト、ブログ、日報を熟読しよう**](#webサイトブログ日報を熟読しよう)
 
 ![Images Not Available](../../ico_arw_page_anchor.webp)[**前職の退職理由を明確にしよう**](#前職の退職理由を明確にしよう)
 

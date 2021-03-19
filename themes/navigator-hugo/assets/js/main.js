@@ -123,29 +123,30 @@
   //---------------------------------------------
   //Nivo slider
   //---------------------------------------------
-  $('#ensign-nivoslider').nivoSlider({
-    effect: 'random',
-    // slices: 15,
-    // boxCols: 12,
-    // boxRows: 8,
-    animSpeed: 500,
-    pauseTime: 5000,
-    // startSlide: 0,
-    directionNav: false,
-    controlNav:true,
-    controlNavThumbs: false,
-    pauseOnHover: false,
-    manualAdvance: true,
-  });
+  
+// $('#ensign-nivoslider').nivoSlider({
+  //   effect: 'random',
+  //   // slices: 15,
+  //   // boxCols: 12,
+  //   // boxRows: 8,
+  //   animSpeed: 500,
+  //   pauseTime: 5000,
+  //   // startSlide: 0,
+  //   directionNav: false,
+  //   controlNav:true,
+  //   controlNavThumbs: false,
+  //   pauseOnHover: false,
+  //   manualAdvance: true,
+  // });
 
   /*----------------------------
    Scrollspy js
   ------------------------------ */
-  var Body = $('body');
-  Body.scrollspy({
-    target: '.navbar-collapse',
-    offset: 80
-  });
+  // var Body = $('body');
+  // Body.scrollspy({
+  //   target: '.navbar-collapse',
+  //   offset: 80
+  // });
 
   /*---------------------
     Venobox
@@ -168,20 +169,20 @@
   /*--------------------------
     Back to top button
   ---------------------------- */
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('.back-to-top').fadeIn('slow');
-    } else {
-      $('.back-to-top').fadeOut('slow');
-    }
-  });
+  // $(window).scroll(function() {
+  //   if ($(this).scrollTop() > 100) {
+  //     $('.back-to-top').fadeIn('slow');
+  //   } else {
+  //     $('.back-to-top').fadeOut('slow');
+  //   }
+  // });
 
-  $('.back-to-top').click(function() {
-    $('html, body').animate({
-      scrollTop: 0
-    }, 1500, 'easeInOutExpo');
-    return false;
-  });
+  // $('.back-to-top').click(function() {
+  //   $('html, body').animate({
+  //     scrollTop: 0
+  //   }, 1500, 'easeInOutExpo');
+  //   return false;
+  // });
 
   /*----------------------------
    Parallax
@@ -288,3 +289,4 @@
   }
 
 })(jQuery);
+

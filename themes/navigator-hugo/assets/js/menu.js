@@ -14,3 +14,7 @@ $('.example-1').square1({
 $(window).bind('orientationchange', function (event) {
   location.reload(true);
 });
+
+$(document).ready(function() {
+  $('.maplink a').attr('target', '_blank');
+});

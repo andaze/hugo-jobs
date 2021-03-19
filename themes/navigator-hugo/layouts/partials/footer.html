@@ -53,16 +53,12 @@
 {{ $wow := resources.Get "plugins/wow/wow.min.js" }}
 {{ $isoTope := resources.Get "plugins/isotope-layout/isotope.pkgd.min.js" }}
 {{ $lazysize :=  resources.Get "js/lazysizes.min.js" }}
-{{ $concatJs := slice $wow $isoTope $lazysize | resources.Concat "js/bundle_mini.js" }}
+{{ $menu := resources.Get "js/menu.js" | minify }}
+{{ $concatJs := slice $wow $isoTope $lazysize $menu | resources.Concat "js/bundle_mini.js" }}
 <script defer src="{{ $concatJs.Permalink }}" integrity="{{ $concatJs.Data.Integrity }}" async></script>
 
 {{ $jquery_wasing := resources.Get "js/jquery.easing.min.js" }}
 <script defer src="{{ $jquery_wasing.Permalink }}" integrity="{{ $jquery_wasing.Data.Integrity }}"></script>
-
-{{ $menu := resources.Get "js/menu.js" }}
-{{ $main := resources.Get "js/main.js" }}
-{{ $concatjs := slice $menu $main | resources.Concat "js/bundle.js" | resources.Minify }}
-<script defer src="{{ $concatjs.Permalink }}" integrity="{{ $concatjs.Data.Integrity }}"></script> 
 
 <script>
     var mybutton = document.getElementById("myBtn");
@@ -97,4 +93,10 @@
 <script src="{{ `plugins/bootstrap/js/bootstrap.bundle.min.js` | absURL }}"></script>
 {{ $jqueryNivo := resources.Get "plugins/nivo-slider/js/jquery.nivo.slider.js" }}
 {{ $owlCarousel := resources.Get "plugins/owl.carousel/owl.carousel.min.js" }} 
+
+{{ $main := resources.Get "js/main.js" }} 
+
+{{ $concatjs := slice $menu $main | resources.Concat "js/bundle.js" | resources.Minify }}
+<script defer src="{{ $concatjs.Permalink }}" integrity="{{ $concatjs.Data.Integrity }}"></script> 
+
 -->
