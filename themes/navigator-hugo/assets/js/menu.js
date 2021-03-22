@@ -17,4 +17,6 @@ $(window).bind('orientationchange', function (event) {
 
 $(document).ready(function() {
   $('.maplink a').attr('target', '_blank');
+  $(".title1").css("display","block");
+  $(".title2").css("display","block");
 });

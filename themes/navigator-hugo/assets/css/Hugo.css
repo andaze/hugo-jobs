@@ -113,6 +113,7 @@ figure{
   line-height: 50px;
   color: #ffffff;
   max-width: 70%;
+  display: none;
 }
 
 .title2{
@@ -123,6 +124,8 @@ figure{
   line-height: 27px;
   color: #ffffff;
   max-width: 60%;
+  display: none;
+
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 414px) 
 {
@@ -137,11 +140,15 @@ figure{
   .title1{
     font-size: 13px;
     line-height: normal;
+    display: none;
+
   }
   .title2{
     font-size: 10px;
     line-height: normal;
     max-width: 90%;
+    display: none;
+
   }
 }
 @media only screen and (min-device-width: 415px) and (max-device-width: 1023px) 
@@ -149,11 +156,15 @@ figure{
   .title1{
     font-size: 18px;
     line-height: normal;
+    display: none;
+
   }
   .title2{
     font-size: 15px;
     line-height: normal;
     max-width: 80%;
+    display: none;
+
   }
 }
 
