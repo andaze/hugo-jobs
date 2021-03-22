@@ -53,9 +53,11 @@
 {{ $wow := resources.Get "plugins/wow/wow.min.js" }}
 {{ $isoTope := resources.Get "plugins/isotope-layout/isotope.pkgd.min.js" }}
 {{ $lazysize :=  resources.Get "js/lazysizes.min.js" }}
-{{ $menu := resources.Get "js/menu.js" | minify }}
-{{ $concatJs := slice $wow $isoTope $lazysize $menu | resources.Concat "js/bundle_mini.js" }}
+{{ $concatJs := slice $wow $isoTope $lazysize | resources.Concat "js/bundle_mini.js" }}
 <script defer src="{{ $concatJs.Permalink }}" integrity="{{ $concatJs.Data.Integrity }}" async></script>
+
+{{ $menu := resources.Get "js/menu.js" | minify }}
+<script defer src="{{ $menu.Permalink }}" integrity="{{ $menu.Data.Integrity }}"></script> 
 
 {{ $jquery_wasing := resources.Get "js/jquery.easing.min.js" }}
 <script defer src="{{ $jquery_wasing.Permalink }}" integrity="{{ $jquery_wasing.Data.Integrity }}"></script>
