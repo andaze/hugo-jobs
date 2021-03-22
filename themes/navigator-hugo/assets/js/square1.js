@@ -195,16 +195,18 @@ $.fn.square1 = function(options) {
 		});
 
 		$($this).on('touchend', function(e) {
-			deltaX = touchMove.touches[0].screenX - touchstartX;
-			deltaY = touchMove.touches[0].screenY - touchstartY;
-			touchDuration = new Date() - touchstartTime;
-
-			if(Math.abs(deltaX / deltaY) < 2) return;
-			if(Math.abs(deltaX) < 30) return;
-			if(touchDuration > 800) return;
-
-			if(deltaX > 0) prev_image();
-			else next_image();
+			if(touchMove){
+				deltaX = touchMove.touches[0].screenX - touchstartX;
+				deltaY = touchMove.touches[0].screenY - touchstartY;
+				touchDuration = new Date() - touchstartTime;
+	
+				if(Math.abs(deltaX / deltaY) < 2) return;
+				if(Math.abs(deltaX) < 30) return;
+				if(touchDuration > 800) return;
+	
+				if(deltaX > 0) prev_image();
+				else next_image();
+			}
 		});
 	}
 
