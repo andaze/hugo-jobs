@@ -4,6 +4,7 @@ echo
 pwd
 echo
 sudo ./hugo version
+sudo rm -rf /home/dameio/public_html/hugo-baigie/deploy/public
 echo
 sudo ./hugo -d deploy/public
 echo
