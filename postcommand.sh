@@ -4,7 +4,8 @@ echo
 pwd
 echo
 sudo ./hugo version
-sudo ./hugo
+echo
+sudo ./hugo -d deploy/public
 echo
 #cd /home/dameio/public_html/hugo-baigie
 #mkdir ashish
