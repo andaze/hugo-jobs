@@ -7,17 +7,17 @@
 <!-- TODO : Faire un style adapté aux drapeaux/langue + highligh l'actuel -->
 {{ if eq (string .liste.code) (string .site.Language) }}
     {{ $cururl := .Permalink }}
-    <a href="{{ $cururl }}" class="selected" style="display: inline;"><img src= {{ $icone_url | absURL }} alt="IMAGE" />
+    <a href="{{ $cururl }}" class="selected" style="display: inline;"><img class="lazyload" data-src= {{ $icone_url | absURL }} alt="IMAGE" />
 {{ else }}
     {{ if eq ($var) ("en") }}
         {{ $cururl:= .Permalink }}
         {{ $new:= replace $cururl "/jp/" "/en/" }}
-        <a href="{{ $new }}" style="display: inline;"><img src= {{ $icone_url | absURL }} alt="IMAGE" />
+        <a href="{{ $new }}" style="display: inline;"><img class="lazyload" data-src= {{ $icone_url | absURL }} alt="IMAGE" />
     {{ end }}
     {{ if eq ($var) ("jp") }}
         {{ $cururl:= .Permalink }}
         {{ $new:= replace $cururl "/en/" "/jp/" }}
-        <a href="{{ $new }}" style="display: inline;"><img src= {{ $icone_url | absURL }} alt="IMAGE" />
+        <a href="{{ $new }}" style="display: inline;"><img class="lazyload" data-src= {{ $icone_url | absURL }} alt="IMAGE" />
     {{ end }}
 {{ end }}
 </a>

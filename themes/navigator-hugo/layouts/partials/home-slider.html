@@ -1,123 +1,46 @@
-<div id="home" class="slider-area">
-  <div class="bend niceties preview-2">
-    <div id="ensign-nivoslider" class="slides">
-      <img srcset="{{ `/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w` }}" src="{{ `images/slider/img_keyvisual_01.webp` | relURL }}" alt="Not Use Srcset" title="#slider-direction-1" 
-      />
-      <img srcset="{{ `/images/slider/img_keyvisual_02_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_02_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_02_320x0_resize_box.webp 640w` }}" src="{{ `images/slider/img_keyvisual_02.webp` | relURL }}" alt="Not Use Srcset" title="#slider-direction-2" 
-      />
-      <img srcset="{{ `/images/slider/img_keyvisual_05_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_05_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_05_320x0_resize_box.webp 640w` }}" src="{{ `images/slider/img_keyvisual_05.webp` | relURL }}" alt="Not Use Srcset" title="#slider-direction-3" 
-      />
-      <img srcset="{{ `/images/slider/img_keyvisual_04_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_04_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_04_320x0_resize_box.webp 640w` }}" src="{{ `images/slider/img_keyvisual_04.webp` | relURL }}" alt="Not Use Srcset" title="#slider-direction-4" 
-      />
-      
-      <!-- <img src="{{ `images/slider/img_keyvisual_02.webp`| absURL }}" alt="" title="#slider-direction-2" />
-      <img src="{{ `images/slider/img_keyvisual_05.webp`| absURL }}" alt="" title="#slider-direction-3" />
-      <img src="{{ `images/slider/img_keyvisual_04.webp`| absURL }}" alt="" title="#slider-direction-4" /> -->
-    </div>
-    
-    <!-- direction 1 -->
-    <div id="slider-direction-1" class="slider-direction slider-one">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="slider-content">
-              <!-- layer 1 -->
-              <div class="layer-1-1 hidden-xs wow animate__slideInDown animate__animated" data-wow-duration="2s"
-                data-wow-delay=".2s">
-                  {{ with .Site.Params.hero.heading }}
-                    <h2 class="title1">{{ . }}</h2>
-                  {{ end }}
-              </div>
-              <!-- layer 2 -->
-              <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s"
-                data-wow-delay=".2s">
-                  {{ with .Site.Params.hero.heading1 }}
-                    <h1 class="title2"> {{ . }} </h1>
-                  {{ end }}
-              </div>
-            </div>
-          </div>
+    <div class="slideshow example-1">
+      <div>
+        <img srcset="{{ `/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w` }}" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{`images/slider/img_keyvisual_01.webp` }}" alt="" class="lazyload">
+        <div class="text_content">
+          {{ with .Site.Params.hero.heading1 }}
+            <h2 class="title1">{{ . }}</h2>
+          {{ end }}
+          {{ with .Site.Params.hero.subheading1 }}
+            <h1 class="title2"> {{ . }} </h1>
+          {{ end }}
+        </div>
+      </div>
+      <div>
+        <img srcset="{{ `/images/slider/img_keyvisual_02_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_02_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_02_320x0_resize_box.webp 640w` }}" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{`images/slider/img_keyvisual_02.webp` }}" alt="" class="lazyload">
+        <div class="text_content">
+          {{ with .Site.Params.hero.heading2 }}
+          <h2 class="title1">{{ . }}</h2>
+        {{ end }}
+        {{ with .Site.Params.hero.subheading2 }}
+          <h1 class="title2"> {{ . }} </h1>
+        {{ end }}
+        </div>
+      </div>
+      <div>
+        <img srcset="{{ `/images/slider/img_keyvisual_05_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_05_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_05_320x0_resize_box.webp 640w` }}" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{`images/slider/img_keyvisual_05.webp` }}" alt="" class="lazyload">
+        <div class="text_content">
+          {{ with .Site.Params.hero.heading3 }}
+            <h2 class="title1">{{ . }}</h2>
+          {{ end }}
+          {{ with .Site.Params.hero.subheading3 }}
+            <h1 class="title2"> {{ . }} </h1>
+          {{ end }}
+        </div>
+      </div>
+      <div>
+        <img srcset="{{ `/images/slider/img_keyvisual_04_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_04_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_04_320x0_resize_box.webp 640w` }}" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{`images/slider/img_keyvisual_04.webp` }}" alt="" class="lazyload">
+        <div class="text_content">
+          {{ with .Site.Params.hero.heading4 }}
+          <h2 class="title1">{{ . }}</h2>
+        {{ end }}
+        {{ with .Site.Params.hero.subheading4 }}
+          <h1 class="title2"> {{ . }} </h1>
+        {{ end }}
         </div>
       </div>
     </div>
-
-    <!-- direction 2 -->
-    <div id="slider-direction-2" class="slider-direction slider-two">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="slider-content text-center">
-              <!-- layer 1 -->
-              <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s"
-                data-wow-delay=".2s">
-                  {{ with .Site.Params.hero.heading }}
-                  <h2 class="title1">{{ . }}</h2>
-                  {{ end }}
-              </div>
-              <!-- layer 2 -->
-              <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s"
-                data-wow-delay=".1s">
-                 {{ with .Site.Params.hero.heading1 }}
-                    <h1 class="title1">{{ . }}</h1>
-                  {{ end }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- direction 3 -->
-    <div id="slider-direction-3" class="slider-direction slider-two">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="slider-content">
-              <!-- layer 1 -->
-              <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s"
-                data-wow-delay=".2s">
-                  {{ with .Site.Params.hero.heading }}
-                    <h2 class="title1">{{ . }}</h2>
-                  {{ end }}
-              </div>
-              <!-- layer 2 -->
-              <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s"
-                data-wow-delay=".1s">
-                  {{ with .Site.Params.hero.heading1 }}
-                   <h1 class="title1">{{ . }}</h1>
-                  {{ end }}
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- direction 4 -->
-    <div id="slider-direction-4" class="slider-direction slider-one">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="slider-content">
-              <!-- layer 1 -->
-              <div class="layer-1-1 hidden-xs wow animate__slideInDown animate__animated" data-wow-duration="2s"
-                data-wow-delay=".2s">
-                  {{ with .Site.Params.hero.heading }}
-                   <h2 class="title1">{{ . }}</h2>
-                  {{ end }}
-              </div>
-              <!-- layer 2 -->
-              <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s"
-                data-wow-delay=".2s">
-                  {{ with .Site.Params.hero.heading1 }}
-                    <h1 class="title1">{{ . }}</h1>
-                  {{ end }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-</div><!-- End Slider -->

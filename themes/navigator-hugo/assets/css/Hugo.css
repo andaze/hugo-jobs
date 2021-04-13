@@ -79,3 +79,111 @@ figure{
   text-align: center;
 }
 /* End Font Css */
+
+/* lazyloadSupported Slider */
+
+[class*="slideshow"] {
+  width: 100%;
+  outline: none;
+  margin-top: 50px;
+  z-index: 0 !important;
+}
+
+[class*="slideshow"] img {
+  display: none;
+}
+
+.image_wrapper .text_content {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: #fff;
+  text-shadow: 0 0 3px rgba(0, 0, 0, .5);
+  opacity: 1;
+}
+
+.text_content * {
+  margin: .1em 0;
+}
+.title1{
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  max-width: 70%;
+  display: none;
+}
+
+.title2{
+  font-family: "Noto Sans JP", "游ゴシック Medium", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  max-width: 60%;
+  display: none;
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 414px) 
+{
+  .slideshow
+  {
+  height: 250px !important;
+  }
+  .text_content
+  {
+    margin: .1em -34px;
+  }
+  .title1{
+    font-size: 13px;
+    line-height: normal;
+    display: none;
+
+  }
+  .title2{
+    font-size: 10px;
+    line-height: normal;
+    max-width: 90%;
+    display: none;
+
+  }
+}
+@media only screen and (min-device-width: 415px) and (max-device-width: 1023px) 
+{
+  .title1{
+    font-size: 18px;
+    line-height: normal;
+    display: none;
+
+  }
+  .title2{
+    font-size: 15px;
+    line-height: normal;
+    max-width: 80%;
+    display: none;
+
+  }
+}
+
+/* End lazyloadSupported Slider */
+
+/* language slector css */
+.langselector
+{
+  font-family: "noto sans jp", "yu gothic medium", YuGothic, "hiragino kaku gothic pron", Meiryo, Meiryo, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #333333;
+
+}
+/* End language slector css */
+
+/* For Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
