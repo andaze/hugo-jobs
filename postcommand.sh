@@ -1,3 +1,9 @@
 #!/bin/sh
-sudo hugo
-mkdir ashish
+#cd /root/projects/bin/
+echo
+pwd
+echo
+sudo ./hugo
+echo
+#cd /home/dameio/public_html/hugo-baigie
+#mkdir ashish
