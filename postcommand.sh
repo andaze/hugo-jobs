@@ -1,3 +1,3 @@
 #!/bin/sh
-hugo
+sudo hugo
 mkdir ashish
