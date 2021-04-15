@@ -3,7 +3,7 @@
         <img srcset="{{ `/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w` }}" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{`images/slider/img_keyvisual_01.webp` }}" alt="" class="lazyload">
         <div class="text_content">
           {{ with .Site.Params.hero.heading1 }}
-            <h2 class="title1">1{{ . }}</h2>
+            <h2 class="title1">{{ . }}</h2>
           {{ end }}
           {{ with .Site.Params.hero.subheading1 }}
             <h1 class="title2"> {{ . }} </h1>
