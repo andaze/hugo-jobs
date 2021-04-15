@@ -10,8 +10,8 @@ echo
 hugo -d deploy/public
 echo
 cd /home/dameio/public_html/hugo-baigie/deploy
-#git add .
-#git commit -m'update code'
-#git push origin master
-#cd /home/dameio/public_html/hugo-baigie
+git add --all
+git commit -m'update code'
+git push origin master
+cd /home/dameio/public_html/hugo-baigie
 #mkdir ashish
