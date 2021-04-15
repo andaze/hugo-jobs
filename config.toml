@@ -34,6 +34,58 @@ code = "en"
 author = "Themefisher"
 description = "This is meta description"
 
+
+# slider Area Images And Content
+[[Languages.en.params.heading]]
+srcimg = "/images/imageLoading.gif"
+srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
+dataSrcImg = "/images/slider/img_keyvisual_01.webp"
+heading = "CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
+subheading = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
+[[Languages.en.params.heading]]
+srcimg = "/images/imageLoading.gif"
+srcsetImg = "/images/slider/img_keyvisual_02_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_02_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_02_320x0_resize_box.webp 640w"
+dataSrcImg = "/images/slider/img_keyvisual_02.webp"
+heading = "WE AIM AT THE FUSION OF MARKETING AND CREATIVE."
+subheading = "Baisi's goal is to combine marketing and creativity at a high level. It is not a routine job of creating designs and systems according to specifications. The habit of thinking about things from a business perspective will help you grow by leaps and bounds."
+[[Languages.en.params.heading]]
+srcimg = "images/imageLoading.gif"
+srcsetImg = "/images/slider/img_keyvisual_05_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_05_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_05_320x0_resize_box.webp 640w"
+dataSrcImg = "/images/slider/img_keyvisual_05.webp"
+heading = "OUR EXCELLENT ENVIRONMENT WILL MAXIMIZE YOUR VALUE."
+subheading = "The office at Baisi is a great place to work. We are a small company, so you can communicate your wishes right away. Please try to create the ideal work environment you want by yourself."
+[[Languages.en.params.heading]]
+srcimg = "images/imageLoading.gif"
+srcsetImg = "/images/slider/img_keyvisual_04_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_04_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_04_320x0_resize_box.webp 640w"
+dataSrcImg = "/images/slider/img_keyvisual_04.webp"
+heading = "WE'RE IN THE GROWTH PHASE, YOUR FUTURE IS SPREADING."
+subheading = "Bayzi has a clear vision for the future of the industry and the company. We are currently in the phase of increasing the number of talented staff and creating the foundation for future development. Because we are still developing, you can become the core of the company if you choose."
+
+[[Languages.jp.params.heading]]
+srcimg = "images/imageLoading.gif"
+srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
+dataSrcImg = "/images/slider/img_keyvisual_01.webp"
+heading = "私たちと一緒に自分を変えよう, あなたのキャリアをサポートします。"
+subheading = "ベイジは、あなたのキャリアに必要な技術力と仕事力が身に付く環境です。ベテランだけではなく、熱意ある未経験者も積極的に採用しています。 私たちとともに、Web業界の頂点を目指しながら人生を輝かしいものにしませんか。"
+[[Languages.jp.params.heading]]
+srcimg = "images/imageLoading.gif"
+srcsetImg = "/images/slider/img_keyvisual_02_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_02_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_02_320x0_resize_box.webp 640w"
+dataSrcImg = "/images/slider/img_keyvisual_02.webp"
+heading = "私たちはマーケティングとクリエイティブの融合を目指し。"
+subheading = "ベイジが目指すのは、マーケティングとクリエイティブの高次元での融合です。 仕様通りにデザインやシステムを作るルーチンワークではありません。 ビジネス発想で物事を考える習慣が、あなたを飛躍的に成長させるでしょう。"
+[[Languages.jp.params.heading]]
+srcimg = "images/imageLoading.gif"
+srcsetImg = "/images/slider/img_keyvisual_05_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_05_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_05_320x0_resize_box.webp 640w"
+dataSrcImg = "/images/slider/img_keyvisual_05.webp"
+heading = "優れた環境でお客様の価値を最大化する。"
+subheading = "ベイジのオフィスには、仕事がしやすい環境が整っています。 小さな会社なので、希望はすぐに伝えることができます。 あなたの望む理想の職場環境を、あなた自身の力で作ってみてください。"
+[[Languages.jp.params.heading]]
+srcimg = "images/imageLoading.gif"
+srcsetImg = "/images/slider/img_keyvisual_04_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_04_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_04_320x0_resize_box.webp 640w"
+dataSrcImg = "/images/slider/img_keyvisual_04.webp"
+heading = "我々は成長段階にある, あなたの未来は広がっている。"
+subheading = "ベイジは、業界や会社の未来に明確なビジョンを持っています。 今は、優秀なスタッフを増やし、将来の発展の基盤を作るフェーズ。 発展途上だから、あなた次第で会社の中核にだってなることができます。"
+
 # Gestion des langues : FR / EN / NL / DE
 [Languages]
 ############ 1 - Site en Japanese
@@ -67,21 +119,11 @@ footerfax = "fax. 03-6407-8751"
 footerhome = "株式会社ベイジ：ホーム"
 footerblog = "ベイジ社長ブログ"
 footerReport =  "ベイジの日報"
-#list Page
 Endtitle = "> 詳しく見る"
 
 # Hero Area Section
 [Languages.jp.params.hero]
 enable  = true
-heading1 = "私たちと一緒に自分を変えよう, あなたのキャリアをサポートします。"
-subheading1 = "ベイジは、あなたのキャリアに必要な技術力と仕事力が身に付く環境です。ベテランだけではなく、熱意ある未経験者も積極的に採用しています。 私たちとともに、Web業界の頂点を目指しながら人生を輝かしいものにしませんか。"
-heading2 = "私たちはマーケティングとクリエイティブの融合を目指し。"
-subheading2 = "ベイジが目指すのは、マーケティングとクリエイティブの高次元での融合です。 仕様通りにデザインやシステムを作るルーチンワークではありません。 ビジネス発想で物事を考える習慣が、あなたを飛躍的に成長させるでしょう。"
-heading3 = "優れた環境でお客様の価値を最大化する。"
-subheading3 = "ベイジのオフィスには、仕事がしやすい環境が整っています。 小さな会社なので、希望はすぐに伝えることができます。 あなたの望む理想の職場環境を、あなた自身の力で作ってみてください。"
-heading4 = "我々は成長段階にある, あなたの未来は広がっている。"
-subheading4 = "ベイジは、業界や会社の未来に明確なビジョンを持っています。 今は、優秀なスタッフを増やし、将来の発展の基盤を作るフェーズ。 発展途上だから、あなた次第で会社の中核にだってなることができます。"
-
 advheading1 = "ADVANTAGE"
 advheading2 = "ベイジで働くメリット"
 visionheading1 = "VISION"
@@ -127,8 +169,6 @@ footerfax = "Fax. 03-6407-8751"
 footerhome = "Beiji Co., Ltd .: Home"
 footerblog = "Beiji President's Blog"
 footerReport =  "Beiji's daily report"
-
-#list Page
 Endtitle = "> Read more."
 
 # cookies
@@ -139,15 +179,6 @@ expire_days = 2
 # Hero Area Section
 [Languages.en.params.hero]
 enable  = true
-heading1 = "11CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
-subheading1 = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
-heading2 = "WE AIM AT THE FUSION OF MARKETING AND CREATIVE."
-subheading2 = "Baisi's goal is to combine marketing and creativity at a high level. It is not a routine job of creating designs and systems according to specifications. The habit of thinking about things from a business perspective will help you grow by leaps and bounds."
-heading3 = "OUR EXCELLENT ENVIRONMENT WILL MAXIMIZE YOUR VALUE."
-subheading3 = "The office at Baisi is a great place to work. We are a small company, so you can communicate your wishes right away. Please try to create the ideal work environment you want by yourself."
-heading4 = "WE'RE IN THE GROWTH PHASE, YOUR FUTURE IS SPREADING."
-subheading4 = "Bayzi has a clear vision for the future of the industry and the company. We are currently in the phase of increasing the number of talented staff and creating the foundation for future development. Because we are still developing, you can become the core of the company if you choose."
-
 advheading1 = "ADVANTAGE"
 advheading2 = "Benefits of Working at Vage"
 visionheading1 = "VISION"
