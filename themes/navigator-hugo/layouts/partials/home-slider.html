@@ -1,46 +1,12 @@
-    <div class="slideshow example-1">
-      <div>
-        <img srcset="{{ `/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w` }}" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{`images/slider/img_keyvisual_01.webp` }}" alt="" class="lazyload">
-        <div class="text_content">
-          {{ with .Site.Params.hero.heading1 }}
-            <h2 class="title1">{{ . }}</h2>
-          {{ end }}
-          {{ with .Site.Params.hero.subheading1 }}
-            <h1 class="title2"> {{ . }} </h1>
-          {{ end }}
-        </div>
-      </div>
-      <div>
-        <img srcset="{{ `/images/slider/img_keyvisual_02_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_02_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_02_320x0_resize_box.webp 640w` }}" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{`images/slider/img_keyvisual_02.webp` }}" alt="" class="lazyload">
-        <div class="text_content">
-          {{ with .Site.Params.hero.heading2 }}
-          <h2 class="title1">{{ . }}</h2>
-        {{ end }}
-        {{ with .Site.Params.hero.subheading2 }}
-          <h1 class="title2"> {{ . }} </h1>
-        {{ end }}
-        </div>
-      </div>
-      <div>
-        <img srcset="{{ `/images/slider/img_keyvisual_05_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_05_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_05_320x0_resize_box.webp 640w` }}" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{`images/slider/img_keyvisual_05.webp` }}" alt="" class="lazyload">
-        <div class="text_content">
-          {{ with .Site.Params.hero.heading3 }}
-            <h2 class="title1">{{ . }}</h2>
-          {{ end }}
-          {{ with .Site.Params.hero.subheading3 }}
-            <h1 class="title2"> {{ . }} </h1>
-          {{ end }}
-        </div>
-      </div>
-      <div>
-        <img srcset="{{ `/images/slider/img_keyvisual_04_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_04_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_04_320x0_resize_box.webp 640w` }}" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{`images/slider/img_keyvisual_04.webp` }}" alt="" class="lazyload">
-        <div class="text_content">
-          {{ with .Site.Params.hero.heading4 }}
-          <h2 class="title1">{{ . }}</h2>
-        {{ end }}
-        {{ with .Site.Params.hero.subheading4 }}
-          <h1 class="title2"> {{ . }} </h1>
-        {{ end }}
-        </div>
-      </div>
-    </div>
+<div class="slideshow example-1">
+  {{ range .Site.Params.heading }}
+  <div>
+    <img srcset="{{ .srcsetImg }}" src="{{ .srcimg }}" data-src="{{ .dataSrcImg }}" alt="" class="lazyload">
+      <div class="text_content">
+        <h2 class="title1">{{ .heading }}</h2>
+        <h1 class="title2"> {{ .subheading }} </h1>
+      </div>  
+  </div>
+  {{ end }}
+</div>
+    
