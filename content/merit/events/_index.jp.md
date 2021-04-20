@@ -1,12 +1,12 @@
 ---
-title:  "社内制度・イベント"
+title:  "社内制度"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 description: "This is event description"
 weight: 4
-advtitle2: "ベイジで働くメリット"
+advtitle2: "アンダーズで働くメリット"
 advtitle3: "ADVANTAGE"
-events_description: "ベイジでは、各人のスキルアップと、組織力の強化、円滑な人間関係を目指し、さまざまな取り組みを行っています。ここではその代表的なものをご紹介します。"
+events_description: "業界で重宝され、どんな場面でも通用するエンジニアやコンサルタントとして活躍できるよう社内ではさまざまな研修や福利厚生をご用意しています。"
 # nextPageBtn: false
 ---
 
