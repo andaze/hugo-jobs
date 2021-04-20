@@ -6,7 +6,9 @@ description: "This is Future description"
 weight: 1
 advtitle2: "アンダーズで働くメリット"
 advtitle3: "ADVANTAGE"
-feature_description: " グローバルなIT技術を、国境を越えて駆使している当社。各国の優秀な人材が加わることで、さまざまなシナジーがもたらされます。"
+feature_description: " グローバルなIT技術を、国境を越えて\n
+駆使している当社。各国の優秀な人材が加わることで、\n
+さまざまなシナジーがもたらされます。"
 # nextPageBtn: true
 
 ---
