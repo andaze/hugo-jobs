@@ -6,7 +6,7 @@ description: "This is Occupation description"
 weight: 2
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"
-policy_description: "私たちが育てたいのは、Webサイトを作る人ではなく、将来にわたって活躍し続けられる人材です。ここでは、ベイジの育成方針についてご紹介します。"
+policy_description: "私たちが取り入れているのは、現代流のマネジメントです。昔ながらの根性論は語りません。客観的な判断とフェアな関係性で、成長できる環境を整えます。"
 
 ---
 
