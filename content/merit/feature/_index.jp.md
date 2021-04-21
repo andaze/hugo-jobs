@@ -20,7 +20,7 @@ feature_description: " グローバルなIT技術を、国境を越えて駆使�
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title") [**多国籍メンバーのチームが適材適所で強みを発揮 **](#多国籍メンバーのチームが適材適所で強みを発揮 )   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title") [**事業会社との違い**](#事業会社との違い)   
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**働く場所を分散させることで得られる恩恵**](#働く場所を分散させることで得られる恩恵)   
 
 
 #### **ITの先頭をひた走る英語圏の技術を日本語で提供 **
