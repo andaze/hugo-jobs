@@ -23,7 +23,7 @@ events_description: "業界で重宝され、どんな場面でも通用する�
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**資格取得支援**](#資格取得支援)   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**1on1ミーティング **](#1on1ミーティング )   
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**1on1ミーティング**](#1on1ミーティング)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**軽食無料、フリードリンク**](#軽食無料、フリードリンク)   
 
@@ -55,7 +55,7 @@ events_description: "業界で重宝され、どんな場面でも通用する�
 &nbsp;
 ###### Microsoft製品に対する知識と技能をレベル別に認定する、Microsoft認定資格プログラムへの挑戦もサポート。現場で役立ち、全世界で通用する共通資格の取得を支援します。
 
-#### **1on1ミーティング **
+#### **1on1ミーティング**
 &nbsp;
 ###### 最新情報希望ああああああ
 
