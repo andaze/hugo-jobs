@@ -18,7 +18,7 @@ job_description: "クライアント企業のビジネス効率がアップす�
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**ITコンサルタント**](#ITコンサルタント)   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**PM（プロジェクトマネージャー） **](#PM（プロジェクトマネージャー） )       
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**PM（プロジェクトマネージャー）**](#PM（プロジェクトマネージャー）)       
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**PMO（プロジェクトマネジメントオフィス）**](#PMO（プロジェクトマネジメントオフィス）)       
 
