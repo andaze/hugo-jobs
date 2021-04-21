@@ -47,7 +47,7 @@ perspective_description: "現代流のマネジメント手法で業界で飛躍
 ###### ・チャットボット開発 / AZURE BOT FRAMEWORK
 ###### ・AI機械学習開発/AZURE AI 
 ###### ・顧客管理CRM導入/DYNANICS 365
-###### ""・B2Cサービス開発 / AZURE B2C \n・SPAアプリ開発 / BLAZOR WEB \n ""
+###### ・B2Cサービス開発 / AZURE B2C \nSPAアプリ開発 / BLAZOR WEB \n双方向通信ウェブサービス開発 / SIGNALR \nUX重視型アプリケーション開発 / DEVEXPRESS 
 
 #### **人を育てる難しさ**
 &nbsp;
