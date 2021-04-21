@@ -20,11 +20,11 @@ perspective_description: "現代流のマネジメント手法で業界で飛躍
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; ビッグデータの活用で、価値を生み出す。**](#ビッグデータの活用で、価値を生み出す。)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; スピード感のある新規ビジネスをサポート。**](#分業化と画一性の弊害)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; スピード感のある新規ビジネスをサポート。**](#スピード感のある新規ビジネスをサポート。)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 提供している主なサービス：**](#提供している主なサービス：)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; ×提供している主なサービス：**](#×提供している主なサービス：)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 人を育てる難しさ**](#人を育てる難しさ)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; ×人を育てる難しさ**](#×人を育てる難しさ)
 
 #### **既存の最新技術によって、現場の挑戦に向き合う。**
 &nbsp;
@@ -42,7 +42,7 @@ perspective_description: "現代流のマネジメント手法で業界で飛躍
 ###### 当社では情報セキュリティに関する**国際標準規格ISO27001の認証を取得。品質はISO9001で管理**しています。さらに** 開発スピードはDevOps（デブオプス）**の手法によって業務の加速を実現。スピード感が求められる市場のニーズに対応しています。 
 ###### ■提供している主なサービス：\n・チャットボット開発 / AZURE BOT FRAMEWORK \n・AI機械学習開発/AZURE AI \n・顧客管理CRM導入/DYNANICS 365 \n・B2Cサービス開発 / AZURE B2C \n・SPAアプリ開発 / BLAZOR WEB \n・双方向通信ウェブサービス開発 / SIGNALR \n・UX重視型アプリケーション開発 / DEVEXPRESS \n・モバイルコンテンツ高速化 / AMP WEB \n・静的ウェブサイト開発 / HUGO WEB \n・NOSQLデータベース開発 / AZURE COSMOS DATABASE \n・ビッグデータ分析開発 / AZURE TABLE STORAGE \n テレワーク2.0 / TELEWORK 2.0 \n\n■主なクライアント：流通、不動産、運輸、小売、サービス業ほか
 
-#### ****
+#### 
 &nbsp;
 ###### 
 ######  
