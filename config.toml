@@ -66,7 +66,7 @@ srcimg = "images/imageLoading.gif"
 srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
 dataSrcImg = "/images/slider/img_keyvisual_01.webp"
 heading = "AIやIoT、ビッグデータの活用など、最新テクノロジーに触れることが多い環境です。"
-subheading = "たった2～3年でも、圧倒的な成長スピードを実感するでしょう。。"
+subheading = "たった2～3年でも、圧倒的な成長スピードを実感するでしょう。"
 [[Languages.jp.params.heading]]
 srcimg = "images/imageLoading.gif"
 srcsetImg = "/images/slider/img_keyvisual_02_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_02_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_02_320x0_resize_box.webp 640w"
