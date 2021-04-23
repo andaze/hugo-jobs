@@ -11,8 +11,8 @@ typeofworkHeading :
 typeofworkAnswer :
 joiningHeading : 
 joiningAnswer : 
-dobHeading: "
-dobAnswer: 
+dobHeading : 
+dobAnswer : 
 birthplaceHeading : 
 birthplaceAnswer : 
 workexpHeading : 
