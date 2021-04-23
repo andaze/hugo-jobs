@@ -6,7 +6,7 @@ description: "This is Future description"
 weight: 1
 advtitle2: "応募者へのメッセージ"
 advtitle3: "MESSAGE"
-president_description: "ベイジに応募される皆様へ代表枌谷からのメッセージです。新卒、20代、30代以上の方に向けて、私たちの想いをお伝えします。"
+president_description: "ワクワクする、好奇心を刺激する技術こそがあなたのパフォーマンスを上げる。"
 ---
 
 ### **応募される皆様へ**
