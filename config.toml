@@ -65,26 +65,26 @@ subheading = "Bayzi has a clear vision for the future of the industry and the co
 srcimg = "images/imageLoading.gif"
 srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
 dataSrcImg = "/images/slider/img_keyvisual_01.webp"
-heading = "私たちと一緒に自分を変えよう, あなたのキャリアをサポートします。"
-subheading = "ベイジは、あなたのキャリアに必要な技術力と仕事力が身に付く環境です。ベテランだけではなく、熱意ある未経験者も積極的に採用しています。 私たちとともに、Web業界の頂点を目指しながら人生を輝かしいものにしませんか。"
+heading = "AIやIoT、ビッグデータの活用など、最新テクノロジーに触れることが多い環境です。"
+subheading = "たった2～3年でも、圧倒的な成長スピードを実感するでしょう。。"
 [[Languages.jp.params.heading]]
 srcimg = "images/imageLoading.gif"
 srcsetImg = "/images/slider/img_keyvisual_02_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_02_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_02_320x0_resize_box.webp 640w"
 dataSrcImg = "/images/slider/img_keyvisual_02.webp"
-heading = "私たちはマーケティングとクリエイティブの融合を目指し。"
-subheading = "ベイジが目指すのは、マーケティングとクリエイティブの高次元での融合です。 仕様通りにデザインやシステムを作るルーチンワークではありません。 ビジネス発想で物事を考える習慣が、あなたを飛躍的に成長させるでしょう。"
+heading = "働く上でネガティブな感情が過剰な状態では高いパフォーマンスを発揮することができません。"
+subheading = "私たちは安心してアイデアを発信し、のびのびと仕事が楽しめる環境を整えます。"
 [[Languages.jp.params.heading]]
 srcimg = "images/imageLoading.gif"
 srcsetImg = "/images/slider/img_keyvisual_05_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_05_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_05_320x0_resize_box.webp 640w"
 dataSrcImg = "/images/slider/img_keyvisual_05.webp"
-heading = "優れた環境でお客様の価値を最大化する。"
-subheading = "ベイジのオフィスには、仕事がしやすい環境が整っています。 小さな会社なので、希望はすぐに伝えることができます。 あなたの望む理想の職場環境を、あなた自身の力で作ってみてください。"
+heading = "アンダーズが提供しているのは、ITの先端技術。"
+subheading = "日本にまだ浸透していないグローバルな技術を駆使し国内の企業に有益なサービスを提供しています。"
 [[Languages.jp.params.heading]]
 srcimg = "images/imageLoading.gif"
 srcsetImg = "/images/slider/img_keyvisual_04_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_04_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_04_320x0_resize_box.webp 640w"
 dataSrcImg = "/images/slider/img_keyvisual_04.webp"
-heading = "我々は成長段階にある, あなたの未来は広がっている。"
-subheading = "ベイジは、業界や会社の未来に明確なビジョンを持っています。 今は、優秀なスタッフを増やし、将来の発展の基盤を作るフェーズ。 発展途上だから、あなた次第で会社の中核にだってなることができます。"
+heading = "一緒に働く仲間は国際色豊か。日本やインドをはじめとするメンバーが多彩なワークスペースで仕事をしています。"
+subheading = "社内で国際交流が楽しめる環境です。"
 
 # Gestion des langues : FR / EN / NL / DE
 [Languages]
@@ -125,15 +125,15 @@ Endtitle = "> 詳しく見る"
 [Languages.jp.params.hero]
 enable  = true
 advheading1 = "ADVANTAGE"
-advheading2 = "ベイジで働くメリット"
+advheading2 = "アンダーズで働くメリット"
 visionheading1 = "VISION"
 visionheading2 = "ビジョンと育成方針"
 messageheading1 = "MESSAGE"
-messageheading2 = "応募者へのメッセージ"
+messageheading2 = "メッセージ"
 officeheading1 = "OFFICE"
 officeheading2 = "オフィスと周辺"
 requirementheading1 = "REQUIREMENT"
-requirementheading2 = "募集職種・募集要項"
+requirementheading2 = "募集要項"
 button  = true
 btnText = "Know More"
 
