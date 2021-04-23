@@ -23,17 +23,17 @@ tips_description: "アンダーズに入社を希望されている方へ。エ�
 
 ![Images Not Available](../../ico_arw_page_anchor.webp)[**感銘を受けた技術やサービスを語ろう。**](#感銘を受けた技術やサービスを語ろう。)
 
-![Images Not Available](../../ico_arw_page_anchor.webp)[**webサイト、ブログ、日報を熟読しよう**](#webサイトブログ日報を熟読しよう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**前職の退職理由は正直に話そう。**](#前職の退職理由は正直に話そう。)
 
-![Images Not Available](../../ico_arw_page_anchor.webp)[**前職の退職理由を明確にしよう**](#前職の退職理由を明確にしよう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**短所が言えるようにしておこう。**](#短所が言えるようにしておこう。)
 
-![Images Not Available](../../ico_arw_page_anchor.webp)[**長所と短所を整理しておこう**](#長所と短所を整理しておこう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**面接ではたくさん質問しよう。**](#面接ではたくさん質問しよう。)
 
-![Images Not Available](../../ico_arw_page_anchor.webp)[**面接ではたくさん質問をしよう**](#面接ではたくさん質問をしよう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**話すのが苦手な人も遠慮は無用。**](#話すのが苦手な人も遠慮は無用。)
 
-![Images Not Available](../../ico_arw_page_anchor.webp)[**同業他社にもできるだけ応募しよう**](#同業他社にもできるだけ応募しよう)
+![Images Not Available](../../ico_arw_page_anchor.webp)[**同業他社にも積極的に応募しよう。**](#同業他社にも積極的に応募しよう。)
 
-#### **＜エントリー時＞ **
+#### **＜エントリー時＞**
 &nbsp;
 ###### **■アンダーズのことを調べておこう。**\nアンダーズの企業情報や提供しているサービスについては、コーポレートサイト（https://www.andaze.com/）でチェックしておきましょう。ちなみに公式ブログではマイクロソフトの顧客管理システム「Dynamics 365」の技術情報やGITHUBのソースコードなども公開しています。気になるワードがあれば、調べておくと新たな興味を刺激するかもしれません。 
 
