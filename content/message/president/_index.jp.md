@@ -6,7 +6,7 @@ description: "This is Future description"
 weight: 1
 advtitle2: "応募者へのメッセージ"
 advtitle3: "MESSAGE"
-president_description: "ワクワクする、好奇心を刺激する技術こそがあなたのパフォーマンスを上げる。"
+president_description: "アンダーズに興味を持ってくださった方へ、代表取締役の新井からのメッセージです。当社で体感してほしいこと、大切にしている経営スタイルなど、私たちの想いをお伝えします。"
 ---
 
 ### **応募される皆様へ**
