@@ -10,7 +10,7 @@ image: image/senior2.webp
 typeofworkHeading : "職種："
 typeofworkAnswer : " PMアシスタント"
 joiningHeading : "入社年月："
-joiningAnswer :2021年4月
+joiningAnswer : 2021年4月
 dobHeading: 
 dobAnswer: 
 birthplaceHeading : 
