@@ -11,7 +11,7 @@ typeofworkHeading : "職種:"
 typeofworkAnswer : "シニアプログラマー"
 joiningHeading : "入社年月:"
 joiningAnswer : 2021年1月
-dobHeading: "生年月日："
+dobHeading: 
 dobAnswer: 
 birthplaceHeading : 
 birthplaceAnswer : 
