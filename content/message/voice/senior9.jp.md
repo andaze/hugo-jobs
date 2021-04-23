@@ -5,7 +5,7 @@ image: images/blog/post-3.jpg
 author: Admin
 description: "This is meta description"
 
-name: 野村輝
+name: 
 image: image/senior8.webp
 typeofworkHeading : 
 typeofworkAnswer : 
