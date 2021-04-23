@@ -6,7 +6,7 @@ description: "This is event description"
 weight: 4
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"
-guideline_description: "ベイジでは、ビジョンとアイデンティティーを社内に浸透させて、スタッフが働くうえでの「前提条件」を揃えるために、2つの行動指針を用意しています。"
+guideline_description: "従業員が働くうえで、どんな技術を学び、何を意識して業務に取り組めば良いのかを定めるために、当社では3つの行動指針を用意しています。"
 
 ---
 
