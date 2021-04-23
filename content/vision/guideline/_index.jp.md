@@ -15,7 +15,7 @@ guideline_description: "ベイジでは、ビジョンとアイデンティテ�
 ###### 従業員が働くうえで、どんな技術を学び、何を意識して業務に取り組めば良いのかを定めるために、当社では3つの行動指針を用意しています。
 &nbsp;
 
-![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; １．ユーザーとビジネスの話ができる人であれ。 **](#１．ユーザーとビジネスの話ができる人であれ。)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; １．ユーザーとビジネスの話ができる人であれ。**](#１．ユーザーとビジネスの話ができる人であれ。)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; ２．ニーズがあってレアな技術を習得せよ。**](#２．ニーズがあってレアな技術を習得せよ。)
 
