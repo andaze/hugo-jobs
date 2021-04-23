@@ -5,20 +5,20 @@ image: images/blog/post-3.jpg
 author: Admin
 description: "This is meta description"
 
-name: 猪井俊一郎
+name: Rushit Saliya
 image: ""
 typeofworkHeading : "職種："
-typeofworkAnswer : "エンジニア"
+typeofworkAnswer : "ジュニア ディベロッパー"
 joiningHeading : "入社年月："
-joiningAnswer : 2018年6月（中途採用）  
-dobHeading: "生年月日："
+joiningAnswer : 2020年5月   
+dobHeading: 
 dobAnswer: ""
-birthplaceHeading : "出身地："
-birthplaceAnswer : ""
-workexpHeading : "主な職歴："
-workexpAnswer : 新卒でSIerに入社後、ベイジに入社しました。
+birthplaceHeading :
+birthplaceAnswer : 
+workexpHeading :
+workexpAnswer :
 ---
 
-##### **`応募者へのメッセージ`**
+##### **`――アンダーズ入社を決めた理由`**
 
-###### ベイジでは社内の情報共有が活発です。エンジニア同士で技術的な話をするのはもちろん、会社として培ってきたwebサイト制作などのノウハウなどを学べるのはエンジニアとしての視野を広げることにもとても役立っています。また、人数が少ないこともあり、ひとりのエンジニアがフロントエンドからサーバーサイドも担当することもできます。実装をすべて担当するのは大変なこともありますが、webに関する知識を深めることができるのでさらなるスキルの向上につながるはずです。
+###### 理由はたくさんあります。興味深いプロジェクトに取り組んでいたり、最新かつ人気の技術を開発に使用していたり、経験豊富で協力的な先輩たちが柔軟に対応してくれたりと、職場環境や会社の文化に大きな魅力を感じました。 
