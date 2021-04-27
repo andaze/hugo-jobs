@@ -22,13 +22,9 @@ things_description: " 新しい技術に触れられる、刺激的な日々。�
  
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Microsoftゴールドパートナー認定企業で実績を積める**](#Microsoftゴールドパートナー認定企業で実績を積める)   
 
- 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**リアルタイム翻訳ツールで言葉の壁を超える**](#リアルタイム翻訳ツールで言葉の壁を超える)    
-
  
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**情報セキュリティや品質管理も万全**](#情報セキュリティや品質管理も万全)    
-
- 
 
 #### 経営に近い立場で、キャリアパスを描ける
 
