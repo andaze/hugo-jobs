@@ -112,13 +112,13 @@ footerVisionAndDevlopmenTitle = "ビジョンと育成方針"
 footerLogo = "{{ `images/h_logo.png` | absURL }}"
 footerOfficeTitle = "オフィスと周辺"
 footerEntryTitle = "エントリー"
-footerAddress = "株式会社アンダーズ / Hugo Job inc.〒155-0033東京都世田谷区代田6-6-1TOKYU REIT下北沢スクエア 3F"
+footerAddress = "株式会社アンダーズ / Hugo Job inc.〒102-0083東京都千代田区麹町 2-10-3 エキスパートオフィス 1F"
 footerMail = "mail.info@Hugo Job.me"
-footerTel =  "tel. 03-6407-8750"
-footerfax = "fax. 03-6407-8751"
+footerTel =  "tel. 03-3230-0401"
+footerfax = 
 footerhome = "株式会社アンダーズ：ホーム"
-footerblog = "ベイジ社長ブログ"
-footerReport =  "ベイジの日報"
+footerblog = 
+footerReport =  
 Endtitle = "> 詳しく見る"
 
 # Hero Area Section
