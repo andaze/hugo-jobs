@@ -25,10 +25,7 @@ job_description: "クライアント企業のビジネス効率がアップす�
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**ソフトウェアエンジニア**](#ソフトウェアエンジニア)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**テスティングエンジニア**](#テスティングエンジニア)       
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")        
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")       
+   
 
 #### **ITコンサルタント**
 &nbsp;
