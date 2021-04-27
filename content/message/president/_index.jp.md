@@ -16,11 +16,11 @@ president_description: "アンダーズに興味を持ってくださった方�
 本サイトをご覧いただき、ありがとうございます。  
 私たちが大切にしているのは、どうしたらみなさんがワクワクしながら仕事を楽しめるかということ。あなたが開発に没頭できるように、下記のような最新テクノロジーを取り入れています。たとえば機械学習の精度を画期的に上げたり、データ検索のスピードを格段に速めたり、高速の画面遷移を実現したり。「おー！すごい！」と、思わず好奇心を掻き立てられるようなモノづくりを体験することができます。
 
-![Image Not Available](../../ico_arw_page_anchor.webp)[**AutoML**](#AutoML)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**ワクワクする、好奇心を刺激する技術こそがあなたのパフォーマンスを上げる。**](#ワクワクする、好奇心を刺激する技術こそがあなたのパフォーマンスを上げる。)
 
-![Image Not Available](../../ico_arw_page_anchor.webp)[**Cosmos**](#Cosmos)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**働く人の「時間」を管理する時代は終わった――**](#働く人の「時間」を管理する時代は終わった――)
 
-![Image Not Available](../../ico_arw_page_anchor.webp)[**Blazor**](#Blazor)
+![Image Not Available](../../ico_arw_page_anchor.webp)[**何色にも染まっていないまっさらなあなたへ。**](#何色にも染まっていないまっさらなあなたへ。)
 
 ##### AutoML
 
