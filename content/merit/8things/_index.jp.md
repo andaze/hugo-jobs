@@ -29,16 +29,6 @@ things_description: " 新しい技術に触れられる、刺激的な日々。�
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**情報セキュリティや品質管理も万全**](#情報セキュリティや品質管理も万全)    
 
  
-![Image not available](../../ico_arw_page_anchor.webp "Title")  
-
- 
-![Image not available](../../ico_arw_page_anchor.webp "Title")   
-
- 
-![Image not available](../../ico_arw_page_anchor.webp "Title")   
-
- 
-![Image not available](../../ico_arw_page_anchor.webp "Title") 
 
 #### **経営に近い立場で、キャリアパスを描ける**
 &nbsp;
