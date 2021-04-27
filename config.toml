@@ -115,10 +115,10 @@ footerEntryTitle = "エントリー"
 footerAddress = "株式会社アンダーズ / Hugo Job inc.〒102-0083東京都千代田区麹町 2-10-3 エキスパートオフィス 1F"
 footerMail = "mail.info@Hugo Job.me"
 footerTel =  "tel. 03-3230-0401"
-footerfax = 
+footerfax = ""
 footerhome = "株式会社アンダーズ：ホーム"
-footerblog = 
-footerReport =  
+footerblog = ""
+footerReport =  ""
 Endtitle = "> 詳しく見る"
 
 # Hero Area Section
