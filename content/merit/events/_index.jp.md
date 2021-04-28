@@ -10,10 +10,9 @@ events_description: "業界で重宝され、どんな場面でも通用する�
 # nextPageBtn: false
 ---
 
-### **社内制度**
-&nbsp;
-###### 業界で重宝され、どんな場面でも通用するエンジニアやコンサルタントとして活躍できるよう社内ではさまざまな研修や福利厚生をご用意しています。
-&nbsp;
+### 社内制度
+
+**業界で重宝され、どんな場面でも通用するエンジニアやコンサルタントとして活躍できるよう社内ではさまざまな研修や福利厚生をご用意しています。**
 
 ![Images not available](../../ico_arw_page_anchor.webp "Title") [**フルフレックス・フルリモート**](#フルフレックス・フルリモート)   
 
@@ -28,8 +27,6 @@ events_description: "業界で重宝され、どんな場面でも通用する�
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**軽食無料、フリードリンク**](#軽食無料、フリードリンク)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**国際色豊かな同僚たち**](#国際色豊かな同僚たち)   
-
-
 
 #### フルフレックス・フルリモート
 
