@@ -1,10 +1,5 @@
 ---
-title: Are You Doing the Right Way
-date: 2018-07-07T17:04:41+06:00
 image: images/blog/post-3.jpg
-author: Admin
-description: "This is meta description"
-
 name: Nomura Akira
 image: image/senior8.webp
 typeofworkHeading : "Type of work:"
@@ -28,5 +23,3 @@ workexpAnswer : I have worked as an engineer in a variety of environments and wo
 ###### At Baisi, almost everything related to website production is done in-house, so you can be involved in the development process while closely watching the website being completed. Even as an engineer, I can give my opinion on the design and exchange information with other staff members, and communication is very active. Most of the work we do is related to the entire website, not just a few small functions, so there is a great sense of accomplishment when the website is released. The company has a policy of actively implementing new technologies, so once you join us, you will be encouraged to propose what you want to do.
 &nbsp;
 
----
-For those of you who have read this far, I would like to share with you a few secret tips that will greatly increase your chances of being hired by Vage.

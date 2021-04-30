@@ -1,4 +1,5 @@
 {{ $id := replaceRE "(\\s)" "" .page.Params.Name }}
+{{ if .page.Params.Name }}
 <div id ="{{ $id }}" class="sectionblock" style="padding-top: 60px;">
       <div class="row">
         {{ if eq (.page.Params.image) ("") }}
@@ -58,3 +59,4 @@
         </div>
       </div>
 </div>
+{{ end }}

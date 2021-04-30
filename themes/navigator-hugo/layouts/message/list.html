@@ -17,6 +17,7 @@
             {{ $imagepath:= replace $cururl "/jp/" "/en/" }}
                 
             {{ range .Pages }}
+            {{ if .Params.Name }}
             <div class="sectionblock">
                 
                 <img src = "{{ $imagepath }}image/ico_arw_page_anchor.webp"/>
@@ -24,14 +25,23 @@
                 <a href="#{{ $id }}" style="color: #afa86f">{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a>
             </div>
                     <br>
+            {{ end }}
                 {{ end }}
                 <br>
                     
             {{ range .Pages }}
 
                     {{ partial "voice-senior.html" (dict "page" . "imagepath" $imagepath) }}
+            {{ end }}
                     <br>
-                {{ end }}
+            {{ end }}
+            {{ if .Params.voicelast }}
+            <hr>
+            <div class="row" style="padding-bottom: 60px;">
+                <div class="col-12" style="text-align: center;">
+                    {{ .Params.voicelast }}
+                </div>
+            </div>
             {{ end }}
             {{ partial "nextPageBtn.html" . }}
             <div class="artical_head1">
