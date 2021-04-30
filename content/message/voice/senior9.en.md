@@ -23,4 +23,3 @@ workexpAnswer : I have worked as an engineer in a variety of environments and wo
 ###### At Baisi, almost everything related to website production is done in-house, so you can be involved in the development process while closely watching the website being completed. Even as an engineer, I can give my opinion on the design and exchange information with other staff members, and communication is very active. Most of the work we do is related to the entire website, not just a few small functions, so there is a great sense of accomplishment when the website is released. The company has a policy of actively implementing new technologies, so once you join us, you will be encouraged to propose what you want to do.
 &nbsp;
 
----
