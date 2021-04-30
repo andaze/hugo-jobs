@@ -7,7 +7,7 @@ description: "This is 8 Things description"
 weight: 2
 advtitle2: "オフィスと周辺"
 advtitle3: "OFFICE"
-info_description: "アンダーズのオフィスがある東京・半蔵門は国の重要機関や海外の観光客も訪れる名所など、見どころが多い人気エリアです。 "
+description: "アンダーズのオフィスがある東京・半蔵門は国の重要機関や海外の観光客も訪れる名所など、見どころが多い人気エリアです。 "
 ---
 
 #### 日本の重要機関が集まる街、半蔵門。
