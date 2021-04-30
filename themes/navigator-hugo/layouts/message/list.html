@@ -32,8 +32,16 @@
             {{ range .Pages }}
 
                     {{ partial "voice-senior.html" (dict "page" . "imagepath" $imagepath) }}
+            {{ end }}
                     <br>
-                {{ end }}
+            {{ end }}
+            {{ if .Params.voicelast }}
+            <hr>
+            <div class="row" style="padding-bottom: 60px;">
+                <div class="col-12" style="text-align: center;">
+                    {{ .Params.voicelast }}
+                </div>
+            </div>
             {{ end }}
             {{ partial "nextPageBtn.html" . }}
             <div class="artical_head1">
