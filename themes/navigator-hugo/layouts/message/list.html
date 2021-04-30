@@ -17,6 +17,7 @@
             {{ $imagepath:= replace $cururl "/jp/" "/en/" }}
                 
             {{ range .Pages }}
+            {{ if .Params.Name }}
             <div class="sectionblock">
                 
                 <img src = "{{ $imagepath }}image/ico_arw_page_anchor.webp"/>
@@ -24,6 +25,7 @@
                 <a href="#{{ $id }}" style="color: #afa86f">{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a>
             </div>
                     <br>
+            {{ end }}
                 {{ end }}
                 <br>
                     
