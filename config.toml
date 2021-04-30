@@ -60,6 +60,12 @@ srcsetImg = "/images/slider/img_keyvisual_04_1403x0_resize_box.webp 2500w, /imag
 dataSrcImg = "/images/slider/img_keyvisual_04.webp"
 heading = "WE'RE IN THE GROWTH PHASE, YOUR FUTURE IS SPREADING."
 subheading = "Bayzi has a clear vision for the future of the industry and the company. We are currently in the phase of increasing the number of talented staff and creating the foundation for future development. Because we are still developing, you can become the core of the company if you choose."
+[[Languages.en.params.heading]]
+srcimg = "/images/imageLoading.gif"
+srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
+dataSrcImg = "/images/slider/img_keyvisual_01.webp"
+heading = "CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
+subheading = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
 
 [[Languages.jp.params.heading]]
 srcimg = "images/imageLoading.gif"
@@ -85,6 +91,12 @@ srcsetImg = "/images/slider/img_keyvisual_04_1403x0_resize_box.webp 2500w, /imag
 dataSrcImg = "/images/slider/img_keyvisual_04.webp"
 heading = "一緒に働く仲間は国際色豊か。日本やインドをはじめとするメンバーが多彩なワークスペースで仕事をしています。"
 subheading = "社内で国際交流が楽しめる環境です。"
+[[Languages.jp.params.heading]]
+srcimg = "images/imageLoading.gif"
+srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
+dataSrcImg = "/images/slider/img_keyvisual_01.webp"
+heading = "AIやIoT、ビッグデータの活用など、最新テクノロジーに触れることが多い環境です。"
+subheading = "たった2～3年でも、圧倒的な成長スピードを実感するでしょう。"
 
 # Gestion des langues : FR / EN / NL / DE
 [Languages]
