@@ -7,7 +7,7 @@ description: "This is 8 Things description"
 weight: 1
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
-perspective_description: "Our vision and training policies are closely related to the current state and future of the industry, and are premised on our awareness of these issues. In this section, we explain our approach to the current state of the industry and its issues."
+description: "Our vision and training policies are closely related to the current state and future of the industry, and are premised on our awareness of these issues. In this section, we explain our approach to the current state of the industry and its issues."
 
 ---
 

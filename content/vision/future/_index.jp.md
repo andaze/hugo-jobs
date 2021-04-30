@@ -6,7 +6,7 @@ description: "This is Future description"
 weight: 3
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"
-future_description: "「アンダーズ」とはヒンディー語で「パーソナルスタイル」という意味。従業員一人ひとりの「らしさ」が輝く仕事をしてほしいという願いを社名に込めました。"
+description: "「アンダーズ」とはヒンディー語で「パーソナルスタイル」という意味。従業員一人ひとりの「らしさ」が輝く仕事をしてほしいという願いを社名に込めました。"
 
 ---
 
