@@ -6,7 +6,7 @@ description: "This is event description"
 weight: 4
 advtitle2: "アンダーズで働くメリット"
 advtitle3: "ADVANTAGE"
-events_description: "業界で重宝され、どんな場面でも通用するエンジニアやコンサルタントとして活躍できるよう社内ではさまざまな研修や福利厚生をご用意しています。"
+description: "業界で重宝され、どんな場面でも通用するエンジニアやコンサルタントとして活躍できるよう社内ではさまざまな研修や福利厚生をご用意しています。"
 # nextPageBtn: false
 ---
 
