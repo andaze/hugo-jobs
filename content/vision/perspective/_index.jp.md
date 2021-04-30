@@ -3,7 +3,6 @@ title:  "業界の課題"
 date:   2020-08-05T15:53:27+06:00
 image: jp/merit/8things/1.jpg
 draft: false
-description: "This is 8 Things description"
 weight: 1
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"

@@ -2,7 +2,6 @@
 title:  "アンダーズの自動化"
 date:   2020-08-05T15:53:27+06:00
 draft: false
-description: "This is Occupation description"
 weight: 4
 advtitle2: "メッセージ"
 advtitle3: "MESSAGE"
