@@ -1,6 +1,6 @@
-# baseURL = "http://baigie.ameio.in/"
+# baseURL = "http://andaze.ameio.in/"
 baseURL = "https://clever-edison-02034e.netlify.app/"
-# baseURL = "http://localhost/baigie/"
+# baseURL = "http://localhost/andaze/"
 # baseURL = "https://hugojob.ameio.in/"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
