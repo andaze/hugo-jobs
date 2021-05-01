@@ -2,11 +2,10 @@
 title:  "Our Training Policy"
 date:   2020-08-05T15:53:27+06:00
 draft: false
-description: "This is Occupation description"
 weight: 2
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
-policy_description: "What we want to develop is not just people who create websites, but people who can continue to be active in the future. Here, we introduce our training policy."
+description: "What we want to develop is not just people who create websites, but people who can continue to be active in the future. Here, we introduce our training policy."
 
 
 ---

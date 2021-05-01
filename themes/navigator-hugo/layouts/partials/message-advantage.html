@@ -1,10 +1,28 @@
 <section class="sectionArea">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
-       
-      </div>
+      {{ $getpage:= .File.Dir }}
+      {{ $section := site.GetPage (trim $getpage "\\") }}
+      {{ range $section.Pages.ByWeight }} 
+      {{ if .Title }}
       <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+        <div class="block">
+          <a href=" {{ .URL }}">        
+          <div class="block__heading">
+            {{ .Title}} 
+          </div>
+          <div class="block__description text_overflowHidden">
+            {{ .Params.description }} 
+          </div>
+          <div class="block__more">
+            {{ with .Site.Params.Endtitle }}  {{ . }} {{ end }}    
+          </div>
+         </a>
+        </div>     
+      </div>
+      {{ end }}
+      {{ end }}
+      <!-- <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
         <div class="block">
           {{ with .Site.GetPage "message/president" }}
           <a href=" {{ .URL }}">        
@@ -74,7 +92,7 @@
             </div>
           </a>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>

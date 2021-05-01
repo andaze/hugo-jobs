@@ -3,11 +3,10 @@ title:  "業界の課題"
 date:   2020-08-05T15:53:27+06:00
 image: jp/merit/8things/1.jpg
 draft: false
-description: "This is 8 Things description"
 weight: 1
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"
-perspective_description: "現代流のマネジメント手法で業界で飛躍できる技術者を育てたい。\nアンダーズは世界中のIT技術を組み合わせて、日本とインドので企業が抱える課題と向き合ってきました。そんな当社の土台にある、ビジョンや育成方針をお伝えします。"
+description: "現代流のマネジメント手法で業界で飛躍できる技術者を育てたい。\nアンダーズは世界中のIT技術を組み合わせて、日本とインドので企業が抱える課題と向き合ってきました。そんな当社の土台にある、ビジョンや育成方針をお伝えします。"
 
 ---
 

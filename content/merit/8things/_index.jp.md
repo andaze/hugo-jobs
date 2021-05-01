@@ -3,11 +3,10 @@ title:  "アンダーズで働く価値"
 date:   2020-08-05T15:53:27+06:00
 image: jp/merit/8things/1.jpg
 draft: false
-description: "This is 8 Things description"
 weight: 2 
 advtitle2: "アンダーズで働くメリット"
 advtitle3: "ADVANTAGE"
-things_description: " 新しい技術に触れられる、刺激的な日々。プロジェクトの手綱を握りながら、一生モノのスキルが身につく。あなたもきっと働く意義を感じられるはずです。"
+description: " 新しい技術に触れられる、刺激的な日々。プロジェクトの手綱を握りながら、一生モノのスキルが身につく。あなたもきっと働く意義を感じられるはずです。"
 # nextPageBtn: true
 
 ---

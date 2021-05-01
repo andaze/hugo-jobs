@@ -2,11 +2,10 @@
 title:  "Message from the President"
 date:   2020-08-05T15:53:27+06:00
 draft: false
-description: "This is Future description"
 weight: 1
 advtitle2: "Message to Applicants"
 advtitle3: "MESSAGE"
-president_description: "This is a message from our representative, Mekitani, to everyone who is applying to work at Bage. We would like to share our thoughts with new graduates, people in their 20s, 30s and above."
+description: "This is a message from our representative, Mekitani, to everyone who is applying to work at Bage. We would like to share our thoughts with new graduates, people in their 20s, 30s and above."
 ---
 
 ### **To all applicants**

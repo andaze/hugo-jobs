@@ -2,11 +2,10 @@
 title:  "Job description"
 date:   2020-08-05T15:53:27+06:00
 draft: false
-description: "This is Occupation description"
 weight: 3
 advtitle2: "Benefits of working at Bage"
 advtitle3: "ADVANTAGE"
-job_description: "At Baisi, we undertake the entire process of web development, from strategy to development, and we have the in-house talent to complete it. Here are some definitions of our in-house capabilities"
+description: "At Baisi, we undertake the entire process of web development, from strategy to development, and we have the in-house talent to complete it. Here are some definitions of our in-house capabilities"
 # nextPageBtn: true
 
 ---

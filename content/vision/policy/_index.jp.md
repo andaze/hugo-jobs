@@ -2,11 +2,10 @@
 title:  "育成方針"
 date:   2020-08-05T15:53:27+06:00
 draft: false
-description: "This is Occupation description"
 weight: 2
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"
-policy_description: "私たちが取り入れているのは、現代流のマネジメントです。昔ながらの根性論は語りません。客観的な判断とフェアな関係性で、成長できる環境を整えます。"
+description: "私たちが取り入れているのは、現代流のマネジメントです。昔ながらの根性論は語りません。客観的な判断とフェアな関係性で、成長できる環境を整えます。"
 
 ---
 

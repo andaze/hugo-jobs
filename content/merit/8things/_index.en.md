@@ -3,11 +3,10 @@ title:  "8 things you can get with Bage"
 date:   2020-08-05T15:53:27+06:00
 image: en/merit/8things/1.jpg
 draft: false
-description: "This is 8 Things description"
 weight: 2
 advtitle2: "Benefits of working at Bage"
 advtitle3: "ADVANTAGE"
-things_description: " The most important thing we focus on in our hiring strategy is the significance of working at Vage. Here are 8 things you can gain from working at Vage."
+description: " The most important thing we focus on in our hiring strategy is the significance of working at Vage. Here are 8 things you can gain from working at Vage."
 # nextPageBtn: true
 
 ---

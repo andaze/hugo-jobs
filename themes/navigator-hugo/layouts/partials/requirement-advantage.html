@@ -4,23 +4,25 @@
       {{ $getpage:= .File.Dir }}
       {{ $section := site.GetPage (trim $getpage "\\") }}
       {{ range $section.Pages.ByWeight }} 
-      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-        <div class="block">
-          <a href=" {{ .URL }}">        
+        {{ if .Title }}
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+          <div class="block">
+            <a href=" {{ .URL }}">        
             <div class="block__heading">
-              {{ .Title }} 
+            {{ .Title }} 
             </div>
             <div class="block__description text_overflowHidden">
               {{ .Params.description }} 
-            </div>    
+            </div>
             <div class="block__more">
               {{ with .Site.Params.Endtitle }}  {{ . }} {{ end }}    
             </div>
           </a>
-        </div>     
-      </div>
+          </div>       
+        </div>
+        {{ end }}
       {{ end }}
-      <!-- <div class="col-lg-3  col-md-6 col-sm-12 col-xs-12">
+      <!-- <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
         <div class="block">
           {{ with .Site.GetPage "applicationrequirements/consultant" }}
           <a href=" {{ .URL }}">        

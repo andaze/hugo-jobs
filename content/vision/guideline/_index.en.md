@@ -2,11 +2,10 @@
 title:  "Two Action Guidelines"
 date:   2020-08-05T15:53:27+06:00
 draft: false
-description: "This is event description"
 weight: 4
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
-guideline_description: "In order to spread our vision and identity throughout the company and to align the 'prerequisites' for our staff to work, we have prepared two action guidelines."
+description: "In order to spread our vision and identity throughout the company and to align the 'prerequisites' for our staff to work, we have prepared two action guidelines."
 
 ---
 

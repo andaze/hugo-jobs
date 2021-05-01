@@ -2,11 +2,10 @@
 title:  "アンダーズの特徴"
 date:   2020-08-05T15:53:27+06:00
 draft: false
-description: "This is Future description"
 weight: 1
 advtitle2: "アンダーズで働くメリット"
 advtitle3: "ADVANTAGE"
-feature_description: " グローバルなIT技術を、国境を越えて駆使している当社。各国の優秀な人材が加わることで、さまざまなシナジーがもたらされます。"
+description: " グローバルなIT技術を、国境を越えて駆使している当社。各国の優秀な人材が加わることで、さまざまなシナジーがもたらされます。"
 # nextPageBtn: true
 ---
 
