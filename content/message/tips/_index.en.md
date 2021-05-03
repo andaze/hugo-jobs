@@ -18,7 +18,7 @@ description: "In this section, we have compiled some advice for those who are th
 
 &nbsp;
 
-![Images Not Available](../../ico_arw_page_anchor.webp)[**Think of a natural motive for applying.**](#think-of-a-natural-motive-for-applying)
+<!-- ![Images Not Available](../../ico_arw_page_anchor.webp)[**Think of a natural motive for applying.**](#think-of-a-natural-motive-for-applying)
 
 ![Images Not Available](../../ico_arw_page_anchor.webp)[**Prepare as many pieces as possible.**](#prepare-as-many-pieces-as-possible)
 
@@ -32,8 +32,8 @@ description: "In this section, we have compiled some advice for those who are th
 
 ![Images Not Available](../../ico_arw_page_anchor.webp)[**Ask a lot of questions during the interview.**](#ask-a-lot-of-questions-during-the-interview)
 
-![Images Not Available](../../ico_arw_page_anchor.webp)[**Apply to as many companies in your industry as possible.**](#apply-to-as-many-companies-in-your-industry-as-possible)
-
+![Images Not Available](../../ico_arw_page_anchor.webp)[**Apply to as many companies in your industry as possible.**](#apply-to-as-many-companies-in-your-industry-as-possible) -->
+{{< tableofcontent >}}
 #### **Think of a natural motive for applying.**
 &nbsp;
 ###### There are many people who apply for jobs on job change sites without writing (or thinking about) a motive for their application, but not having a motive for your application will only put you at a disadvantage. You don't have to compose a unique, grand story to explain your motivation. All you need to do is to put into words what you want to do and what you feel is right for you.

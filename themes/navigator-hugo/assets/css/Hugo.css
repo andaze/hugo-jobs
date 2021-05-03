@@ -195,6 +195,6 @@ div#toc > nav > ul > li > a {
   font-weight: 700;
 }
 div#toc > nav > ul > li {
-list-style-image: url("../../ico_arw_page_anchor.webp");
+list-style-image: url("../../../../images/ico_arw_page_anchor.webp");
 padding-bottom: 15px;
 }
