@@ -14,7 +14,7 @@ description: "In this section, we have compiled some advice for those who are th
 &nbsp;
 In the words of Sun Tzu, "If you know him and know yourself, you will never be defeated in a hundred battles. If you are going to apply for a job, you should know the hiring criteria of the company.
 
-###### By the way, this is a method that will work well for other companies as well. I hope that these tips will help you in your job search and employment activities.    
+By the way, this is a method that will work well for other companies as well. I hope that these tips will help you in your job search and employment activities.    
 
 &nbsp;
 
