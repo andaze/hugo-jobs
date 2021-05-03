@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: Yuko Takatsuka
 image: image/senior6.webp
 typeofworkHeading : "Type of work:"

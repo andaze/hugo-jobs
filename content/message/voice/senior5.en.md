@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: Takuro Sakai
 image: image/senior4.webp
 typeofworkHeading : "Type of work:"

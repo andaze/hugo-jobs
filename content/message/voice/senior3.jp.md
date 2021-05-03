@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: Abhishek Sankhat
 image: image/senior3.webp
 typeofworkHeading : "職種："

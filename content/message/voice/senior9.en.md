@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: Nomura Akira
 image: image/senior8.webp
 typeofworkHeading : "Type of work:"

@@ -1,6 +1,5 @@
 ---
 title:  "行動指針"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 4
 advtitle2: "ビジョンと育成方針"

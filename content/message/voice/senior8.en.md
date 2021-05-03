@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: Taibiao Nagata
 image: image/senior7.webp
 typeofworkHeading : "Type of work:"

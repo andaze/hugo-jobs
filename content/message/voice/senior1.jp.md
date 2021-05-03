@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: Kalpesh Rajai
 image: image/senior1.webp
 typeofworkHeading : "職種:"

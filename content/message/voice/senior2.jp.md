@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: 金森沙希
 image: image/senior2.webp
 typeofworkHeading : "職種："

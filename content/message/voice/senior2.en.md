@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: Ayaka Ikeda
 image: image/senior2.webp
 typeofworkHeading : "Type of work:"

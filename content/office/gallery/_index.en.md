@@ -1,6 +1,5 @@
 ---
 title:  "Office gallery"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 1
 advtitle2: "Office and surroundings"

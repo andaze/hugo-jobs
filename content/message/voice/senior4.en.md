@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: Shunichiro Inoi
 image: ""
 typeofworkHeading : "Type of work:"

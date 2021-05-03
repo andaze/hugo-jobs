@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: Taketoshi Imanishi
 image: image/senior5.webp
 typeofworkHeading : "Type of work:"

@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: Hitoshi Odate
 image: image/senior3.webp
 typeofworkHeading : "Type of work:"

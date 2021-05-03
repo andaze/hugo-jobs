@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: Maiga Tsukamoto
 image: image/senior1.webp
 typeofworkHeading : "Type of work:"
