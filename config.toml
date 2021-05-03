@@ -7,6 +7,12 @@ title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "navigator-hugo"
 summaryLength = 10
 
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 4
+    
 # Build robots.txt file
 enableRobotsTXT = true
 # google analytics tracking id

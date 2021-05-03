@@ -187,3 +187,13 @@ figure{
 html {
   scroll-behavior: smooth;
 }
+
+/* TableOfcontent SLider */
+div#toc > nav > ul > li > a {
+  color:#afa86f;
+  padding-left: 10px;
+}
+div#toc > nav > ul > li {
+list-style-image: url("../../ico_arw_page_anchor.webp");
+padding-bottom: 10px;
+}
