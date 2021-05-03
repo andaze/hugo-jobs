@@ -14,14 +14,14 @@ description: " グローバルなIT技術を、国境を越えて駆使してい
 **グローバルなIT技術を、国境を越えて駆使している当社。**  
 **各国の優秀な人材が加わることで、さまざまなシナジーがもたらされます。**
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**ITの先頭をひた走る英語圏の技術を日本語で提供**](#ITの先頭をひた走る英語圏の技術を日本語で提供)   
+<!-- ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**ITの先頭をひた走る英語圏の技術を日本語で提供**](#ITの先頭をひた走る英語圏の技術を日本語で提供)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title") [**多国籍メンバーのチームが適材適所で強みを発揮**](#多国籍メンバーのチームが適材適所で強みを発揮)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title") [**働く場所を分散させることで得られる恩恵**](#働く場所を分散させることで得られる恩恵)   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title") [**世界的なIT企業でも重宝されるインド人を採用**](#世界的なIT企業でも重宝されるインド人を採用)   
-
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**世界的なIT企業でも重宝されるインド人を採用**](#世界的なIT企業でも重宝されるインド人を採用)    -->
+{{< tableofcontent >}}
 #### ITの先頭をひた走る英語圏の技術を日本語で提供
 
 英語圏には世界中から優秀な技術者が集まってきます。Google、Amazon、Facebook、Apple、そしてMicrosoft。世界を席巻するこれらの5大企業もすべてアメリカ発の会社です。また英語を母国語に持つ人々は、幼少期から英語で書かれたプログラミング言語などITの知識を学べる環境に恵まれ、第一線で活躍できる人材が育ちやすいとも言われています。私たちは、そんな日々新しい技術が生み出されている海外のITノウハウを日本語で提供。日本にまだ浸透していないグローバルな最新技術を取り入れたサービスを生み出しています。   

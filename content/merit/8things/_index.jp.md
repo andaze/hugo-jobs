@@ -15,14 +15,14 @@ description: " 新しい技術に触れられる、刺激的な日々。プロ�
 
 **新しい技術に触れられる、刺激的な日々。プロジェクトの手綱を握りながら、一生モノのスキルが身につく。あなたもきっと働く意義を感じられるはずです。**  
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**経営に近い立場で、キャリアパスを描ける**](#経営に近い立場で、キャリアパスを描ける)    
+<!-- ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**経営に近い立場で、キャリアパスを描ける**](#経営に近い立場で、キャリアパスを描ける)    
  
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Microsoftゴールドパートナー認定企業で実績を積める**](#Microsoftゴールドパートナー認定企業で実績を積める)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**リアルタイム翻訳ツールで言葉の壁を超える**](#リアルタイム翻訳ツールで言葉の壁を超える)    
  
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**情報セキュリティや品質管理も万全**](#情報セキュリティや品質管理も万全)    
-
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**情報セキュリティや品質管理も万全**](#情報セキュリティや品質管理も万全)     -->
+{{< tableofcontent >}}
 #### 経営に近い立場で、キャリアパスを描ける
 
 アンダーズは一般的に言われている事業会社や、受託会社といった非事業会社とは一線を画す独自の経営スタイルでビジネスを展開しています。 

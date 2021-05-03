@@ -16,7 +16,7 @@ description: "クライアント企業のビジネス効率がアップする、
 **数々のイノベーションをもたらすことが私たちの役割。**
 **そのため、どのポジションであっても専門的な知見が磨かれ長期的なキャリアデザインを描くことができます。**
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**ITコンサルタント**](#ITコンサルタント)   
+<!-- ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**ITコンサルタント**](#ITコンサルタント)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**PM（プロジェクトマネージャー）**](#PM（プロジェクトマネージャー）)       
 
@@ -24,8 +24,8 @@ description: "クライアント企業のビジネス効率がアップする、
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**ソフトウェアエンジニア**](#ソフトウェアエンジニア)   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**テスティングエンジニア**](#テスティングエンジニア)       
-   
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**テスティングエンジニア**](#テスティングエンジニア)        -->
+{{< tableofcontent >}}
 
 #### ITコンサルタント
 

@@ -14,11 +14,12 @@ description: "現代流のマネジメント手法で業界で飛躍できる技
 
 **企業の多種多様な挑戦をサポートするため、グローバルイノベーションクラスの技術力で主に3種類のサービスを提供しています。新しいことに挑戦できる場面も多いでしょう。**
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 既存の最新技術によって、現場の挑戦に向き合う。**](#既存の最新技術によって、現場の挑戦に向き合う。)
+<!-- ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 既存の最新技術によって、現場の挑戦に向き合う。**](#既存の最新技術によって、現場の挑戦に向き合う。)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; ビッグデータの活用で、価値を生み出す。**](#ビッグデータの活用で、価値を生み出す。)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; スピード感のある新規ビジネスをサポート。**](#スピード感のある新規ビジネスをサポート。)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; スピード感のある新規ビジネスをサポート。**](#スピード感のある新規ビジネスをサポート。) -->
+{{< tableofcontent >}}
 
 #### 1. 既存の最新技術によって、現場の挑戦に向き合う。
 
