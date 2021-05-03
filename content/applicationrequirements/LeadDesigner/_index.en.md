@@ -13,6 +13,7 @@ description: "We are looking for a Lead Designer who is familiar with marketing,
 &nbsp;
 ###### We are looking for a lead designer who is well versed in marketing, UX, and design thinking, and who can work with the team to create designs from a problem-solving perspective.
 ---
+<!-- path of this shortcode:= themes/navigator-hugo/layouts/shortcodes/leadDesign_en.html -->
 {{< leadDesign_en >}}
 
 &nbsp;
