@@ -67,6 +67,14 @@ dataSrcImg = "/images/slider/img_keyvisual_01.webp"
 heading = "CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
 subheading = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
 
+[[Languages.en.params.heading]]
+srcimg = "/images/imageLoading.gif"
+srcsetImg = "slider/homeslider/HomeSlider1_hu6e35f2fefa15d7ec10ff2f53ca5d3d82_1446174_1403x0_resize_q75_box.jpg 2500w, slider/homeslider/HomeSlider1_hu6e35f2fefa15d7ec10ff2f53ca5d3d82_1446174_768x0_resize_q75_box.jpg 1024w, slider/homeslider/HomeSlider1_hu6e35f2fefa15d7ec10ff2f53ca5d3d82_1446174_320x0_resize_q75_box.jpg 640w"
+dataSrcImg = "slider/homeslider/HomeSlider1.jpg"
+heading = "CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
+subheading = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
+
+
 [[Languages.jp.params.heading]]
 srcimg = "images/imageLoading.gif"
 srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"

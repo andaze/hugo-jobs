@@ -1,12 +1,18 @@
 {{ define "main" }}
-
-{{ partial "home-slider.html" . }}
-{{ partial "home-avm.html" . }}
-{{ partial "home-image.html" . }}
-{{ partial "home-office.html" . }} 
-<main id="main">
-  {{ partial "home-website.html" . }}
-  {{partial "home-requirment.html" . }}
-</main><!-- End #main -->
+        <div class="container"> 
+            <div class="artical_heading">
+                {{ .Params.Intro }}
+            </div>
+            <div class="sectionblock">        
+            {{ .Content}}
+            </div>
+            <div class="artical_head1">
+                <span><b>{{ .Params.advtitle2 }}</b></span>
+               </div>
+            <div class="artical_head2">
+                <h6><b>{{ .Params.advtitle3}}</b></h6> 
+             </div>       
+        </div>
+    {{ partial "home-requirment.html" . }}
+    {{ partial "home-website.html" . }}
 {{ end }}
-
