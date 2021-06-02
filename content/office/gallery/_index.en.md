@@ -47,9 +47,9 @@ description: "Here is our office. It's not a big office, but it's laid out in a 
 
 {{< imagedisplay gallery18 "290" "690" "760" >}}
 
-{{< imagedisplay gallery19 "290" "690" "760" >}}
+{{< imagedisplay gallery19 >}}
 
-{{< imagedisplay gallery20  >}}
+{{< imagedisplay gallery20 "290" "690" "760" >}}
 
 &nbsp;
 <!-- ![Image Not Available](galleryimg1.jpg "TITLE")
