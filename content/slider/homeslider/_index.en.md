@@ -5,7 +5,7 @@ draft: false
 weight: 8
 ---
 
-{{< imagedisplay homeSlider1  >}}
+{{< imagedisplay homeSlider1 "320" "768" "1403" >}}
 
 {{< imagedisplay homeSlider2 "320" "768" "1403" >}}
 
