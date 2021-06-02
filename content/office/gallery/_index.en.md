@@ -11,45 +11,45 @@ description: "Here is our office. It's not a big office, but it's laid out in a 
 
 ###### Here is our office. It's not a big office, but it's laid out in a spacious environment where you can concentrate on your work.
 
-{{< imagedisplay gallery1 "290" "690" "760" >}}
+{{< imagedisplay gallery1 >}}
 
-{{< imagedisplay gallery2 "290" "690" "760" >}}
+{{< imagedisplay gallery2 >}}
 
-{{< imagedisplay gallery3 "290" "690" "760" >}}
+{{< imagedisplay gallery3 >}}
 
-{{< imagedisplay gallery4 "290" "690" "760" >}}
+{{< imagedisplay gallery4 >}}
 
-{{< imagedisplay gallery5 "290" "690" "760" >}}
+{{< imagedisplay gallery5 >}}
 
-{{< imagedisplay gallery6 "290" "690" "760" >}}
+{{< imagedisplay gallery6 >}}
 
-{{< imagedisplay gallery7 "290" "690" "760" >}}
+{{< imagedisplay gallery7 >}}
 
-{{< imagedisplay gallery8 "290" "690" "760" >}}
+{{< imagedisplay gallery8 >}}
 
-{{< imagedisplay gallery9 "290" "690" "760" >}}
+{{< imagedisplay gallery9 >}}
 
-{{< imagedisplay gallery10 "290" "690" "760" >}}
+{{< imagedisplay gallery10 >}}
 
-{{< imagedisplay gallery11 "290" "690" "760" >}}
+{{< imagedisplay gallery11 >}}
 
-{{< imagedisplay gallery12 "290" "690" "760" >}}
+{{< imagedisplay gallery12 >}}
 
-{{< imagedisplay gallery13 "290" "690" "760" >}}
+{{< imagedisplay gallery13 >}}
 
-{{< imagedisplay gallery14 "290" "690" "760" >}}
+{{< imagedisplay gallery14 >}}
 
-{{< imagedisplay gallery15 "290" "690" "760" >}}
+{{< imagedisplay gallery15 >}}
 
-{{< imagedisplay gallery16 "290" "690" "760" >}}
+{{< imagedisplay gallery16 >}}
 
-{{< imagedisplay gallery17 "290" "690" "760" >}}
+{{< imagedisplay gallery17 >}}
 
-{{< imagedisplay gallery18 "290" "690" "760" >}}
+{{< imagedisplay gallery18 >}}
 
-{{< imagedisplay gallery19 "290" "690" "760" >}}
+{{< imagedisplay gallery19 >}}
 
-{{< imagedisplay gallery20 "290" "690" "760" >}}
+{{< imagedisplay gallery20 >}}
 
 &nbsp;
 <!-- ![Image Not Available](galleryimg1.jpg "TITLE")
