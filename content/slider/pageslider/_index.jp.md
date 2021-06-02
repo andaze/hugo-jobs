@@ -5,7 +5,7 @@ draft: false
 weight: 8
 ---
 
-{{< imagedisplay meritslider "375" "1023" "2400" >}}
+{{< imagedisplay meritslider >}}
 
 {{< imagedisplay visionslider "375" "1023" "2400" >}}
 
