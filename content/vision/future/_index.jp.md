@@ -51,7 +51,7 @@ description: "「アンダーズ」とはヒンディー語で「パーソナル
 #### スタッフのキャリアパス
 
 <!-- ![Image Not Available](../img_future_02.svg)    -->
-{{< imagedisplay img_future "290" "600" "600" >}}
+{{< imagedisplay img_future  >}}
 
 ---
 
