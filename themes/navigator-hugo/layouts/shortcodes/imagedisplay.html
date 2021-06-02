@@ -3,9 +3,37 @@
 {{ $srcbase := index $type_arr 0 }}
 {{ $webp := print $srcbase ".webp" }}
 {{ $webpsrc := .Page.Resources.GetMatch (printf "*%s*" ($webp)) }}
-{{ $size1 := .Get 1 }}
-{{ $size2 := .Get 2 }}
-{{ $size3 := .Get 3}}
+
+{{ $Scratch := newScratch}}
+{{ $Scratch.Set "size1" "" }}
+{{ $Scratch.Set "size2" "" }}
+{{ $Scratch.Set "size3" "" }}
+
+{{if .Get 1 }}
+  {{$get1:= .Get 1 }}
+  {{ $Scratch.Set "size1" $get1 }}
+{{ else }}
+  {{ $Scratch.Set "size1" "290" }}
+{{ end }}
+
+{{if .Get 2 }}
+  {{$get2:= .Get 2 }}
+  {{ $Scratch.Set "size2" $get2 }}
+{{ else }}
+  {{ $Scratch.Set "size2" "596" }}
+{{ end }}
+
+{{if .Get 3 }}
+  {{$get3:= .Get 3 }}
+  {{ $Scratch.Set "size3" $get3 }}
+{{ else }}
+{{ $Scratch.Set "size3" "797" }}
+{{ end }}
+
+{{ $size1 := $Scratch.Get "size1" }}
+{{ $size2 := $Scratch.Get "size2" }}
+{{ $size3 := $Scratch.Get "size3" }}
+
 
 {{ $smallw := printf "%s%s" $size1 "x" }}
 {{ $mediumw := printf "%s%s" $size2 "x" }}

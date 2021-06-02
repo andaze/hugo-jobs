@@ -52,7 +52,7 @@ description: "In order to develop a long-lasting workforce, we must also have a 
 &nbsp;
 <!-- ![Image Not Available](img_future_02.svg) -->
 
-{{< imagedisplay img_future "290" "600" "600" >}}
+{{< imagedisplay img_future >}}
 
 &nbsp;
 The reason why there are two types of people, creative and management, is because they have different basic ways of thinking. This is because the mission of the creative department is to challenge and destroy, while the mission of the management department is to maintain and adjust. However, it is only a matter of thinking style, and we believe that it is possible to change jobs. In our work, we aim to refine our skills not only in one area but also in the other from time to time.
