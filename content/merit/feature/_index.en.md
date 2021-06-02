@@ -55,7 +55,7 @@ description: " Bage Inc. is a web development company with a total of 14 employe
 
 <!-- ![Image Not Available](tableimg.png "TITLE") -->
 
-{{< imagedisplay tableimg "290" "690" "760" >}}
+{{< imagedisplay tableimg >}}
 
 
 
