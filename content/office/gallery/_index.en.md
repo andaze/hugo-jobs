@@ -13,7 +13,7 @@ description: "Here is our office. It's not a big office, but it's laid out in a 
 
 {{< imagedisplay gallery1 "290" "690" "760" >}}
 
-{{< imagedisplay gallery2  >}}
+{{< imagedisplay gallery2 "290" "690" "760" >}}
 
 {{< imagedisplay gallery3 "290" "690" "760" >}}
 
