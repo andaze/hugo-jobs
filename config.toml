@@ -132,6 +132,8 @@ footerhome = "株式会社アンダーズ：ホーム"
 footerblog = ""
 footerReport =  ""
 Endtitle = "> 詳しく見る"
+imageratio = "1 1.5 2 3"
+
 
 # Hero Area Section
 [Languages.jp.params.hero]
@@ -181,6 +183,8 @@ footerhome = "Andaze Ltd. Home"
 footerblog = "Andaze President's Blog"
 footerReport =  "Andaze's daily report"
 Endtitle = "> Read more."
+imageratio = "1 1.5 2 3"
+
 
 # cookies
 [params.cookies]
