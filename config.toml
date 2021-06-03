@@ -1,11 +1,13 @@
 # baseURL = "http://andaze.ameio.in/"
 baseURL = "https://clever-edison-02034e.netlify.app/"
+baseURL1 = "https://clever-edison-02034e.netlify.app/"
 # baseURL = "http://localhost/andaze/"
 # baseURL = "https://hugojob.ameio.in/"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "navigator-hugo"
 summaryLength = 10
+
 
 # Build robots.txt file
 enableRobotsTXT = true
@@ -23,6 +25,7 @@ DefaultContentLanguage = "en"
 # Site Params
 [params]
 logo = "images/logo.png"
+
 
 # Gestion des langues : JP / EN 
 [[Params.listeLangues]]
@@ -132,6 +135,9 @@ footerhome = "株式会社アンダーズ：ホーム"
 footerblog = ""
 footerReport =  ""
 Endtitle = "> 詳しく見る"
+imagesize1 = "290"
+imagesize2 = "596"
+imagesize3 = "796"
 
 # Hero Area Section
 [Languages.jp.params.hero]
@@ -181,6 +187,9 @@ footerhome = "Andaze Ltd. Home"
 footerblog = "Andaze President's Blog"
 footerReport =  "Andaze's daily report"
 Endtitle = "> Read more."
+imagesize1 = "290"
+imagesize2 = "596"
+imagesize3 = "796"
 
 # cookies
 [params.cookies]

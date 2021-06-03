@@ -1,3 +1,4 @@
+{{ $.Site.Params.imagesize1 }}
 {{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
 {{ $type_arr := split $src "." }}
 {{ $srcbase := index $type_arr 0 }}
@@ -13,21 +14,24 @@
   {{$get1:= .Get 1 }}
   {{ $Scratch.Set "size1" $get1 }}
 {{ else }}
-  {{ $Scratch.Set "size1" "290" }}
+  {{ $getimg1:= .Site.Params.Imagesize1 }}
+  {{ $Scratch.Set "size1" $getimg1 }}
 {{ end }}
 
 {{if .Get 2 }}
   {{$get2:= .Get 2 }}
   {{ $Scratch.Set "size2" $get2 }}
 {{ else }}
-  {{ $Scratch.Set "size2" "596" }}
+  {{ $getimg2:= .Site.Params.Imagesize2 }}
+  {{ $Scratch.Set "size2" $getimg2 }}
 {{ end }}
 
 {{if .Get 3 }}
   {{$get3:= .Get 3 }}
   {{ $Scratch.Set "size3" $get3 }}
 {{ else }}
-{{ $Scratch.Set "size3" "797" }}
+{{ $getimg3:= .Site.Params.Imagesize3 }}
+{{ $Scratch.Set "size3" $getimg3 }}
 {{ end }}
 
 {{ $size1 := $Scratch.Get "size1" }}
