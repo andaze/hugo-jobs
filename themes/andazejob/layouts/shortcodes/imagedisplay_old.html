@@ -1,3 +1,19 @@
+{{/* 
+  < imagedisplay  src="" iphone="" ipad="" desktop="" >
+
+  Attribute:
+  ----------
+  src (Require) => need to pass image name with extenstion
+  iphone (optional) => need to pass image width for iphone if you not pass then it will take default from config
+  ipad (optional) => need to pass image width for ipad if you not pass then it will take default from config
+  desktop (optional) => need to pass image width for desktop if you not pass then it will take default from config
+  
+  Example: 
+  --------
+  {{< imagedisplay  src="sample.jpg" iphone="290" ipad="596" desktop="796" >}} 
+  
+  */}}
+
 {{ $srcimg := (.Get "src") }}
 {{ $src := $.Page.Resources.GetMatch $srcimg }}
 
@@ -11,22 +27,22 @@
 {{ $Scratch.Set "size2" "" }}
 {{ $Scratch.Set "size3" "" }}
 
-{{if .Get 1 }}
-  {{$get1:= .Get 1 }}
+{{if .Get "iphone" }}
+  {{$get1:= .Get "iphone" }}
   {{ $Scratch.Set "size1" $get1 }}
 {{ else }}
   {{ $Scratch.Set "size1" "290" }}
 {{ end }}
 
-{{if .Get 2 }}
-  {{$get2:= .Get 2 }}
+{{if .Get "ipad" }}
+  {{$get2:= .Get "ipad" }}
   {{ $Scratch.Set "size2" $get2 }}
 {{ else }}
   {{ $Scratch.Set "size2" "596" }}
 {{ end }}
 
-{{if .Get 3 }}
-  {{$get3:= .Get 3 }}
+{{if .Get "desktop" }}
+  {{$get3:= .Get "desktop" }}
   {{ $Scratch.Set "size3" $get3 }}
 {{ else }}
 {{ $Scratch.Set "size3" "797" }}
