@@ -5,10 +5,11 @@ draft: false
 weight: 8
 ---
 
-{{< imagedisplay homeSlider1 "320" "768" "1403" >}}
 
-{{< imagedisplay homeSlider2 "320" "768" "1403" >}}
+{{< imagedisplay  src="homeSlider1.webp"  >}}
 
-{{< imagedisplay homeSlider3 "320" "768" "1403" >}}
+{{< imagedisplay  src="homeSlider2.webp"  >}}
 
-{{< imagedisplay homeSlider4 "320" "768" "1403" >}}
+{{< imagedisplay  src="homeSlider3.webp"  >}}
+
+{{< imagedisplay  src="homeSlider4.webp"  >}}

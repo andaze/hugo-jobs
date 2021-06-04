@@ -50,9 +50,8 @@ description: "In order to develop a long-lasting workforce, we must also have a 
 ###### Over the course of a long career, it is not uncommon for what you want to do and what is required of you to change, and for your job title to change. At that time, I would like to prepare a career path within the company as much as possible so that I can inherit the skills and knowledge I have cultivated so far, rather than having my career reset or having to change companies.
 ###### Specifically, as shown in the diagram below, we categorize skills into creative and management, clarify the skills and orientation required for each, respect the wishes of the individual, and try to provide a concrete path to success in the new position. In addition, we practice job rotation, switching jobs from time to time to provide opportunities for employees to experience new jobs.
 &nbsp;
-<!-- ![Image Not Available](img_future_02.svg) -->
 
-{{< imagedisplay img_future >}}
+{{< imagedisplay  src="img_future_02.webp"  >}}
 
 &nbsp;
 The reason why there are two types of people, creative and management, is because they have different basic ways of thinking. This is because the mission of the creative department is to challenge and destroy, while the mission of the management department is to maintain and adjust. However, it is only a matter of thinking style, and we believe that it is possible to change jobs. In our work, we aim to refine our skills not only in one area but also in the other from time to time.
