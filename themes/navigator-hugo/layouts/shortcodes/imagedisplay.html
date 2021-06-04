@@ -1,3 +1,4 @@
+{{ $.Site.Params.imagesize1 }}
 {{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
 {{ $type_arr := split $src "." }}
 {{ $srcbase := index $type_arr 0 }}
