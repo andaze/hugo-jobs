@@ -24,10 +24,7 @@ description: " Bage Inc. is a web development company with a total of 14 employe
 
 ###### In recent years, attention to Bage has risen rapidly, and many requests for lectures and interviews have come in. In this way, despite being a small web production company, I think that the reason why it is attracting a lot of attention in the industry is that it is honestly continuing to study the three areas necessary for the web.
 
-<!-- ![Image not available](Capture.PNG "Title") -->
-
-{{< imagedisplay Capture >}}
-{{< imagedisplaycrop  src="Capture.webp"  >}}
+{{< imagedisplay  src="Capture.webp"  >}}
 
 
 &nbsp;
@@ -53,10 +50,7 @@ description: " Bage Inc. is a web development company with a total of 14 employe
 &nbsp;
 ###### Is it natural that a company involved in web production is good at marketing, design, and management? You might think that. However, many companies have areas of strength and weakness, and their business characteristics have a great impact on the way they work. Here we will explain the difference in detail.   
 
-<!-- ![Image Not Available](tableimg.png "TITLE") -->
-
-<!-- {{< imagedisplaycrop  src="tableimg.webp"  >}} -->
-{{< imagedisplay tableimg "290" "690" "760" >}}
+{{< imagedisplay  src="tableimg.webp"  >}}
 
 
 
