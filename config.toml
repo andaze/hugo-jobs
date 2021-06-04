@@ -1,6 +1,5 @@
 # baseURL = "http://andaze.ameio.in/"
 baseURL = "https://clever-edison-02034e.netlify.app/"
-baseURL1 = "https://clever-edison-02034e.netlify.app/"
 # baseURL = "http://localhost/andaze/"
 # baseURL = "https://hugojob.ameio.in/"
 languageCode = "en-us"
