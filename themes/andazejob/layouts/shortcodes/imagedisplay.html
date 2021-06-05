@@ -35,7 +35,7 @@
 {{ range $array }}
 {{$imgratio:= float .}}
     {{ $crop_prm := printf "%dx%d" (int (mul $width $imgratio)) (int (mul $height $imgratio)) }}
-    {{ $cropsize:= print $crop_prm " webp"}}
+    {{ $cropsize:= print $crop_prm " top"}}
     {{ $crop_img := $srcimg.Resize $cropsize }}
     {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
 {{ end }}
