@@ -6,7 +6,7 @@ languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "andazejob"
 summaryLength = 10
-timeout = 60000
+timeout = 300000
 
 
 # Build robots.txt file
