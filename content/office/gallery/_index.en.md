@@ -21,37 +21,6 @@ description: "Here is our office. It's not a big office, but it's laid out in a 
 {{< imagedisplay src="gallery4.webp" >}}   
 &nbsp;
 {{< imagedisplay src="gallery5.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery6.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery7.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery8.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery9.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery10.webp" >}}  
-&nbsp;
-{{< imagedisplay src="gallery11.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery12.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery13.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery14.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery15.webp" >}}    
-&nbsp;
-{{< imagedisplay src="gallery16.webp" >}}    
-&nbsp;
-{{< imagedisplay src="gallery17.webp" >}}    
-&nbsp;
-{{< imagedisplay src="gallery18.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery19.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery20.webp" >}}   
-&nbsp;
 
 ----
 &nbsp; 
