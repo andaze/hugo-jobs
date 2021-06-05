@@ -1,0 +1,115 @@
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>{{ with .Site.Title }} {{ . }}  {{ end }}</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta name="viewport" content="width=device-width, user-scalable=no" />  <!-- No Zoom in mnobile view -->
+  {{ partial "google_analytics.html" . }}
+  <script src="{{ `../../plugins/jquery/jquery.min.js` | absURL }}" ></script>
+  <link href="{{ `../../../../../../images/titleLogo.png` | absURL }}" rel="icon">
+  <link href="{{ `../../plugins/bootstrap/css/bootstrap.min.css` | absURL }}" rel="stylesheet">
+  
+  {{ $square := resources.Get "css/square1.css" | minify }}
+  <link rel="stylesheet" href="{{ $square.Permalink }}" integrity="{{ $square.Data.Integrity }}">
+
+  {{ $style := resources.Get "css/style.css" }}
+  {{ $advantage := resources.Get "css/advantages.css" }}
+  {{ $common := resources.Get "css/common.css" }}
+  {{ $Hugo := resources.Get "css/Hugo.css" }}
+  {{ $styles := slice $style $advantage $common $Hugo | resources.Concat "bundle.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+  
+  <style>
+    .mobile-margin 
+    {
+      margin-bottom: 10px;
+    }
+
+    /* Responsive menu  */
+    .sidenav 
+    {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #333333;
+      overflow-x: hidden;
+      padding-top: 60px;
+    }
+    .sidenav a 
+    {
+      padding: 20px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 1.2em;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    .sidenav a:hover 
+    {
+      color: #f1f1f1;
+    }
+    .sidenav .closebtn 
+    {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    @media screen and (max-height: 450px) 
+    {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    .responsive
+    {
+        display:none;
+    }
+    @media only screen and (max-width: 1199px)
+    {
+      .responsive
+      {
+        display:block;        
+      }
+      .logo
+      {
+            display:none;
+      }
+    }
+    @media only screen and (max-width: 1199px)
+    {
+      .nav-menu
+      {
+        display:none;        
+      }
+      .logo
+      {
+            display:none;
+      }
+    }
+  </style>
+</head>
+  
+
+<!-- removed Css -->
+
+<!-- 
+  <link href="{{ `plugins/nivo-slider/css/nivo-slider.css` | absURL }}" rel="stylesheet"> 
+  <link href="{{ `plugins/owl.carousel/assets/owl.carousel.min.css` | absURL }}" rel="stylesheet">
+  
+  {{ $bootstrapMini := resources.Get "plugins/bootstrap/css/bootstrap.min.css" }} 
+  {{ $animateMini := resources.Get "plugins/animate.css/animate.min.css" }} 
+  {{ $nivoSliderMini := resources.Get "plugins/nivo-slider/css/nivo-slider.css" }}
+  {{ $owlCarousel := resources.Get "plugins/owl.carousel/assets/owl.carousel.min.css" }}
+  {{ $styleMini := slice  $owlCarousel  | resources.Concat "bundleMini.css" | fingerprint }}
+  <link rel="stylesheet" href="{{ $styleMini.Permalink }}" integrity="{{ $styleMini.Data.Integrity }}"> 
+  
+  {{ $styles := resources.Get "css/share.css" | minify}}
+  <link href="{{ $styles.Permalink }}" rel="stylesheet" type="text/css">
+ 
+-->
+

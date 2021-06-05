@@ -1,0 +1,45 @@
+{{/* 
+    < imagedisplay  src="" width="" ratio="" layout="" >
+  
+    Attribute:
+    ----------
+    src (Require) => need to pass image name with extenstion
+    width (optional) => need to pass image width if you not pass then it will take default using Image.Width function
+    ratio (optional) => need to pass image ration if you not pass then it will take default using width and height multiplication  
+    layout (optional) => need to pass image layout 
+    
+    Example: 
+    --------
+    {{< imagedisplay  src="sample.jpg" width="" ratio="" layout="" >}} 
+    
+    */}}
+{{ $src := (.Get "src") }}
+ 
+{{ $srcimg := $.Page.Resources.GetMatch $src }}
+{{ $srcimg_width := $srcimg.Width }}
+{{ $srcimg_height := $srcimg.Height }}
+{{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
+{{ $width := int (default $srcimg.Width (.Get "width")) }}
+{{ $ratio := float (default $srcimg_ratio (.Get "ratio")) }}
+{{ $layout := .Get "layout" }}
+
+{{ $height := int (mul $width $ratio) }}
+
+{{ $wmax := mul $width 2 }}
+{{ $wmin := int (div $width 4) }}
+
+{{ $getdata:= split .Site.Params.Imageratio " " }}
+
+{{ $array := $getdata }}
+{{ $dict := dict }}
+{{ range $array }}
+{{$imgratio:= float .}}
+    {{ $crop_prm := printf "%dx%d" (int (mul $width $imgratio)) (int (mul $height $imgratio)) }}
+    {{ $cropsize:= print $crop_prm " top"}}
+    {{/* {{ $cropsize:= print $crop_prm " webp"}} */}}
+    {{ $crop_img := $srcimg.Resize $cropsize }}
+    {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
+{{ end }}
+
+<img src='{{ `images/imageLoading.gif` }}' width='{{ $width }}' height='{{ $height }}'
+srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'></img>

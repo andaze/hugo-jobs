@@ -10,89 +10,48 @@ description: "Here is our office. It's not a big office, but it's laid out in a 
 ### **Office Gallery**
 
 ###### Here is our office. It's not a big office, but it's laid out in a spacious environment where you can concentrate on your work.
-
-{{< imagedisplay gallery1 "290" "690" "760" >}}
-
-{{< imagedisplay gallery2 "290" "690" "760" >}}
-
-{{< imagedisplay gallery3 "290" "690" "760" >}}
-
-{{< imagedisplay gallery4 "290" "690" "760" >}}
-
-{{< imagedisplay gallery5 "290" "690" "760" >}}
-
-{{< imagedisplay gallery6 "290" "690" "760" >}}
-
-{{< imagedisplay gallery7 "290" "690" "760" >}}
-
-{{< imagedisplay gallery8 "290" "690" "760" >}}
-
-{{< imagedisplay gallery9 "290" "690" "760" >}}
-
-{{< imagedisplay gallery10 "290" "690" "760" >}}
-
-{{< imagedisplay gallery11 "290" "690" "760" >}}
-
-{{< imagedisplay gallery12 "290" "690" "760" >}}
-
-{{< imagedisplay gallery13 "290" "690" "760" >}}
-
-{{< imagedisplay gallery14 "290" "690" "760" >}}
-
-{{< imagedisplay gallery15 "290" "690" "760" >}}
-
-{{< imagedisplay gallery16 "290" "690" "760" >}}
-
-{{< imagedisplay gallery17 "290" "690" "760" >}}
-
-{{< imagedisplay gallery18 "290" "690" "760" >}}
-
-{{< imagedisplay gallery19 "290" "690" "760" >}}
-
-{{< imagedisplay gallery20 "290" "690" "760" >}}
-
 &nbsp;
-<!-- ![Image Not Available](galleryimg1.jpg "TITLE")
 
-![Image Not Available](galleryimg2.jpg "TITLE")
-
-![Image Not Available](galleryimg3.jpg "TITLE")
-
-![Image Not Available](galleryimg4.jpg "TITLE")
-
-![Image Not Available](galleryimg5.jpg "TITLE")
-
-![Image Not Available](galleryimg6.jpg "TITLE")
-
-![Image Not Available](galleryimg7.jpg "TITLE")
-
-![Image Not Available](galleryimg8.jpg "TITLE")
-
-![Image Not Available](galleryimg9.jpg "TITLE")
-
-![Image Not Available](galleryimg10.jpg "TITLE")
-
-![Image Not Available](galleryimg11.jpg "TITLE")
-
-![Image Not Available](galleryimg12.jpg "TITLE")
-
-![Image Not Available](galleryimg13.jpg "TITLE")
-
-![Image Not Available](galleryimg14.jpg "TITLE")
-
-![Image Not Available](galleryimg15.jpg "TITLE")
-
-![Image Not Available](galleryimg16.jpg "TITLE")
-
-![Image Not Available](galleryimg17.jpg "TITLE")
-
-![Image Not Available](galleryimg18.jpg "TITLE")
-
-![Image Not Available](galleryimg19.jpg "TITLE")
-
-![Image Not Available](galleryimg20.jpg "TITLE") -->
-
-&nbsp; 
+{{< imagedisplay src="gallery1.webp" >}}       
+&nbsp;  
+{{< imagedisplay src="gallery2.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery3.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery4.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery5.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery6.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery7.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery8.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery9.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery10.webp" >}}  
+&nbsp;
+{{< imagedisplay src="gallery11.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery12.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery13.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery14.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery15.webp" >}}    
+&nbsp;
+{{< imagedisplay src="gallery16.webp" >}}    
+&nbsp;
+{{< imagedisplay src="gallery17.webp" >}}    
+&nbsp;
+{{< imagedisplay src="gallery18.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery19.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery20.webp" >}}   
+&nbsp;
 
 ----
 &nbsp; 

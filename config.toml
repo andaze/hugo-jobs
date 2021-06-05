@@ -4,13 +4,14 @@ baseURL = "https://relaxed-turing-2d0200.netlify.app"
 # baseURL = "https://hugojob.ameio.in/"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
-theme = "navigator-hugo"
+theme = "andazejob"
 summaryLength = 10
+
 
 # Build robots.txt file
 enableRobotsTXT = true
 # google analytics tracking id
-googleAnalytics = "" # your analitics ID
+googleAnalytics = "UA-144087233-7" # your analitics ID
 
 enableGitInfo = false
 pygmentsCodeFences = true
@@ -23,6 +24,7 @@ DefaultContentLanguage = "en"
 # Site Params
 [params]
 logo = "images/logo.png"
+
 
 # Gestion des langues : JP / EN 
 [[Params.listeLangues]]
@@ -38,25 +40,25 @@ description = "This is meta description"
 # slider Area Images And Content
 [[Languages.en.params.heading]]
 srcimg = "/images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_1403x0_resize_box.webp, slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_768x0_resize_box.webp 1024w, slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_320x0_resize_box.webp 640w"
+srcsetImg = "slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_2000x1333_resize_box.webp 1x, slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_3000x1999_resize_box.webp 1.5x, slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_4000x2666_resize_box.webp 2x"
 dataSrcImg = "slider/homeslider/homeSlider1.webp"
 heading = "CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
 subheading = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
 [[Languages.en.params.heading]]
 srcimg = "/images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_1403x0_resize_box.webp 2500w, slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_768x0_resize_box.webp 1024w, slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_320x0_resize_box.webp 640w"
+srcsetImg = "slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_2000x1333_resize_box.webp 1x, slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_3000x1999_resize_box.webp 1.5x, slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_4000x2666_resize_box.webp 2x"
 dataSrcImg = "slider/homeslider/homeSlider2.webp"
 heading = "WE AIM AT THE FUSION OF MARKETING AND CREATIVE."
 subheading = "Baisi's goal is to combine marketing and creativity at a high level. It is not a routine job of creating designs and systems according to specifications. The habit of thinking about things from a business perspective will help you grow by leaps and bounds."
 [[Languages.en.params.heading]]
 srcimg = "images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider3_hu24df60bba8dbc323f3ea6375d9e334e8_110046_1403x0_resize_box.webp 2500w, slider/homeslider/homeSlider3_hu24df60bba8dbc323f3ea6375d9e334e8_110046_768x0_resize_box.webp 1024w, slider/homeslider/homeSlider3_hu24df60bba8dbc323f3ea6375d9e334e8_110046_320x0_resize_box.webp 640w"
+srcsetImg = "slider/homeslider/homeSlider3_hu24df60bba8dbc323f3ea6375d9e334e8_110046_2000x1333_resize_box.webp 1x, slider/homeslider/homeSlider3_hu24df60bba8dbc323f3ea6375d9e334e8_110046_3000x1999_resize_box.webp 1.5x, slider/homeslider/homeSlider3_hu24df60bba8dbc323f3ea6375d9e334e8_110046_4000x2666_resize_box.webp 2x"
 dataSrcImg = "slider/homeslider/homeSlider3.webp"
 heading = "OUR EXCELLENT ENVIRONMENT WILL MAXIMIZE YOUR VALUE."
 subheading = "The office at Baisi is a great place to work. We are a small company, so you can communicate your wishes right away. Please try to create the ideal work environment you want by yourself."
 [[Languages.en.params.heading]]
 srcimg = "images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_102220_1403x0_resize_box.webp 2500w, slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_102220_768x0_resize_box.webp 1024w, slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_102220_320x0_resize_box.webp 640w"
+srcsetImg = "slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_102220_2000x1333_resize_box.webp 1x, slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_102220_3000x1999_resize_box.webp 1.5x, slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_102220_4000x2666_resize_box.webp 2x"
 dataSrcImg = "slider/homeslider/homeSlider4.webp"
 heading = "WE'RE IN THE GROWTH PHASE, YOUR FUTURE IS SPREADING."
 subheading = "Bayzi has a clear vision for the future of the industry and the company. We are currently in the phase of increasing the number of talented staff and creating the foundation for future development. Because we are still developing, you can become the core of the company if you choose."
@@ -70,34 +72,34 @@ subheading = "Vage is an environment where you can acquire the technical and wor
 
 [[Languages.jp.params.heading]]
 srcimg = "images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_1403x0_resize_box.webp, slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_768x0_resize_box.webp 1024w, slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_320x0_resize_box.webp 640w"
+srcsetImg = "slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_2000x1333_resize_box.webp 1x, slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_3000x1999_resize_box.webp 1.5x, slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_4000x2666_resize_box.webp 2x"
 dataSrcImg = "slider/homeslider/homeSlider1.webp"
-heading = "AIやIoT、ビッグデータの活用など、最新テクノロジーに触れることが多い環境です。"
-subheading = "たった2～3年でも、圧倒的な成長スピードを実感するでしょう。"
+heading = "AIやIoT、ビッグデータの活用など、最新テクノロジーに触れられます。"
+subheading = "技術者にとって価値のある仕事を選定。たった2～3年でも、圧倒的な成長スピードを実感するでしょう。"
 [[Languages.jp.params.heading]]
 srcimg = "images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_1403x0_resize_box.webp 2500w, slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_768x0_resize_box.webp 1024w, slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_320x0_resize_box.webp 640w"
+srcsetImg = "slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_2000x1333_resize_box.webp 1x, slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_3000x1999_resize_box.webp 1.5x, slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_4000x2666_resize_box.webp 2x"
 dataSrcImg = "slider/homeslider/homeSlider1.webp"
-heading = "働く上でネガティブな感情が過剰な状態では高いパフォーマンスを発揮することができません。"
-subheading = "私たちは安心してアイデアを発信し、のびのびと仕事が楽しめる環境を整えます。"
+heading = "あなたが安心してアイデアを発信し、のびのびと成長できる環境です。"
+subheading = "時間で縛らない現代流のマネジメントを取り入れることで、あなたが長い目で自分らしく働ける場を用意します。"
 [[Languages.jp.params.heading]]
 srcimg = "images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider3_hu24df60bba8dbc323f3ea6375d9e334e8_110046_1403x0_resize_box.webp 2500w, slider/homeslider/homeSlider3_hu24df60bba8dbc323f3ea6375d9e334e8_110046_768x0_resize_box.webp 1024w, slider/homeslider/homeSlider3_hu24df60bba8dbc323f3ea6375d9e334e8_110046_320x0_resize_box.webp 640w"
+srcsetImg = "slider/homeslider/homeSlider3_hu24df60bba8dbc323f3ea6375d9e334e8_110046_2000x1333_resize_box.webp 1x, slider/homeslider/homeSlider3_hu24df60bba8dbc323f3ea6375d9e334e8_110046_3000x1999_resize_box.webp 1.5x, slider/homeslider/homeSlider3_hu24df60bba8dbc323f3ea6375d9e334e8_110046_4000x2666_resize_box.webp 2x"
 dataSrcImg = "slider/homeslider/homeSlider3.webp"
-heading = "アンダーズが提供しているのは、ITの先端技術。"
-subheading = "日本にまだ浸透していないグローバルな技術を駆使し国内の企業に有益なサービスを提供しています。"
+heading = "IT技術でビジネスシーンに新ジャンルを作り出したい人を歓迎します。"
+subheading = "私たちは日本にまだ浸透していないグローバルな技術を駆使し、国内の企業に有益なサービスを提供しています。"
 [[Languages.jp.params.heading]]
 srcimg = "images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_102220_1403x0_resize_box.webp 2500w, slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_102220_768x0_resize_box.webp 1024w, slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_102220_320x0_resize_box.webp 640w"
+srcsetImg = "slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_102220_2000x1333_resize_box.webp 1x, slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_102220_3000x1999_resize_box.webp 1.5x, slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_102220_4000x2666_resize_box.webp 2x"
 dataSrcImg = "slider/homeslider/homeSlider4.webp"
-heading = "一緒に働く仲間は国際色豊か。日本やインドをはじめとするメンバーが多彩なワークスペースで仕事をしています。"
-subheading = "社内で国際交流が楽しめる環境です。"
+heading = "国際色豊かなメンバーと、多彩なワークスペースで仕事をしています。"
+subheading = "一緒に働くのは日本やインドをはじめとするさまざまな国籍のスタッフ。社内で国際交流を楽しむこともできます。"
 [[Languages.jp.params.heading]]
 srcimg = "images/imageLoading.gif"
 srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
 dataSrcImg = "/images/slider/img_keyvisual_01.webp"
-heading = "AIやIoT、ビッグデータの活用など、最新テクノロジーに触れることが多い環境です。"
-subheading = "たった2～3年でも、圧倒的な成長スピードを実感するでしょう。"
+heading = "クライアントからは信頼して数々のプロジェクトを任されています。"
+subheading = "培ってきた知見や自分たちのアイデアを活かしながら、ITプロジェクトをリードすることができるでしょう。"
 
 # Gestion des langues : FR / EN / NL / DE
 [Languages]
@@ -117,7 +119,7 @@ visionTitle =   "ビジョンと育成方針"
 messageTitle = "メッセージ"
 officeid    =   "4"
 officeTitle = "オフィスと周辺"
-requirementTitle = "募集職種と募集要項"
+requirementTitle = "募集要項"
 entryTitle  = "応募専用フォーム"
 entryBoxTitle = ">応募はこちらから"
 footerEmpInformationTitle = "雇用情報ホーム"
@@ -132,6 +134,11 @@ footerhome = "株式会社アンダーズ：ホーム"
 footerblog = ""
 footerReport =  ""
 Endtitle = "> 詳しく見る"
+imagesize1 = "290"
+imagesize2 = "596"
+imagesize3 = "796"
+imageratio = "1 1.5 2 3"
+
 
 # Hero Area Section
 [Languages.jp.params.hero]
@@ -181,6 +188,11 @@ footerhome = "Andaze Ltd. Home"
 footerblog = "Andaze President's Blog"
 footerReport =  "Andaze's daily report"
 Endtitle = "> Read more."
+imagesize1 = "290"
+imagesize2 = "596"
+imagesize3 = "796"
+imageratio = "1 1.5 2 3"
+
 
 # cookies
 [params.cookies]

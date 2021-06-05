@@ -1,0 +1,110 @@
+{{/* 
+  < imagedisplay  src="" iphone="" ipad="" desktop="" >
+
+  Attribute:
+  ----------
+  src (Require) => need to pass image name with extenstion
+  iphone (optional) => need to pass image width for iphone if you not pass then it will take default from config
+  ipad (optional) => need to pass image width for ipad if you not pass then it will take default from config
+  desktop (optional) => need to pass image width for desktop if you not pass then it will take default from config
+  
+  Example: 
+  --------
+  {{< imagedisplay  src="sample.jpg" iphone="290" ipad="596" desktop="796" >}} 
+  
+  */}}
+
+{{ $srcimg := (.Get "src") }}
+{{ $src := $.Page.Resources.GetMatch $srcimg }}
+
+{{ $type_arr := split $src "." }}
+{{ $srcbase := index $type_arr 0 }}
+{{ $webp := print $srcbase ".webp" }}
+{{ $webpsrc := .Page.Resources.GetMatch (printf "*%s*" ($webp)) }}
+
+{{ $Scratch := newScratch}}
+{{ $Scratch.Set "size1" "" }}
+{{ $Scratch.Set "size2" "" }}
+{{ $Scratch.Set "size3" "" }}
+
+{{if .Get "iphone" }}
+  {{$get1:= .Get "iphone" }}
+  {{ $Scratch.Set "size1" $get1 }}
+{{ else }}
+  {{ $Scratch.Set "size1" "290" }}
+{{ end }}
+
+{{if .Get "ipad" }}
+  {{$get2:= .Get "ipad" }}
+  {{ $Scratch.Set "size2" $get2 }}
+{{ else }}
+  {{ $Scratch.Set "size2" "596" }}
+{{ end }}
+
+{{if .Get "desktop" }}
+  {{$get3:= .Get "desktop" }}
+  {{ $Scratch.Set "size3" $get3 }}
+{{ else }}
+{{ $Scratch.Set "size3" "797" }}
+{{ end }}
+
+{{ $size1 := $Scratch.Get "size1" }}
+{{ $size2 := $Scratch.Get "size2" }}
+{{ $size3 := $Scratch.Get "size3" }}
+
+
+{{ $smallw := printf "%s%s" $size1 "x" }}
+{{ $mediumw := printf "%s%s" $size2 "x" }}
+{{ $largew := printf "%s%s" $size3 "x" }}
+ 
+{{ if eq (index $type_arr 1) ("webp") }}
+  {{ $small := $src.Resize $smallw }}
+  {{ $medium := $src.Resize $mediumw }}
+  {{ $large := $src.Resize $largew }}
+  <figure>
+    <picture>
+      <img srcset='
+          {{ with $large.RelPermalink }}{{.}} 1024w{{ end }}
+        {{ with $medium.RelPermalink }}, {{.}} 640w{{ end }}
+        {{ with $small.RelPermalink }}, {{.}} 320w{{ end }}
+      ' sizes="(max-width: 375px) $size1,
+      (max-width: 768px) $size2,
+      $size3"
+      src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{ $src.RelPermalink }}" class="lazyload" 
+      />
+    </picture>
+  </figure>
+{{ else }}
+<figure>
+  <picture>
+  {{ $small := $src.Resize $smallw }}
+  {{ $medium := $src.Resize $mediumw }}
+  {{ $large := $src.Resize $largew }}
+  {{ if $webpsrc }}
+  {{ $smallwebp := $webpsrc.Resize $smallw }}
+  {{ $mediumwebp := $webpsrc.Resize $mediumw }}
+  {{ $largewebp := $webpsrc.Resize $largew }}
+  <source srcset='
+  {{ with $largewebp.RelPermalink }}{{.}} 1024w{{ end }}
+  {{ with $mediumwebp.RelPermalink }}, {{.}} 640w{{ end }}
+  {{ with $smallwebp.RelPermalink }}, {{.}} 320w{{ end }}
+  ' sizes="(max-width: 375px) $size1,
+  (max-width: 768px) $size2,
+  $size3"> 
+  {{ end }}
+
+      <source srcset='
+      {{ with $large.RelPermalink }}{{.}} 1024w{{ end }}
+      {{ with $medium.RelPermalink }}, {{.}} 640w{{ end }}
+      {{ with $small.RelPermalink }}, {{.}} 320w{{ end }}
+      ' sizes="(max-width: 375px) $size1,
+      (max-width: 768px) $size2,
+      $size3">
+      
+            
+      
+      <img src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{ $src.RelPermalink }}" class="lazyload" 
+      />
+    </picture>
+  </figure>
+{{ end }}
