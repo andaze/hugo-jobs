@@ -6,12 +6,3 @@ weight: 8
 ---
 
 
-{{< imagedisplay  src="meritslider.webp"  >}}
-
-{{< imagedisplay  src="visionslider.webp"  >}}
-
-{{< imagedisplay  src="messageslider.webp"  >}}
-
-{{< imagedisplay  src="officeslider.webp"  >}}
-
-{{< imagedisplay  src="requirementslider.webp"  >}}
