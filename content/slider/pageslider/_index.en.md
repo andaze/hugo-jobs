@@ -6,4 +6,3 @@ weight: 8
 ---
 
 {{< imagedisplay  src="meritslider.webp"  >}}
-
