@@ -10,50 +10,48 @@ description: "Here is our office. It's not a big office, but it's laid out in a 
 ### **Office Gallery**
 
 ###### Here is our office. It's not a big office, but it's laid out in a spacious environment where you can concentrate on your work.
-
-{{< imagedisplay src="gallery1.webp" >}}       
-
-{{< imagedisplay src="gallery2.webp" >}}   
-
-{{< imagedisplay src="gallery3.webp" >}}   
-
-{{< imagedisplay src="gallery4.webp" >}}   
-
-{{< imagedisplay src="gallery5.webp" >}}   
-
-{{< imagedisplay src="gallery6.webp" >}}   
-
-{{< imagedisplay src="gallery7.webp" >}}   
-
-{{< imagedisplay src="gallery8.webp" >}}   
-
-{{< imagedisplay src="gallery9.webp" >}}   
-
-{{< imagedisplay src="gallery10.webp" >}}  
-
-{{< imagedisplay src="gallery11.webp" >}}   
-
-{{< imagedisplay src="gallery12.webp" >}}   
-
-{{< imagedisplay src="gallery13.webp" >}}   
-
-{{< imagedisplay src="gallery14.webp" >}}   
-
-{{< imagedisplay src="gallery15.webp" >}}    
-
-{{< imagedisplay src="gallery16.webp" >}}    
-
-{{< imagedisplay src="gallery17.webp" >}}    
-
-{{< imagedisplay src="gallery18.webp" >}}   
-
-{{< imagedisplay src="gallery19.webp" >}}   
-
-{{< imagedisplay src="gallery20.webp" >}}   
 &nbsp;
 
-
-&nbsp; 
+{{< imagedisplay src="gallery1.webp" >}}       
+&nbsp;  
+{{< imagedisplay src="gallery2.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery3.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery4.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery5.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery6.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery7.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery8.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery9.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery10.webp" >}}  
+&nbsp;
+{{< imagedisplay src="gallery11.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery12.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery13.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery14.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery15.webp" >}}    
+&nbsp;
+{{< imagedisplay src="gallery16.webp" >}}    
+&nbsp;
+{{< imagedisplay src="gallery17.webp" >}}    
+&nbsp;
+{{< imagedisplay src="gallery18.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery19.webp" >}}   
+&nbsp;
+{{< imagedisplay src="gallery20.webp" >}}   
+&nbsp;
 
 ----
 &nbsp; 
