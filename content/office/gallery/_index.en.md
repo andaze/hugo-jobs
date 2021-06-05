@@ -12,15 +12,7 @@ description: "Here is our office. It's not a big office, but it's laid out in a 
 ###### Here is our office. It's not a big office, but it's laid out in a spacious environment where you can concentrate on your work.
 &nbsp;
 
-{{< imagedisplay src="gallery1.webp" >}}       
-&nbsp;  
-{{< imagedisplay src="gallery2.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery3.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery4.webp" >}}   
-&nbsp;
-{{< imagedisplay src="gallery5.webp" >}}   
+ 
 
 ----
 &nbsp; 
