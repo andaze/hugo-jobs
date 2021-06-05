@@ -1,4 +1,4 @@
-# How to Resize WebpImage ShortCode
+# Introduction
 ### Install Go
 [Install go link](https://golang.org/doc/install)
 
