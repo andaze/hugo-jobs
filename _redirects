@@ -1,2 +1,2 @@
 # Redirects from what the browser requests to what we serve
-/en/job/*            https://www.google.com
+/en/job/*   https://clever-edison-02034e.netlify.app/en/:splat 200
