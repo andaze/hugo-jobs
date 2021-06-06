@@ -1,9 +1,4 @@
-[[redirects]]
-  from = "/en/job/*"
-  to = "https://clever-edison-02034e.netlify.app/en/:splat"
-  status = 200
-  force = true
-  theaders = {X-From = "Netlify"}
+
 
 [build]
 publish = "public"
