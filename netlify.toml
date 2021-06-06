@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/en/job/*"
-  to = "https://clever-edison-02034e.netlify.app/en/:splat"
+  to = "https://gallant-einstein-eab8cc.netlify.app/en/:splat"
   status = 200
   force = true
   theaders = {X-From = "Netlify"}
