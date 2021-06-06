@@ -3,7 +3,7 @@
   to = "https://gallant-einstein-eab8cc.netlify.app/en/:splat"
   status = 200
   force = true
-  theaders = {X-From = "Netlify"}
+  headers = {X-From = "Netlify"}
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
