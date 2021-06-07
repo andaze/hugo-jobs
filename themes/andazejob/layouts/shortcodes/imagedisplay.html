@@ -13,13 +13,25 @@
     {{< imagedisplay  src="sample.jpg" width="" ratio="" layout="" >}} 
     
     */}}
+    
+{{ $Scratch := newScratch}}
+{{ $Scratch.Set "width" "" }}
+    
 {{ $src := (.Get "src") }}
- 
 {{ $srcimg := $.Page.Resources.GetMatch $src }}
 {{ $srcimg_width := $srcimg.Width }}
 {{ $srcimg_height := $srcimg.Height }}
 {{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
-{{ $width := int (default $srcimg.Width (.Get "width")) }}
+
+{{ if gt $srcimg.Width .Site.Params.Imagewidth }}
+    {{ $getwidth := int (default .Site.Params.Imagewidth (.Get "width")) }}
+    {{ $Scratch.Set "width" $getwidth }}
+{{ else }}
+    {{ $getwidth := int (default $srcimg_width (.Get "width")) }}
+    {{ $Scratch.Set "width" $getwidth }}
+{{ end }}
+{{ $width := $Scratch.Get "width" }}
+
 {{ $ratio := float (default $srcimg_ratio (.Get "ratio")) }}
 {{ $layout := .Get "layout" }}
 
@@ -35,8 +47,8 @@
 {{ range $array }}
 {{$imgratio:= float .}}
     {{ $crop_prm := printf "%dx%d" (int (mul $width $imgratio)) (int (mul $height $imgratio)) }}
-    {{ $cropsize:= print $crop_prm " top"}}
-    {{/* {{ $cropsize:= print $crop_prm " webp"}} */}}
+    {{ $cropsize:= print $crop_prm " webp"}}
+    {{/* {{ $cropsize:= print $crop_prm " top"}} */}}
     {{ $crop_img := $srcimg.Resize $cropsize }}
     {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
 {{ end }}
