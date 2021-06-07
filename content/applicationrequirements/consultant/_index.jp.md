@@ -6,6 +6,18 @@ weight: 1
 advtitle2: "募集職種・募集要項"
 advtitle3: "REQUIREMENT"
 description: "Microsoft クラウドソリューションおよび技術（Azure、Dynamics 365、Power BI など）の知識に富む、経験豊富なコンサルタントを募集しています。要件定義、設計、技術導入、カスタマーサポートの業務を通じて、その知識と経験をクライアントへ提供していただきます。ソリューションの提供をゴールとせず、クライアントのビジネス上の問題を解決する柔軟な対応能力が求められます。\n\nクライアントが抱える経営課題やニーズに対して、関連するベンダーやパートナーと連携しながら、効果的なソリューションを構築していきます。クライアントに対して高品質なサポートを提供するとともに、プロジェクトやチームのマネジメントを行います。"
+sitejobPosting: true
+datePosted: "2020-05-08"
+companyName: "アンダゼ"
+streetAddress: "Ltd.となります。アンダゼ、麹町2-10-3"
+addressLocality: "東京都千代田区"
+postalCode: 102-0083
+addressCountry: "日本"
+validThrough: "2021-08-05"
+currency: "円"
+value: "4～8百万円"
+unitText: "年"
+EmploymentType: ["フルタイム", "パートタイム"]
 ---
 ### 当社について
 
