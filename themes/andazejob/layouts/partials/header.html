@@ -51,7 +51,9 @@
         
         {{ range .Site.Menus.item }}
           {{ $absurl:= .URL | absLangURL }}
+          {{ $absurl }}
           {{$url:= replace $absurl "/en/job/en/" "/en/job/" }}
+          {{ $url }}
           <nav class="mobile-offcanvas navbar-expand-lg">
             <ul class="navbar-nav">
               <li class="nav-menu active">
