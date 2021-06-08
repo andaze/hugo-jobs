@@ -31,24 +31,23 @@
         {{ $Scratch.Set "url" "" }}
         {{ $lang:= print site.Language }}
         
-        {{ range .Site.Menus.item }}
-          {{ if eq ($lang) ("en")  }}  
-            {{$seturl:= replace (.URL | absLangURL)  "/job/en/" "/en/job/" }}
-            {{ $Scratch.Set "url" $seturl }}
-          {{ else }}
-            {{$seturl:= replace (.URL | absLangURL)  "/job/jp/" "/jp/job/" }}
-            {{ $Scratch.Set "url" $seturl }}
-          {{ end }}
-      
-          {{ $url := $Scratch.Get "url" }}
-          <nav class="mobile-offcanvas navbar-expand-lg">
-            <ul class="navbar-nav">
-              <li class="nav-menu active">
-                <a href="{{ $url }}" class="nav-link" >{{ i18n .Name }}</a>
-              </li>
-            </ul>
-          </nav>
-        {{ end }}
+        <nav class="mobile-offcanvas navbar-expand-lg">
+          <ul class="navbar-nav">
+            {{ range .Site.Menus.item }}
+              {{ if eq ($lang) ("en")  }}  
+                {{$seturl:= replace (.URL | absLangURL)  "/job/en/" "/en/job/" }}
+                {{ $Scratch.Set "url" $seturl }}
+              {{ else }}
+                {{$seturl:= replace (.URL | absLangURL)  "/job/jp/" "/jp/job/" }}
+                {{ $Scratch.Set "url" $seturl }}
+              {{ end }}
+              {{ $url := $Scratch.Get "url" }}
+                <li class="nav-menu active">
+                  <a href="{{ $url }}" class="nav-link" >{{ i18n .Name }}</a>
+                </li>
+            {{ end }}
+          </ul>
+        </nav>
         
         <span class="d-none d-lg-none d-xl-block" style="margin:auto; padding-top: 5px;">
               <!-- {{ range .Site.Params.listeLangues }}
