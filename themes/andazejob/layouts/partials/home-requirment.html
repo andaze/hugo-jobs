@@ -12,7 +12,11 @@
                 <p>{{ .Params.Intro }} </p>
                 {{ range .Sections.ByWeight }}
                   <ul class="listLink01">
-                    <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+                    <li>
+                      <!-- <a href="{{ .URL }}">{{ .Title }}</a> -->
+                      {{ partial "urlchange.html" (dict "path" .URL "title" .Title) }}
+                      
+                    </li>
                   </ul>
                 {{ end }}
                 {{ end }}
@@ -27,8 +31,11 @@
               <p> {{ .Params.Intro }} </p>
 
               <ul class="ulBtnEntry" style="list-style: none !important;">
-                <li style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;"><a
-                    style = "color: #afa86f;" href="{{ .URL }}"><span>{{ with .Site.Params.entryBoxTitle }} {{ . }} {{ end }}</span></a></li>
+                <li style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;">
+                  <!-- <a style = "color: #afa86f;" href="{{ .URL }}">{{ with .Site.Params.entryBoxTitle }} {{ . }} {{ end }}</a> -->
+                  {{ partial "urlchange.html" (dict "path" .URL "title" .Site.Params.entryBoxTitle "target" "_blank") }}
+                
+                </li>
               </ul>
               {{ end }}
             </div>

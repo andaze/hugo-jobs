@@ -1,0 +1,14 @@
+{{ $Scratch := newScratch}}
+{{ $Scratch.Set "url" "" }}
+{{ $lang:= print site.Language }}
+
+{{ if eq ($lang) ("en")  }}  
+    {{$seturl:= replace (.path)  "/job/en/" "/en/job/" }}
+    {{ $Scratch.Set "url" $seturl }}
+{{ else }}
+    {{$seturl:= replace (.path)  "/job/jp/" "/jp/job/" }}
+    {{ $Scratch.Set "url" $seturl }}
+{{ end }}
+
+{{ $url := $Scratch.Get "url" }}
+<a href="{{ $url }}" class="{{.class}}" target="{{.target}}" >{{ .title }}</a>

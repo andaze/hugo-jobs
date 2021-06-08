@@ -14,7 +14,8 @@
 
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           {{ range .Site.Menus.item }}
-            <a href="{{ .URL | absLangURL }}"><span style="color: white;">{{ i18n .Name }}</span></a>
+            {{ partial "urlchange.html" (dict "path" (.URL | absLangURL) "title" (i18n .Name) "class" "nav-link") }}
+            <!-- <a href="{{ .URL | absLangURL }}" class="nav-link">{{ i18n .Name }}</a> -->
           {{ end }}
         </div>
 
@@ -27,7 +28,7 @@
 
 
         <!-- ===== Desktop menu ===== -->
-        {{ $Scratch := newScratch}}
+        <!-- {{ $Scratch := newScratch}}
         {{ $Scratch.Set "url" "" }}
         {{ $lang:= print site.Language }}
         
@@ -47,13 +48,19 @@
                 </li>
             {{ end }}
           </ul>
+        </nav> -->
+        <nav class="mobile-offcanvas navbar-expand-lg">
+          <ul class="navbar-nav">
+            {{ range .Site.Menus.item }}
+                <li class="nav-menu active">
+                  {{ partial "urlchange.html" (dict "path" (.URL | absLangURL) "title" (i18n .Name) "class" "nav-link") }}
+                </li>
+            {{ end }}
+          </ul>
         </nav>
         
         <span class="d-none d-lg-none d-xl-block" style="margin:auto; padding-top: 5px;">
-              <!-- {{ range .Site.Params.listeLangues }}
-              {{ partial "flags.html" (dict "site" $.Site "liste" . "Permalink" $.Permalink) }}
-              {{ end }} -->
-        {{ partial "language_change.html" . }}
+          {{ partial "language_change.html" . }}
         </span>
       </div>
     </header><!-- End Header -->

@@ -20,10 +20,17 @@
               {{ $footertitel := .File.Dir }}
               {{ $demo := strings.TrimRight "\\//" $footertitel }}
               {{ if where .Site.Menus.item "Name" "in" $demo  }}
-              <li class="colsize"><h6><a class="footerTitle" href="{{ .URL | absLangURL }}"><b>{{ .Title }}</b></a> </h6></li>
+              <li class="colsize"><h6><b>
+                <!-- <a class="footerTitle" href="{{ .URL | absLangURL }}"><b>{{ .Title }}</b></a>  -->
+                {{ partial "urlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "footerTitle") }}
+              </b></h6></li>
                 {{ with .Site.GetPage $demo }}
                 {{ range .Sections.ByWeight }}
-                  <li class="colsize"><a  href="{{ .URL | absLangURL }}" class="link2Foot"> - {{ .Title }}</a></li>
+                  <li class="colsize">
+                    <!-- <a  href="{{ .URL | absLangURL }}" class="link2Foot"> - {{ .Title }}</a> -->
+                  {{ partial "urlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "link2Foot") }}
+
+                  </li>
                 {{ end }}
                 {{ end }}
                 {{ end }}
