@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/en/job/*"
-  to = "https://gallant-einstein-eab8cc.netlify.app/en/:splat"
+  to = "https://subsite.ameio.in/en/:splat"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
