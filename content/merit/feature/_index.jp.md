@@ -25,7 +25,7 @@ description: " グローバルなIT技術を、国境を越えて駆使してい
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title") [**多国籍メンバーのチームが適材適所で強みを発揮**](#多国籍メンバーのチームが適材適所で強みを発揮)  
 
-![Image not available](../../ico_arw_page_anchor.webp "Title") [**働く場所とデータの分散でリスクとコストを低減 **](#働く場所とデータの分散でリスクとコストを低減)  
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**働く場所とデータの分散でリスクとコストを低減**](#働く場所とデータの分散でリスクとコストを低減)  
 
 #### ITの先頭をひた走る英語圏の技術を日本語で提供
 
