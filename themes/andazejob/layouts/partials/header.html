@@ -87,9 +87,11 @@
                     {{ if eq $translation.Lang .Lang }}
                       {{ $selected := false }}
                       {{ if eq $pageLang .Lang}}
-                        <option value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
+                        {{$changeurl:= replace $translation.Permalink "/job/jp/" "/jp/job/" }}
+                        <option value="{{ $changeurl }}" selected>{{ .LanguageName }}</option>
                       {{ else }}
-                        <option value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+                        {{$changeurl:= replace $translation.Permalink "/job/en/" "/en/job/" }}
+                        <option value="{{ $changeurl }}">{{ .LanguageName }}</option>
                       {{ end }}
                     {{ end }}
                   {{ end }}
