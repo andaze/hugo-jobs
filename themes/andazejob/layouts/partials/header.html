@@ -14,7 +14,7 @@
 
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           {{ range .Site.Menus.item }}
-            {{ partial "urlchange.html" (dict "path" (.URL | absLangURL) "title" (i18n .Name) "class" "nav-link") }}
+            {{ partial "homeurlchange.html" (dict "path" (.URL | absLangURL) "title" (i18n .Name) "class" "nav-link") }}
             <!-- <a href="{{ .URL | absLangURL }}" class="nav-link">{{ i18n .Name }}</a> -->
           {{ end }}
         </div>
@@ -55,7 +55,7 @@
           <ul class="navbar-nav">
             {{ range .Site.Menus.item }}
                 <li class="nav-menu active">
-                  {{ partial "urlchange.html" (dict "path" (.URL | absLangURL) "title" (i18n .Name) "class" "nav-link") }}
+                  {{ partial "homeurlchange.html" (dict "path" (.URL | absLangURL) "title" (i18n .Name) "class" "nav-link") }}
                 </li>
             {{ end }}
           </ul>

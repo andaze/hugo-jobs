@@ -22,13 +22,13 @@
               {{ if where .Site.Menus.item "Name" "in" $demo  }}
               <li class="colsize"><h6><b>
                 <!-- <a class="footerTitle" href="{{ .URL | absLangURL }}"><b>{{ .Title }}</b></a>  -->
-                {{ partial "urlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "footerTitle") }}
+                {{ partial "homeurlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "footerTitle") }}
               </b></h6></li>
                 {{ with .Site.GetPage $demo }}
                 {{ range .Sections.ByWeight }}
                   <li class="colsize">
                     <!-- <a  href="{{ .URL | absLangURL }}" class="link2Foot"> - {{ .Title }}</a> -->
-                  {{ partial "urlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "link2Foot") }}
+                  {{ partial "homeurlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "link2Foot") }}
 
                   </li>
                 {{ end }}

@@ -14,7 +14,7 @@
                   <ul class="listLink01">
                     <li>
                       <!-- <a href="{{ .URL }}">{{ .Title }}</a> -->
-                      {{ partial "urlchange.html" (dict "path" .URL "title" .Title) }}
+                      {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title) }}
                       
                     </li>
                   </ul>
@@ -33,7 +33,7 @@
               <ul class="ulBtnEntry" style="list-style: none !important;">
                 <li style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;">
                   <!-- <a style = "color: #afa86f;" href="{{ .URL }}">{{ with .Site.Params.entryBoxTitle }} {{ . }} {{ end }}</a> -->
-                  {{ partial "urlchange.html" (dict "path" .URL "title" .Site.Params.entryBoxTitle "target" "_blank") }}
+                  {{ partial "homeurlchange.html" (dict "path" .URL "title" .Site.Params.entryBoxTitle "target" "_blank") }}
                 
                 </li>
               </ul>
