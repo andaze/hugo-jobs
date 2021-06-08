@@ -9,6 +9,7 @@
               {{ partial "flags.html" (dict "site" $.Site "liste" . "Permalink" $.Permalink) }}
             {{ end }} -->
           <span style="display: block;padding-left: 23px;">
+          {{ $Scratch := newScratch}}
             {{ if .IsTranslated }}
               <select class="border-0 langselector" onchange="location = this.value;">
                 {{ $siteLanguages := site.Languages}}
@@ -58,7 +59,6 @@
         {{ .URL | absLangURL }}</br>
         {{ .URL | relURL }} -->
         
-        {{ $Scratch := newScratch}}
         {{ $Scratch.Set "url" "" }}
         {{ $lang:= print site.Language }}
         
