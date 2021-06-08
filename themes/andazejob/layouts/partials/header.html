@@ -45,8 +45,9 @@
 
 
         <!-- ===== Desktop menu ===== -->
-        {{ .URL | absURL }}
-        {{ .URL | absLangURL }}
+        {{ .URL | absURL }}</br>
+        {{ .URL | absLangURL }}</br>
+        {{ .URL | relURL }}
         {{ range .Site.Menus.item }}
           <nav class="mobile-offcanvas navbar-expand-lg">
             <ul class="navbar-nav">
