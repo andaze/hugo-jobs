@@ -5,22 +5,27 @@ draft: false
 weight: 1
 advtitle2: "アンダーズで働くメリット"
 advtitle3: "ADVANTAGE"
-description: " グローバルなIT技術を、国境を越えて駆使している当社。各国の優秀な人材が加わることで、さまざまなシナジーがもたらされます。"
+description: " グローバルなIT技術を、国境を越えて駆使している当社。 開発スピードと最高レベルの品質で他を圧倒し、 数々のイノベーションをもたらしています。"
 # nextPageBtn: true
 ---
 
 ### アンダーズの特徴
 
-**グローバルなIT技術を、国境を越えて駆使している当社。**  
-**各国の優秀な人材が加わることで、さまざまなシナジーがもたらされます。**
+**グローバルなIT技術を、国境を越えて駆使している当社。 開発スピードと最高レベルの品質で他を圧倒し、 数々のイノベーションをもたらしています。**  
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**ITの先頭をひた走る英語圏の技術を日本語で提供**](#ITの先頭をひた走る英語圏の技術を日本語で提供)   
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**スタートアップの開発スピードを、企業のルールで提供**](#スタートアップの開発スピードを、企業のルールで提供)   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title") [**多国籍メンバーのチームが適材適所で強みを発揮**](#多国籍メンバーのチームが適材適所で強みを発揮)   
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**上場企業や官公庁にも信頼される危機管理能力**](#上場企業や官公庁にも信頼される危機管理能力)   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title") [**働く場所を分散させることで得られる恩恵**](#働く場所を分散させることで得られる恩恵)   
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**経営ポジションに信頼されるプロジェクトの提案 **](#経営ポジションに信頼されるプロジェクトの提案 )   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title") [**世界的なIT企業でも重宝されるインド人を採用**](#世界的なIT企業でも重宝されるインド人を採用)   
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**Microsoftゴールドパートナーの強みを活かす**](#Microsoftゴールドパートナーの強みを活かす)   
+
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**ITの先頭をひた走る英語圏の技術を日本語で提供**](#ITの先頭をひた走る英語圏の技術を日本語で提供)  
+
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**多国籍メンバーのチームが適材適所で強みを発揮**](#多国籍メンバーのチームが適材適所で強みを発揮)  
+
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**働く場所とデータの分散でリスクとコストを低減 **](#働く場所とデータの分散でリスクとコストを低減)  
 
 #### ITの先頭をひた走る英語圏の技術を日本語で提供
 
