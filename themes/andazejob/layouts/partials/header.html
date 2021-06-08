@@ -9,35 +9,7 @@
               {{ partial "flags.html" (dict "site" $.Site "liste" . "Permalink" $.Permalink) }}
             {{ end }} -->
           <span style="display: block;padding-left: 23px;">
-          {{ $Scratch := newScratch}}
-            {{ if .IsTranslated }}
-              <select class="border-0 langselector" onchange="location = this.value;">
-                {{ $siteLanguages := site.Languages}}
-                {{ $pageLang := .Page.Lang}}
-                  {{ range .Page.AllTranslations }}
-                    {{ $translation := .}}
-                    {{ if eq (print site.Language) ("en") }}
-                      {{$changeurl:= replace $translation.Permalink "/job/jp/" "/jp/job/" }}
-                      {{ $Scratch.Set "changeurl" $changeurl }}
-                    {{ else }}
-                      {{$changeurl:= replace $translation.Permalink "/job/en/" "/en/job/" }}
-                      {{ $Scratch.Set "changeurl" $changeurl }}
-                    {{ end }}
-        
-                   {{ $langurl := $Scratch.Get "changeurl" }}
-                    {{ range $siteLanguages }}
-                      {{ if eq $translation.Lang .Lang }}
-                        {{ $selected := false }}
-                        {{ if eq $pageLang .Lang}}
-                          <option value="{{ $langurl }}" selected>{{ .LanguageName }}</option>
-                        {{ else }}
-                          <option value="{{ $langurl }}">{{ .LanguageName }}</option>
-                        {{ end }}
-                      {{ end }}
-                    {{ end }}
-                  {{ end }}
-              </select>
-            {{ end }}
+          {{ partial "language_change.html" . }}
           </span>
 
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -55,10 +27,7 @@
 
 
         <!-- ===== Desktop menu ===== -->
-        <!-- {{ .URL | absURL }}</br>
-        {{ .URL | absLangURL }}</br>
-        {{ .URL | relURL }} -->
-        
+        {{ $Scratch := newScratch}}
         {{ $Scratch.Set "url" "" }}
         {{ $lang:= print site.Language }}
         
@@ -85,37 +54,7 @@
               <!-- {{ range .Site.Params.listeLangues }}
               {{ partial "flags.html" (dict "site" $.Site "liste" . "Permalink" $.Permalink) }}
               {{ end }} -->
-
-          {{ if .IsTranslated }}
-            <select class="border-0 langselector" onchange="location = this.value;">
-              {{ $siteLanguages := site.Languages}}
-              {{ $pageLang := .Page.Lang}}
-                
-                {{ range .Page.AllTranslations }}
-                  {{ $translation := .}}
-                  {{ if eq (print site.Language) ("en") }}
-                    {{$changeurl:= replace $translation.Permalink "/job/jp/" "/jp/job/" }}
-                    {{ $Scratch.Set "changeurl" $changeurl }}
-                  {{ else }}
-                    {{$changeurl:= replace $translation.Permalink "/job/en/" "/en/job/" }}
-                    {{ $Scratch.Set "changeurl" $changeurl }}
-                  {{ end }}
-        
-                  {{ $langurl := $Scratch.Get "changeurl" }}
-                  {{ range $siteLanguages }}                    
-                    {{ if eq $translation.Lang .Lang }}
-                      {{ $selected := false }}
-                      {{ if eq $pageLang .Lang}}
-                        <option value="{{ $langurl }}" selected>{{ .LanguageName }}</option>
-                      {{ else }}
-                        <option value="{{ $langurl }}">{{ .LanguageName }}</option>
-                      {{ end }}
-                    {{ end }}
-                  {{ end }}
-
-                {{ end }}
-            </select>
-          {{ end }}
+        {{ partial "language_change.html" . }}
         </span>
       </div>
     </header><!-- End Header -->
