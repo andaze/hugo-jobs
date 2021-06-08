@@ -43,8 +43,7 @@
       <div class="col-lg-3 col-md-12 col-sm-12 col-12" style="padding-top: 10px;">
         <ul style="list-style: none !important;">
           <li class="colsize">
-            <!-- <a href="{{ .URL | absLangURL }}" target="_blank"> {{ with .Site.Params.footerhome }}  {{ . }} {{ end }}</a> -->
-            {{ partial "urlchange.html" (dict "path" (.URL | absLangURL) "title" (.Site.Params.footerhome) "target" "_blank") }}  
+            <a href="https://www.andaze.com/ja/" target="_blank"> {{ with .Site.Params.footerhome }}  {{ . }} {{ end }}</a>
           </li>
           <li class="colsize"><a href="https://andaze.me/sogitani/" target="_blank">{{ with .Site.Params.footerblog  }} {{ . }} {{ end }}</a></li>
           <li class="colsize"><a href="https://andaze.me/nippo/" target="_blank">{{ with .Site.Params.footerReport }} {{ . }} {{ end }}</a></li>
