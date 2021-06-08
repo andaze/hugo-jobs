@@ -17,7 +17,7 @@ description: " グローバルなIT技術を、国境を越えて駆使してい
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title") [**上場企業や官公庁にも信頼される危機管理能力**](#上場企業や官公庁にも信頼される危機管理能力)   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title") [**経営ポジションに信頼されるプロジェクトの提案 **](#経営ポジションに信頼されるプロジェクトの提案 )   
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**経営ポジションに信頼されるプロジェクトの提案**](#経営ポジションに信頼されるプロジェクトの提案 )   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title") [**Microsoftゴールドパートナーの強みを活かす**](#Microsoftゴールドパートナーの強みを活かす)   
 
