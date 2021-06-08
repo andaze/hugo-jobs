@@ -7,7 +7,7 @@
       {{ if .Title }} 
       <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
         <div class="block">
-            <a href=" {{ .URL }}">        
+            <!-- <a href=" {{ .URL }}">        
             <div class="block__heading">
               {{ .Title}} 
             </div>
@@ -17,12 +17,18 @@
           <div class="block__more">
             {{ with .Site.Params.Endtitle }}  {{ . }} {{ end }}    
           </div>
-         </a>
+         </a> -->
+         {{ partial "advantageurlchange.html" (dict "path" .URL "title" .Title "description" .Params.description "endtitle" .Site.Params.Endtitle )}}
         </div>    
       </div>
       {{ end }}
       {{ end }}
-      <!-- <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+    </div>
+  </div>
+</section>
+
+<!--Old Static Code
+         <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
         <div class="block">
           {{ with .Site.GetPage "merit/feature" }}
             <a href=" {{ .URL }}">        
@@ -38,61 +44,4 @@
           </div>
          </a>
         </div>       
-      </div>          
-      <div class="col-lg-3  col-md-6 col-sm-12 col-xs-12">
-        <div class="block">
-          {{ with .Site.GetPage "merit/8things" }}
-          <a href="{{ .URL }}">         
-          <div class="block__heading">
-          {{ .Title}} 
-          </div>
-          <div class="block__description text_overflowHidden">
-            {{ .Params.things_description }}
-          </div>
-          {{ end}}
-          <div class="block__more">
-            {{ with .Site.Params.Endtitle }}  {{ . }} {{ end }} 
-           
-          </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-3  col-md-6 col-sm-12 col-xs-12">
-        <div class="block">
-            {{ with .Site.GetPage "merit/occupation" }}
-              <a href="{{ .URL }}">
-              <div class="block__heading">
-              {{.Title}}       
-              </div>
-              <div class="block__description text_overflowHidden">
-                {{ .Params.job_description }}  
-            {{ end}}
-            </div>
-            <div class="block__more">
-              {{ with .Site.Params.Endtitle }}  {{ . }} {{ end }} 
-           
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-3  col-md-6 col-sm-12 col-xs-12">
-        <div class="block">
-            {{ with .Site.GetPage "merit/events" }}
-            <a href="{{ .URL }}">         
-            <div class="block__heading">
-            {{ .Title}}       
-            </div>
-            <div class="block__description text_overflowHidden">
-              {{ .Params.events_description }} 
-            </div>
-            {{ end}}
-            <div class="block__more">
-              {{ with .Site.Params.Endtitle }}  {{ . }} {{ end }} 
-           
-            </div>
-          </a>
-        </div>
       </div> -->
-    </div>
-  </div>
-</section>
