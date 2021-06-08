@@ -51,18 +51,18 @@
         
         {{ $Scratch := newScratch}}
         {{ $Scratch.Set "url" "" }}
-        {{ $lang:= .Site.Language }}
-        {{ range .Site.Menus.item }}
-       
-        {{ if eq $lang "en"  }}  
-          {{$seturl:= replace (.URL | absLangURL)  "/job/en/" "/en/job/" }}
-          {{ $Scratch.Set "url" $seturl }}
-        {{ else }}
-          {{$seturl:= replace (.URL | absLangURL)  "/job/jp/" "/jp/job/" }}
-          {{ $Scratch.Set "url" $seturl }}
-        {{ end }}
-        {{ $url := $Scratch.Get "url" }}
+        {{ $lang:= print site.Language }}
         
+        {{ range .Site.Menus.item }}
+          {{ if eq ($lang) ("en")  }}  
+            {{$seturl:= replace (.URL | absLangURL)  "/job/en/" "/en/job/" }}
+            {{ $Scratch.Set "url" $seturl }}
+          {{ else }}
+            {{$seturl:= replace (.URL | absLangURL)  "/job/jp/" "/jp/job/" }}
+            {{ $Scratch.Set "url" $seturl }}
+          {{ end }}
+      
+          {{ $url := $Scratch.Get "url" }}
           <nav class="mobile-offcanvas navbar-expand-lg">
             <ul class="navbar-nav">
               <li class="nav-menu active">
