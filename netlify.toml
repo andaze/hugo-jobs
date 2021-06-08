@@ -1,4 +1,11 @@
 [[redirects]]
+  from = "/job/*"
+  to = "https://subsite.ameio.in/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
   from = "/en/job/*"
   to = "https://subsite.ameio.in/en/:splat"
   status = 200
