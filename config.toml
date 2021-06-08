@@ -139,7 +139,8 @@ Endtitle = "> 詳しく見る"
 imagesize1 = "290"
 imagesize2 = "596"
 imagesize3 = "796"
-imageratio = "1 1.5 2 3"
+# imageratio = "1 1.5 2 3"
+imageratio = "1"
 
 
 # Hero Area Section
@@ -193,7 +194,8 @@ Endtitle = "> Read more."
 imagesize1 = "290"
 imagesize2 = "596"
 imagesize3 = "796"
-imageratio = "1 1.5 2 3"
+# imageratio = "1 1.5 2 3"
+imageratio = "1"
 
 
 # cookies
