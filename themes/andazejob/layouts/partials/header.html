@@ -50,6 +50,7 @@
         {{ .URL | relURL }} -->
         {{ range .Site.Menus.item }}
           {{$url:= replace (.URL | absLangURL)  "/job/en/" "/en/job/" }}
+          {{$url:= replace (.URL | absLangURL)  "/job/jp/" "/jp/job/" }}
           <nav class="mobile-offcanvas navbar-expand-lg">
             <ul class="navbar-nav">
               <li class="nav-menu active">
