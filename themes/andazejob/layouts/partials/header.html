@@ -48,10 +48,10 @@
         <!-- {{ .URL | absURL }}</br>
         {{ .URL | absLangURL }}</br>
         {{ .URL | relURL }} -->
-        
-        {{ range .Site.Menus.item }}
-          {{ $absurl:= .URL | absLangURL }}
+        {{ $absurl:= .URL | absLangURL }}
           {{ $absurl }}
+        {{ range .Site.Menus.item }}
+          
           {{$url:= replace $absurl "/en/job/en/" "/en/job/" }}
           {{ $url }}
           <nav class="mobile-offcanvas navbar-expand-lg">
