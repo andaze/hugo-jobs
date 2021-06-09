@@ -35,9 +35,15 @@
       </div>
       <div class="col-lg-3 col-md-12 col-sm-12 col-12" style="padding-top: 10px;">
         <ul style="list-style: none !important;">
-          <li class="colsize"><a href="{{ .URL | absLangURL }}" rel="noopener" target="_blank"> {{ with .Site.Params.footerhome }}  {{ . }} {{ end }}</a></li>
-          <li class="colsize"><a href="https://andaze.me/sogitani/" rel="noopener" target="_blank">{{ with .Site.Params.footerblog  }} {{ . }} {{ end }}</a></li>
-          <li class="colsize"><a href="https://andaze.me/nippo/" rel="noopener" target="_blank">{{ with .Site.Params.footerReport }} {{ . }} {{ end }}</a></li>
+          {{ if .Site.Params.footerhome }}
+            <li class="colsize"><a href="{{ .URL | absLangURL }}" rel="noopener" target="_blank">{{ .Site.Params.footerhome }}</a></li>
+          {{ end }}
+          {{ if .Site.Params.footerblog }}
+            <li class="colsize"><a href="https://andaze.me/sogitani/" rel="noopener" target="_blank">{{  .Site.Params.footerblog }}</a></li>
+          {{ end }}
+          {{ if .Site.Params.footerReport }}
+            <li class="colsize"><a href="https://andaze.me/nippo/" rel="noopener" target="_blank">{{  .Site.Params.footerReport }}</a></li>
+          {{ end }}
         </ul>
       </div>
     </div>
