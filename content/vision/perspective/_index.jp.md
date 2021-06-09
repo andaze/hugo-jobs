@@ -13,17 +13,17 @@ description: "現代流のマネジメント手法で業界で飛躍できる技
 ### アンダーズのミッション
 **「アンダーズ」とはヒンディー語で「パーソナルスタイル」という意味。従業員一人ひとりの「らしさ」が輝く仕事をしてほしいという願いを社名に込めました。**
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; スタートアップの開発スピードを、企業のルールで提供**](#スタートアップの開発スピードを、企業のルールで提供)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;スタートアップの開発スピードを、企業のルールで提供**](#スタートアップの開発スピードを、企業のルールで提供)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; ミッション実現に欠かせないのがインド人の高い技術力**](#ミッション実現に欠かせないのがインド人の高い技術力)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;ミッション実現に欠かせないのがインド人の高い技術力**](#ミッション実現に欠かせないのがインド人の高い技術力)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 世界的なIT企業でも重宝されるインド人を採用 **](#世界的なIT企業でも重宝されるインド人を採用)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;世界的なIT企業でも重宝されるインド人を採用 **](#世界的なIT企業でも重宝されるインド人を採用)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;エンジニアが「面白い」と感じられなければ意味がない**](#エンジニアが「面白い」と感じられなければ意味がない)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 新たな「発見」や「価値」をもたらす案件を選定**](#新たな「発見」や「価値」をもたらす案件を選定)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;新たな「発見」や「価値」をもたらす案件を選定**](#新たな「発見」や「価値」をもたらす案件を選定)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 顧客にとって信頼できるブレーンになる **](#顧客にとって信頼できるブレーンになる)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;顧客にとって信頼できるブレーンになる **](#顧客にとって信頼できるブレーンになる)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;社会貢献する前に、従業員ファースト**](#社会貢献する前に、従業員ファースト)
 
