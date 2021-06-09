@@ -13,14 +13,15 @@ description: "現代流のマネジメント手法で業界で飛躍できる技
 ### アンダーズのミッション
 **「アンダーズ」とはヒンディー語で「パーソナルスタイル」という意味。従業員一人ひとりの「らしさ」が輝く仕事をしてほしいという願いを社名に込めました。**
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;スタートアップの開発スピードを、企業のルールで提供**](#スタートアップの開発スピードを、企業のルールで提供)
+{{< tableofcontent >}}
 
-<!-- ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 既存の最新技術によって、現場の挑戦に向き合う。**](#既存の最新技術によって、現場の挑戦に向き合う。)
+<!-- ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;スタートアップの開発スピードを、企業のルールで提供**](#スタートアップの開発スピードを、企業のルールで提供)
+
+ ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 既存の最新技術によって、現場の挑戦に向き合う。**](#既存の最新技術によって、現場の挑戦に向き合う。)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;世界的なIT企業でも重宝されるインド人を採用**](#世界的なIT企業でも重宝されるインド人を採用)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; スピード感のある新規ビジネスをサポート。**](#スピード感のある新規ビジネスをサポート。) -->
-{{< tableofcontent >}}
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; スピード感のある新規ビジネスをサポート。**](#スピード感のある新規ビジネスをサポート。) 
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;新たな「発見」や「価値」をもたらす案件を選定**](#新たな「発見」や「価値」をもたらす案件を選定)
 
@@ -30,7 +31,7 @@ description: "現代流のマネジメント手法で業界で飛躍できる技
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;今後は約100名体制へ増員予定**](#今後は約100名体制へ増員予定)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;専門職としての未来も開けるキャリアパス**](#専門職としての未来も開けるキャリアパス)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;専門職としての未来も開けるキャリアパス**](#専門職としての未来も開けるキャリアパス) -->
 
 #### スタートアップの開発スピードを、企業のルールで提供
 私たちは社会の常識やモラルといった企業ルールの範囲内で、スタートアップのような圧倒的な開発スピードを提供することをミッションに掲げています。
