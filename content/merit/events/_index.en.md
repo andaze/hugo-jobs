@@ -13,10 +13,10 @@ description: "At Baisi, we are implementing a variety of initiatives to improve 
 
 ### **Internal systems and events**
 &nbsp;
-###### At our company, we are implementing a variety of initiatives to improve the skills of each individual, strengthen our organizational capabilities, and promote smooth human relations. On this page, we will introduce some of the most popular ones.
+At our company, we are implementing a variety of initiatives to improve the skills of each individual, strengthen our organizational capabilities, and promote smooth human relations. On this page, we will introduce some of the most popular ones.
 &nbsp;
 
-![Images not available](../../ico_arw_page_anchor.webp "Title") [**Daily Report**](#daily-report)   
+<!-- ![Images not available](../../ico_arw_page_anchor.webp "Title") [**Daily Report**](#daily-report)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Project Meeting**](#project-meeting)   
 
@@ -38,8 +38,8 @@ description: "At Baisi, we are implementing a variety of initiatives to improve 
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Work hour restrictions**](#work-hour-restrictions)   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Document formatting**](#document-formatting)   
-
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Document formatting**](#document-formatting)    -->
+{{< tableofcontent >}}
 #### **Daily Report**
 &nbsp;
 ###### It is compulsory to submit a daily report before the end of the workday. You can write about anything you want. The amount of text is also free. The only restriction is that the report must be tied to the action guidelines. This is for the purpose of verbalization skills, ability to organize thoughts, penetration of the action guidelines, and internal communication. Even those who are not good at writing at the time of joining the company will develop their writing skills within a couple of months and be able to write in a short time. Some of the daily reports are published on an owned media called "Daily Report Site".

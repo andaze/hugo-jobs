@@ -15,15 +15,15 @@ description: "アンダーズならではの特徴が社員にどのような価
 
 **新しい技術に触れられる、刺激的な日々。プロジェクトの手綱を握りながら、一生モノのスキルが身につく。 あなたもきっと働く意義を感じられるはずです。**  
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**経営に近い立場で、キャリアパスを描ける**](#経営に近い立場で、キャリアパスを描ける)    
+<!-- ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**経営に近い立場で、キャリアパスを描ける**](#経営に近い立場で、キャリアパスを描ける)    
  
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**計画よりも「発見」と「目標」が開発の原動力**](#計画よりも「発見」と「目標」が開発の原動力)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**イノベーションを生む自由度の高い働き方**](#イノベーションを生む自由度の高い働き方)    
  
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**従業員を信頼して権限を持たせる**](#従業員を信頼して権限を持たせる)  
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**今あるモノから考える、ボトムアップ思考**](#今あるモノから考える、ボトムアップ思考)  
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**情報セキュリティや品質管理も万全**](#情報セキュリティや品質管理も万全)     -->
+{{< tableofcontent >}}
+#### 経営に近い立場で、キャリアパスを描ける
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**リアルタイム翻訳ツールで言葉の壁を超える**](#リアルタイム翻訳ツールで言葉の壁を超える)  
 

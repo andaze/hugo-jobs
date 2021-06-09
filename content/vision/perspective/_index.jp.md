@@ -15,11 +15,12 @@ description: "現代流のマネジメント手法で業界で飛躍できる技
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;スタートアップの開発スピードを、企業のルールで提供**](#スタートアップの開発スピードを、企業のルールで提供)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;ミッション実現に欠かせないのがインド人の高い技術力**](#ミッション実現に欠かせないのがインド人の高い技術力)
+<!-- ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; 既存の最新技術によって、現場の挑戦に向き合う。**](#既存の最新技術によって、現場の挑戦に向き合う。)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;世界的なIT企業でも重宝されるインド人を採用**](#世界的なIT企業でも重宝されるインド人を採用)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;エンジニアが「面白い」と感じられなければ意味がない**](#エンジニアが「面白い」と感じられなければ意味がない)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; スピード感のある新規ビジネスをサポート。**](#スピード感のある新規ビジネスをサポート。) -->
+{{< tableofcontent >}}
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;新たな「発見」や「価値」をもたらす案件を選定**](#新たな「発見」や「価値」をもたらす案件を選定)
 

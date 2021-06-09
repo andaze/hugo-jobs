@@ -246,3 +246,9 @@ weight = 6
 name   = "entry"
 url    = "entry"
 weight = 7
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 4

@@ -10,15 +10,15 @@ description: "This is a message from our representative, Mekitani, to everyone w
 
 ### **To all applicants**
 &nbsp;
-###### This is a message from our representative, Mukette Tani, to all applicants to Bage.
+This is a message from our representative, Mukette Tani, to all applicants to Bage.
 &nbsp;
 
-![Image Not Available](../../ico_arw_page_anchor.webp)[**For those who apply with no experience**](#for-those-who-apply-with-no-experience)
+<!-- ![Image Not Available](../../ico_arw_page_anchor.webp)[**For those who apply with no experience**](#for-those-who-apply-with-no-experience)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp)[**For people in their 20s who are applying with experience**](#for-people-in-their-20s-who-are-applying-with-experience)
 
-![Image Not Available](../../ico_arw_page_anchor.webp)[**For people in their 30s and older who are applying with experience**](#for-people-in-their-30s-and-older-who-are-applying-with-experience)
-
+![Image Not Available](../../ico_arw_page_anchor.webp)[**For people in their 30s and older who are applying with experience**](#for-people-in-their-30s-and-older-who-are-applying-with-experience) -->
+{{< tableofcontent >}}
 #### **For those who apply with no experience**
 &nbsp;
 ###### In today's world where job changes are commonplace, which company you work for first may no longer be a major choice. Nevertheless, it is highly likely that you will be able to build a foundation at that company, and if the first company you work for is a good one, it will definitely have a positive impact on your career later on.

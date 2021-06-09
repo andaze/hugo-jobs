@@ -12,10 +12,10 @@ description: "Our vision and training policies are closely related to the curren
 
 ### **Current status and issues in the industry**
 &nbsp;
-###### Our vision and training policies are closely intertwined with the current situation and future of the web/IT industry, and are premised on our awareness of these issues. In this page, we explain our thinking in this area.
+Our vision and training policies are closely intertwined with the current situation and future of the web/IT industry, and are premised on our awareness of these issues. In this page, we explain our thinking in this area.
 &nbsp;
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Rapidly shifting trends**](#rapidly-shifting-trends)
+<!-- ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Rapidly shifting trends**](#rapidly-shifting-trends)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Us in 2030**](#us-in-2030)
 
@@ -23,8 +23,8 @@ description: "Our vision and training policies are closely related to the curren
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Business-centered thinking that makes you stronger**](#business-centered-thinking-that-makes-you-stronger)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Difficulties in Training People**](#difficulties-in-training-people)
-
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Difficulties in Training People**](#difficulties-in-training-people) -->
+{{< tableofcontent >}}
 #### **Rapidly shifting trends**
 &nbsp;
 ###### The web/IT industry is characterized by rapid changes; it is not unusual for a situation to change in a year or two, and for a job to disappear in five or ten years. For example, Flash, the web animation technology that took the world by storm in the 2000s, is no longer in use. Many of the techniques that Flash creators worked so hard to acquire back then have become obsolete and are no longer useful. On the other hand, the market for smartphones, which did not exist at all back then, has rapidly expanded since 2010 and has become the mainstream of today.

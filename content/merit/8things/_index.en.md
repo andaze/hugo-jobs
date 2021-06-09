@@ -15,10 +15,10 @@ description: " The most important thing we focus on in our hiring strategy is th
 ### **Eight things you can get from a vage**
 &nbsp;
 
-###### What we focus on the most in our recruitment strategy is the "meaning of working at Vage. Without it, there would be no reason to choose or continue working at Vage. This is far more important than the kind of person we are looking for. I have summarized the eight main reasons for working here.
+What we focus on the most in our recruitment strategy is the "meaning of working at Vage. Without it, there would be no reason to choose or continue working at Vage. This is far more important than the kind of person we are looking for. I have summarized the eight main reasons for working here.
 &nbsp;
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**1. Acquire universal skills that will be useful in the age of 100 years of life**](#1-acquire-universal-skills-that-will-be-useful-in-the-age-of-100-years-of-life)    
+<!-- ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**1. Acquire universal skills that will be useful in the age of 100 years of life**](#1-acquire-universal-skills-that-will-be-useful-in-the-age-of-100-years-of-life)    
 
  
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**2. Zero subcontractors, so we can control the work.**](#2-zero-subcontractors-so-we-can-control-the-work)   
@@ -39,8 +39,8 @@ description: " The most important thing we focus on in our hiring strategy is th
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**7. Actively supporting activities outside the company.**](#7-actively-supporting-activities-outside-the-company)   
 
  
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**8. Ability to work in a good working relationship**](#8-ability-to-work-in-a-good-working-relationship)    
-
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**8. Ability to work in a good working relationship**](#8-ability-to-work-in-a-good-working-relationship)     -->
+{{< tableofcontent >}}
 
  
 #### `1.` Acquire universal skills that will be useful in the age of 100 years of life
