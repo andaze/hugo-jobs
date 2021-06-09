@@ -38,6 +38,7 @@ AIの活用で**企業が現場で抱えている課題を解決する**こと�
 -	NOSQLデータベース開発 / AZURE COSMOS DATABASE 
 -	ビッグデータ分析開発 / AZURE TABLE STORAGE 
 -	テレワーク2.0 / TELEWORK 2.0
+
  **主なクライアント**：流通、不動産、運輸、小売、サービス業ほか
 
 ---
