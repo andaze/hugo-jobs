@@ -24,6 +24,7 @@ EmploymentType: ["Full_Time", "Part_Time"]
 &nbsp;
 ###### We are looking for marketers and researchers to consult with our clients in the areas of research and marketing.
 ---
+<!-- path of this shortcode:= themes/navigator-hugo/layouts/shortcodes/consult_en.html -->
 {{< consult_en >}}
 
 &nbsp;
