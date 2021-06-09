@@ -54,4 +54,4 @@
 {{ end }}
 
 <img src='{{ `images/imageLoading.gif` }}' width='{{ $width }}' height='{{ $height }}'
-srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'></img>
+srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}' alt='Images Not Available'></img>
