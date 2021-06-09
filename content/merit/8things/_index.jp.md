@@ -15,17 +15,17 @@ description: "アンダーズならではの特徴が社員にどのような価
 
 **新しい技術に触れられる、刺激的な日々。プロジェクトの手綱を握りながら、一生モノのスキルが身につく。 あなたもきっと働く意義を感じられるはずです。**  
 
+{{< tableofcontent >}}
+
 <!-- ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**経営に近い立場で、キャリアパスを描ける**](#経営に近い立場で、キャリアパスを描ける)    
  
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**計画よりも「発見」と「目標」が開発の原動力**](#計画よりも「発見」と「目標」が開発の原動力)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**イノベーションを生む自由度の高い働き方**](#イノベーションを生む自由度の高い働き方)    
  
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**情報セキュリティや品質管理も万全**](#情報セキュリティや品質管理も万全)     -->
-{{< tableofcontent >}}
-#### 経営に近い立場で、キャリアパスを描ける
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**情報セキュリティや品質管理も万全**](#情報セキュリティや品質管理も万全)   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**リアルタイム翻訳ツールで言葉の壁を超える**](#リアルタイム翻訳ツールで言葉の壁を超える)  
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**リアルタイム翻訳ツールで言葉の壁を超える**](#リアルタイム翻訳ツールで言葉の壁を超える)    -->
 
 #### 経営に近い立場で、キャリアパスを描ける
 アンダーズは一般的に言われている事業会社や、受託会社といった非事業会社とは一線を画す独自の経営スタイルでビジネスを展開しています。

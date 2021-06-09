@@ -13,6 +13,8 @@ description: " グローバルなIT技術を、国境を越えて駆使してい
 
 **グローバルなIT技術を、国境を越えて駆使している当社。開発スピードと最高レベルの品質で他を圧倒し、 数々のイノベーションをもたらしています。**  
 
+
+{{< tableofcontent >}}
 <!-- ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**ITの先頭をひた走る英語圏の技術を日本語で提供**](#ITの先頭をひた走る英語圏の技術を日本語で提供)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title") [**上場企業や官公庁にも信頼される危機管理能力**](#上場企業や官公庁にも信頼される危機管理能力)   
@@ -20,12 +22,10 @@ description: " グローバルなIT技術を、国境を越えて駆使してい
 ![Image not available](../../ico_arw_page_anchor.webp "Title") [**経営ポジションに信頼されるプロジェクトの提案**](#経営ポジションに信頼されるプロジェクトの提案 )   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title") [**世界的なIT企業でも重宝されるインド人を採用**](#世界的なIT企業でも重宝されるインド人を採用)    -->
-{{< tableofcontent >}}
-#### ITの先頭をひた走る英語圏の技術を日本語で提供
 
-![Image not available](../../ico_arw_page_anchor.webp "Title") [**多国籍メンバーのチームが適材適所で強みを発揮**](#多国籍メンバーのチームが適材適所で強みを発揮)  
+<!-- ![Image not available](../../ico_arw_page_anchor.webp "Title") [**多国籍メンバーのチームが適材適所で強みを発揮**](#多国籍メンバーのチームが適材適所で強みを発揮)  
 
-![Image not available](../../ico_arw_page_anchor.webp "Title") [**働く場所とデータの分散でリスクとコストを低減**](#働く場所とデータの分散でリスクとコストを低減)  
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**働く場所とデータの分散でリスクとコストを低減**](#働く場所とデータの分散でリスクとコストを低減)   -->
 
 #### スタートアップの開発スピードを、企業のルールで提供
 
