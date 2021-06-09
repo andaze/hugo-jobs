@@ -17,19 +17,19 @@ description: "現代流のマネジメント手法で業界で飛躍できる技
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;ミッション実現に欠かせないのがインド人の高い技術力**](#ミッション実現に欠かせないのがインド人の高い技術力)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;世界的なIT企業でも重宝されるインド人を採用 **](#世界的なIT企業でも重宝されるインド人を採用)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;世界的なIT企業でも重宝されるインド人を採用**](#世界的なIT企業でも重宝されるインド人を採用)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;エンジニアが「面白い」と感じられなければ意味がない**](#エンジニアが「面白い」と感じられなければ意味がない)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;新たな「発見」や「価値」をもたらす案件を選定**](#新たな「発見」や「価値」をもたらす案件を選定)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;顧客にとって信頼できるブレーンになる **](#顧客にとって信頼できるブレーンになる)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;顧客にとって信頼できるブレーンになる**](#顧客にとって信頼できるブレーンになる)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;社会貢献する前に、従業員ファースト**](#社会貢献する前に、従業員ファースト)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;今後は約100名体制へ増員予定**](#今後は約100名体制へ増員予定)
 
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;専門職としての未来も開けるキャリアパス **](#専門職としての未来も開けるキャリアパス)
+![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp;専門職としての未来も開けるキャリアパス**](#専門職としての未来も開けるキャリアパス)
 
 #### スタートアップの開発スピードを、企業のルールで提供
 私たちは社会の常識やモラルといった企業ルールの範囲内で、スタートアップのような圧倒的な開発スピードを提供することをミッションに掲げています。
