@@ -32,13 +32,13 @@ description: "業界で重宝され、どんな場面でも通用するエンジ
 
 #### 最新のIT技術やセキュリティを導入
 社内では下記のような最新の開発環境を用意しています。
-- Azure上の仮想開発チーム
+- Azure上の仮想開発チーム 
 各メンバーが離れた場所に居ながら1つのチームとして機能することができる開発環境です。
-- Microsoft365によるチームコラボレーション
+- Microsoft365によるチームコラボレーション 
 チャットやビデオ会議、word、Excelなどの共同編集もリアルタイムで行えるMicrosoft Teamsを活用しています。
-- DevOpsによる生産的なプロセス管理
+- DevOpsによる生産的なプロセス管理 
 開発の精度を上げながらスピードも早められる手法「DevOps」で、運用サイクルを頻繁に回します。
-- Visual Studio SubscriptionによるMicrosoft製品の利用
+- Visual Studio SubscriptionによるMicrosoft製品の利用 
 Microsoftゴールドパートナーである当社は、数百種類におよぶMicrosoft製品やクラウドが自由に使い放題です。
 
 #### 研修や勉強会
