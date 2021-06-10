@@ -5,16 +5,37 @@ draft: false
 weight: 4
 advtitle2: "メッセージ"
 advtitle3: "MESSAGE"
-description: "アンダーズでは、製造プロセスやテストなど時間やコストがかかる作業の「自動化」に取り組んでいます。自動化を取り入れることで効率が上がり、生産性や製品の質を高めることができます。"
+description: "より価値の高い仕事に専念できるように。アンダーズでは、製造プロセスやテストなど時間やコストがかかる作業の「自動化」に取り組んでいます。自動化を取り入れることで効率が上がり、生産性や製品の質を高めることができます。"
+
 ---
 
+{{< tableofcontent >}}
+
+<!-- ![Images Not Available](../../ico_arw_page_anchor.webp)[**ソフトウェア製造プロセスの自動化**](#ソフトウェア製造プロセスの自動化)
+
+![Images Not Available](../../ico_arw_page_anchor.webp)[**志望動機があなたを有利にする**](#志望動機があなたを有利にする)
+
+![Images Not Available](../../ico_arw_page_anchor.webp)[**感銘を受けた技術やサービスを語ろう**](#感銘を受けた技術やサービスを語ろう)
+
+![Images Not Available](../../ico_arw_page_anchor.webp)[**前職の退職理由は正直に話そう**](#前職の退職理由は正直に話そう)
+
+![Images Not Available](../../ico_arw_page_anchor.webp)[**短所が言えるようにしておこう**](#短所が言えるようにしておこう)
+
+![Images Not Available](../../ico_arw_page_anchor.webp)[**オタクなあなたは「1つのことに熱中できる尊敬すべき人」**](#オタクなあなたは「1つのことに熱中できる尊敬すべき人」)
+
+![Images Not Available](../../ico_arw_page_anchor.webp)[**話す力の有無は結果に直結しない**](#話す力の有無は結果に直結しない)
+
+![Images Not Available](../../ico_arw_page_anchor.webp)[**面接ではたくさん質問しよう**](#面接ではたくさん質問しよう) 
+
+![Images Not Available](../../ico_arw_page_anchor.webp)[**同業他社にも積極的に応募しよう**](#同業他社にも積極的に応募しよう) -->
+
 ### アンダーズが掲げる３つの「自動化」
-
 **より価値の高い仕事に専念できるように。**
-
 アンダーズでは、製造プロセスやテストなど時間やコストがかかる作業の「自動化」に取り組んでいます。自動化を取り入れることで効率が上がり、生産性や製品の質を高めることができます。
 
-####  1. ソフトウェア製造プロセスの自動化
+#### ソフトウェア製造プロセスの自動化
+kokomade
+
 
 私たちが取り入れているのは、開発の精度を上げながらスピードも速められる手法「BizDevOps（ビズデブオプス）」です。BizDevOpsとはツールを活用しながら
 
