@@ -64,7 +64,7 @@
     {{ $crop_prm := printf "%dx%d %s" (int (mul $width $imgratio)) (int (mul $height $imgratio)) ($positionFormat) }}
     {{ $cropsize:= print $crop_prm}}
     {{/* {{ $cropsize:= print $crop_prm " webp"}} */}}
-    {{ $crop_img := $srcimg.Fill $cropsize }}
+    {{ $crop_img := $srcimg.Resize $cropsize }}
     {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
 {{ end }}
 
