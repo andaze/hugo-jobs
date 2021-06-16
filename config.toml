@@ -140,7 +140,7 @@ imagesize3 = "796"
 imageratio = "1 1.5 2 3"
 imagewidth = "1440"
 fillposition = "center"
-format= ""
+format= "webp"
 # Hero Area Section
 [Languages.jp.params.hero]
 enable  = true
@@ -168,7 +168,7 @@ dateFormat = "January 2, 2006"
 home = "EN Home"
 logo = "images/logo.png"
 menufixed = false
-headerTitle = "Beiji Co., Ltd. recruitment site"
+headerTitle = "Andaz, Inc. recruitment site"
 advantagetitle =  "Benefits of working at Bage"
 visionTitle = "Vision and development policy"
 messageTitle = "Message to applicants"
@@ -195,7 +195,7 @@ imagesize3 = "796"
 imageratio = "1 1.5 2 3"
 imagewidth = "1440"
 fillposition = "center"
-format= ""
+format= "webp"
 # cookies
 [params.cookies]
 enable = true
