@@ -10,6 +10,9 @@
   {{ if eq (.Params.SitejobPosting) (true) }}
     {{ partial "schema.html" . }}
   {{ end }}
+  {{ if .Params.Jsonld }}
+  <script type="application/ld+json">{{.Params.jsonld}}</script>
+  {{ end }}
   <script src="{{ `../../plugins/jquery/jquery.min.js` | absURL }}" ></script>
   <link href="{{ `../../../../../../images/titleLogo.png` | absURL }}" rel="icon">
   <link href="{{ `../../plugins/bootstrap/css/bootstrap.min.css` | absURL }}" rel="stylesheet">

@@ -7,7 +7,18 @@ weight: 1
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
 description: "Our vision and training policies are closely related to the current state and future of the industry, and are premised on our awareness of these issues. In this section, we explain our approach to the current state of the industry and its issues."
-
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### **Current status and issues in the industry**

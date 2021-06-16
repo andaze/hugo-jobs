@@ -7,6 +7,18 @@ advtitle2: "アンダーズで働くメリット"
 advtitle3: "ADVANTAGE"
 description: "業界で重宝され、どんな場面でも通用するエンジニアやコンサルタントとして活躍できるよう社内ではさまざまな研修や福利厚生をご用意しています。"
 # nextPageBtn: false
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### 社内制度

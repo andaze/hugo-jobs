@@ -6,7 +6,18 @@ weight: 3
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
 description: "In order to develop a long-lasting workforce, we must also have a clear plan for our company itself. In this section, we will discuss the company's future vision."
-
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### **Future Vision of the Company**

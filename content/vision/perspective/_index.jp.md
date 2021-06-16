@@ -7,7 +7,18 @@ weight: 1
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"
 description: "現代流のマネジメント手法で業界で飛躍できる技術者を育てたい。アンダーズは世界中のIT技術を組み合わせて、日本とインドので企業が抱える課題と向き合ってきました。そんな当社の土台にある、ビジョンや育成方針をお伝えします。"
-
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### アンダーズのミッション

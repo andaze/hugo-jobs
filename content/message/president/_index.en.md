@@ -6,6 +6,18 @@ weight: 1
 advtitle2: "Message to Applicants"
 advtitle3: "MESSAGE"
 description: "This is a message from our representative, Mekitani, to everyone who is applying to work at Bage. We would like to share our thoughts with new graduates, people in their 20s, 30s and above."
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### **To all applicants**

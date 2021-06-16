@@ -6,8 +6,18 @@ weight: 2
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
 description: "What we want to develop is not just people who create websites, but people who can continue to be active in the future. Here, we introduce our training policy."
-
-
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### **Our Training Policy**
