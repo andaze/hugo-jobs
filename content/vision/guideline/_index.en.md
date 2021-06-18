@@ -6,7 +6,18 @@ weight: 4
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
 description: "In order to spread our vision and identity throughout the company and to align the 'prerequisites' for our staff to work, we have prepared two action guidelines."
-
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### **Two Action Guidelines**

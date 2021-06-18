@@ -6,7 +6,18 @@ weight: 4
 advtitle2: "メッセージ"
 advtitle3: "MESSAGE"
 description: "より価値の高い仕事に専念できるように。アンダーズでは、製造プロセスやテストなど時間やコストがかかる作業の「自動化」に取り組んでいます。自動化を取り入れることで効率が上がり、生産性や製品の質を高めることができます。"
-
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### アンダーズが掲げる３つの「自動化」

@@ -6,7 +6,18 @@ weight: 3
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"
 description: "私たちが取り入れているのは、時間や場所を選ばないマネジメントです。昔ながらの根性論は語りません。客観的な判断とフェアな関係性で、成長できる環境を整えます。"
-
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### 育成の方針

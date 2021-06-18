@@ -6,6 +6,18 @@ weight: 1
 advtitle2: "オフィスと周辺"
 advtitle3: "OFFICE"
 description: "私たちのオフィスはエキスパートオフィスの中にあります。落ち着いた雰囲気の中でビジネスに集中できる上質な空間です。"
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### オフィスギャラリー

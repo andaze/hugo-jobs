@@ -7,6 +7,18 @@ weight: 2
 advtitle2: "募集職種・募集要項"
 advtitle3: "REQUIREMENT"
 description: "Microsoft クラウドソリューションを検討されているクライアントに対して、提案および導入を支援しています。Azure サービスを活用したソリューションの設計・開発、データ移行、レガシーシステムの統合を行っていただきます。"
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 ### 当社について
 
