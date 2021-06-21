@@ -9,12 +9,12 @@
             {{ $baseUrlget := .Site.BaseURL }}
             {{ $enpath := "en/message/voice/" }}
             {{ $enurl := print $baseUrlget $enpath }}
-            {{ $jppath := "jp/message/voice/" }}
+            {{ $jppath := "ja/message/voice/" }}
             {{ $jpurl := print $baseUrlget $jppath }}
             </div>
             {{ if or (eq (.Permalink) ($enurl)) (eq (.Permalink) ($jpurl)) }}
             {{ $cururl:= .Permalink }}
-            {{ $imagepath:= replace $cururl "/jp/" "/en/" }}
+            {{ $imagepath:= replace $cururl "/ja/" "/en/" }}
                 
             {{ range .Pages }}
             {{ if .Params.Name }}
