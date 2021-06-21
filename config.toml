@@ -63,12 +63,12 @@ srcsetImg = "slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_10
 dataSrcImg = "slider/homeslider/homeSlider4.webp"
 heading = "WE'RE IN THE GROWTH PHASE, YOUR FUTURE IS SPREADING."
 subheading = "Bayzi has a clear vision for the future of the industry and the company. We are currently in the phase of increasing the number of talented staff and creating the foundation for future development. Because we are still developing, you can become the core of the company if you choose."
-[[Languages.en.params.heading]]
-srcimg = "/images/imageLoading.gif"
-srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
-dataSrcImg = "/images/slider/img_keyvisual_01.webp"
-heading = "CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
-subheading = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
+# [[Languages.en.params.heading]]
+# srcimg = "/images/imageLoading.gif"
+# srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
+# dataSrcImg = "/images/slider/img_keyvisual_01.webp"
+# heading = "CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
+# subheading = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
 
 
 [[Languages.ja.params.heading]]
@@ -95,12 +95,12 @@ srcsetImg = "slider/homeslider/homeSlider4_hu04843bef3e1641b0879385bc902e3b2c_10
 dataSrcImg = "slider/homeslider/homeSlider4.webp"
 heading = "国際色豊かなメンバーと、多彩なワークスペースで仕事をしています。"
 subheading = "一緒に働くのは日本やインドをはじめとするさまざまな国籍のスタッフ。社内で国際交流を楽しむこともできます。"
-[[Languages.ja.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
-dataSrcImg = "/images/slider/img_keyvisual_01.webp"
-heading = "クライアントからは信頼して数々のプロジェクトを任されています。"
-subheading = "培ってきた知見や自分たちのアイデアを活かしながら、ITプロジェクトをリードすることができるでしょう。"
+# [[Languages.ja.params.heading]]
+# srcimg = "images/imageLoading.gif"
+# srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
+# dataSrcImg = "/images/slider/img_keyvisual_01.webp"
+# heading = "クライアントからは信頼して数々のプロジェクトを任されています。"
+# subheading = "培ってきた知見や自分たちのアイデアを活かしながら、ITプロジェクトをリードすることができるでしょう。"
 
 # Gestion des langues : FR / EN / NL / DE
 [Languages]
