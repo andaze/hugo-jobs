@@ -2,13 +2,13 @@
   <div class="container">
     <div class="row" style="margin-top: 20px;">
       <div class="col-lg-3 col-md-12 col-sm-12 col-12">
-          <h2><img class="lazyload" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{ `images/h_logo.webp` | absURL }}" height="40px" width="50px" alt="Image Not available"/> </h2>
+          <h2><img class="lazyload" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{ `images/andazeLogo.webp` | absURL }}" height="40px" width="100px" alt="Image Not available"/> </h2>
           {{ with .Site.Params.footerAddress }}
           <p class="footercolsize"> {{ . }} {{ end }}
             <br> {{ with .Site.Params.footerMail }} {{ . }} {{ end }}
             <br> {{ with .Site.Params.footerTel }} {{ . }} {{ end }}
             <br> {{ with .Site.Params.footerFax }} {{ . }} {{ end }}
-            Url.<a class="footercolsize" href="{{ .URL }}" target="_blank">https://andaze.com</a>
+            Url.<a class="footercolsize" href="{{ .URL }}" rel="noopener" target="_blank">https://andaze.com</a>
           </p>
       </div>
       <div style = "padding-top: 10px;" class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -42,18 +42,22 @@
       </div>
       <div class="col-lg-3 col-md-12 col-sm-12 col-12" style="padding-top: 10px;">
         <ul style="list-style: none !important;">
-          <li class="colsize">
-            <a href="https://www.andaze.com/ja/" target="_blank"> {{ with .Site.Params.footerhome }}  {{ . }} {{ end }}</a>
-          </li>
-          <li class="colsize"><a href="https://andaze.me/sogitani/" target="_blank">{{ with .Site.Params.footerblog  }} {{ . }} {{ end }}</a></li>
-          <li class="colsize"><a href="https://andaze.me/nippo/" target="_blank">{{ with .Site.Params.footerReport }} {{ . }} {{ end }}</a></li>
+          {{ if .Site.Params.footerhome }}
+            <li class="colsize"><a href="{{ .URL | absLangURL }}" rel="noopener" target="_blank">{{ .Site.Params.footerhome }}</a></li>
+          {{ end }}
+          {{ if .Site.Params.footerblog }}
+            <li class="colsize"><a href="https://andaze.me/sogitani/" rel="noopener" target="_blank">{{  .Site.Params.footerblog }}</a></li>
+          {{ end }}
+          {{ if .Site.Params.footerReport }}
+            <li class="colsize"><a href="https://andaze.me/nippo/" rel="noopener" target="_blank">{{  .Site.Params.footerReport }}</a></li>
+          {{ end }}
         </ul>
       </div>
     </div>
   </div>
 </footer>
 
-<button onclick="topFunction()" id="myBtn" class="back-to-top"> <img class="lazyload" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{ `../../../../images/back_to_top.png` }}" width="25px" alt=""></button>
+<button onclick="topFunction()" id="myBtn" aria-label="right" class="back-to-top"> <img class="lazyload" src="{{ `../../../../images/imageLoading.gif` }}" data-src="{{ `../../../../images/back_to_top.png` }}" width="25px" alt=""></button>
 <div id="preloader"></div>
 
 {{ $square1 := resources.Get "js/square1.js" | resources.Minify }}

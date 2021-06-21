@@ -6,19 +6,31 @@ weight: 1
 advtitle2: "Message to Applicants"
 advtitle3: "MESSAGE"
 description: "This is a message from our representative, Mekitani, to everyone who is applying to work at Bage. We would like to share our thoughts with new graduates, people in their 20s, 30s and above."
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### **To all applicants**
 &nbsp;
-###### This is a message from our representative, Mukette Tani, to all applicants to Bage.
+This is a message from our representative, Mukette Tani, to all applicants to Bage.
 &nbsp;
 
-![Image Not Available](../../ico_arw_page_anchor.webp)[**For those who apply with no experience**](#for-those-who-apply-with-no-experience)
+<!-- ![Image Not Available](../../ico_arw_page_anchor.webp)[**For those who apply with no experience**](#for-those-who-apply-with-no-experience)
 
 ![Image Not Available](../../ico_arw_page_anchor.webp)[**For people in their 20s who are applying with experience**](#for-people-in-their-20s-who-are-applying-with-experience)
 
-![Image Not Available](../../ico_arw_page_anchor.webp)[**For people in their 30s and older who are applying with experience**](#for-people-in-their-30s-and-older-who-are-applying-with-experience)
-
+![Image Not Available](../../ico_arw_page_anchor.webp)[**For people in their 30s and older who are applying with experience**](#for-people-in-their-30s-and-older-who-are-applying-with-experience) -->
+{{< tableofcontent >}}
 #### **For those who apply with no experience**
 &nbsp;
 ###### In today's world where job changes are commonplace, which company you work for first may no longer be a major choice. Nevertheless, it is highly likely that you will be able to build a foundation at that company, and if the first company you work for is a good one, it will definitely have a positive impact on your career later on.

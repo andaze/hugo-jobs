@@ -1,0 +1,17 @@
+{{/* 
+    < tableofcontent  >
+    
+    Use:
+    -----
+    It will display table of content for detail page.
+    
+    Example: 
+    --------
+    {{< tableofcontent  >}} 
+    
+*/}}
+<div  class="container"> 
+    <div id="toc" class="sectionblock">        
+        {{ .Page.TableOfContents }}
+    </div>
+</div>

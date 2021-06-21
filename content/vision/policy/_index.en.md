@@ -6,18 +6,28 @@ weight: 2
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
 description: "What we want to develop is not just people who create websites, but people who can continue to be active in the future. Here, we introduce our training policy."
-
-
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### **Our Training Policy**
 &nbsp;
-###### What we want to develop is not just people who create websites, but people who can continue to be active in the future. To achieve this, we conduct our daily training with the following in mind.
+What we want to develop is not just people who create websites, but people who can continue to be active in the future. To achieve this, we conduct our daily training with the following in mind.
 
-![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; Two conditions for developing people who are resistant to change**](#two-conditions-for-developing-people-who-are-resistant-to-change)
+<!-- ![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; Two conditions for developing people who are resistant to change**](#two-conditions-for-developing-people-who-are-resistant-to-change)
 
-![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; 10 Universal Skills You Can Acquire at Vage**](#10-universal-skills-you-can-acquire-at-vage)
-
+![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; 10 Universal Skills You Can Acquire at Vage**](#10-universal-skills-you-can-acquire-at-vage) -->
+{{< tableofcontent >}}
 #### **Two conditions for developing people who are resistant to change**
 &nbsp;
 ###### In order to continuously develop people who are resilient to change, we must devise ways of doing our daily work itself, and I believe that two things in particular should be kept in mind.

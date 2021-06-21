@@ -7,15 +7,26 @@ advtitle2: "Benefits of working at Bage"
 advtitle3: "ADVANTAGE"
 description: "At Baisi, we undertake the entire process of web development, from strategy to development, and we have the in-house talent to complete it. Here are some definitions of our in-house capabilities"
 # nextPageBtn: true
-
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### **Occupation Introduction**
 &nbsp;
-###### Since we undertake the entire process of web development, from strategy to development, we have all the skills to complete it. Here are some definitions of job functions that appear in internal conversations. However, we do not believe that all employees need to follow these uniform job definitions. For example, even if you have the same title of "director," the skills you acquire are not one and the same for each person. Rather than imposing a standardized skill set based on job titles, the system is structured so that each person can work freely according to their own wishes and aptitudes.
+Since we undertake the entire process of web development, from strategy to development, we have all the skills to complete it. Here are some definitions of job functions that appear in internal conversations. However, we do not believe that all employees need to follow these uniform job definitions. For example, even if you have the same title of "director," the skills you acquire are not one and the same for each person. Rather than imposing a standardized skill set based on job titles, the system is structured so that each person can work freely according to their own wishes and aptitudes.
 &nbsp;
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Project Manager**](#project-manager)   
+<!-- ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Project Manager**](#project-manager)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**consultant**](#consultant)       
 
@@ -27,8 +38,8 @@ description: "At Baisi, we undertake the entire process of web development, from
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**copywriter**](#copywriter)       
 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**engineer**](#engineer)       
-
+![Image not available](../../ico_arw_page_anchor.webp "Title")  [**engineer**](#engineer)        -->
+{{< tableofcontent >}}
 #### **Project Manager**
 &nbsp;
 ###### It is sometimes abbreviated to PM. This position is responsible for budget management, team organization, WBS creation, security-related settings, internal communication, and legal procedures. While most of the work is done when a project is launched, they are also responsible for resource allocation, budget management, and schedule adjustment during the project's progress. There is no full-time project manager at Vage, but rather a director who also serves as a project manager.

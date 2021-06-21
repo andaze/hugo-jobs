@@ -6,17 +6,28 @@ weight: 3
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
 description: "In order to develop a long-lasting workforce, we must also have a clear plan for our company itself. In this section, we will discuss the company's future vision."
-
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 ### **Future Vision of the Company**
 &nbsp;
-###### Our career path is based on the premise of developing our employees into creators who are resilient to changes in the environment and can contribute to the company for a longer period of time. In order to realize that career path, we must also have a clear plan for our company itself. Here, I would like to explain the future of Baisi.
+Our career path is based on the premise of developing our employees into creators who are resilient to changes in the environment and can contribute to the company for a longer period of time. In order to realize that career path, we must also have a clear plan for our company itself. Here, I would like to explain the future of Baisi.
 
-![Image Not available](../../ico_arw_page_anchor.webp)[**&nbsp; Future Business Plan**](#future-business-plan)
+<!-- ![Image Not available](../../ico_arw_page_anchor.webp)[**&nbsp; Future Business Plan**](#future-business-plan)
 
-![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; Staff Career Path**](#staff-career-path)
-
+![Image Not Available](../../ico_arw_page_anchor.webp)[**&nbsp; Staff Career Path**](#staff-career-path) -->
+{{< tableofcontent >}}
 #### **Future Business Plan**
 &nbsp;
 ###### We have one business pillar that we have already established and two business pillars that we would like to establish in the future. For each of them, we have the following plan.

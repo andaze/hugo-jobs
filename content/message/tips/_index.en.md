@@ -7,18 +7,30 @@ weight: 3
 advtitle2: "Message to Applicants"
 advtitle3: "MESSAGE"
 description: "In this section, we have compiled some advice for those who are thinking of applying for a job based on the Bayesian hiring criteria."
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 
 
 ### **Recruitment Tips**
 &nbsp;
-###### In the words of Sun Tzu, "If you know him and know yourself, you will never be defeated in a hundred battles. If you are going to apply for a job, you should know the hiring criteria of the company.
+In the words of Sun Tzu, "If you know him and know yourself, you will never be defeated in a hundred battles. If you are going to apply for a job, you should know the hiring criteria of the company.
 
-###### By the way, this is a method that will work well for other companies as well. I hope that these tips will help you in your job search and employment activities.    
+By the way, this is a method that will work well for other companies as well. I hope that these tips will help you in your job search and employment activities.    
 
 &nbsp;
 
-![Images Not Available](../../ico_arw_page_anchor.webp)[**Think of a natural motive for applying.**](#think-of-a-natural-motive-for-applying)
+<!-- ![Images Not Available](../../ico_arw_page_anchor.webp)[**Think of a natural motive for applying.**](#think-of-a-natural-motive-for-applying)
 
 ![Images Not Available](../../ico_arw_page_anchor.webp)[**Prepare as many pieces as possible.**](#prepare-as-many-pieces-as-possible)
 
@@ -32,8 +44,8 @@ description: "In this section, we have compiled some advice for those who are th
 
 ![Images Not Available](../../ico_arw_page_anchor.webp)[**Ask a lot of questions during the interview.**](#ask-a-lot-of-questions-during-the-interview)
 
-![Images Not Available](../../ico_arw_page_anchor.webp)[**Apply to as many companies in your industry as possible.**](#apply-to-as-many-companies-in-your-industry-as-possible)
-
+![Images Not Available](../../ico_arw_page_anchor.webp)[**Apply to as many companies in your industry as possible.**](#apply-to-as-many-companies-in-your-industry-as-possible) -->
+{{< tableofcontent >}}
 #### **Think of a natural motive for applying.**
 &nbsp;
 ###### There are many people who apply for jobs on job change sites without writing (or thinking about) a motive for their application, but not having a motive for your application will only put you at a disadvantage. You don't have to compose a unique, grand story to explain your motivation. All you need to do is to put into words what you want to do and what you feel is right for you.

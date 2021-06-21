@@ -7,24 +7,36 @@ advtitle2: "Benefits of working at Bage"
 advtitle3: "ADVANTAGE"
 description: " Bage Inc. is a web development company with a total of 14 employees (as of October 2018). Here are some of our strengths in business and what sets us apart from other companies."
 # nextPageBtn: true
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 ### **Features of Beiji**
+Beiji Co., Ltd. is a web production company with a total of 14 people (as of October 2018). Here, we would like to would like to introduce our features as a business and workplace.
 
- ###### Beiji Co., Ltd. is a web production company with a total of 14 people (as of October 2018). Here, we would like to would like to introduce our features as a business and workplace.
 
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Our strengths in business**](#our-strengths-in-business)   
+<!-- ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**Our strengths in business**](#our-strengths-in-business)   
 
 ![Image not available](../../ico_arw_page_anchor.webp "Title") [**Differences from other companies in the same industry**](#differences-from-other-companies-in-the-same-industry)   
 
-![Image not available](../../ico_arw_page_anchor.webp "Title") [**Difference from operating company**](#difference-from-operating-company)   
+![Image not available](../../ico_arw_page_anchor.webp "Title") [**Difference from operating company**](#difference-from-operating-company)    -->
 
+{{< tableofcontent >}}
 
 #### **Our strengths in business**
 
 ###### In recent years, attention to Bage has risen rapidly, and many requests for lectures and interviews have come in. In this way, despite being a small web production company, I think that the reason why it is attracting a lot of attention in the industry is that it is honestly continuing to study the three areas necessary for the web.
 
-{{< imagedisplay  src="Capture.webp"  >}}
+{{< imagedisplay  src="Capture.webp" width="" height="" fillposition="" format=""   >}}
 
 
 &nbsp;

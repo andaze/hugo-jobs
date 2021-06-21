@@ -22,44 +22,21 @@
         <span class="responsive" style="margin: 8px 8px;font-size:30px;color:white;cursor:pointer" onclick="openNav()">&#9776; </span>
         <div class="mobile-logo mr-auto">
           <div>
-            <!-- <a href="{{ .Site.Language.Lang | absLangURL }}"><img src="{{ `images/h_logo.webp` | absURL }}" width="50px" style="height: 19px !important"; alt="Image Not Available"/>&nbsp; <span style="color: rgb(175, 168, 111) !important;">{{ with .Site.Params.headerTitle }} {{ . }} {{ end }}</span></a> -->
-            <img src="{{ `images/h_logo.webp` | absURL }}" width="50px" style="height: 19px !important"; alt="Image Not Available"/>&nbsp; <span style="color: rgb(175, 168, 111) !important;">{{ with .Site.Params.headerTitle }} {{ . }} {{ end }}</span>
-            
+            <a href="{{ .Site.Language.Lang | absLangURL }}"><img src="{{ `images/andazeLogo.webp` | absURL }}" width="90px" style="height: 22px !important"; alt="Image Not Available"/>&nbsp; <span style="color: rgb(175, 168, 111) !important;">{{ with .Site.Params.headerTitle }} {{ . }} {{ end }}</span></a>
           </div>
         </div> 
 
 
         <!-- ===== Desktop menu ===== -->
-        <!-- {{ $Scratch := newScratch}}
-        {{ $Scratch.Set "url" "" }}
-        {{ $lang:= print site.Language }}
-        
         <nav class="mobile-offcanvas navbar-expand-lg">
-          <ul class="navbar-nav">
-            {{ range .Site.Menus.item }}
-              {{ if eq ($lang) ("en")  }}  
-                {{$seturl:= replace (.URL | absLangURL)  "/job/en/" "/en/job/" }}
-                {{ $Scratch.Set "url" $seturl }}
-              {{ else }}
-                {{$seturl:= replace (.URL | absLangURL)  "/job/jp/" "/jp/job/" }}
-                {{ $Scratch.Set "url" $seturl }}
+          <ul itemscope itemtype= "http://www.schema.org/SiteNavigationElement" class="navbar-nav">
+              {{ range .Site.Menus.item }}
+              <li itemprop="name" class="nav-menu active">
+                <a itemprop="url" href="{{ .URL | absLangURL }}" class="nav-link" >{{ i18n .Name }}</a>
+              </li>
               {{ end }}
-              {{ $url := $Scratch.Get "url" }}
-                <li class="nav-menu active">
-                  <a href="{{ $url }}" class="nav-link" >{{ i18n .Name }}</a>
-                </li>
-            {{ end }}
-          </ul>
-        </nav> -->
-        <nav class="mobile-offcanvas navbar-expand-lg">
-          <ul class="navbar-nav">
-            {{ range .Site.Menus.item }}
-                <li class="nav-menu active">
-                  {{ partial "homeurlchange.html" (dict "path" (.URL | absLangURL) "title" (i18n .Name) "class" "nav-link") }}
-                </li>
-            {{ end }}
-          </ul>
-        </nav>
+            </ul>
+          </nav>
         
         <span class="d-none d-lg-none d-xl-block" style="margin:auto; padding-top: 5px;">
           {{ partial "language_change.html" . }}
