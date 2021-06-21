@@ -42,7 +42,7 @@
         {{$swap:= replace $nextUrlGet "/job/en/" "/en/job/"}}
         {{ $Scratch.Set "url" $swap}}   
     {{ else }}
-        {{$swap:= replace $nextUrlGet "/job/jp/" "/jp/job/"}}
+        {{$swap:= replace $nextUrlGet "/job/ja/" "/ja/job/"}}
         {{ $Scratch.Set "url" $swap}}  
     {{ end }}
     {{ $nextName := $Scratch.Get "Name" }}

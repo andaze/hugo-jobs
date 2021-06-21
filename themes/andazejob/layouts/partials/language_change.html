@@ -7,7 +7,7 @@
         {{ range .Page.AllTranslations }}
             {{ $translation := .}}
             {{ if eq (print site.Language) ("en") }}
-                {{$changeurl:= replace $translation.Permalink "/job/jp/" "/jp/job/" }}
+                {{$changeurl:= replace $translation.Permalink "/job/ja/" "/ja/job/" }}
                 {{ $Scratch.Set "changeurl" $changeurl }}
             {{ else }}
                 {{$changeurl:= replace $translation.Permalink "/job/en/" "/en/job/" }}
