@@ -32,7 +32,8 @@
           <ul itemscope itemtype= "http://www.schema.org/SiteNavigationElement" class="navbar-nav">
               {{ range .Site.Menus.item }}
               <li itemprop="name" class="nav-menu active">
-                <a itemprop="url" href="{{ .URL | absLangURL }}" class="nav-link" >{{ i18n .Name }}</a>
+                {{ partial "homeurlchange.html" (dict "path" (.URL | absLangURL) "title" (i18n .Name) "class" "nav-link" "itemprop" "url") }}
+                <!-- <a itemprop="url" href="{{ .URL | absLangURL }}" class="nav-link" >{{ i18n .Name }}</a> -->
               </li>
               {{ end }}
             </ul>

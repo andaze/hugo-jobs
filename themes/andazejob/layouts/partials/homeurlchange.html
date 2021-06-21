@@ -11,4 +11,8 @@
 {{ end }}
 
 {{ $url := $Scratch.Get "url" }}
+{{if .itemprop}}
+<a itemprop = "{{.itemprop}}" href="{{ $url }}" class="{{.class}}" target="{{.target}}" >{{ .title }}</a>
+{{ else }}
 <a href="{{ $url }}" class="{{.class}}" target="{{.target}}" >{{ .title }}</a>
+{{ end }}
