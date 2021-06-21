@@ -22,7 +22,11 @@
 {{ $Scratch.Set "height" "" }}
     
 {{ $src := (.Get "src") }}
-{{ $srcimg := $.Page.Resources.GetMatch $src }}
+{{ $defaultBackground := "Image Not Available" }}
+{{ $srcimg := $.Page.Resources.GetMatch $src | default $defaultBackground }}
+{{ if eq $srcimg $defaultBackground }}
+    <a href="{{.Page.Permalink}}{{$src}}" target="_blank"> <h3 style="color: red;">{{$defaultBackground}}</h3></a>
+{{ else }}
 {{ $srcimg_width := $srcimg.Width }}
 {{ $srcimg_height := $srcimg.Height }}
 {{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
@@ -70,3 +74,4 @@
 
 <img src='{{ `images/imageLoading.gif` }}' width='{{ $width }}' height='{{ $height }}'
 srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}' alt='Images Not Available'></img>
+{{ end }}
