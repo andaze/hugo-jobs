@@ -7,6 +7,8 @@ title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "andazejob"
 summaryLength = 10
 timeout = 600000
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
 
 # Build robots.txt file
 enableRobotsTXT = true
@@ -39,27 +41,27 @@ description = "This is meta description"
 
 # slider Area Images And Content
 [[Languages.en.params.heading]]
-srcimg = "/images/imageLoading.gif"
 srcsetImg = "slider/homeslider/homeSlider1_hufaa24a4602114b7ea20083d37f5d7061_4720562_1440x864_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider1_hufaa24a4602114b7ea20083d37f5d7061_4720562_2880x1728_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider1_hufaa24a4602114b7ea20083d37f5d7061_4720562_4320x2592_fill_q75_h2_box_center.webp 2x"
 dataSrcImg = "slider/homeslider/homeSlider1.webp"
+mainSrcImg = "slider/homeslider/homeSlider1.webp"
 heading = "CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
 subheading = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
 [[Languages.en.params.heading]]
 srcimg = "/images/imageLoading.gif"
 srcsetImg = "slider/homeslider/homeSlider2_hu299b132afaea350921db078a2398b4d6_1162991_1440x959_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider2_hu299b132afaea350921db078a2398b4d6_1162991_2880x1918_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider2_hu299b132afaea350921db078a2398b4d6_1162991_4320x2877_fill_q75_h2_box_center.webp 2x"
-dataSrcImg = "slider/homeslider/homeSlider2.webp"
+dataSrcImg = "/slider/homeslider/homeSlider2.webp"
 heading = "WE AIM AT THE FUSION OF MARKETING AND CREATIVE."
 subheading = "Baisi's goal is to combine marketing and creativity at a high level. It is not a routine job of creating designs and systems according to specifications. The habit of thinking about things from a business perspective will help you grow by leaps and bounds."
 [[Languages.en.params.heading]]
 srcimg = "images/imageLoading.gif"
 srcsetImg = "slider/homeslider/homeSlider3_hu190513ae5e060141faaa2827cd84efb6_1396333_1440x959_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider3_hu190513ae5e060141faaa2827cd84efb6_1396333_2880x1918_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider3_hu190513ae5e060141faaa2827cd84efb6_1396333_4320x2877_fill_q75_h2_box_center.webp 2x"
-dataSrcImg = "slider/homeslider/homeSlider3.webp"
+dataSrcImg = "/slider/homeslider/homeSlider3.webp"
 heading = "OUR EXCELLENT ENVIRONMENT WILL MAXIMIZE YOUR VALUE."
 subheading = "The office at Baisi is a great place to work. We are a small company, so you can communicate your wishes right away. Please try to create the ideal work environment you want by yourself."
 [[Languages.en.params.heading]]
 srcimg = "images/imageLoading.gif"
 srcsetImg = "slider/homeslider/homeSlider4_hub36bb4ebff7f99d3548d00bbdec2ad23_1354925_1440x959_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider4_hub36bb4ebff7f99d3548d00bbdec2ad23_1354925_2880x1918_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider4_hub36bb4ebff7f99d3548d00bbdec2ad23_1354925_4320x2877_fill_q75_h2_box_center.webp 2x"
-dataSrcImg = "slider/homeslider/homeSlider4.webp"
+dataSrcImg = "/slider/homeslider/homeSlider4.webp"
 heading = "WE'RE IN THE GROWTH PHASE, YOUR FUTURE IS SPREADING."
 subheading = "Bayzi has a clear vision for the future of the industry and the company. We are currently in the phase of increasing the number of talented staff and creating the foundation for future development. Because we are still developing, you can become the core of the company if you choose."
 [[Languages.en.params.heading]]
@@ -141,6 +143,8 @@ imageratio = "1 1.5 2 3"
 imagewidth = "1440"
 fillposition = "center"
 format= "webp"
+srcimg = "/images/imageLoading.gif"
+
 # Hero Area Section
 [Languages.ja.params.hero]
 enable  = true
@@ -196,6 +200,8 @@ imageratio = "1 1.5 2 3"
 imagewidth = "1440"
 fillposition = "center"
 format= "webp"
+srcimg = "/images/imageLoading.gif"
+
 # cookies
 [params.cookies]
 enable = true

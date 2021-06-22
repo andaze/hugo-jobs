@@ -10,3 +10,11 @@
   {{ end }}
 </div>
     
+{{$baseurl:= .Site.BaseURL}}
+{{ $path := print $baseurl "index.json"}}
+{{ with getJSON $path }}
+  {{ $srcimg1 := .ImageData }}
+  {{ range $srcimg1 }}
+  {{ .srcimg }}
+  {{ end }}
+{{ end }}

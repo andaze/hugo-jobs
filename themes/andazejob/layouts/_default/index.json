@@ -1,0 +1,40 @@
+{{ $list := (.Site.Params.heading) }}
+{{ $len := (len $list) }}
+{{ $.Scratch.Set "count" 0 }}
+
+{{ .Site.Params.srcimg}}
+{{ $src := "content/slider/homeslider/homeSlider1.webp" }}
+{{$path:= .Site.GetPage "slider/homeslider" }}
+{{ $srcimg := $path.Resources.GetMatch "homeSlider1.jpg" }}
+{{ $srcimg }}
+1----{{ $srcimg }}
+
+
+
+{
+    "ImageData":[
+    
+    {{ range $index, $list }}
+        {{$.Scratch.Set "count" (add ($.Scratch.Get "count") 1) }}
+        
+        
+        
+        
+        
+        {
+            "srcimg": "{{.srcimg}}",
+            "srcsetImg":"{{.srcsetImg}}",
+            "dataSrcImg":"{{.dataSrcImg}}",
+            "heading": "{{.heading}}",
+            "subheading":"{{.subheading}}",
+            "mainSrcImg": "{{ .mainSrcImg }}"
+        
+        {{if eq ($.Scratch.Get "count") ($len) }}
+            }
+        {{ else }}
+            },        
+        {{ end }}
+    {{ end }}
+    
+    ]
+}
