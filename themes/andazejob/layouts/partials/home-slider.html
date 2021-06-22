@@ -1,7 +1,7 @@
 <div class="slideshow example-1">
-  {{ .Permalink }}
   {{ range .Site.Params.heading }}
   <div>
+    {{ .Permalink }}{{ .srcsetImg }}
     <img srcset="{{ .Permalink }}{{ .srcsetImg }}" src="{{ .srcimg }}" data-src="{{ .dataSrcImg }}" alt="" class="lazyload">
       <div class="text_content">
         <h2 class="title1">{{ .heading }}</h2>
