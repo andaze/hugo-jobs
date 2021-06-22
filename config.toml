@@ -40,13 +40,13 @@ description = "This is meta description"
 
 # slider Area Images And Content
 [[Languages.en.params.heading]]
-srcimg = "/images/imageLoading.gif"
+srcimg = "images/imageLoading.gif"
 srcsetImg = "slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_1440x959_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_2880x1918_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider1_hu36f89b5a2a429a01dad8386c8d90b913_222840_4320x2877_fill_q75_h2_box_center.webp 2x"
 dataSrcImg = "slider/homeslider/homeSlider1.webp"
 heading = "CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
 subheading = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
 [[Languages.en.params.heading]]
-srcimg = "/images/imageLoading.gif"
+srcimg = "images/imageLoading.gif"
 srcsetImg = "slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_1440x959_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_2880x1918_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider2_hu670bca24309019e7ba0e8077245b9bae_93194_4320x2877_fill_q75_h2_box_center.webp 2x"
 dataSrcImg = "slider/homeslider/homeSlider2.webp"
 heading = "WE AIM AT THE FUSION OF MARKETING AND CREATIVE."
