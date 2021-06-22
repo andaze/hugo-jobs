@@ -2,7 +2,7 @@
   {{ .Permalink }}
   {{ range .Site.Params.heading }}
   <div>
-    <img srcset="{{ .Permalink }}/{{ .srcsetImg }}" src="{{ .srcimg }}" data-src="{{ .dataSrcImg }}" alt="" class="lazyload">
+    <img srcset="{{ .Permalink }}{{ .srcsetImg }}" src="{{ .srcimg }}" data-src="{{ .dataSrcImg }}" alt="" class="lazyload">
       <div class="text_content">
         <h2 class="title1">{{ .heading }}</h2>
         <h1 class="title2">{{ .subheading }} </h1>
