@@ -1,20 +1,19 @@
 <div class="slideshow example-1">
-  {{ range .Site.Params.heading }}
-  <div>
-    <img srcset="{{ .srcsetImg }}" src="{{ .srcimg }}" data-src="{{ .dataSrcImg }}" alt="" class="lazyload">
-      <div class="text_content">
-        <h2 class="title1">{{ .heading }}</h2>
-        <h1 class="title2">{{ .subheading }} </h1>
-      </div>  
-  </div>
+{{ $baseurl:= .Site.BaseURL }}
+{{ $path := print $baseurl "index.json" }}
+{{ $path }}
+  {{ with getJSON $path }}
+    {{ $imagedata := .ImageData }}
+    {{ range $imagedata }}
+    <div>
+      <img srcset="{{ .srcsetImg }}" src="{{ .srcImg }}" data-src="" alt="" class="lazyload">
+        <div class="text_content">
+          <h2 class="title1">{{ .heading }}</h2>
+          <h1 class="title2">{{ .subheading }} </h1>
+        </div>  
+    </div>
+    {{ end }}
   {{ end }}
 </div>
     
-{{$baseurl:= .Site.BaseURL}}
-{{ $path := print $baseurl "index.json"}}
-{{ with getJSON $path }}
-  {{ $srcimg1 := .ImageData }}
-  {{ range $srcimg1 }}
-  {{ .srcimg }}
-  {{ end }}
-{{ end }}
+  

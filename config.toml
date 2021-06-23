@@ -41,67 +41,47 @@ description = "This is meta description"
 
 # slider Area Images And Content
 [[Languages.en.params.heading]]
-srcsetImg = "slider/homeslider/homeSlider1_hufaa24a4602114b7ea20083d37f5d7061_4720562_1440x864_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider1_hufaa24a4602114b7ea20083d37f5d7061_4720562_2880x1728_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider1_hufaa24a4602114b7ea20083d37f5d7061_4720562_4320x2592_fill_q75_h2_box_center.webp 2x"
-dataSrcImg = "slider/homeslider/homeSlider1.webp"
-mainSrcImg = "slider/homeslider/homeSlider1.webp"
+imgpath = "slider/homeslider"
+imgname = "homeSlider1.jpg"
 heading = "CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
 subheading = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
 [[Languages.en.params.heading]]
-srcimg = "/images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider2_hu299b132afaea350921db078a2398b4d6_1162991_1440x959_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider2_hu299b132afaea350921db078a2398b4d6_1162991_2880x1918_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider2_hu299b132afaea350921db078a2398b4d6_1162991_4320x2877_fill_q75_h2_box_center.webp 2x"
-dataSrcImg = "/slider/homeslider/homeSlider2.webp"
+imgpath = "slider/homeslider"
+imgname = "homeSlider2.jpg"
 heading = "WE AIM AT THE FUSION OF MARKETING AND CREATIVE."
 subheading = "Baisi's goal is to combine marketing and creativity at a high level. It is not a routine job of creating designs and systems according to specifications. The habit of thinking about things from a business perspective will help you grow by leaps and bounds."
 [[Languages.en.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider3_hu190513ae5e060141faaa2827cd84efb6_1396333_1440x959_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider3_hu190513ae5e060141faaa2827cd84efb6_1396333_2880x1918_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider3_hu190513ae5e060141faaa2827cd84efb6_1396333_4320x2877_fill_q75_h2_box_center.webp 2x"
-dataSrcImg = "/slider/homeslider/homeSlider3.webp"
+imgpath = "slider/homeslider"
+imgname = "homeSlider3.jpg"
 heading = "OUR EXCELLENT ENVIRONMENT WILL MAXIMIZE YOUR VALUE."
 subheading = "The office at Baisi is a great place to work. We are a small company, so you can communicate your wishes right away. Please try to create the ideal work environment you want by yourself."
 [[Languages.en.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider4_hub36bb4ebff7f99d3548d00bbdec2ad23_1354925_1440x959_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider4_hub36bb4ebff7f99d3548d00bbdec2ad23_1354925_2880x1918_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider4_hub36bb4ebff7f99d3548d00bbdec2ad23_1354925_4320x2877_fill_q75_h2_box_center.webp 2x"
-dataSrcImg = "/slider/homeslider/homeSlider4.webp"
+imgpath = "slider/homeslider"
+imgname = "homeSlider4.jpg"
 heading = "WE'RE IN THE GROWTH PHASE, YOUR FUTURE IS SPREADING."
 subheading = "Bayzi has a clear vision for the future of the industry and the company. We are currently in the phase of increasing the number of talented staff and creating the foundation for future development. Because we are still developing, you can become the core of the company if you choose."
-[[Languages.en.params.heading]]
-srcimg = "/images/imageLoading.gif"
-srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
-dataSrcImg = "/images/slider/img_keyvisual_01.webp"
-heading = "CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
-subheading = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
 
 
 [[Languages.ja.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider1_hufaa24a4602114b7ea20083d37f5d7061_4720562_1440x864_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider1_hufaa24a4602114b7ea20083d37f5d7061_4720562_2880x1728_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider1_hufaa24a4602114b7ea20083d37f5d7061_4720562_4320x2592_fill_q75_h2_box_center.webp 2x"
-dataSrcImg = "slider/homeslider/homeSlider1.webp"
+imgpath = "slider/homeslider"
+imgname = "homeSlider1.jpg"
 heading = "AIやIoT、ビッグデータの活用など、最新テクノロジーに触れられます。"
 subheading = "技術者にとって価値のある仕事を選定。たった2～3年でも、圧倒的な成長スピードを実感するでしょう。"
 [[Languages.ja.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider2_hu299b132afaea350921db078a2398b4d6_1162991_1440x959_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider2_hu299b132afaea350921db078a2398b4d6_1162991_2880x1918_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider2_hu299b132afaea350921db078a2398b4d6_1162991_4320x2877_fill_q75_h2_box_center.webp 2x"
-dataSrcImg = "slider/homeslider/homeSlider1.webp"
+imgpath = "slider/homeslider"
+imgname = "homeSlider2.jpg"
 heading = "あなたが安心してアイデアを発信し、のびのびと成長できる環境です。"
 subheading = "時間で縛らない現代流のマネジメントを取り入れることで、あなたが長い目で自分らしく働ける場を用意します。"
 [[Languages.ja.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider3_hu190513ae5e060141faaa2827cd84efb6_1396333_1440x959_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider3_hu190513ae5e060141faaa2827cd84efb6_1396333_2880x1918_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider3_hu190513ae5e060141faaa2827cd84efb6_1396333_4320x2877_fill_q75_h2_box_center.webp 2x"
-dataSrcImg = "slider/homeslider/homeSlider3.webp"
+imgpath = "slider/homeslider"
+imgname = "homeSlider3.jpg"
 heading = "IT技術でビジネスシーンに新ジャンルを作り出したい人を歓迎します。"
 subheading = "私たちは日本にまだ浸透していないグローバルな技術を駆使し、国内の企業に有益なサービスを提供しています。"
 [[Languages.ja.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "slider/homeslider/homeSlider4_hub36bb4ebff7f99d3548d00bbdec2ad23_1354925_1440x959_fill_q75_h2_box_center.webp 1x, slider/homeslider/homeSlider4_hub36bb4ebff7f99d3548d00bbdec2ad23_1354925_2880x1918_fill_q75_h2_box_center.webp 1.5x, slider/homeslider/homeSlider4_hub36bb4ebff7f99d3548d00bbdec2ad23_1354925_4320x2877_fill_q75_h2_box_center.webp 2x"
-dataSrcImg = "slider/homeslider/homeSlider4.webp"
+imgpath = "slider/homeslider"
+imgname = "homeSlider4.jpg"
 heading = "国際色豊かなメンバーと、多彩なワークスペースで仕事をしています。"
 subheading = "一緒に働くのは日本やインドをはじめとするさまざまな国籍のスタッフ。社内で国際交流を楽しむこともできます。"
-[[Languages.ja.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
-dataSrcImg = "/images/slider/img_keyvisual_01.webp"
-heading = "クライアントからは信頼して数々のプロジェクトを任されています。"
-subheading = "培ってきた知見や自分たちのアイデアを活かしながら、ITプロジェクトをリードすることができるでしょう。"
 
 # Gestion des langues : FR / EN / NL / DE
 [Languages]

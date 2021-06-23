@@ -1,40 +1,61 @@
 {{ $list := (.Site.Params.heading) }}
 {{ $len := (len $list) }}
 {{ $.Scratch.Set "count" 0 }}
-
-{{ .Site.Params.srcimg}}
-{{ $src := "content/slider/homeslider/homeSlider1.webp" }}
-{{$path:= .Site.GetPage "slider/homeslider" }}
-{{ $srcimg := $path.Resources.GetMatch "homeSlider1.jpg" }}
-{{ $srcimg }}
-1----{{ $srcimg }}
-
-
-
 {
     "ImageData":[
     
     {{ range $index, $list }}
         {{$.Scratch.Set "count" (add ($.Scratch.Get "count") 1) }}
         
-        
-        
-        
-        
-        {
-            "srcimg": "{{.srcimg}}",
-            "srcsetImg":"{{.srcsetImg}}",
-            "dataSrcImg":"{{.dataSrcImg}}",
-            "heading": "{{.heading}}",
-            "subheading":"{{.subheading}}",
-            "mainSrcImg": "{{ .mainSrcImg }}"
-        
-        {{if eq ($.Scratch.Get "count") ($len) }}
-            }
+        {{ $path:= site.GetPage (print .imgpath) }}
+        {{ $defaultBackground := "Image Not Available" }}
+        {{ $srcimg := $path.Resources.GetMatch (print .imgname) | default $defaultBackground}}
+        {{ if eq $srcimg $defaultBackground }}
+            <a href="{{.Page.Permalink}}{{$path}}" target="_blank"> <h3 style="color: red;">{{$defaultBackground}}</h3></a>  
         {{ else }}
+            {{ $srcimg_width := $srcimg.Width }}
+            {{ $srcimg_height := $srcimg.Height }}
+            {{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
+            {{ if gt $srcimg.Width site.Params.Imagewidth }}
+                {{ $getwidth := int (default site.Params.Imagewidth) }}
+                {{ $.Scratch.Set "width" $getwidth }}
+            {{ else }}
+                {{ $getwidth := int (default $srcimg_width) }}
+                {{ $.Scratch.Set "width" $getwidth }}
+            {{ end }}
+            {{ $width := $.Scratch.Get "width" }}
+            {{ $ratio := float (default $srcimg_ratio) }}
+            {{ $height := int (mul $width $ratio) }}
+            {{ $getdata:= split site.Params.imageratio " " }}
+            {{ $array := $getdata }}
+            {{ $dict := dict }}
+            {{$fillposition:= string (default site.Params.fillposition) }}
+            {{$format:= string (default site.Params.format) }}
+            {{ $positionFormat:= print " " $fillposition " " $format }}
+            
+            {{ range $array }}
+                {{$imgratio:= float . }}
+                {{ $crop_prm := printf "%dx%d %s" (int (mul $width $imgratio)) (int (mul $height $imgratio)) ($positionFormat) }}
+                {{ $cropsize:= print $crop_prm}}
+                {{ $crop_img := $srcimg.Fill $cropsize }}
+                {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
+            {{ end }}
+               {{/* <img src='{{ `images/imageLoading.gif` }}' width='{{ $width }}' height='{{ $height }}'
+                srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}' alt='Images Not Available'></img>       */}}
+            
+            {
+                "testing": "this is testing",
+                "srcImg": "{{ site.Params.srcimg }}",
+                "srcsetImg":"{{ range $array }}{{ printf "%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}",
+                "dataSrcImg":"{{.dataSrcImg}}",
+                "heading": "{{.heading}}",
+                "subheading":"{{.subheading}}"
+            {{if eq ($.Scratch.Get "count") ($len) }}
+            }
+            {{ else }}
             },        
+            {{ end }}
         {{ end }}
     {{ end }}
-    
     ]
 }
