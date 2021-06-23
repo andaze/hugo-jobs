@@ -1,7 +1,6 @@
 <div class="slideshow example-1">
 {{ $baseurl:= .Site.BaseURL }}
 {{ $path := print $baseurl "index.json" }}
-{{ $path }}
   {{ with getJSON $path }}
     {{ $imagedata := .ImageData }}
     {{ range $imagedata }}
@@ -15,5 +14,5 @@
     {{ end }}
   {{ end }}
 </div>
+
     
-  

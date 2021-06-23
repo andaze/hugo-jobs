@@ -1,12 +1,19 @@
 # baseURL = "http://andaze.ameio.in/"
 baseURL = "https://clever-edison-02034e.netlify.app/"
-# baseURL = "http://localhost/andaze/"
+# baseURL = "http://localhost/dynamiclive/"
 # baseURL = "https://hugojob.ameio.in/"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "andazejob"
 summaryLength = 10
 timeout = 600000
+
+# ref: https://discourse.gohugo.io/t/getjson-cache/23127/2 
+[caches]
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = -1
+  
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
