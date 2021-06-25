@@ -19,7 +19,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-
+{{< subpagetopimage src="visionslider.jpg" path="vision" >}}
 ### **Future Vision of the Company**
 &nbsp;
 Our career path is based on the premise of developing our employees into creators who are resilient to changes in the environment and can contribute to the company for a longer period of time. In order to realize that career path, we must also have a clear plan for our company itself. Here, I would like to explain the future of Baisi.

@@ -19,7 +19,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-
+{{< subpagetopimage src="visionslider.jpg" path="vision" >}}
 ### **Our Training Policy**
 &nbsp;
 What we want to develop is not just people who create websites, but people who can continue to be active in the future. To achieve this, we conduct our daily training with the following in mind.

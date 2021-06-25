@@ -20,6 +20,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
+{{< subpagetopimage src="meritslider.jpg" path="merit" >}}
 ### **Features of Beiji**
 Beiji Co., Ltd. is a web production company with a total of 14 people (as of October 2018). Here, we would like to would like to introduce our features as a business and workplace.
 

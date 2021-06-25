@@ -20,7 +20,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-
+{{< subpagetopimage src="messageslider.jpg" path="message" >}}
 ### **Voices of Seniors**
 &nbsp;
 ###### If you are considering BAYJ as an option for a career change, you probably already have some kind of specialty. Of the three areas necessary for creators, your technical skills have probably increased considerably.

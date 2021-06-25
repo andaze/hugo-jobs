@@ -19,7 +19,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-
+{{< subpagetopimage src="visionslider.jpg" path="vision" >}}
 ### **Two Action Guidelines**
 &nbsp;
 In order to spread our vision and identity throughout the company, and to set the "prerequisites" for our staff to work, we have prepared two types of behavioral guidelines. I believe that these guidelines will give you an idea of the kind of values we work with.

@@ -21,7 +21,7 @@ jsonld: {
     }
 
 ---
-
+{{< subpagetopimage src="meritslider.jpg" path="merit" >}}
 ### **Internal systems and events**
 &nbsp;
 At our company, we are implementing a variety of initiatives to improve the skills of each individual, strengthen our organizational capabilities, and promote smooth human relations. On this page, we will introduce some of the most popular ones.
