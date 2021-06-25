@@ -19,7 +19,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-
+{{< subpagetopimage src="visionslider.jpg" path="vision" >}}
 ### 行動指針
 
 **従業員が働くうえで、どんな技術を学び、何を意識して業務に取り組めば良いのかを定めるために、当社では3つの行動指針を用意しています。**
