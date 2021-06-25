@@ -9,7 +9,7 @@
 {{ else }}
 
     {{ $srcimg_width := $srcimg.Width }}
-    {{ $srcimg_height := $srcimg.Height }}
+    {{ $srcimg_height := 360 }}
     {{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
 
     {{ if gt $srcimg.Width .Site.Params.Imagewidth }}
