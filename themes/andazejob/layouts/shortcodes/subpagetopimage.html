@@ -1,3 +1,21 @@
+{{/* 
+    < subpagetopimage  src="Capture.webp" width="" height="" fillposition="" format="" ratio=""  >
+  
+    Attribute:
+    ----------
+    src (Require) => need to pass image name with extenstion
+    width (optional) => need to pass image width if you not pass then it will take default using Image.Width function
+    height (optional) => need to pass image height if you not pass then it will take defaukt using multiplication of width and ration. 
+    fillposition (optional) => need to pass image fill position  if you not pass then it will take default center position using config parameters
+    format (optional) => need to pass image format if you not pass then it will take default webp format using config parameters
+    ratio (optional) => need to pass image ration if you not pass then it will take default using width and height multiplication  
+    
+    Example: 
+    --------
+    {{< subpagetopimage  src="sample.png" width="" height="" fillposition="" format=""   >}}
+    
+    */}}
+
 {{ $Scratch := newScratch}}
 {{ $Scratch.Set "width" "" }}
 {{ $Scratch.Set "height" "" }}
@@ -9,7 +27,7 @@
 {{ else }}
 
     {{ $srcimg_width := $srcimg.Width }}
-    {{ $srcimg_height := $srcimg.Height }}
+    {{ $srcimg_height := 360 }}
     {{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
 
     {{ if gt $srcimg.Width .Site.Params.Imagewidth }}
