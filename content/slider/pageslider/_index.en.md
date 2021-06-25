@@ -5,12 +5,12 @@ draft: false
 weight: 8
 ---
 
-{{< imagedisplay  src="meritslider.webp"  >}}
+{{< imagedisplay  src="meritslider.jpg"  >}}
 
-{{< imagedisplay  src="visionslider.webp"  >}}
+{{< imagedisplay  src="visionslider.jpg"  >}}
 
-{{< imagedisplay  src="messageslider.webp"  >}}
+{{< imagedisplay  src="messageslider.jpg"  >}}
 
-{{< imagedisplay  src="officeslider.webp"  >}}
+{{< imagedisplay  src="officeslider.jpg"  >}}
 
-{{< imagedisplay  src="requirementslider.webp"  >}}
+{{< imagedisplay  src="requirementslider.jpg"  >}}

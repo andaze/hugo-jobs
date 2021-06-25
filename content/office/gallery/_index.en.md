@@ -25,45 +25,45 @@ jsonld: {
 ###### Here is our office. It's not a big office, but it's laid out in a spacious environment where you can concentrate on your work.
 &nbsp;
 
-{{< imagedisplay src="gallery1.webp" >}}       
+{{< imagedisplay src="gallery1.jpg" >}}       
 &nbsp;  
-{{< imagedisplay src="gallery2.webp" >}}   
+{{< imagedisplay src="gallery2.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery3.webp" >}}   
+{{< imagedisplay src="gallery3.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery4.webp" >}}   
+{{< imagedisplay src="gallery4.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery5.webp" >}}   
+{{< imagedisplay src="gallery5.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery6.webp" >}}   
+{{< imagedisplay src="gallery6.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery7.webp" >}}   
+{{< imagedisplay src="gallery7.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery8.webp" >}}   
+{{< imagedisplay src="gallery8.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery9.webp" >}}   
+{{< imagedisplay src="gallery9.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery10.webp" >}}  
+{{< imagedisplay src="gallery10.jpg" >}}  
 &nbsp;
-{{< imagedisplay src="gallery11.webp" >}}   
+{{< imagedisplay src="gallery11.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery12.webp" >}}   
+{{< imagedisplay src="gallery12.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery13.webp" >}}   
+{{< imagedisplay src="gallery13.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery14.webp" >}}   
+{{< imagedisplay src="gallery14.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery15.webp" >}}    
+{{< imagedisplay src="gallery15.jpg" >}}    
 &nbsp;
-{{< imagedisplay src="gallery16.webp" >}}    
+{{< imagedisplay src="gallery16.jpg" >}}    
 &nbsp;
-{{< imagedisplay src="gallery17.webp" >}}    
+{{< imagedisplay src="gallery17.jpg" >}}    
 &nbsp;
-{{< imagedisplay src="gallery18.webp" >}}   
+{{< imagedisplay src="gallery18.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery19.webp" >}}   
+{{< imagedisplay src="gallery19.jpg" >}}   
 &nbsp;
-{{< imagedisplay src="gallery20.webp" >}}   
+{{< imagedisplay src="gallery20.jpg" >}}   
 &nbsp;
 
 ----
