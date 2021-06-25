@@ -142,6 +142,7 @@ imageratio = "1 1.5 2 3"
 imagewidth = "1440"
 fillposition = "center"
 format= "webp"
+backgroundimageposition = "center"
 # Hero Area Section
 [Languages.ja.params.hero]
 enable  = true
@@ -197,6 +198,8 @@ imageratio = "1 1.5 2 3"
 imagewidth = "1440"
 fillposition = "center"
 format= "webp"
+backgroundimageposition = "center"
+
 # cookies
 [params.cookies]
 enable = true
