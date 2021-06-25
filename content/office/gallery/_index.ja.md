@@ -19,7 +19,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-
+{{< subpagetopimage src="officeslider.jpg" path="office" >}}
 ### オフィスギャラリー
 私たちのオフィスはエキスパートオフィスの中にあります。落ち着いた雰囲気の中でビジネスに集中できる上質な空間です。
 &nbsp;

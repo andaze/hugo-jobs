@@ -20,7 +20,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-
+{{< subpagetopimage src="visionslider.jpg" path="vision" >}}
 ### **Current status and issues in the industry**
 &nbsp;
 Our vision and training policies are closely intertwined with the current situation and future of the web/IT industry, and are premised on our awareness of these issues. In this page, we explain our thinking in this area.

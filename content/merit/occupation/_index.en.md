@@ -20,7 +20,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-
+{{< subpagetopimage src="meritslider.jpg" path="merit" >}}
 ### **Occupation Introduction**
 &nbsp;
 Since we undertake the entire process of web development, from strategy to development, we have all the skills to complete it. Here are some definitions of job functions that appear in internal conversations. However, we do not believe that all employees need to follow these uniform job definitions. For example, even if you have the same title of "director," the skills you acquire are not one and the same for each person. Rather than imposing a standardized skill set based on job titles, the system is structured so that each person can work freely according to their own wishes and aptitudes.

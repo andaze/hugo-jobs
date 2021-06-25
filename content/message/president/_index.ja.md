@@ -19,7 +19,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-
+{{< subpagetopimage src="messageslider.jpg" path="message" >}}
 ### 代表メッセージ     
 **ワクワクする、好奇心を刺激する技術こそがあなたのパフォーマンスを上げる**
 {{< imagedisplay  src="スライド28.PNG"  >}}

@@ -20,7 +20,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-
+{{< subpagetopimage src="officeslider.jpg" path="office" >}}
 ### 周辺紹介
 **アンダーズのオフィスがある東京・半蔵門は国の重要機関や海外の観光客も訪れる名所など、 見どころが多い人気エリアです。**
 
