@@ -245,6 +245,17 @@
   background: #fff;
  }
 
+/* SubpagetopImage Comman CSS */
+.subpagetopImage
+{
+  height:360px;
+  background:url("ja/slider/pageslider/meritslider_huaede303b2449de45f65db9b8167f0e2c_98694_4320x2877_fill_q75_h2_box_center.webp");
+  background-repeat:no-repeat; 
+  background-size:cover;
+  background-attachment:fixed;
+  margin:50px 0 50px 0;
+  width:100%;
+}
 /* advantage header section */
 .headerImagemerit
 {
@@ -348,6 +359,12 @@
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 414px) 
   {
+    .subpagetopImage
+    {
+      background:url("ja/slider/pageslider/meritslider_huaede303b2449de45f65db9b8167f0e2c_98694_1440x959_fill_q75_h2_box_center.webp");
+      height:150px;
+      margin-top: 60px;
+    }
     .headerImagemerit
     {
       background:url("ja/slider/pageslider/meritslider_huaede303b2449de45f65db9b8167f0e2c_98694_1440x959_fill_q75_h2_box_center.webp");
@@ -382,6 +399,12 @@
   }
   @media only screen and (min-device-width: 415px) and (max-device-width: 1023px) 
   {
+    .subpagetopImage
+    {
+      background:url("ja/slider/pageslider/meritslider_huaede303b2449de45f65db9b8167f0e2c_98694_2880x1918_fill_q75_h2_box_center.webp");
+      height:380px;
+      margin-top: 60px;
+    }
     .headerImagemerit
     {
       background:url("ja/slider/pageslider/meritslider_huaede303b2449de45f65db9b8167f0e2c_98694_2880x1918_fill_q75_h2_box_center.webp");
