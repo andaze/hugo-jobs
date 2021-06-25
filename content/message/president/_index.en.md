@@ -19,7 +19,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-
+{{< subpagetopimage src="messageslider.jpg" path="message" >}}
 ### **To all applicants**
 &nbsp;
 This is a message from our representative, Mukette Tani, to all applicants to Bage.

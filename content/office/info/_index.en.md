@@ -20,7 +20,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-
+{{< subpagetopimage src="officeslider.jpg" path="office" >}}
 ### **Delicious restaurants in Shimokitazawa**
 &nbsp;
 ###### Shimokitazawa, where our office is located, is a very attractive town with many unique stores that you can't find anywhere else. Here are some of the restaurants recommended by our employees that can be used mainly for weekday lunches and evening drinks. (In alphabetical order)

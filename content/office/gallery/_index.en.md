@@ -19,6 +19,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
+{{< subpagetopimage src="officeslider.jpg" path="office" >}}
 ### **Office Gallery**
 
 ###### Here is our office. It's not a big office, but it's laid out in a spacious environment where you can concentrate on your work.
