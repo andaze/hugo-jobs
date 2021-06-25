@@ -3,11 +3,8 @@
 {{ $Scratch.Set "height" "" }}
 
 {{ $path:= site.GetPage (.Get "path") }}
-{{ $srcimg := $path.Resources.GetMatch (.Get "src") }}
-
 {{ $defaultBackground := "Slider Image Not Available" }}
-{{ $srcimg := $Scratch.Get "srcimg" | default $defaultBackground }}
-
+{{ $srcimg := $path.Resources.GetMatch (.Get "src") | default $defaultBackground  }}
 {{ if eq $srcimg $defaultBackground }}
 {{ else }}
 
