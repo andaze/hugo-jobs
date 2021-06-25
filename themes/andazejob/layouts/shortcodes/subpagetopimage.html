@@ -9,17 +9,17 @@
     fillposition (optional) => need to pass image fill position  if you not pass then it will take default center position using config parameters
     format (optional) => need to pass image format if you not pass then it will take default webp format using config parameters
     ratio (optional) => need to pass image ration if you not pass then it will take default using width and height multiplication  
-    
+    backgroundimageposition => need to pass background image position if not pass then it will take default center background image position. 
     Example: 
     --------
-    {{< subpagetopimage  src="sample.png" width="" height="" fillposition="" format=""   >}}
+    {{< subpagetopimage  src="sample.png" width="" height="" fillposition="" format="" backgroundimageposition=""  >}}
     
     */}}
 
 {{ $Scratch := newScratch}}
 {{ $Scratch.Set "width" "" }}
 {{ $Scratch.Set "height" "" }}
-
+{{ $backgroundimageposition:= (default (.Site.Params.backgroundimageposition) (.Get "backgroundimageposition")) }}
 {{ $path:= site.GetPage (.Get "path") }}
 {{ $defaultBackground := "Slider Image Not Available" }}
 {{ $srcimg := $path.Resources.GetMatch (.Get "src") | default $defaultBackground  }}
@@ -69,6 +69,7 @@
         .subpagetopImage
         {
             background:url('{{ index $dict "3" }}');
+            background-position-x: {{$backgroundimageposition}}
         }
   
         @media only screen and (min-device-width: 320px) and (max-device-width: 414px) 
@@ -76,6 +77,7 @@
             .subpagetopImage
             {
                 background:url('{{ index $dict "1" }}');
+                background-position-x: {{$backgroundimageposition}}
             }
         }
         
@@ -84,6 +86,7 @@
             .subpagetopImage
             {
                 background:url('{{ index $dict "2" }}');
+                background-position-x: {{$backgroundimageposition}}
             }
         }
     </style>
