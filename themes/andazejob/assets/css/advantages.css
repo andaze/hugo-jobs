@@ -257,7 +257,7 @@
   width:100%;
 }
 /* advantage header section */
-.headerImagemerit
+/* .headerImagemerit
 {
   height:360px;
   background:url("ja/slider/pageslider/meritslider_huaede303b2449de45f65db9b8167f0e2c_98694_4320x2877_fill_q75_h2_box_center.webp");
@@ -307,7 +307,7 @@
   background-attachment:fixed;
   margin:50px 0 50px 0;
   width:100%;  
-}
+} */
 .text1
   {   
       position:absolute;
@@ -365,7 +365,7 @@
       height:150px;
       margin-top: 60px;
     }
-    .headerImagemerit
+    /* .headerImagemerit
     {
       background:url("ja/slider/pageslider/meritslider_huaede303b2449de45f65db9b8167f0e2c_98694_1440x959_fill_q75_h2_box_center.webp");
       height:150px;
@@ -394,7 +394,7 @@
       background:url("ja/slider/pageslider/requirementslider_hu0c11cef73eb4e55f874f6616761917c0_71792_1440x959_fill_q75_h2_box_center.webp");
       height:150px;
       margin-top: 60px;
-    }
+    } */
    
   }
   @media only screen and (min-device-width: 415px) and (max-device-width: 1023px) 
@@ -405,7 +405,7 @@
       height:380px;
       margin-top: 60px;
     }
-    .headerImagemerit
+    /* .headerImagemerit
     {
       background:url("ja/slider/pageslider/meritslider_huaede303b2449de45f65db9b8167f0e2c_98694_2880x1918_fill_q75_h2_box_center.webp");
       height:380px;
@@ -435,6 +435,6 @@
       height:380px;
       margin-top: 60px;
     }
-   
+    */
   }
  
