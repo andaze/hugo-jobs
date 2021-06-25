@@ -78,6 +78,7 @@ imagewidth = "1440"
 fillposition = "center"
 format= "webp"
 srcimg = "images/imageLoading.gif"
+backgroundimageposition = "center"
 # Hero Area Section
 [Languages.ja.params.hero]
 enable  = true
@@ -134,6 +135,7 @@ imagewidth = "1440"
 fillposition = "center"
 format= "webp"
 srcimg = "images/imageLoading.gif"
+backgroundimageposition = "center"
 # cookies
 [params.cookies]
 enable = true

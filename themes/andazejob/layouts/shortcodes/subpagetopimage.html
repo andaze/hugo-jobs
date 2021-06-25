@@ -19,7 +19,7 @@
 {{ $Scratch := newScratch}}
 {{ $Scratch.Set "width" "" }}
 {{ $Scratch.Set "height" "" }}
-{{ $backgroundimageposition:= (default "center" (.Get "backgroundimageposition")) }}
+{{ $backgroundimageposition:= (default (.Site.Params.backgroundimageposition) (.Get "backgroundimageposition")) }}
 {{ $path:= site.GetPage (.Get "path") }}
 {{ $defaultBackground := "Slider Image Not Available" }}
 {{ $srcimg := $path.Resources.GetMatch (.Get "src") | default $defaultBackground  }}
