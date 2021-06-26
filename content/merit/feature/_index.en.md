@@ -37,7 +37,7 @@ Beiji Co., Ltd. is a web production company with a total of 14 people (as of Oct
 
 ###### In recent years, attention to Bage has risen rapidly, and many requests for lectures and interviews have come in. In this way, despite being a small web production company, I think that the reason why it is attracting a lot of attention in the industry is that it is honestly continuing to study the three areas necessary for the web.
 
-{{< imagedisplay  src="Capture.webp" width="" height="" fillposition="" format=""   >}}
+{{< imagedisplay  src="Capture.PNG" width="" height="" fillposition="" format=""   >}}
 
 
 &nbsp;
@@ -63,7 +63,7 @@ Beiji Co., Ltd. is a web production company with a total of 14 people (as of Oct
 &nbsp;
 ###### Is it natural that a company involved in web production is good at marketing, design, and management? You might think that. However, many companies have areas of strength and weakness, and their business characteristics have a great impact on the way they work. Here we will explain the difference in detail.   
 
-{{< imagedisplay  src="tableimg.webp"  >}}
+{{< imagedisplay  src="tableimg.png"  >}}
 
 
 

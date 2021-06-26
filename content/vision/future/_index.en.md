@@ -62,7 +62,7 @@ Our career path is based on the premise of developing our employees into creator
 ###### Specifically, as shown in the diagram below, we categorize skills into creative and management, clarify the skills and orientation required for each, respect the wishes of the individual, and try to provide a concrete path to success in the new position. In addition, we practice job rotation, switching jobs from time to time to provide opportunities for employees to experience new jobs.
 &nbsp;
 
-{{< imagedisplay  src="img_future_02.webp"  >}}
+{{< imagedisplay  src="img_future_02.png"  >}}
 
 &nbsp;
 The reason why there are two types of people, creative and management, is because they have different basic ways of thinking. This is because the mission of the creative department is to challenge and destroy, while the mission of the management department is to maintain and adjust. However, it is only a matter of thinking style, and we believe that it is possible to change jobs. In our work, we aim to refine our skills not only in one area but also in the other from time to time.

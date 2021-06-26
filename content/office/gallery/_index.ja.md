@@ -26,7 +26,15 @@ jsonld: {
 
 {{< imagedisplay src="スライド41.PNG" >}}       
 &nbsp;  
-{{< imagedisplay src="スライド42.PNG" >}}   
+{{< imagedisplay src="スライド42.PNG" >}}  
+&nbsp;
+{{< imagedisplay src="スライド34.PNG" >}}  
+&nbsp;
+{{< imagedisplay src="スライド37.PNG" >}}  
+&nbsp;
+{{< imagedisplay src="スライド31.PNG" >}}  
+&nbsp;
+{{< imagedisplay src="スライド38.PNG" >}}  
 &nbsp;
 {{< imagedisplay src="スライド43.PNG" >}}   
 &nbsp;
