@@ -1,0 +1,77 @@
+<!-- ======= office Section ======= -->
+<div class="about-area area-padding1">
+    <div class="container">
+    <div class="row d-flex align-items-end">
+        <!-- single-well start-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-middle">
+            <div class="single-well">
+              <h2 class="headlineLv02NumEn" style="color: #afa86f;"><span class="headlineNumber" >4</span> 
+              <span class="headlineEn">OFFICE</span>   {{ with .Site.Params.messageTitle }} {{ . }}  {{ end }}</h2>
+              {{ with .Site.GetPage "office" }}
+                <p>{{ .Params.Intro }}</p>
+                {{ range .Sections.ByWeight }}
+                  <ul class="listLink01">
+                    <li>
+                      <!-- <a href="{{ .URL }}" target="_blank">{{ .Title }}</a> -->
+                      {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title "target" "_blank") }}
+                    </li>
+                  </ul> 
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-sm-6 col-xs-12 text-center">
+            <div class="well-left">
+                <div class="single-well">
+                    {{ $allparams := .Params }}
+                    {{ range $allparams }}
+
+                        {{ $defaultBackground := "Image Not Available" }}
+                        {{ $srcimg := $.Page.Resources.GetMatch . | default $defaultBackground }}
+                        
+                        {{ if eq $srcimg $defaultBackground }}
+                            <span><a href="{{.}}">{{$defaultBackground}}</a></span>
+                        {{ else }}
+                        
+                            {{ $srcimg_width := $srcimg.Width }}
+                            {{ $srcimg_height := $srcimg.Height }}
+                            {{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
+
+                            {{ $width := 150 }}
+                            {{ $ratio := float $srcimg_ratio }}
+                            {{ $height := 106 }}
+
+                            {{ $getdata:= split site.Params.Imageratio " " }}
+                            {{ $array := $getdata }}
+                            {{ $dict := dict }}
+
+                            {{ $fillposition:= string (default site.Params.fillposition ) }}
+                            {{ $format:= string (default site.Params.format ) }}
+                            {{ $positionFormat:= print " " $fillposition " " $format }}
+                        
+                            {{ range $array }}
+                                {{ $imgratio:= float . }}
+                                {{ $crop_prm := printf "%dx%d %s" (int (mul $width $imgratio)) (int (mul $height $imgratio)) ($positionFormat) }}
+                                {{ $cropsize:= print $crop_prm}}
+                                {{ $crop_img := $srcimg.Fill $cropsize }}
+                                {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
+                            {{ end }}
+
+                            <img style="padding-bottom: 10px;" src='{{ `images/imageLoading.gif` }}' width='{{ $width }}' height='{{ $height }}'
+                            srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}' alt='Images Not Available'></img>
+                        {{ end }}
+                    {{ end }}       
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div><!-- End office Section -->
+
+  <main id="main">
+    {{ partial "home-website.html" . }}
+    {{ partial "home-requirment.html" . }}
+  </main>

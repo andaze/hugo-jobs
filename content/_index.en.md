@@ -15,3 +15,5 @@ weight: 1
 {{< slide src="homeSlider4.jpg" heading="WE'RE IN THE GROWTH PHASE, YOUR FUTURE IS SPREADING." subheading="Bayzi has a clear vision for the future of the industry and the company. We are currently in the phase of increasing the number of talented staff and creating the foundation for future development. Because we are still developing, you can become the core of the company if you choose." >}}
 
 {{< sliderend >}}
+
+{{< officeCollepsimagedisplay src1="homeSlider1.PNG" src2="homeSlider2.jpg" src3="homeSlider3.jpg" src4="homeSlider4.jpg" src5="homeSlider5.jpg" src6="homeSlider1.JPG" src7="homeSlider2.jpg" src8="homeSlider1.PNG" src9="homeSlider4.jpg"  >}}

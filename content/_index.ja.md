@@ -18,3 +18,5 @@ weight: 1
 {{< slide src="homeSlider5.jpg" heading="クライアントからは信頼して数々のプロジェクトを任されています" subheading="培ってきた知見や自分たちのアイデアを活かしながら、ITプロジェクトをリードすることができるでしょう" >}}
 
 {{< sliderend >}}
+
+{{< officeCollepsimagedisplay src1="homeSlider1.PNG" src2="homeSlider2.jpg" src3="homeSlider3.jpg" src4="homeSlider4.jpg" src5="homeSlider5.jpg" src6="homeSlider1.JPG" src7="homeSlider2.jpg" src8="homeSlider1.PNG" src9="homeSlider4.jpg"  >}}
