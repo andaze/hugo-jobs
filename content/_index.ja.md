@@ -19,4 +19,4 @@ weight: 1
 
 {{< sliderend >}}
 
-{{< officeCollepsimagedisplay src1="homeSlider1.PNG" src2="homeSlider2.jpg" src3="homeSlider3.jpg" src4="homeSlider4.jpg" src5="homeSlider5.jpg" src6="homeSlider1.JPG" src7="homeSlider2.jpg" src8="homeSlider1.PNG" src9="homeSlider4.jpg"  >}}
+{{{< officeCollepsimagedisplay src1="office1.jpg" src2="office2.jpg" src3="office3.jpg" src4="office4.jpg" src5="office5.jpg" src6="office6.jpg" src7="office7.jpg" src8="office8.jpg" src9="office9.jpg"  >}}
