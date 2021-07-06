@@ -57,8 +57,6 @@ jsonld: {
 |DevOpsによる生産的なプロセス管理|開発の精度を上げながらスピードも早められる手法「DevOps」で、運用サイクルを頻繁に回します。|
 |Visual Studio SubscriptionによるMicrosoft製品の利用|Microsoftゴールドパートナーである当社は、数百種類におよぶMicrosoft製品やクラウドが自由に使い放題です。|
 
-{{< imagedisplay  src="スライド27.PNG"  >}}
-
 #### 研修や勉強会
 希望者はMicrosoftが提供する研修や勉強会に参加することができます。参加は自由で会社への許可も不要です。 
 
