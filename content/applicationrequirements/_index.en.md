@@ -1,10 +1,9 @@
 ---
-title:  "Requirement"
+title:  "Application Guidelines"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 6
-author: "admin"
-intro: "Bage is currently applying for seven occupations. Other than directors and consultants, we also accept applications from inexperienced people. Of course, applications from highly skilled experienced people are also welcome. Please see below for detailed recruitment requirements."
+intro: "Andaz is currently looking for people for the following positions. If you are looking for a new challenge, want to be exposed to the latest technology, or want to be involved in a new business, we are looking forward to hearing from you."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

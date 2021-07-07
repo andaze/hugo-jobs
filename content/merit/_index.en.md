@@ -1,11 +1,9 @@
 ---
-title:  "Benefits of working "
+title:  "Benefits of Working at Andaz"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 2
-author: "admin"
-intro: "What makes Bage different from other companies? \nWhat does it mean to work at Bage?\n 
-        We will answer the questions that applicants feel first."
+intro: "What makes Andaz different from other IT companies? \nWhat will I gain by working here? \nWe will answer the 'I want to know' questions you may have."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

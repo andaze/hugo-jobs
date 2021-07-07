@@ -3,7 +3,7 @@ title:  "Entry"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 7
-intro: "If you are thinking of applying for Bage, please apply from this application form. You will need your resume and resume to apply. The recruiting staff will contact you within a few business days regarding the results of the document screening."
+intro: "If you are interested in applying, please fill out the application form here. You will need to submit your resume and curriculum vitae. Our staff will contact you with the results of the application screening."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
