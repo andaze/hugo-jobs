@@ -1,24 +1,24 @@
 ---
-image: images/blog/post-3.jpg
-name: Hitoshi Odate
-image: image/senior3.webp
-typeofworkHeading : "Type of work:"
-typeofworkAnswer : "director"
-joiningHeading : "Date of entry:"
-joiningAnswer : February 2018 (mid-career recruitment)
-dobHeading: "Birth date:"
-dobAnswer: July 24, 1991.
-birthplaceHeading : "birthplace:"
-birthplaceAnswer : Hachinohe City, Aomori Prefecture
-workexpHeading : "Main employment history:"
-workexpAnswer : I joined a web production company as a new graduate in 2014, and have been involved in direction work, mainly for advertising agency projects. 
+name: Abhishek Sankhat
+image: senior3.jpg
+typeofworkHeading : "Job Title:"
+typeofworkAnswer : "Senior Software Engineer"
+joiningHeading : "Date of hire:"
+joiningAnswer : January 2020
+dobHeading:
+dobAnswer:
+birthplaceHeading :
+birthplaceAnswer :
+workexpHeading :
+workexpAnswer :
 ---
 
-##### **`This is who I am.`**
+#### `--Why did you decide to join Andaz?`
+I decided to join the company because I was looking for an opportunity to enhance my technical skills and I was impressed by the technology used in the development of the project. I also wanted to work on a global scale, so I moved my living and working base to Japan.
 
-###### Before joining Baisi, when I used to take the last train home on a daily basis, I happened to watch a program on TV after I got home, and that's when I got hooked on MC battles. Whenever I have time, I watch past battles on Youtube. This has also influenced me to listen to HipHop music more often. I prefer to listen to J-HIPHOP music because the rhymes are easy to understand and the sound is pleasant. Recently, I have also started to watch the new K-1 after watching a program on Abema TV called "Fighting Proxy War". I guess it's a reaction to the fact that I spent my school days being serious about my club activities (lol).
+#### `--Growth and change after joining the company`
+Currently, I am working as a solution architect, acting as a bridge between the customer and the development side.    
+My experience in the field, where Japanese is spoken, has strengthened my technical skills and given me more confidence in communicating with customers. I believe that I am learning effective business communication skills.
 
-##### **`Message to Applicants`**
-
-###### I joined Bayzi after changing jobs from my previous company, which was relatively large compared to Bayzi with about 300 employees. When I joined Bayzi, I changed my mind about communication. Because Bayzi is a small company, dense and efficient communication is very important. Up to that point, I had been communicating in a haphazard manner, with little awareness of what should be done as a matter of course, such as summarizing the main points and speaking from the conclusion. After joining Bayesi, I started to rethink all the basic things, such as explaining things clearly. This is just one example, but I feel that Vage is a company that is committed to doing what should be done as a matter of course and what should be done regardless of the type of job or company. The company is full of professionals in various fields, so it is an environment where you can acquire specialized skills, but it is also a company where you can acquire universal skills that do not depend on the company or the type of work.
-&nbsp;
+#### `--Message to Applicants`
+Andaz offers a number of innovative and creative services ranging from web design to development, CRM and e-commerce solutions, and application development. We are also an attractive company in that we provide our customers with high quality software. If you are looking to enhance your career while staying up-to-date with the latest technology, then working at Andaz is the place for you.

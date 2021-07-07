@@ -1,12 +1,12 @@
 ---
-title:  "Current status and issues in the industry"
+title:  "Andaz Mission."
 date:   2020-08-05T15:53:27+06:00
 image: en/merit/8things/1.jpg
 draft: false
 weight: 1
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
-description: "Our vision and training policies are closely related to the current state and future of the industry, and are premised on our awareness of these issues. In this section, we explain our approach to the current state of the industry and its issues."
+description: "We want to nurture engineers who can take a leap forward in the industry with modern management techniques. Andaz has been combining IT technologies from around the world to face the challenges faced by companies in Japan and India. We would like to share with you our vision and training policy, which is the foundation of our company."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -21,56 +21,76 @@ jsonld: {
     }
 ---
 {{< subpagetopimage src="visionslider.jpg" path="vision" >}}
-### **Current status and issues in the industry**
-&nbsp;
-Our vision and training policies are closely intertwined with the current situation and future of the web/IT industry, and are premised on our awareness of these issues. In this page, we explain our thinking in this area.
-&nbsp;
+### Andaz Mission.
+**The word "Andaz" means "personal style" in Hindi. The company name expresses our hope that each employee's "personality" will shine through in their work.**
 
-<!-- ![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Rapidly shifting trends**](#rapidly-shifting-trends)
-
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Us in 2030**](#us-in-2030)
-
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; The negative effects of division of labor and uniformity**](#the-negative-effects-of-division-of-labor-and-uniformity)
-
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Business-centered thinking that makes you stronger**](#business-centered-thinking-that-makes-you-stronger)
-
-![Image Not Available](../../ico_arw_page_anchor.webp) [**&nbsp; Difficulties in Training People**](#difficulties-in-training-people) -->
 {{< tableofcontent >}}
-#### **Rapidly shifting trends**
-&nbsp;
-###### The web/IT industry is characterized by rapid changes; it is not unusual for a situation to change in a year or two, and for a job to disappear in five or ten years. For example, Flash, the web animation technology that took the world by storm in the 2000s, is no longer in use. Many of the techniques that Flash creators worked so hard to acquire back then have become obsolete and are no longer useful. On the other hand, the market for smartphones, which did not exist at all back then, has rapidly expanded since 2010 and has become the mainstream of today.
-###### In this way, the dynamic changes that we take for granted now will disappear, and what we don't have now will become the norm, will continue in the future. In other words, in such a rapidly changing environment, you must not only hone the skills needed now, but also acquire universal skills that will not become obsolete in five to ten years, or you will be at risk of losing your place in the workforce.
 
-#### **Us in 2030**
-&nbsp;
-###### Let's imagine what it will be like in 2030. Devices other than smartphones will be diversified, everything will be connected to the Internet, cities will become smart cities, and AI-like technologies will support people's lives. The technology to process the huge amount of data being collected will evolve further, and many of the time-consuming but not so mind-numbing tasks we do today will be automated, enabling marketing that is directly connected to people's psychology and behavioral characteristics.
-###### As technology continues to evolve, there is no doubt that UI will continue to evolve and diversify. With devices that do not have large screens, UIs will be closer to the body and more intuitive, making their presence unnoticeable, and frameworks for UIs and implementation techniques will be developed, making it easier for developers to use advanced ones. As frameworks for UIs and implementation techniques become available, developers will be able to easily use advanced ones. The current market of creating tailor-made UIs for use on a PC screen is likely to shrink. And with numerous automation technologies, designers and engineers will be freed from much of the routine work that is at the core of their current skills, and will enter an era where more essential results are required.
-###### When we imagine such a world 10 years from now, how should we utilize the skills we currently acquire in our web jobs?
+#### Providing start-up development speed with corporate rules.
+Our mission is to provide overwhelming development speed like a start-up within the corporate rules of social common sense and morality.
+##### (*Example of realizing the mission)
+Take the logistics industry, for example. Until now, logistics delivery information management has been based on the experience and intuition of skilled staff and experienced drivers. However, various conditions are involved in delivery operations, such as the progress of work, ever-changing road conditions, and the condition of workers and drivers. This is why we are using high-performance AI to solve problems that are beyond human capabilities, such as managing optimal delivery routes and driving details, and sorting packages, to create innovations that will dominate B2B logistics. In addition, we are also developing
+|**Chat-based customer communication**|I'll connect you to all the major chat apps.|
+|---|---|
+|**WebAssembly**|Fast and crisp execution of programs on any browser or device|
+|**Azure Active Directory**|We use the latest technology to provide access to cloud services with greater security and peace of mind. We are able to provide highly satisfactory services with the highest level of security and ease of use.|
+ 
+We use the latest technology such as We are able to provide highly satisfactory services with the highest level of safety and ease of use.
 
-#### **The negative effects of division of labor and uniformity**
-&nbsp;
-###### As industries mature, not just web production, there is a tendency for division of labor so that each person's specialties can be efficiently combined to produce high-quality output at higher speeds, in larger volumes, and more productively. However, designers and engineers working in an environment with a high degree of division of labor have fewer opportunities to be exposed to peripheral skills, and their career paths become fixed.
-###### For example, a person who does HTML coding tends to be stuck in a situation where no matter how much work he does, he can only acquire HTML coding skills and cannot get a chance to change his job to UI designer or director.
-###### Also, uniform job definitions such as "you have to work this way because you are a designer or an engineer" can lead to people who cannot cope with change. There is a wide variety of people in this world, each with their own strengths, weaknesses, and interests. If we do not become accustomed to working in a way that accommodates such diversity, it will be difficult to develop people and organizations that can walk flexibly through an era of frequent change.
+##### (*Means to realize the mission.)
+**An iterative process will bring you closer to your ideal world.**    
+As a means of increasing development speed, we have adopted an "iterative process". The iterative process is a development method that improves the quality of a system by repeating the following sequence of steps over and over again.
 
-#### **Business-centered thinking that makes you stronger**
-&nbsp;
-###### In recent years, "design" has become a boom word in the business world, with terms such as UX design and design thinking spreading even among non-designers, and it is no longer unusual to hear these terms used in management meetings. This growing interest in design at the business layer is a sign of an expanding market and a great business opportunity.
-###### At the same time, however, designers who cannot make proposals in a business context will be left behind in this trend. In traditional production and design companies, design and business were separated, and designers did not have many opportunities to acquire business skills. However, in the future, production and design companies will be required to break this old framework and design services and systems with a business-centered design perspective that is appropriate for the current era.
-###### This isn't just about design. The same applies to the engineering world. Especially if you are aiming for a position like CTO, knowledge and experience in management and organizational management are essential. Except for that one point where you are good at engineering, you are required to move in a way that is very similar to that of an ordinary businessperson. It is no longer enough to learn a new language, implement it according to the specifications, and have highly technical conversations with other engineers to be evaluated.
-###### In this way, it is inevitable that professionals will become business people. This is because both design and systems were originally born out of business needs. The science of marketing and sales has evolved, tools have evolved, and the effects of design and systems can now be confirmed by numbers, making it easier to measure the business results of design and systems.
+1. Development, measurement, and analysis are repeated.
+2. Feed back findings to products
+3. I doubt if this is really the way to go.
+4. Match the product to its essence and purpose.
+5. Resetting entrenched values and ways of thinking
+6. Incorporate new ideas.
 
-#### **Difficulties in Training People**
-&nbsp;
-###### As I have mentioned so far, the speed of change is fast and business orientation is becoming stronger. This is because a stable business is the basis for a stable training and working environment.
-###### However, the production and design companies that are able to market well, select their clients carefully, and manage their projects well are still in the minority. Many of them are always short on time, and while they may be able to teach the task at hand, they rarely have the marketing and leadership training. I have seen many companies lose the trust of their clients and the business side because they have not been trained to do the usual things such as not meeting deadlines, not working without prompting, and only doing what they are told.
-###### On the other hand, large operating companies have more time to spare. However, there is another problem here. The problem is that there is no culture to train designers and engineers. Since there is no culture, there are no evaluation standards or training policies. Since there are no ideas or philosophies about design or systems, it is not uncommon for companies to just copy other companies ad hoc, rather than planning ahead. In addition, because they have plenty of time, they tend to use their time in a low-density manner.
-###### If you become accustomed to this kind of "haphazard work style without planning," you run the risk of struggling to grow when you reach your 30s and 40s and are required to engage in advanced communication in business and management. However, many companies do not think about the future and hire young creators for the sake of immediate sales and business, leaving them to work haphazardly.
+#### Indians' high level of technology is indispensable to realize the mission.
+The birth of Andaz can be traced back to the representative's experience in Mumbai, India, where he was staying on business. The Indians working there were all demonstrating a high level of technical skills on a global level. However, the environment at that time was such that following plans and budgets were considered to be of utmost importance, and results were put on the back burner. The representative questioned such methods and returned to Japan in 2016. He founded Andaz, a company that can commit to "discovery" and "goals" using the latest technology. In order to achieve Andaz's mission, the power of talented Indian engineers is indispensable. To this end, we will hire a series of talented engineers from India's highest academic institutions to form a development team specializing in Microsoft's cloud technology.    
+Currently, there are about 20 employees in India and 12 Japanese and non-Japanese employees in Japan. Conversations are mainly in English, but some departments use real-time translation tools for communication.
+|< chronology >| |
+|---|---|
+|2011 year|Mr. Arai, the representative of the company, arrived in Japan.|
+|2015 year|Returned from India. Began preparations to establish a company.|
+|2016 year|Andaz Corporation is established.|
+|2017 year|Microsoft Network Partner Certification|
+|2018 year|Obtained Microsoft Silver Partner Certification|
+|2019 year|Head office moved from Toranomon to Kojimachi.<br>increase of capital （5 million to 10 million）|
+|2020 year|Development base established at WeWork Hanzomon<br>Obtained Microsoft Gold Partner Certification|
+|2021 year|ISO9001 and ISO27001 certified<br>increase of capital（10 million to 20 million）|
 
-###### Our training policies and internal systems were born out of our awareness of the problems of this situation.
-&nbsp;
+#### Hiring Indians who are valued by global IT companies
+Global companies are actively recruiting Indians, and it is well known that the CEOs of such prestigious organizations as Google, Microsoft, and Adobe are Indians. It is well known that CEOs of prestigious organizations such as Google, Microsoft, and Adobe are Indians, and not only are they selected for top management positions, but they are also
+- **36% of people working at NASA**  
+- **34% of people working at Microsoft** 
+- **38% of physicians working in the U.S.** 
+{{< imagedisplay  src="スライド8.PNG"  >}}
+India is a large country with more than one billion people and is said to have more than 20 official languages, including English, and a variety of cultures and religions. Because of its large population, competition within the country is fierce, and the country is highly adaptable to diversity, so it seems that the people of India have naturally acquired a national character that allows them to exert themselves globally even overseas. Incidentally, there are more than 20 Indian engineers working at Andaz.
+
+#### If engineers don't find it "interesting," it's meaningless.
+Gone are the days of silently listening to your boss and doing as you are told in order to get a monthly salary. And we believe that if a job doesn't feel right to us, we don't need to do it to sustain life. We trust and hand over authority when necessary, and support engineering with more freedom to achieve results.
+
+####  Select projects that will bring new "discovery" and "value
+Even if you are a customer, you will be able to work on exciting projects because they respect you as a member of the team to build the business together. For example, you can use new technologies such as **AI technology, big data, and IoT, or you can be involved in the development of new service projects**. In order to achieve the development speed of a startup, we select jobs that are **valuable** for engineers.  
+
+#### Be a reliable brain for your customers.
+What we value in our relationships with our clients is not to be their hands and feet as a worker, but to be the brain that they value by maximizing their business value. For this reason, I place importance on **being able to create an equal relationship, utilize my knowledge and ingenuity, and acquire skills that can be used anywhere**.
+
+#### Put employees first before contributing to society.
+Whether the staff is working hard or not, and whether they are motivated or not may not be directly related to the business. Besides, before we talk about big dreams such as social contribution, we want to put our employees first. We believe that creating an exciting environment for everyone who loves information technology will lead to the best results.
+
+#### Plans to increase the number of employees to approximately 100 in the future
+We are planning to **increase the number of employees to around 100 in the future**, and once we get close to 100, we will start planning the next stage, including the possibility of capital tie-ups with other companies. The staff living in India will work full-remotely while taking care of their "life in India," but there may be opportunities for them to travel to Japan for training, etc.
+
+#### A career path that also opens up a professional future
+{{< imagedisplay  src="スライド4.PNG"  >}}
+Many people seem to think that management is an unavoidable path in their career as a technology developer. However, in our company, rather than uniting an organization, you can collaborate with each member to achieve great results, or gain experience by working alone on voluminous or difficult projects. Therefore, it is possible to develop a rich career path as a specialist.
 
 ---
-Considering these future predictions and the current situation, you can see in the following pages what kind of training policy we have in place.
+
+What kind of vision does Andaz have for providing a place where people can work in their own way? You can read more about it on the next page.
 
 {{< nextButtonBox >}}

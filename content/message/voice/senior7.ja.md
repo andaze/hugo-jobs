@@ -1,7 +1,6 @@
 ---
-image: images/blog/post-3.jpg
 name: 
-image: image/senior6.webp
+image: senior6.jpg
 typeofworkHeading : 
 typeofworkAnswer : 
 joiningHeading : 
@@ -13,12 +12,3 @@ birthplaceAnswer :
 workexpHeading : 
 workexpAnswer : 
 ---
-
-#####
-
-###### 
-
-##### 
-
-###### 
-&nbsp;

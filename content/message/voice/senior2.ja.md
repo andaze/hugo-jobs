@@ -1,7 +1,6 @@
 ---
-image: images/blog/post-3.jpg
 name: 金森 沙希
-image: image/senior2.webp
+image: senior2.jpg
 typeofworkHeading : "職種："
 typeofworkAnswer : " PMアシスタント"
 joiningHeading : "入社年月："

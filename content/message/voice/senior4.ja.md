@@ -1,5 +1,4 @@
 ---
-image: images/blog/post-3.jpg
 name: Rushit Saliya
 image: ""
 typeofworkHeading : "職種："

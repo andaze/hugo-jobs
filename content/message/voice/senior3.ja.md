@@ -1,7 +1,6 @@
 ---
-image: images/blog/post-3.jpg
 name: Abhishek Sankhat
-image: image/senior3.webp
+image: senior3.jpg
 typeofworkHeading : "職種："
 typeofworkAnswer : "シニアソフトウェアエンジニア"
 joiningHeading : "入社年月："

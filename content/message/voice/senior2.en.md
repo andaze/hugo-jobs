@@ -1,24 +1,23 @@
 ---
-image: images/blog/post-3.jpg
-name: Ayaka Ikeda
-image: image/senior2.webp
-typeofworkHeading : "Type of work:"
-typeofworkAnswer : "Designer"
-joiningHeading : "Date of entry:"
-joiningAnswer : August 2017 (New Graduate Recruitment)
-dobHeading: "Birth date:"
-dobAnswer: November 4, 1994..
-birthplaceHeading : "birthplace:"
-birthplaceAnswer : Matsuyama City, Ehime Prefecture
-workexpHeading : "Main employment history:"
-workexpAnswer : "As a student, he majored in architecture and design. \n After graduation, she worked as a freelance \n designer for websites before joining Baisi." 
+name: Saki Kanamori
+image: senior2.jpg
+typeofworkHeading : "Job Title:"
+typeofworkAnswer : "PM Assistant"
+joiningHeading : "Date of hire:"
+joiningAnswer : April 2021
+dobHeading:
+dobAnswer:
+birthplaceHeading :
+birthplaceAnswer :
+workexpHeading :
+workexpAnswer :
 ---
 
-##### **`This is who I am.`**
+#### `--Why did you decide to join Andaz?`
+Previously, I worked as an office clerk at a publishing company. When I thought about my future career, I decided to join the IT industry because I thought it would be the industry that would drive the future trends. At first, I started out as a "side hustle" while remaining registered at my previous job. Six months later, I officially joined Andaz as a full-time employee.
 
-###### Our policy for creating websites is to create realistic and challenging designs. I want to create a website that strikes a balance between ensuring functionality that is easy for the user to use and understand, while at the same time, emotionality that is not logical is also important. Recently, I am also interested in directing photography, and I enjoy working as a team with clients, photographers, and hair and makeup artists to create pictures. As a professional, I want to be able to do a certain level of work at any time and become someone who can help clients solve their business issues.
+#### `--Growth and change after joining the company`
+Currently, I am assisting the PM in managing the progress of the entire project and providing operational support. Since all the materials and documents are managed digitally, the amount of paper I have to deal with has been greatly reduced. There are many challenging situations where I feel rewarded, such as when my ideas are used in meetings or when customers are pleased with my work. I also feel motivated by the free culture. I also enjoy the fact that I can communicate with foreign engineers in the company, sometimes using gestures.
 
-##### **`Message to Applicants`**
-
-###### Before I joined the company, I had the impression that there were no conversations at all during work and that there were many scary employees. However, this is not the case. We can communicate with each other easily regardless of age. It is a small company, so you don't have to worry about human relations, and it is an easy environment to work in. In my daily client work, I sometimes interact with management, which allows me to listen to the real business side of things and gain practical experience. Also, as a member of society, not only in my field of expertise, I can learn universal skills that can be applied to any company, so I can properly face my own career.
-&nbsp;
+#### `--Message to Applicants`
+If you feel that the IT industry seems difficult, don't worry. The people around me will teach you what you don't know, and I was able to make a comfortable career change even though I had no experience in the industry. We also welcome people who want to start their careers with a second job, so let's realize a variety of work styles at Andaz.
