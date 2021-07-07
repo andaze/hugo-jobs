@@ -1,11 +1,11 @@
 ---
-title:  "Office gallery"
+title:  "Office Gallery"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 1
 advtitle2: "Office and surroundings"
 advtitle3: "OFFICE"
-description: "Here is our office. It's not a big office, but it's laid out in a spacious environment where you can concentrate on your work."
+description: "Our office is located in the Expert Office. It is a high-quality space where you can concentrate on your business in a relaxed atmosphere."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -20,55 +20,40 @@ jsonld: {
     }
 ---
 {{< subpagetopimage src="officeslider.jpg" path="office" >}}
-### **Office Gallery**
-
-###### Here is our office. It's not a big office, but it's laid out in a spacious environment where you can concentrate on your work.
+### Office Gallery
+Our office is located in the Expert Office. It is a high-quality space where you can concentrate on your business in a relaxed atmosphere.
 &nbsp;
 
-{{< imagedisplay src="gallery1.jpg" >}}       
+{{< imagedisplay src="スライド41.PNG" >}}       
 &nbsp;  
-{{< imagedisplay src="gallery2.jpg" >}}   
+{{< imagedisplay src="スライド42.PNG" >}}  
 &nbsp;
-{{< imagedisplay src="gallery3.jpg" >}}   
+{{< imagedisplay src="スライド34.PNG" >}}  
 &nbsp;
-{{< imagedisplay src="gallery4.jpg" >}}   
+{{< imagedisplay src="スライド37.PNG" >}}  
 &nbsp;
-{{< imagedisplay src="gallery5.jpg" >}}   
+{{< imagedisplay src="スライド31.PNG" >}}  
 &nbsp;
-{{< imagedisplay src="gallery6.jpg" >}}   
+{{< imagedisplay src="スライド38.PNG" >}}  
 &nbsp;
-{{< imagedisplay src="gallery7.jpg" >}}   
+{{< imagedisplay src="スライド43.PNG" >}}   
 &nbsp;
-{{< imagedisplay src="gallery8.jpg" >}}   
+{{< imagedisplay src="スライド44.PNG" >}}   
 &nbsp;
-{{< imagedisplay src="gallery9.jpg" >}}   
+{{< imagedisplay src="スライド45.PNG" >}}   
 &nbsp;
-{{< imagedisplay src="gallery10.jpg" >}}  
+{{< imagedisplay src="スライド46.PNG" >}}   
 &nbsp;
-{{< imagedisplay src="gallery11.jpg" >}}   
+{{< imagedisplay src="スライド47.PNG" >}}   
 &nbsp;
-{{< imagedisplay src="gallery12.jpg" >}}   
+{{< imagedisplay src="スライド48.PNG" >}}   
 &nbsp;
-{{< imagedisplay src="gallery13.jpg" >}}   
-&nbsp;
-{{< imagedisplay src="gallery14.jpg" >}}   
-&nbsp;
-{{< imagedisplay src="gallery15.jpg" >}}    
-&nbsp;
-{{< imagedisplay src="gallery16.jpg" >}}    
-&nbsp;
-{{< imagedisplay src="gallery17.jpg" >}}    
-&nbsp;
-{{< imagedisplay src="gallery18.jpg" >}}   
-&nbsp;
-{{< imagedisplay src="gallery19.jpg" >}}   
-&nbsp;
-{{< imagedisplay src="gallery20.jpg" >}}   
+{{< imagedisplay src="スライド49.PNG" >}}   
 &nbsp;
 
 ----
 &nbsp; 
 
-On the next page, we will introduce some of the stores in the area that we often use for shopping and eating. There are many stores in Shimokitazawa, and I am sure you will enjoy them.
+The next page introduces the characteristics of the Hanzomon area where the office is located and recommended gourmet spots. There are also many delicious places to have lunch.
 
 {{< nextButtonBox >}}
