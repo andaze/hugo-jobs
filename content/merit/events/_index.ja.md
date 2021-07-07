@@ -26,26 +26,6 @@ jsonld: {
 
 {{< tableofcontent >}}  
 
-<!-- ![Images not available](../../ico_arw_page_anchor.webp "Title") [**フルフレックス・フルリモート**](#フルフレックス・フルリモート)   
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**最新のIT技術やセキュリティを導入**](#最新のIT技術やセキュリティを導入)   
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**研修や勉強会**](#研修や勉強会)   
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**資格取得支援**](#資格取得支援)   
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**1on1ミーティング**](#1on1ミーティング)   
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**軽食無料、フリードリンク**](#軽食無料、フリードリンク)   
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**国際色豊かな同僚たち**](#国際色豊かな同僚たち) 
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**PMミーティング**](#PMミーティング)
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**プロジェクトミーティング**](#プロジェクトミーティング)
-
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**日本での研修（現在準備中）**](#日本での研修（現在準備中）) -->
-
 #### フルフレックス・フルリモート
 在宅勤務可、コアタイム8時間のフルフレックス制を取り入れています。従業員の平均出社日数は週2～3日。深夜残業や土日出勤は禁じています。
 

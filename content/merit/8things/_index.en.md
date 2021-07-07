@@ -1,12 +1,12 @@
 ---
-title:  "8 things you can get with Bage"
+title:  "The Value of Working at Andaz"
 date:   2020-08-05T15:53:27+06:00
 image: en/merit/8things/1.jpg
 draft: false
 weight: 2
-advtitle2: "Benefits of working at Bage"
+advtitle2: "Benefits of Working at Andaz"
 advtitle3: "ADVANTAGE"
-description: " The most important thing we focus on in our hiring strategy is the significance of working at Vage. Here are 8 things you can gain from working at Vage."
+description: "How do the unique features of Andaz bring value to employees? On the next page, we will discuss the benefits of working at Andaz."
 # nextPageBtn: true
 jsonld: {
       "@context": "https://schema.org",
@@ -23,71 +23,44 @@ jsonld: {
 ---
 {{< subpagetopimage src="meritslider.jpg" path="merit" >}}
 <!--### Introduction-->
-### **Eight things you can get from a vage**
-&nbsp;
+### The Value of Working at Andaz
+**Exciting days with exposure to new technologies. While holding the reins of a project, you can acquire skills that will last a lifetime. You will surely feel the significance of working here.**
 
-What we focus on the most in our recruitment strategy is the "meaning of working at Vage. Without it, there would be no reason to choose or continue working at Vage. This is far more important than the kind of person we are looking for. I have summarized the eight main reasons for working here.
-&nbsp;
-
-<!-- ![Image not available](../../ico_arw_page_anchor.webp "Title")  [**1. Acquire universal skills that will be useful in the age of 100 years of life**](#1-acquire-universal-skills-that-will-be-useful-in-the-age-of-100-years-of-life)    
-
- 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**2. Zero subcontractors, so we can control the work.**](#2-zero-subcontractors-so-we-can-control-the-work)   
-
- 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**3. I have reliable friends I can talk to immediately.**](#3-i-have-reliable-friends-i-can-talk-to-immediately)    
-
- 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**4. You can feel your influence.**](#4-you-can-feel-your-influence)    
-
- 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**5. Various career paths are available.**](#5-various-career-paths-are-available)    
-
- 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**6. Company's understanding of manufacturing**](#6-companys-understanding-of-manufacturing)   
-
- 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**7. Actively supporting activities outside the company.**](#7-actively-supporting-activities-outside-the-company)   
-
- 
-![Image not available](../../ico_arw_page_anchor.webp "Title")  [**8. Ability to work in a good working relationship**](#8-ability-to-work-in-a-good-working-relationship)     -->
 {{< tableofcontent >}}
 
- 
-#### `1.` Acquire universal skills that will be useful in the age of 100 years of life
-&nbsp;
-###### In our company, we work not only on how to create websites, but also on logical thinking, critical thinking, communication, marketing, leadership, and other universal skills that are needed for any job. In the age of 100 years of life, we will not end our lives in one job. The greatest significance of working for a company is to acquire skills that can be applied to any job, whether it is running a café or farming. Our goal is to be a company where people can say, "What I learned was useful," no matter what job they take.
+#### Ability to chart a career path in a position close to management
+Andaz has a unique management style that sets it apart from other non-operating companies such as operating companies and fiduciary companies.
 
-#### `2.` Zero subcontractors, so we can control the work.
-&nbsp;
-###### Most of our projects are prime contractors, and none of our work is done through advertising agencies. We are in a position to make proposals directly to clients and negotiate deadlines and schedules. There is no such thing as being pushed around by an agency director with poor skills. Of course, because we are dealing directly with the customer, there are some harshnesses that we cannot make excuses for. Of course, there is no excuse for the rigors of dealing directly with clients, but this is part of the reason why we are able to do work that is rewarding as our own achievements.
+|**General business companies**|This refers to companies that are primarily in the business of developing their own services and products. In addition to the above, there are a number of other factors that may affect your career. <br>In the workplace, you will often be asked to manage whether you are on schedule, whether you are making progress, and whether you are working properly. If you're not on track, you'll be pressed by your superiors, and if you're making slow progress, you run the risk of having your staff cut. There may be many workplaces with a top-down decision-making style where people who do what they are told are highly valued.|
+|---|---|
+|**General trustee company (non-business company)**|A company that provides consultation and services to clients. <br> - **SES (System Engineering Services)**: A company that provides labor by dispatching engineers to client companies and receives compensation in the form of monthly or hourly wages. Because you will be working at the client's site, there may be barriers to skill development and you may feel that you are not being fairly evaluated by your company. <br> - **Solutions Company**: A company that provides AI and IoT development solutions to the challenges and issues that client companies are working on. They are often paid on a per-system basis. For companies that don't choose their clients, the type and position of the contact person for the client will determine whether or not the engineer can take control of the project.|
+|**Andaz.**|While providing solutions that utilize AI and IoT to clients with whom we can communicate fairly, we have also started developing our own products. By introducing products to the market as an operating company, we acquire marketing knowledge and stay close to our clients' demands and needs. Since we can lead projects while learning about business in a position close to the management of our clients, it is easy to draw a career path from engineer to consultant at will. You can work in a way that allows you to focus on the future while improving your specialized knowledge.|
 
-#### `3.` I have reliable friends I can talk to immediately.
-&nbsp;
-###### We have all the necessary skills for web production, from strategy to planning, design, and system development, and we have a system in place that allows us to complete the work in-house. Our work is basically divided up, but we communicate closely, and if there is something we don't understand in an adjacent area, someone will always follow up with us. There is no need to waste time worrying about things that are not your specialty.
+#### Discovery and goals, rather than plans, are the driving force behind development.
+Even if you write a hundred design documents, there are still things that you cannot understand until you actually see the prototype. And even if you have a development plan, it doesn't always work out the way you want it to. As you go through the steps, the situation changes and you learn new things. Then you can be flexible and incorporate what you discover in the process. Even if this results in specification changes, I think it is best if we can get closer to our goal.   
+In a previous development of a trade system, we had to change to a completely different construction method two months before the scheduled delivery and rebuild the system from scratch. This was because we needed to take advantage of "discoveries" made during the development process in order to accomplish our goals.
 
-#### `4.` You can feel your influence.
-&nbsp;
-###### We are a small company of less than 20 people. This allows the company to pay attention to each individual. If you have any requests, you can immediately let the company know, and if necessary, the rules and systems can be changed quickly. The representative is also close by in the same office, so you can talk to him or her immediately and ask for advice. This is an environment where you can enjoy the advantages of a company with a small number of people. You will strongly feel that you have influence over the company and that you are needed by the organization.
+#### A more flexible way of working that generates innovation  
+Andaz is fully remote and fully flexible. We also don't work on a project with a last-minute staff or schedule. This is because if we run out of time or mental space, we will be mentally overwhelmed and will not be able to come up with good ideas. What we believe is necessary for development speed is
+- How to work without being restricted by time or place
+- Well-developed internal regulations
+- Openness to drink beer in the office 
 
-#### `5.` Various career paths are available.
-&nbsp;
-###### Since we provide integrated services from strategy to operational support, you can try out a variety of jobs, not just one. It is possible to start as a designer or engineer and then take charge of UX or marketing. In addition, the company will continue to increase its number of employees and plans to expand to a scale of about 30 people. We are still looking for members who can play a central role. You can work with us to change and build up the organization. You can get a position that is difficult to get in a company that is already established, depending on you.
+Innovation can only be created when there is room for discretionary thinking, room for leeway, and uniqueness. I keep asking myself, "What kind of support and environment can contribute to the speed of development? I continue to ask myself this question.
 
-#### `6.` Company's understanding of manufacturing
-&nbsp;
-###### The representative of the company himself is an active designer. As a manager, I understand the importance of business, sales, and profits, but more than that, I believe that creating good products and doing good work support the foundation of the company. For this reason, we are negative about imposing sales quotas on designers and engineers, or initiating short-circuiting activities that undermine their creative spirit. If designers and engineers want a new environment, they will positively consider introducing it, even if the return on investment is a little unclear. Being able to work under a management team and supervisors who understand the feelings of people who create things is an important factor for creators.
+#### Trust and empower your employees.
+Checking and instructing each and every task in detail will slow down the development speed. In addition, employees may become suspicious and think that they are not trusted.   
+We want you to be able to give shape to your ideas as quickly as possible, so we give important privileges such as "administrator access" and "credit card numbers" to employees who we deem necessary. If they fail, we do not punish them or make them take full responsibility. Development is a job of getting closer to the goal through repetition. It is important to learn from failures, make discoveries, and move on. We want to hear from you, from the bottom up, how we can make things better.
 
-#### `7.` Actively supporting activities outside the company.
-&nbsp;
-###### In this age of individuality, we don't want our employees to be confined within the company and lose their connection with the outside world. This is why we operate a daily report website and actively publicize the names of our employees. As a company with a certain level of name recognition in the industry, we receive many requests for speaking and writing engagements. As a company, we actively support the use of such opportunities to expose ourselves to the outside world. We also encourage participation in seminars and events, and cooperate with schedule adjustments. Second jobs are allowed, and there is no need to work five hours a week. As long as it does not interfere with your main job, you can work freely while being involved with outside parties.
+#### Think from what you have, bottom-up thinking
+Top-down companies that focus on efficiency and productivity put a lot of emphasis on drawing up huge designs and plans. However, there are no realizations that come out of the actual product if it is just a picture. Then, the points that are really important to the client may be left out.     
+We believe that ideas can be found not from designs and plans, but from prototypes. In the past, when we were developing a trade system, the on-site engineers found a way to develop the web and application simultaneously at low cost from a prototype. That was a great realization that only the field could make after seeing the actual product. The idea was adopted and the building method was immediately changed. The hybrid application, which was rebuilt from scratch, was recognized for its quality and later received an award. There are times when a top-down approach is more costly or when there is unclear information. This can be solved by having the field provide feedback on how to make things better.  
 
-#### `8.` Ability to work in a good working relationship
-&nbsp;
-###### Although there is a strict aspect to the work, the company is full of calm people. We don't have factions, people who don't get along with each other, or troublemakers. The reason for this is that at Vage, we hire for culture fit rather than skills. If you are hired by us, it means that you will fit in well with our culture. We take great care to create an environment where you can devote yourself to your work without being bothered by unnecessary human relationships.
-&nbsp;
+#### Overcoming language barriers with real-time translation tools
+To ensure smooth remote communication even when fully remote across borders, we have incorporated Microsoft's real-time translation tool for web conferences. This tool translates words into the native language on the screen almost as soon as they are uttered, making it possible to have a conversation while understanding the content in text. The accuracy of the translation is very high, so there is no need to worry about time differences or incompatibility. Of course, it can also be used as a record of the meeting, so you can go back and read the transcript later.
 
----
-These benefits are equally available to all employees, regardless of their work history or position. In the following pages, we will introduce you to some of the different types of jobs that exist within BAYJ.
+---   
 
+Anders is a company where engineers and professionals can grow by leaps and bounds, and we have employees in a variety of positions. On the next page, we will introduce you to some of our job categories. 
 {{< nextButtonBox >}}
+
