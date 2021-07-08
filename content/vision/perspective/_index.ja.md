@@ -1,7 +1,6 @@
 ---
 title:  "アンダーズのミッション"
 date:   2020-08-05T15:53:27+06:00
-image: jp/merit/8things/1.jpg
 draft: false
 weight: 1
 advtitle2: "ビジョンと育成方針"
