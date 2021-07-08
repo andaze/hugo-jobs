@@ -62,7 +62,3 @@ You will design and develop solutions that leverage Azure services, data migrati
 We provide IT consulting and implementation support to companies in a wide range of industries, including finance, broadcasting, and real estate. Thanks to the trust and achievements we have cultivated over the years, we have received many requests for our services. However, there are many cases where we have no choice but to decline because we do not have enough staff. We have decided to increase the number of staff this time in order to respond to the increasing number of projects in the future and to expand our business further.
 
 ---
-
-<!-- path of this shortcode:= themes/navigator-hugo/layouts/shortcodes/leadDesign_en.html -->
-{{< leadDesign_en >}}
-
