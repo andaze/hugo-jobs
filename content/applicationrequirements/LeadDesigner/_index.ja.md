@@ -1,7 +1,6 @@
 ---
 title:  "クラウド エンジニア"
 date:   2020-08-05T15:53:27+06:00
-image: jp/merit/8things/1.jpg
 draft: false
 weight: 2
 advtitle2: "募集職種・募集要項"
@@ -34,14 +33,16 @@ Microsoft クラウドソリューションを検討されているクライア�
 - オープンソースのツール、自動化、クラウドリソースを取り入れて、反復的なタスクを削減し、プラットフォーム上での開発を合理化をする取り組みを行います。
 - パフォーマンスと可用性を向上させながら、コストを削減するために、Azure 機能を活用するためのアプリケーション設計をします。
 - Azure や関連する製品を活用し、システム構築から最適化されたアプリケーション開発を実現していきます。
-- Azure 環境においての設計、開発・テスト、運用、メンバーのマネジメントを実施します。企画や要件定義の段階から携わることもあります。
+- Azure 環境においての設計、開発・テスト、運用、メンバーのマネジメントを実施します。企画や要件定義の段階から携わることもあります。    
+&nbsp;
 
 ### 必須（MUST）
 
 - .NET 環境での開発経験（3 年以上）
 - Microsoft 製品を活用した企業向け業務アプリケーションの導入経験（2 年以上）
 - システム開発プロジェクトでのサブリーダー、チームリーダー経験（1 年以上）
-- 英語力（ビジネスレベルでの読み書きおよび会話ができること）
+- 英語力（ビジネスレベルでの読み書きおよび会話ができること）    
+&nbsp;
 
 ### 歓迎（WANT）
 
@@ -54,7 +55,8 @@ Microsoft クラウドソリューションを検討されているクライア�
 - マルチスレッド、ビッグデータ、分散型のクラウドアーキテクチャとフレームワークの経験
 - コグニティブサービスなどの Azure Platform as a Service ワークロードの経験
 - Azure 仮想マシンと仮想マシンスケールセットを活用した Infrastructure as a Service 機能のアーキテクチャー経験
-- Azure Active Directory との統合に加え、Exchange Online、SharePoint Online、Teams などの Microsoft 365 ワークロードの管理と設定の経験
+- Azure Active Directory との統合に加え、Exchange Online、SharePoint Online、Teams などの Microsoft 365 ワークロードの管理と設定の経験    
+&nbsp;
 
 ### 募集背景
 
@@ -63,4 +65,3 @@ Microsoft クラウドソリューションを検討されているクライア�
 ---
 <!-- path of this shortcode:= themes/navigator-hugo/layouts/shortcodes/leadDesign_jp.html -->
 {{< leadDesign_jp >}}  
-{{< nextButtonBox >}}
