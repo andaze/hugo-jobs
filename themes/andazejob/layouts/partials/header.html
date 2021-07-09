@@ -1,47 +1,31 @@
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
-      <div class="container d-flex">
-     
-        <!-- ===== Responsive menu ==== -->
-     
-        <div  id="mySidenav" class="sidenav responsive">
-            <!-- {{ range .Site.Params.listeLangues }}
-              {{ partial "flags.html" (dict "site" $.Site "liste" . "Permalink" $.Permalink) }}
-            {{ end }} -->
-          <span style="display: block;padding-left: 23px;">
-          {{ partial "language_change.html" . }}
-          </span>
-
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          {{ range .Site.Menus.item }}
-            {{ partial "homeurlchange.html" (dict "path" (.URL | absLangURL) "title" (i18n .Name) "class" "nav-link") }}
-            <!-- <a href="{{ .URL | absLangURL }}" class="nav-link">{{ i18n .Name }}</a> -->
-          {{ end }}
-        </div>
-
-        <span class="responsive" style="margin: 8px 8px;font-size:30px;color:white;cursor:pointer" onclick="openNav()">&#9776; </span>
-        <div class="mobile-logo mr-auto">
-          <div>
-            <img src="{{ `images/andazeLogo.webp` | absURL }}" width="90px" style="height: 22px !important"; alt="Image Not Available"/>&nbsp; <span style="color: rgb(175, 168, 111) !important;">{{ with .Site.Params.headerTitle }} {{ . }} {{ end }}</span>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+          <div class="logo-container">
+              <img class="lazyload" src="{{ `images/imageLoading.gif` | absURL }}"  data-src="{{ `images/andazeLogo.png` | absURL }}" alt="Image Not Available"/>
           </div>
-        </div> 
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+          aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
 
-
-        <!-- ===== Desktop menu ===== -->
-        <nav class="mobile-offcanvas navbar-expand-lg">
-          <ul itemscope itemtype= "http://www.schema.org/SiteNavigationElement" class="navbar-nav">
-              {{ range .Site.Menus.item }}
-              <li itemprop="name" class="nav-menu active">
+      <div class="collapse navbar-collapse" id="navbarColor03">
+          <ul class="navbar-nav ml-auto" itemscope itemtype= "http://www.schema.org/SiteNavigationElement">
+            {{ range .Site.Menus.item }}
+              <li itemprop="name" class="nav-item">
                 {{ partial "homeurlchange.html" (dict "path" (.URL | absLangURL) "title" (i18n .Name) "class" "nav-link" "itemprop" "url") }}
-                <!-- <a itemprop="url" href="{{ .URL | absLangURL }}" class="nav-link" >{{ i18n .Name }}</a> -->
               </li>
-              {{ end }}
-            </ul>
-          </nav>
-        
-        <span class="d-none d-lg-none d-xl-block" style="margin:auto; padding-top: 5px;">
-          {{ partial "language_change.html" . }}
-        </span>
+            {{ end }} 
+          </ul>
+          <div class="lan-content">
+              <label class="select">
+                  {{ partial "language_change.html" . }}
+                  <svg class="" viewbox="0 0 10 6">
+                      <polyline points="1 1 5 5 9 1"></polyline>
+                  </svg>
+              </label>
+          </div>
       </div>
-    </header><!-- End Header -->
-  
+  </nav>
+</header>

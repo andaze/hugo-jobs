@@ -1,117 +1,49 @@
 <footer>
   <div class="container">
-    <div class="row" style="margin-top: 20px;">
-      <div class="col-lg-3 col-md-12 col-sm-12 col-12">
-          <h2><img class="lazyload" src="{{ `images/imageLoading.gif` | absURL }}" data-src="{{ `images/andazeLogo.webp` | absURL }}" height="40px" width="100px" alt="Image Not available"/> </h2>
-          {{ with .Site.Params.footerAddress }}
-          <p class="footercolsize"> {{ . }} {{ end }}
-            <br> {{ with .Site.Params.footerMail }} {{ . }} {{ end }}
-            <br> {{ with .Site.Params.footerTel }} {{ . }} {{ end }}
-            <br> {{ with .Site.Params.footerFax }} {{ . }} {{ end }}
-            Url.<a class="footercolsize" href="{{ .URL }}" rel="noopener" target="_blank">https://andaze.com</a>
-          </p>
-      </div>
-      <div style = "padding-top: 10px;" class="col-lg-6 col-md-12 col-sm-12 col-12">
-        <div class="row">
+    <div class="footer-container py12">
+      <div class="">
+        <div class="logo-container">
+          <img class="lazyload" src="{{ `images/imageLoading.gif` | absURL }}" data-src="{{ `images/andazeLogo.png` | absURL }}" alt="Image Not available"/>
+        </div>
+        <div class="footer-linking">
+          <div class="footer-link-box">
+            <p class="m0">{{ .Site.Params.footerAddress }}<br/>
+            <a href="mailto:support@andaze.com"> {{.Site.Params.footerMail}}</a>
+            {{.Site.Params.footerTel}}<br/>
+            <a href="https://andaze.com">Url - https://andaze.com</a></p>
+          </div>
+
           {{ with .Site.GetPage "/" }}
           {{ range .Sections.ByWeight }}
-          <div class="col-lg-4 col-md-4 col-12 col-sm-12 mb-3"> 
-            <ul style="list-style: none !important;">
+          <div class="footer-link-box">
               {{ $footertitel := .File.Dir }}
               {{ $demo := strings.TrimRight "\\//" $footertitel }}
               {{ if where .Site.Menus.item "Name" "in" $demo  }}
-              <li class="colsize"><h6><b>
-                <!-- <a class="footerTitle" href="{{ .URL | absLangURL }}"><b>{{ .Title }}</b></a>  -->
-                {{ partial "homeurlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "footerTitle") }}
-              </b></h6></li>
+                {{ partial "homeurlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "footer-title") }}
                 {{ with .Site.GetPage $demo }}
                 {{ range .Sections.ByWeight }}
-                  <li class="colsize">
-                    <!-- <a  href="{{ .URL | absLangURL }}" class="link2Foot"> - {{ .Title }}</a> -->
-                  {{ partial "homeurlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "link2Foot") }}
-
-                  </li>
+                  {{ partial "homeurlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "link" "homeavm" "true") }}
                 {{ end }}
                 {{ end }}
-                {{ end }}
-            </ul>
+              {{ end }}
           </div>
           {{ end }}
           {{ end }}
         </div>
       </div>
-      <div class="col-lg-3 col-md-12 col-sm-12 col-12" style="padding-top: 10px;">
-        <ul style="list-style: none !important;">
-          {{ if .Site.Params.footerhome }}
-            <li class="colsize"><a href="{{ .URL | absLangURL }}" rel="noopener" target="_blank">{{ .Site.Params.footerhome }}</a></li>
-          {{ end }}
-          {{ if .Site.Params.footerblog }}
-            <li class="colsize"><a href="https://andaze.me/sogitani/" rel="noopener" target="_blank">{{  .Site.Params.footerblog }}</a></li>
-          {{ end }}
-          {{ if .Site.Params.footerReport }}
-            <li class="colsize"><a href="https://andaze.me/nippo/" rel="noopener" target="_blank">{{  .Site.Params.footerReport }}</a></li>
-          {{ end }}
-        </ul>
+      <div class="text-center">
+        <span class="coypright-text">Copyright©2021 Andaze Ltd. All rights reserved</span>
       </div>
     </div>
   </div>
 </footer>
 
-<button onclick="topFunction()" id="myBtn" aria-label="right" class="back-to-top"> <img class="lazyload" src="{{ `images/imageLoading.gif` | absURL }}" data-src="{{ `images/back_to_top.webp` | absURL  }}" width="25px" alt=""></button>
-<div id="preloader"></div>
-
-{{ $square1 := resources.Get "js/square1.js" | resources.Minify }}
-<script defer src="{{ $square1.Permalink }}" integrity="{{ $square1.Data.Integrity }}"></script> 
-
-{{ $wow := resources.Get "plugins/wow/wow.min.js" }}
-{{ $isoTope := resources.Get "plugins/isotope-layout/isotope.pkgd.min.js" }}
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+<script src="{{ `plugins/bootstrap/js/bootstrap.min.js` | absURL }}" ></script>
 {{ $lazysize :=  resources.Get "js/lazysizes.min.js" }}
-{{ $concatJs := slice $wow $isoTope $lazysize | resources.Concat "js/bundle_mini.js" }}
-<script defer src="{{ $concatJs.Permalink }}" integrity="{{ $concatJs.Data.Integrity }}" async></script>
-
-{{ $menu := resources.Get "js/menu.js" | minify }}
-<script defer src="{{ $menu.Permalink }}" integrity="{{ $menu.Data.Integrity }}"></script> 
-
-{{ $jquery_wasing := resources.Get "js/jquery.easing.min.js" }}
-<script defer src="{{ $jquery_wasing.Permalink }}" integrity="{{ $jquery_wasing.Data.Integrity }}"></script>
-
-<script>
-    var mybutton = document.getElementById("myBtn");
-
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function() {scrollFunction()};
-
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 10;
-        document.documentElement.scrollTop = 10;
-      }
-</script>
-
-
-
-<!-- Removed Js -->
-<!--
-<script src="{{ `plugins/php-email-form/validate.js` | absURL }}"></script>
-<script src="{{ `plugins/appear/jquery.appear.js` | absURL }}"></script>
-<script src="{{ `plugins/knob/jquery.knob.js` | absURL }}"></script>
-<script src="{{ `plugins/parallax/parallax.js` | absURL }}"></script>
-<script src="{{ `plugins/venobox/venobox.min.js` | absURL }}"></script> 
-<script src="{{ `plugins/bootstrap/js/bootstrap.bundle.min.js` | absURL }}"></script>
-{{ $jqueryNivo := resources.Get "plugins/nivo-slider/js/jquery.nivo.slider.js" }}
-{{ $owlCarousel := resources.Get "plugins/owl.carousel/owl.carousel.min.js" }} 
-
-{{ $main := resources.Get "js/main.js" }} 
-
-{{ $concatjs := slice $menu $main | resources.Concat "js/bundle.js" | resources.Minify }}
-<script defer src="{{ $concatjs.Permalink }}" integrity="{{ $concatjs.Data.Integrity }}"></script> 
-
--->
+<script defer src="{{ $lazysize.Permalink }}" async></script>

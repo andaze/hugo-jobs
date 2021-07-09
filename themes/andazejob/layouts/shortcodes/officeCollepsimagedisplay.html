@@ -1,32 +1,24 @@
-<!-- ======= office Section ======= -->
-<div class="about-area area-padding1">
-    <div class="container">
-    <div class="row d-flex align-items-end">
-        <!-- single-well start-->
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <div class="well-middle">
-            <div class="single-well">
-              <h2 class="headlineLv02NumEn" style="color: #afa86f;"><span class="headlineNumber" >4</span> 
-              <span class="headlineEn">OFFICE</span>   {{ with .Site.Params.messageTitle }} {{ . }}  {{ end }}</h2>
-              {{ with .Site.GetPage "office" }}
-                <p>{{ .Params.Intro }}</p>
-                {{ range .Sections.ByWeight }}
-                  <ul class="listLink01">
-                    <li>
-                      <!-- <a href="{{ .URL }}" target="_blank">{{ .Title }}</a> -->
-                      {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title "target" "_blank") }}
-                    </li>
-                  </ul> 
-                {{ end }}
-              {{ end }}
-            </div>
+<section class="p-90">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 col-lg-6">
+              <div class="box-content box-content-left p6">
+                  <div class="number">4</div>
+                  <h2 class="title">OFFICE</h2>
+                  <p class="text-muted sub-title">{{.Site.Params.messageTitle}}</p>
+                  {{ with .Site.GetPage "office" }}
+                  <p class="text-content">{{.Params.Intro}}</p>
+                  <div class="link-container">
+                    {{ range .Sections.ByWeight }}
+                      {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title "class" "link" "homeavm" "true") }}
+                    {{ end }}
+                    </div>
+                  {{ end }}
+              </div>
           </div>
-        </div>
-  
-        <div class="col-md-6 col-sm-6 col-xs-12 text-center">
-            <div class="well-left">
-                <div class="single-well">
-                    {{ $allparams := .Params }}
+          <div class="col-12 col-lg-6">
+              <div class="gallery-listing">
+                {{ $allparams := .Params }}
                     {{ range $allparams }}
 
                         {{ $defaultBackground := "Image Not Available" }}
@@ -59,17 +51,19 @@
                                 {{ $crop_img := $srcimg.Fill $cropsize }}
                                 {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
                             {{ end }}
-
-                            <img style="padding-bottom: 10px;" src='{{ `images/imageLoading.gif` }}' width='{{ $width }}' height='{{ $height }}'
-                            srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}' alt='Images Not Available'></img>
+                            
+                            <div class="gallery-list">
+                              <div class="photos">
+                                  <img class="lazyload" src="{{ `images/imageLoading.gif` | absURL }}" width='{{ $width }}' height='{{ $height }}' alt="img" srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'/>
+                              </div>
+                            </div>
                         {{ end }}
-                    {{ end }}       
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-</div><!-- End office Section -->
+                    {{ end }}      
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 
   <main id="main">
     {{ partial "home-website.html" . }}

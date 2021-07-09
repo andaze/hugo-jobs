@@ -1,6 +1,6 @@
 {{ $Scratch := newScratch}}
 {{ if .IsTranslated }}
-    <select class="border-0 langselector" onchange="location = this.value;">
+    <select class="custom-selector" onchange="location = this.value;">
         {{ $siteLanguages := site.Languages}}
         {{ $pageLang := .Page.Lang}}
         
