@@ -57,9 +57,9 @@ Currently, there are about 20 employees in India and 12 Japanese and non-Japanes
 |2016 year|Andaz Corporation is established.|
 |2017 year|Microsoft Network Partner Certification|
 |2018 year|Obtained Microsoft Silver Partner Certification|
-|2019 year|Head office moved from Toranomon to Kojimachi.<br>increase of capital （5 million to 10 million）|
-|2020 year|Development base established at WeWork Hanzomon<br>Obtained Microsoft Gold Partner Certification|
-|2021 year|ISO9001 and ISO27001 certified<br>increase of capital（10 million to 20 million）|
+|2019 year|Head office moved from Toranomon to Kojimachi.{{<br>}}increase of capital （5 million to 10 million）|
+|2020 year|Development base established at WeWork Hanzomon{{<br>}}Obtained Microsoft Gold Partner Certification|
+|2021 year|ISO9001 and ISO27001 certified{{<br>}}increase of capital（10 million to 20 million）|
 
 #### Hiring Indians who are valued by global IT companies
 Global companies are actively recruiting Indians, and it is well known that the CEOs of such prestigious organizations as Google, Microsoft, and Adobe are Indians. It is well known that CEOs of prestigious organizations such as Google, Microsoft, and Adobe are Indians, and not only are they selected for top management positions, but they are also
