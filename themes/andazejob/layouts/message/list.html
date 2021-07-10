@@ -1,57 +1,59 @@
 {{ define "main" }}
     {{ partial "message-slider.html" . }}
-        <div class="container"> 
-            <div class="artical_heading">
-                {{ .Params.Intro }}
-            </div>
-            <div class="sectionblock">        
-            {{ .Content}}
-            {{ $baseUrlget := .Site.BaseURL }}
-            {{ $enpath := "en/message/voice/" }}
-            {{ $enurl := print $baseUrlget $enpath }}
-            {{ $jppath := "ja/message/voice/" }}
-            {{ $jpurl := print $baseUrlget $jppath }}
-            </div>
-            {{ if or (eq (.Permalink) ($enurl)) (eq (.Permalink) ($jpurl)) }}
-            {{ $cururl:= .Permalink }}
-            {{ $imagepath:= replace $cururl "/ja/" "/en/" }}
-                
-            {{ range .Pages }}
-            {{ if .Params.Name }}
-            <div class="sectionblock">
-                
-                <img src = "ico_arw_page_anchor.gif"/>
-                {{ $id := replaceRE "(\\s)" "" .Params.Name }}                
-                <a href="#{{ $id }}" style="color: #afa86f">{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a>
-            </div>
-                    <br>
-            {{ end }}
-                {{ end }}
-                <br>
-                    
-            {{ range .Pages }}
-
-                    {{ partial "voice-senior.html" (dict "page" . "imagepath" $imagepath) }}
-            {{ end }}
-                    <br>
-            {{ end }}
-            {{ if .Params.voicelast }}
-            <hr>
-            <div class="row" style="padding-bottom: 60px;">
-                <div class="col-12" style="text-align: center;">
-                    {{ .Params.voicelast }}
+    <section>
+        <div class="container">
+            <div class="list-page-wrapper">
+                <div class="inner-wrapper-page">
+                    <h4 class="text-center">{{.Params.Intro}}</h4>
+                    <div class="sectionblock">        
+                        {{ .Content}}
+                        {{ $baseUrlget := .Site.BaseURL }}
+                        {{ $enpath := "en/message/voice/" }}
+                        {{ $enurl := print $baseUrlget $enpath }}
+                        {{ $jppath := "ja/message/voice/" }}
+                        {{ $jpurl := print $baseUrlget $jppath }}
+                    </div>
+                    {{ if or (eq (.Permalink) ($enurl)) (eq (.Permalink) ($jpurl)) }}
+                        {{ $cururl:= .Permalink }}
+                        {{ $imagepath:= replace $cururl "/ja/" "/en/" }}
+                                
+                        {{ range .Pages }}
+                            {{ if .Params.Name }}
+                                <div class="sectionblock">
+                                    <img src = "ico_arw_page_anchor.gif"/>
+                                    {{ $id := replaceRE "(\\s)" "" .Params.Name }}                
+                                    <a href="#{{ $id }}" style="color: #afa86f">{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a>
+                                </div>
+                                <br>
+                            {{ end }}
+                        {{ end }}
+                        <br>
+                                    
+                        {{ range .Pages }}
+                            {{ partial "voice-senior.html" (dict "page" . "imagepath" $imagepath) }}
+                        {{ end }}
+                        <br>
+                    {{ end }}
+                    {{ if .Params.voicelast }}
+                        <hr>
+                        <div class="row" style="padding-bottom: 60px;">
+                            <div class="col-12" style="text-align: center;">
+                                {{ .Params.voicelast }}
+                            </div>
+                        </div>
+                    {{ end }}
+                    {{ partial "nextPageBtn.html" . }}
+                    <div class="artical_head1">
+                        <span><b>{{ .Params.advtitle2 }}</b></span>
+                    </div>
+                    <div class="artical_head2">
+                        <h6><b>{{ .Params.advtitle3}}</b></h6> 
+                    </div>       
+                    {{ partial "merit-advantage.html" . }}
                 </div>
             </div>
-            {{ end }}
-            {{ partial "nextPageBtn.html" . }}
-            <div class="artical_head1">
-                <span><b>{{ .Params.advtitle2 }}</b></span>
-               </div>
-            <div class="artical_head2">
-                <h6><b>{{ .Params.advtitle3}}</b></h6> 
-             </div>       
         </div>
-     {{ partial "merit-advantage.html" . }}
+    </section>
     {{ partial "home-requirment.html" . }}
     {{ partial "home-website.html" . }}
 {{ end }}

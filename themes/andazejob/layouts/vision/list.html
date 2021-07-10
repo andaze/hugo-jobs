@@ -1,21 +1,19 @@
 {{ define "main" }}
     {{ partial "vision-slider.html" . }}
-        <div class="container"> 
-            <div class="artical_heading">
-                {{ .Params.Intro }}
+    <section>
+        <div class="container">
+            <div class="list-page-wrapper">
+                <div class="inner-wrapper-page">
+                    <h4 class="text-center">{{.Params.Intro}}</h4>
+
+                        {{ .Content}}
+                        <span><b>{{ .Params.advtitle2 }}</b></span>
+                        <h6><b>{{ .Params.advtitle3}}</b></h6> 
+                   {{ partial "merit-advantage.html" . }}
+                </div>
             </div>
-            <div class="sectionblock">        
-            {{ .Content}}
-            </div>
-       
-            <div class="artical_head1">
-                <span><b>{{ .Params.advtitle2 }}</b></span>
-               </div>
-            <div class="artical_head2">
-                <h6><b>{{ .Params.advtitle3}}</b></h6> 
-             </div>       
         </div>
-     {{ partial "merit-advantage.html" . }}
+    </section>
     {{ partial "home-requirment.html" . }}
     {{ partial "home-website.html" . }}
 {{ end }}
