@@ -1,5 +1,16 @@
 {{ define "main" }}
-    {{ partial "requirement-slider.html" . }}
+{{ $heading := .Params.sliderheading }}
+{{ $subheading := .Params.slidersubheading }}
+
+{{ $detailheading := .Params.advtitle3 }}
+{{ $detailsubheading := .Params.advtitle2 }}
+
+{{ if $heading }}
+    {{ partial "subpage-slider.html" (dict "page" . "sliderheading" $heading "slidersubheading" $subheading ) }}
+{{ else }}
+    {{ partial "subpage-slider.html" (dict "page" . "sliderheading" $detailheading "slidersubheading" $detailsubheading ) }}
+{{ end }}
+    <!-- {{ partial "requirement-slider.html" . }} -->
     <section>
         <div class="container">
             <div class="list-page-wrapper">
