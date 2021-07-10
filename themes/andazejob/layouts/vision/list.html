@@ -10,7 +10,6 @@
 {{ else }}
     {{ partial "subpage-slider.html" (dict "page" . "sliderheading" $detailheading "slidersubheading" $detailsubheading ) }}
 {{ end }}
-    <!-- {{ partial "vision-slider.html" . }} -->
     <section>
         <div class="container">
             <div class="list-page-wrapper">
@@ -26,7 +25,7 @@
                     <div class="artical_head2">
                         <h6><b>{{ .Params.advtitle3}}</b></h6> 
                     </div>
-                   {{ partial "merit-advantage.html" . }}
+                   {{ partial "listContentBox.html" . }}
                 </div>
             </div>
         </div>
