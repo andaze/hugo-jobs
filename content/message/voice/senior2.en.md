@@ -1,9 +1,9 @@
 ---
 name: Saki Kanamori
 image: SakiKanamori.jpg
-typeofworkHeading : "Job Title:"
+typeofworkHeading : "Type of work:"
 typeofworkAnswer : "PM Assistant"
-joiningHeading : "Date of hire:"
+joiningHeading : "Date of entry:"
 joiningAnswer : April 2021
 dobHeading:
 dobAnswer:

@@ -1,9 +1,9 @@
 ---
 name: Rushit Saliya
 image: ""
-typeofworkHeading : "Job Title:"
+typeofworkHeading : "Type of work:"
 typeofworkAnswer : "Junior Developer"
-joiningHeading : "Date of hire:"
+joiningHeading : "Date of entry:"
 joiningAnswer : May 2020
 dobHeading:
 dobAnswer: ""

@@ -1,7 +1,7 @@
 ---
 name: Kalpesh Rajai
 image: KalpeshRajai.jpg
-typeofworkHeading : "Occupation:"
+typeofworkHeading : "Type of work:"
 typeofworkAnswer : "Senior Programmer"
 joiningHeading : "Date of entry:"
 joiningAnswer : Jan. 2021

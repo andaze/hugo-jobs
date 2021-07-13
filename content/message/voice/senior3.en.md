@@ -1,9 +1,9 @@
 ---
 name: Abhishek Sankhat
 image: AbhishekSankhat.jpg
-typeofworkHeading : "Job Title:"
+typeofworkHeading : "Type of work:"
 typeofworkAnswer : "Senior Software Engineer"
-joiningHeading : "Date of hire:"
+joiningHeading : "Date of entry:"
 joiningAnswer : January 2020
 dobHeading:
 dobAnswer:
