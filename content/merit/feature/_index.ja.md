@@ -20,6 +20,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
+
 {{< subpagetopimage src="meritslider.jpg" path="merit" >}}
 
 ### アンダーズの特徴
