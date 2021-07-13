@@ -1,6 +1,6 @@
 ---
 name: 金森 沙希
-image: senior2.jpg
+image: SakiKanamori.jpg
 typeofworkHeading : "職種："
 typeofworkAnswer : " PMアシスタント"
 joiningHeading : "入社年月："

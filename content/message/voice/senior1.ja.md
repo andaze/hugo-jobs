@@ -1,6 +1,6 @@
 ---
 name: Kalpesh Rajai
-image: senior1.jpg
+image: KalpeshRajai.jpg
 typeofworkHeading : "職種:"
 typeofworkAnswer : "シニアプログラマー"
 joiningHeading : "入社年月:"

@@ -1,6 +1,6 @@
 ---
 name: Abhishek Sankhat
-image: senior3.jpg
+image: AbhishekSankhat.jpg
 typeofworkHeading : "Job Title:"
 typeofworkAnswer : "Senior Software Engineer"
 joiningHeading : "Date of hire:"

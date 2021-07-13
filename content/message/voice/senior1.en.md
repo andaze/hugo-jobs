@@ -1,6 +1,6 @@
 ---
 name: Kalpesh Rajai
-image: senior1.jpg
+image: KalpeshRajai.jpg
 typeofworkHeading : "Occupation:"
 typeofworkAnswer : "Senior Programmer"
 joiningHeading : "Date of entry:"

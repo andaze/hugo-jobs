@@ -1,6 +1,6 @@
 ---
 name: Saki Kanamori
-image: senior2.jpg
+image: SakiKanamori.jpg
 typeofworkHeading : "Job Title:"
 typeofworkAnswer : "PM Assistant"
 joiningHeading : "Date of hire:"
