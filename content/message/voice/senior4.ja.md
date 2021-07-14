@@ -1,6 +1,6 @@
 ---
 name: Rushit Saliya
-image: ""
+image: "RushitSaliya.jpg"
 typeofworkHeading : "職種："
 typeofworkAnswer : "ジュニア ディベロッパー"
 joiningHeading : "入社年月："

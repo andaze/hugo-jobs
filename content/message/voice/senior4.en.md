@@ -1,6 +1,6 @@
 ---
 name: Rushit Saliya
-image: ""
+image: "RushitSaliya.jpg"
 typeofworkHeading : "Type of work:"
 typeofworkAnswer : "Junior Developer"
 joiningHeading : "Date of entry:"
