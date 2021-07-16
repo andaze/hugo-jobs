@@ -1,20 +1,35 @@
 {{ define "main" }}
-    {{ partial "merit-slider.html" . }}
-        <div class="container"> 
-            <div class="artical_heading">
-                {{ .Params.Intro }}
+
+{{ $heading := .Params.sliderheading }}
+{{ $subheading := .Params.slidersubheading }}
+
+{{ $detailheading := .Params.advtitle3 }}
+{{ $detailsubheading := .Params.advtitle2 }}
+
+{{ if $heading }}
+    {{ partial "subpage-slider.html" (dict "page" . "sliderheading" $heading "slidersubheading" $subheading ) }}
+{{ else }}
+    {{ partial "subpage-slider.html" (dict "page" . "sliderheading" $detailheading "slidersubheading" $detailsubheading ) }}
+{{ end }}
+    <section>
+        <div class="container">
+            <div class="list-page-wrapper">
+                <div class="inner-wrapper-page">
+                    <h4 class="text-center">{{.Params.Intro}}</h4>
+                    <div class="sectionblock">        
+                        {{ .Content}}
+                    </div>
+                    <div class="artical_head1">
+                        <span><b>{{ .Params.advtitle2 }}</b></span>
+                    </div>
+                    <div class="artical_head2">
+                        <h6><b>{{ .Params.advtitle3}}</b></h6> 
+                    </div>   
+                   {{ partial "listContentBox.html" . }}
+                </div>
             </div>
-            <div class="sectionblock">        
-            {{ .Content}}
-            </div>
-            <div class="artical_head1">
-                <span><b>{{ .Params.advtitle2 }}</b></span>
-               </div>
-            <div class="artical_head2">
-                <h6><b>{{ .Params.advtitle3}}</b></h6> 
-             </div>       
         </div>
-    {{ partial "merit-advantage.html" . }}
+    </section>
     {{ partial "home-requirment.html" . }}
     {{ partial "home-website.html" . }}
 {{ end }}

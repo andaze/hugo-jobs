@@ -28,7 +28,7 @@
 {{ else }}
 
     {{ $srcimg_width := $srcimg.Width }}
-    {{ $srcimg_height := 360 }}
+    {{ $srcimg_height := 500 }}
     {{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
 
     {{ if gt $srcimg.Width .Site.Params.Imagewidth }}
@@ -67,7 +67,7 @@
     {{ end }} 
 
     <style>
-        .subpagetopImage
+        .jumbotron.special
         {
             background:url('{{ index $dict "3" }}');
             background-size:cover;
@@ -76,7 +76,7 @@
   
         @media only screen and (min-device-width: 320px) and (max-device-width: 414px) 
         {
-            .subpagetopImage
+            .jumbotron.special
             {
                 background:url('{{ index $dict "1" }}');
                 background-size:cover;
@@ -86,7 +86,7 @@
         
         @media only screen and (min-device-width: 415px) and (max-device-width: 1023px)
         {
-            .subpagetopImage
+            .jumbotron.special
             {
                 background:url('{{ index $dict "2" }}');
                 background-size:cover;

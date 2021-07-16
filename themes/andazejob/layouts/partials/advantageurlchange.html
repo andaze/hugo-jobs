@@ -11,14 +11,10 @@
 {{ end }}
 
 {{ $url := $Scratch.Get "url" }}
-<a href=" {{ $url }}">        
-    <div class="block__heading">
-      {{ .title }} 
-    </div>
-    <div class="block__description text_overflowHidden">
-      {{ .description }} 
+<a href=" {{ $url }}" class="card"> 
+  <div class="card-body">
+  <h4 class="card-title text-primary"> {{ .title }}</h4>
+  <p class="desc text-muted">{{ .description }}</p>
+  <span class="link-btn text-primary">{{ .endtitle }}</span>
   </div>
-  <div class="block__more">
-    {{ .endtitle }}    
-  </div>
- </a>
+</a>
