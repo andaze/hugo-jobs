@@ -3,7 +3,7 @@ title:  "company-internal system"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 4
-advtitle2: "Benefits of Working at Andaz"
+advtitle2: "Benefits of Working at Andaze"
 advtitle3: "ADVANTAGE"
 description: "We offer a variety of in-house training and benefit programs to help you become an engineer or consultant who is valued in the industry and can be used in any situation."
 # nextPageBtn: false

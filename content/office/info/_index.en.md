@@ -5,7 +5,7 @@ draft: false
 weight: 2
 advtitle2: "Office and surroundings"
 advtitle3: "OFFICE"
-description: "The Andaz office is located in Hanzomon, a popular area of Tokyo with many attractions, including important national institutions and places of interest visited by overseas tourists."
+description: "The Andaze office is located in Hanzomon, a popular area of Tokyo with many attractions, including important national institutions and places of interest visited by overseas tourists."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -21,12 +21,12 @@ jsonld: {
 ---
 {{< subpagetopimage src="officeslider.jpg" path="office" >}}
 ### Introduction to the area
-**The Andaz office is located in Hanzomon, a popular area of Tokyo with many attractions, including important national institutions and places of interest visited by overseas tourists.**
+**The Andaze office is located in Hanzomon, a popular area of Tokyo with many attractions, including important national institutions and places of interest visited by overseas tourists.**
 
 {{< tableofcontent >}}
 
 #### Hanzomon, a town where Japan's important institutions gather
-Andaz's office is located in Hanzomon, Chiyoda Ward, in the heart of Tokyo. The name of the station comes from "Hanzomon," one of the gates surrounding the Imperial Palace where the emperor lives. The Indian Embassy, the Diet Building, and the Prime Minister's official residence are also within walking distance. 
+Andaze's office is located in Hanzomon, Chiyoda Ward, in the heart of Tokyo. The name of the station comes from "Hanzomon," one of the gates surrounding the Imperial Palace where the emperor lives. The Indian Embassy, the Diet Building, and the Prime Minister's official residence are also within walking distance. 
 {{< imagedisplay  src="スライド25.PNG"  >}}
 
 #### The Hanzomon area is also famous as a power spot.

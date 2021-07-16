@@ -1,11 +1,11 @@
 ---
-title:  "The Value of Working at Andaz"
+title:  "The Value of Working at Andaze"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 2
-advtitle2: "Benefits of Working at Andaz"
+advtitle2: "Benefits of Working at Andaze"
 advtitle3: "ADVANTAGE"
-description: "How do the unique features of Andaz bring value to employees? On the next page, we will discuss the benefits of working at Andaz."
+description: "How do the unique features of Andaze bring value to employees? On the next page, we will discuss the benefits of working at Andaze."
 # nextPageBtn: true
 jsonld: {
       "@context": "https://schema.org",
@@ -22,25 +22,25 @@ jsonld: {
 ---
 {{< subpagetopimage src="meritslider.jpg" path="merit" >}}
 <!--### Introduction-->
-### The Value of Working at Andaz
+### The Value of Working at Andaze
 **Exciting days with exposure to new technologies. While holding the reins of a project, you can acquire skills that will last a lifetime. You will surely feel the significance of working here.**
 
 {{< tableofcontent >}}
 
 #### Ability to chart a career path in a position close to management
-Andaz has a unique management style that sets it apart from other non-operating companies such as operating companies and fiduciary companies.
+Andaze has a unique management style that sets it apart from other non-operating companies such as operating companies and fiduciary companies.
 
 |**General business companies**|This refers to companies that are primarily in the business of developing their own services and products. In addition to the above, there are a number of other factors that may affect your career. {{<br>}}In the workplace, you will often be asked to manage whether you are on schedule, whether you are making progress, and whether you are working properly. If you're not on track, you'll be pressed by your superiors, and if you're making slow progress, you run the risk of having your staff cut. There may be many workplaces with a top-down decision-making style where people who do what they are told are highly valued.|
 |---|---|
 |**General trustee company (non-business company)**|A company that provides consultation and services to clients. {{<br>}} - **SES (System Engineering Services)**: A company that provides labor by dispatching engineers to client companies and receives compensation in the form of monthly or hourly wages. Because you will be working at the client's site, there may be barriers to skill development and you may feel that you are not being fairly evaluated by your company. {{<br>}} - **Solutions Company**: A company that provides AI and IoT development solutions to the challenges and issues that client companies are working on. They are often paid on a per-system basis. For companies that don't choose their clients, the type and position of the contact person for the client will determine whether or not the engineer can take control of the project.|
-|**Andaz.**|While providing solutions that utilize AI and IoT to clients with whom we can communicate fairly, we have also started developing our own products. By introducing products to the market as an operating company, we acquire marketing knowledge and stay close to our clients' demands and needs. Since we can lead projects while learning about business in a position close to the management of our clients, it is easy to draw a career path from engineer to consultant at will. You can work in a way that allows you to focus on the future while improving your specialized knowledge.|
+|**Andaze.**|While providing solutions that utilize AI and IoT to clients with whom we can communicate fairly, we have also started developing our own products. By introducing products to the market as an operating company, we acquire marketing knowledge and stay close to our clients' demands and needs. Since we can lead projects while learning about business in a position close to the management of our clients, it is easy to draw a career path from engineer to consultant at will. You can work in a way that allows you to focus on the future while improving your specialized knowledge.|
 
 #### Discovery and goals, rather than plans, are the driving force behind development.
 Even if you write a hundred design documents, there are still things that you cannot understand until you actually see the prototype. And even if you have a development plan, it doesn't always work out the way you want it to. As you go through the steps, the situation changes and you learn new things. Then you can be flexible and incorporate what you discover in the process. Even if this results in specification changes, I think it is best if we can get closer to our goal.   
 In a previous development of a trade system, we had to change to a completely different construction method two months before the scheduled delivery and rebuild the system from scratch. This was because we needed to take advantage of "discoveries" made during the development process in order to accomplish our goals.
 
 #### A more flexible way of working that generates innovation  
-Andaz is fully remote and fully flexible. We also don't work on a project with a last-minute staff or schedule. This is because if we run out of time or mental space, we will be mentally overwhelmed and will not be able to come up with good ideas. What we believe is necessary for development speed is
+Andaze is fully remote and fully flexible. We also don't work on a project with a last-minute staff or schedule. This is because if we run out of time or mental space, we will be mentally overwhelmed and will not be able to come up with good ideas. What we believe is necessary for development speed is
 - How to work without being restricted by time or place
 - Well-developed internal regulations
 - Openness to drink beer in the office 

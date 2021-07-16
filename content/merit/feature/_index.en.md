@@ -1,9 +1,9 @@
 ---
-title:  "Andaz Features"
+title:  "Andaze Features"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 1
-advtitle2: "Benefits of Working at Andaz"
+advtitle2: "Benefits of Working at Andaze"
 advtitle3: "ADVANTAGE"
 description: " We are a company that makes full use of global IT technology across borders. The speed of our development and the highest level of quality are unparalleled, and we have brought about numerous innovations."
 # nextPageBtn: true
@@ -21,14 +21,14 @@ jsonld: {
     }
 ---
 {{< subpagetopimage src="meritslider.jpg" path="merit" >}}
-### Features of Andaz
+### Features of Andaze
 **We are a company that makes full use of global IT technology across borders. The speed of our development and the highest level of quality are unparalleled, and we have brought about numerous innovations.**
 
 {{< tableofcontent >}}
 
 #### Providing start-up development speed with corporate rules.
 
-After graduating from university, our CEO, Mr. Arai, studied management information systems at a foreign automobile manufacturer. Later, he moved to India to study IT solutions in earnest. However, the mainstream there was software development for major companies, which valued "following a plan rather than the content of the product. Arai had doubts about this and returned to Japan. Wanting to provide Japanese companies with speedy development, he started Andaz.   
+After graduating from university, our CEO, Mr. Arai, studied management information systems at a foreign automobile manufacturer. Later, he moved to India to study IT solutions in earnest. However, the mainstream there was software development for major companies, which valued "following a plan rather than the content of the product. Arai had doubts about this and returned to Japan. Wanting to provide Japanese companies with speedy development, he started Andaze.   
 This is because, while many companies want to go digital, they say they don't know how to ask for help. Even if they find a company to outsource the work, the budget and delivery date may be far from what they expected, or they may only focus on nominal business improvement effects. I think the reason why such discrepancies occur is because many IT projects place the highest priority on planning and budgeting, which Arai witnessed in India.    
 Anders has released numerous sophisticated software products in a short period of time. By adopting innovative development frameworks and preparing the latest software development environment, we select clients who trust us and projects that we can lead with initiative. In addition, we support our clients' "digital shift" within the scope of social rules, morals, and compliance at the level of large corporations.     
 - **Find gaps that could be digitized and make suggestions.**
@@ -60,7 +60,7 @@ If you are certified as a Gold Partner company, you will be able to use benefits
 English-speaking countries are home to some of the world's most talented engineers, including Google, Amazon, Facebook, Apple, and Microsoft, all of which originated in the United States. It is also said that people whose mother tongue is English are blessed with an environment where they can learn IT knowledge, such as programming languages written in English, from an early age, making it easier for them to grow up to be active on the front lines. We provide IT know-how from overseas, where new technologies are being created every day, in Japanese. We are creating services that incorporate the latest global technologies that have not yet penetrated Japan.
 
 #### Multinational teams bring out the strengths of the right people in the right places
-Andaz is made up of multinational members from Japan, India and other countries. By working on system development with an international team, each of us is able to specialize in our own field. For example, technical development is one of the jobs where Indians can maximize their strengths. For example, technical development is one of the jobs where Indians can maximize their strengths, while communication with clients is the domain of Myanmarese and Japanese who have a culture of bowing. Vietnamese are less biased and can handle multiple tasks relatively well. In this way, by utilizing the strengths of each individual, the right person can play an active role in the right place, or in other words, "optimization of skills" can be achieved. 
+Andaze is made up of multinational members from Japan, India and other countries. By working on system development with an international team, each of us is able to specialize in our own field. For example, technical development is one of the jobs where Indians can maximize their strengths. For example, technical development is one of the jobs where Indians can maximize their strengths, while communication with clients is the domain of Myanmarese and Japanese who have a culture of bowing. Vietnamese are less biased and can handle multiple tasks relatively well. In this way, by utilizing the strengths of each individual, the right person can play an active role in the right place, or in other words, "optimization of skills" can be achieved. 
 {{< imagedisplay  src="スライド18.PNG"  >}}
 
 #### Reduce risks and costs by decentralizing work locations and data
@@ -69,6 +69,6 @@ In addition, data is distributed between western and eastern Japan, Singapore, a
 {{< imagedisplay  src="785615671.png"  >}}
 
 ---
-How do the unique features of Andaz bring value to employees? On the next page, we will discuss the benefits of working at Andaz.
+How do the unique features of Andaze bring value to employees? On the next page, we will discuss the benefits of working at Andaze.
 
 {{< nextButtonBox >}}

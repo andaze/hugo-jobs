@@ -4,9 +4,9 @@ draft: false
 weight: 2
 advtitle2: "Message"
 advtitle3: "MESSAGE"
-description: "Why don't you listen to the voices of our senior staff members who have been working at Andaz for a while? We asked four of our staff members to tell us why they wanted to work here and what they felt after actually working here. We hope this helps you in your application."
+description: "Why don't you listen to the voices of our senior staff members who have been working at Andaze for a while? We asked four of our staff members to tell us why they wanted to work here and what they felt after actually working here. We hope this helps you in your application."
 nextPageBtn: true
-voicelast: "Next, I'd like to share some tips on how to pass the Andaz employment exam. I would like to share a few tips with you so that your employment or career change will be a meaningful one. "
+voicelast: "Next, I'd like to share some tips on how to pass the Andaze employment exam. I would like to share a few tips with you so that your employment or career change will be a meaningful one. "
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -23,6 +23,6 @@ jsonld: {
 {{< subpagetopimage src="messageslider.jpg" path="message" >}}
 ### Voices of Seniors
 
-**Why don't you listen to the voices of our senior staff members who have been working at Andaz for a while? We asked four of our staff members to tell us why they wanted to work here and what they felt after actually working here. We hope this helps you in your application.**
+**Why don't you listen to the voices of our senior staff members who have been working at Andaze for a while? We asked four of our staff members to tell us why they wanted to work here and what they felt after actually working here. We hope this helps you in your application.**
 
 ---

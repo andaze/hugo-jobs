@@ -1,11 +1,11 @@
 ---
-title:  "Andaz Mission."
+title:  "Andaze Mission."
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 1
 advtitle2: "Vision and Training Policy"
 advtitle3: "VISIONS"
-description: "We want to nurture engineers who can take a leap forward in the industry with modern management techniques. Andaz has been combining IT technologies from around the world to face the challenges faced by companies in Japan and India. We would like to share with you our vision and training policy, which is the foundation of our company."
+description: "We want to nurture engineers who can take a leap forward in the industry with modern management techniques. Andaze has been combining IT technologies from around the world to face the challenges faced by companies in Japan and India. We would like to share with you our vision and training policy, which is the foundation of our company."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -20,8 +20,8 @@ jsonld: {
     }
 ---
 {{< subpagetopimage src="visionslider.jpg" path="vision" >}}
-### Andaz Mission.
-**The word "Andaz" means "personal style" in Hindi. The company name expresses our hope that each employee's "personality" will shine through in their work.**
+### Andaze Mission.
+**The word "Andaze" means "personal style" in Hindi. The company name expresses our hope that each employee's "personality" will shine through in their work.**
 
 {{< tableofcontent >}}
 
@@ -48,13 +48,13 @@ As a means of increasing development speed, we have adopted an "iterative proces
 6. Incorporate new ideas.
 
 #### Indians' high level of technology is indispensable to realize the mission.
-The birth of Andaz can be traced back to the representative's experience in Mumbai, India, where he was staying on business. The Indians working there were all demonstrating a high level of technical skills on a global level. However, the environment at that time was such that following plans and budgets were considered to be of utmost importance, and results were put on the back burner. The representative questioned such methods and returned to Japan in 2016. He founded Andaz, a company that can commit to "discovery" and "goals" using the latest technology. In order to achieve Andaz's mission, the power of talented Indian engineers is indispensable. To this end, we will hire a series of talented engineers from India's highest academic institutions to form a development team specializing in Microsoft's cloud technology.    
+The birth of Andaze can be traced back to the representative's experience in Mumbai, India, where he was staying on business. The Indians working there were all demonstrating a high level of technical skills on a global level. However, the environment at that time was such that following plans and budgets were considered to be of utmost importance, and results were put on the back burner. The representative questioned such methods and returned to Japan in 2016. He founded Andaze, a company that can commit to "discovery" and "goals" using the latest technology. In order to achieve Andaze's mission, the power of talented Indian engineers is indispensable. To this end, we will hire a series of talented engineers from India's highest academic institutions to form a development team specializing in Microsoft's cloud technology.    
 Currently, there are about 20 employees in India and 12 Japanese and non-Japanese employees in Japan. Conversations are mainly in English, but some departments use real-time translation tools for communication.
 |< chronology >| |
 |---|---|
 |2011 year|Mr. Arai, the representative of the company, arrived in Japan.|
 |2015 year|Returned from India. Began preparations to establish a company.|
-|2016 year|Andaz Corporation is established.|
+|2016 year|Andaze Corporation is established.|
 |2017 year|Microsoft Network Partner Certification|
 |2018 year|Obtained Microsoft Silver Partner Certification|
 |2019 year|Head office moved from Toranomon to Kojimachi.{{<br>}}increase of capital （5 million to 10 million）|
@@ -67,7 +67,7 @@ Global companies are actively recruiting Indians, and it is well known that the 
 - **34% of people working at Microsoft** 
 - **38% of physicians working in the U.S.** 
 {{< imagedisplay  src="スライド8.PNG"  >}}
-India is a large country with more than one billion people and is said to have more than 20 official languages, including English, and a variety of cultures and religions. Because of its large population, competition within the country is fierce, and the country is highly adaptable to diversity, so it seems that the people of India have naturally acquired a national character that allows them to exert themselves globally even overseas. Incidentally, there are more than 20 Indian engineers working at Andaz.
+India is a large country with more than one billion people and is said to have more than 20 official languages, including English, and a variety of cultures and religions. Because of its large population, competition within the country is fierce, and the country is highly adaptable to diversity, so it seems that the people of India have naturally acquired a national character that allows them to exert themselves globally even overseas. Incidentally, there are more than 20 Indian engineers working at Andaze.
 
 #### If engineers don't find it "interesting," it's meaningless.
 Gone are the days of silently listening to your boss and doing as you are told in order to get a monthly salary. And we believe that if a job doesn't feel right to us, we don't need to do it to sustain life. We trust and hand over authority when necessary, and support engineering with more freedom to achieve results.
@@ -90,6 +90,6 @@ Many people seem to think that management is an unavoidable path in their career
 
 ---
 
-What kind of vision does Andaz have for providing a place where people can work in their own way? You can read more about it on the next page.
+What kind of vision does Andaze have for providing a place where people can work in their own way? You can read more about it on the next page.
 
 {{< nextButtonBox >}}

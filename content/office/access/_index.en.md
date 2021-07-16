@@ -5,7 +5,7 @@ draft: false
 weight: 3
 advtitle2: "Office and surroundings"
 advtitle3: "OFFICE"
-description: "We work in Chiyoda Ward, where Andaz's headquarters is located, is a one-minute walk from Exit 6 of Hanzomon Station on the Hanzomon Line. It's just one block away, and if you run in the rain, you'll only get a little wet. It's also a three-minute walk from Exit 1 of Kojimachi Station on the Yurakucho Line. It is a short walk from Shinjuku-dori. It is also very accessible from major areas such as Shinjuku Station, Shibuya Station, and Tokyo Station."
+description: "We work in Chiyoda Ward, where Andaze's headquarters is located, is a one-minute walk from Exit 6 of Hanzomon Station on the Hanzomon Line. It's just one block away, and if you run in the rain, you'll only get a little wet. It's also a three-minute walk from Exit 1 of Kojimachi Station on the Yurakucho Line. It is a short walk from Shinjuku-dori. It is also very accessible from major areas such as Shinjuku Station, Shibuya Station, and Tokyo Station."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -22,7 +22,7 @@ jsonld: {
 {{< subpagetopimage src="officeslider.jpg" path="office" >}}
 
 ### Access
-Wework in Chiyoda Ward, where Andaz's headquarters is located, is a one-minute walk from Exit 6 of Hanzomon Station on the Hanzomon Line. It's just one block away, and if you run in the rain, you'll only get a little wet. It's also a three-minute walk from Exit 1 of Kojimachi Station on the Yurakucho Line. It is a short walk from Shinjuku-dori. It is also very accessible from major areas such as Shinjuku Station, Shibuya Station, and Tokyo Station.
+Wework in Chiyoda Ward, where Andaze's headquarters is located, is a one-minute walk from Exit 6 of Hanzomon Station on the Hanzomon Line. It's just one block away, and if you run in the rain, you'll only get a little wet. It's also a three-minute walk from Exit 1 of Kojimachi Station on the Yurakucho Line. It is a short walk from Shinjuku-dori. It is also very accessible from major areas such as Shinjuku Station, Shibuya Station, and Tokyo Station.
 &nbsp;
 
 {{< imagedisplay  src="スライド29.PNG"  >}}

@@ -57,6 +57,6 @@ We have **obtained ISO27001 certification, the international standard** for info
 
 ---
 
-Next, you will see Andaz's unique training policy. What is the modern way of management that we uphold?
+Next, you will see Andaze's unique training policy. What is the modern way of management that we uphold?
 
 {{< nextButtonBox >}}

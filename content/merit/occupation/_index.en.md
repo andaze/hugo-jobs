@@ -3,7 +3,7 @@ title:  "Occupation"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 3
-advtitle2: "Benefits of Working at Andaz"
+advtitle2: "Benefits of Working at Andaze"
 advtitle3: "ADVANTAGE"
 description: "Our role is to bring about a number of innovations that improve the business efficiency of our clients. Therefore, no matter which position you take, you will be able to hone your expertise and create a long-term career design."
 # nextPageBtn: true
@@ -43,5 +43,5 @@ It is responsible for planning, designing, executing tests, and checking and ana
     
 ---
 
-We have a variety of training and benefit programs within the company to enable members of a wide range of professions to be active. On the next page, we will introduce some of the systems unique to Andaz. 
+We have a variety of training and benefit programs within the company to enable members of a wide range of professions to be active. On the next page, we will introduce some of the systems unique to Andaze. 
 {{< nextButtonBox >}}

@@ -5,7 +5,7 @@ draft: false
 weight: 3
 advtitle2: "Message"
 advtitle3: "MESSAGE"
-description: "For those who are interested in joining Andaz. We have put together some useful advice for your entry and interview process. We hope that you will find this information useful when applying for a job and that it will make your job search more meaningful."
+description: "For those who are interested in joining Andaze. We have put together some useful advice for your entry and interview process. We hope that you will find this information useful when applying for a job and that it will make your job search more meaningful."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -22,16 +22,16 @@ jsonld: {
 {{< subpagetopimage src="messageslider.jpg" path="message" >}}
 
 ### Hiring Tips
-**For those who are interested in joining Andaz. We have put together some useful advice for your entry and interview process. We hope that you will find this information useful when applying for a job and that it will make your job search more meaningful.**
+**For those who are interested in joining Andaze. We have put together some useful advice for your entry and interview process. We hope that you will find this information useful when applying for a job and that it will make your job search more meaningful.**
 
 {{< tableofcontent >}}
 
 #### I'll look into Anders.
-https://andaze.com/jobs/ The job site of Andaz has information about the features of Andaz and the people we want. and https://www.andaze.com/ja/services In the following section, you can check out what kind of technology is being offered. If there is a word you are interested in, check it out, it may stimulate a new interest.
+https://andaze.com/jobs/ The job site of Andaze has information about the features of Andaze and the people we want. and https://www.andaze.com/ja/services In the following section, you can check out what kind of technology is being offered. If there is a word you are interested in, check it out, it may stimulate a new interest.
  
 
 #### Your motivation will give you an edge.
-You don't need to write a big reason for your application. What do you think is right for you at Andaz, what do you think you can learn, and what do you want to do? Put together the natural thoughts that come to your mind.
+You don't need to write a big reason for your application. What do you think is right for you at Andaze, what do you think you can learn, and what do you want to do? Put together the natural thoughts that come to your mind.
 
 #### Let's talk about technologies and services that have impressed you.
 Are there any technologies or services that you think are superior or intriguing, such as "this AI function is amazing" or "that company's system is getting better and better"? As you use and research various IT tools on a daily basis, you will naturally keep up to date with fresh information. What services have you found to be great?   
@@ -60,7 +60,7 @@ Incidentally, overseas, IT technology is more advanced in Northern Europe, where
 It is too late to say, "This wasn't supposed to happen! It's too late to say, "This wasn't supposed to happen!", so please ask as many questions as you can during the interview. "Will I be evaluated properly even if I work full-time remotely? "What kind of country is Japan? "What kind of work will I be entrusted with? These questions will be answered honestly and without embellishment. The fact that you have so many questions to ask us is a sign that you are interested in us.
 
 #### Actively apply to other companies in your industry!
-Changing jobs is a great opportunity to get to know a variety of companies. If you find a company that interests you, apply and listen to what they have to say. If, after comparing with other companies in your industry, you decide that you want to join Andaz, we will be happy to welcome you.
+Changing jobs is a great opportunity to get to know a variety of companies. If you find a company that interests you, apply and listen to what they have to say. If, after comparing with other companies in your industry, you decide that you want to join Andaze, we will be happy to welcome you.
 
 ---
 

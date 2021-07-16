@@ -5,7 +5,7 @@ draft: false
 weight: 1
 advtitle2: "Message"
 advtitle3: "MESSAGE"
-description: "To those of you who are interested in Andaz, I would like to send you a message from our representative, Mr. Arai."
+description: "To those of you who are interested in Andaze, I would like to send you a message from our representative, Mr. Arai."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -52,7 +52,7 @@ Stepping into uncharted territory and discovering that there are continents and 
 We cut trees, watered them, planted seedlings, and asked ourselves, "Can we do this?" "If method A doesn't work, what about method B?"      
 Through repeated trial and error, more houses were built, a village was established, and eventually it became a town where people gathered.      
   
-Andaz is looking for people who are excited by the word "pioneering" and who want to create a "new genre" from scratch where engineering can enter the corporate business scene. 
+Andaze is looking for people who are excited by the word "pioneering" and who want to create a "new genre" from scratch where engineering can enter the corporate business scene. 
 
 #### Working in a way that allows room and latitude is directly related to results.
 We believe that in order to create innovation, we need to work in a way that is not bound by time or place. On the other hand, the term "black company," which became the buzzword of the year in 2013, was rooted in the old value system that "employees are supposed to slack off. With this way of thinking.
@@ -65,11 +65,11 @@ We believe that in order to create innovation, we need to work in a way that is 
 | |I'm so bogged down in miscellaneous tasks that I can't concentrate on the work I should be doing.|
 
 There are many disadvantages in exchange for low wages. There will be few situations where we can feel the sense of accomplishment and fun that we value.      
-At Andaz, to put it another way, whether you work today or take the day off is irrelevant to your evaluation. We are fully remote, fully flexible, and do not manage time. On the other hand, based on our extensive know-how of performance management, we evaluate people regardless of their working hours. In other words, just sitting at your desk is not enough to be evaluated. In addition, since we are involved in system development that is a pioneer for IT companies in Japan, we will be required to work at a very high level. Because of this, the speed of growth is obvious. It can be said that the technical skills you will acquire in just two to three years will be the envy of the industry.
+At Andaze, to put it another way, whether you work today or take the day off is irrelevant to your evaluation. We are fully remote, fully flexible, and do not manage time. On the other hand, based on our extensive know-how of performance management, we evaluate people regardless of their working hours. In other words, just sitting at your desk is not enough to be evaluated. In addition, since we are involved in system development that is a pioneer for IT companies in Japan, we will be required to work at a very high level. Because of this, the speed of growth is obvious. It can be said that the technical skills you will acquire in just two to three years will be the envy of the industry.
 
 #### For you, who have not been dyed in any color.
 What kind of people are the engineers working at our company? Many of them have not been exposed to the latest technology until they joined our company. It's not that they are sensitive to the latest trends and information in the city. There are young people who were crazy about programming in their hometowns, students who were hesitant to move to the city because they wanted to take care of their families, and young men who are not good at talking to people but love technology.    
-Their eyes shine brightly and they absorb new knowledge and skills in no time at all. So you don't have to stretch yourself and act like a smart engineer. Why don't you knock on the door of Andaz with a life-size figure?
+Their eyes shine brightly and they absorb new knowledge and skills in no time at all. So you don't have to stretch yourself and act like a smart engineer. Why don't you knock on the door of Andaze with a life-size figure?
 
 ---
 

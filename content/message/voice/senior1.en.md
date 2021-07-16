@@ -13,8 +13,8 @@ workexpHeading :
 workexpAnswer :
 ---
 
-#### `--Why did you decide to join Andaz?`
-I joined the company because I wanted to work remotely from my home in Gujarat, India. Currently, I am involved in product development, progress management, and training of junior staff. In the course of my work, I have been greatly impressed by the unique culture of Andaz, the projects we are working on, and the technology we are using. I have been able to learn a lot of new know-how.
+#### `--Why did you decide to join Andaze?`
+I joined the company because I wanted to work remotely from my home in Gujarat, India. Currently, I am involved in product development, progress management, and training of junior staff. In the course of my work, I have been greatly impressed by the unique culture of Andaze, the projects we are working on, and the technology we are using. I have been able to learn a lot of new know-how.
 
 #### `--Growth and change after joining the company`
 I've been able to learn new technologies such as Azure and Blazor, and I've been able to play a great role in project management and team management to train young people.

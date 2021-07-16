@@ -25,7 +25,7 @@ jsonld: {
 
 {{< tableofcontent >}}
 
-#### "Take responsibility for the lives of those who work at Andaz."
+#### "Take responsibility for the lives of those who work at Andaze."
 We provide a place where each and every one of our members can feel free to express their opinions and ideas without worry or anxiety, and where they can work as themselves in the long run. 
 
 ①Do not impose your personal values.    
@@ -55,5 +55,5 @@ Arguing about "working hard/not working hard" or "having motivation/not having m
 
 ---
 
-In order to realize the vision and mission of Andaz, there are three action guidelines that we tell our employees. If you can put these into practice, you can become a technician, manager, or executive who can work anywhere.
+In order to realize the vision and mission of Andaze, there are three action guidelines that we tell our employees. If you can put these into practice, you can become a technician, manager, or executive who can work anywhere.
 {{< nextButtonBox >}}

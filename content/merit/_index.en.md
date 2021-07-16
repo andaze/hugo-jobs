@@ -1,9 +1,9 @@
 ---
-title:  "Benefits of Working at Andaz"
+title:  "Benefits of Working at Andaze"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 2
-intro: "What makes Andaz different from other IT companies? \nWhat will I gain by working here? \nWe will answer the 'I want to know' questions you may have."
+intro: "What makes Andaze different from other IT companies? \nWhat will I gain by working here? \nWe will answer the 'I want to know' questions you may have."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
