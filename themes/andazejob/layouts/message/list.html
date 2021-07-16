@@ -31,10 +31,9 @@
                         <br>
                                     
                         {{ range .Pages }}
-                            {{ partial "voice-senior.html" (dict "page" . "imagepath" $imagepath) }}
+                            {{ partial "voice-senior.html" (dict "page" .) }}
                         {{ end }}
                         <br>
-                    {{ end }}
                     {{ if .Params.voicelast }}
                         <hr>
                         <div class="row" style="padding-bottom: 60px;">
