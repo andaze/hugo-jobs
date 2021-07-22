@@ -554,3 +554,8 @@ footer .footer-linking .footer-link-box p {
   list-style-type: disc !important;
   margin-left: 15px;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
