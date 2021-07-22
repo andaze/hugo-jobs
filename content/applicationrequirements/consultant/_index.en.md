@@ -32,16 +32,17 @@ jsonld: {
     }
 ---
 {{< subpagetopimage src="requirementslider.jpg" path="applicationrequirements" >}}
+
 ### About Us
 
 Our main business is consulting to deploy solutions based on Microsoft products. We propose solutions to our clients' problems while incorporating new technologies and the latest industry trends. We use our deep understanding, tenacity, collaboration, and know-how to help our clients utilize the best solutions.
 
-### Job Summary
+#### Job Description
 
 We are looking for an experienced consultant with strong knowledge of cloud solutions and technologies (Azure, Dynamics 365, Power BI, etc.). You will provide your knowledge and experience to our clients through requirements definition, design, technology implementation and customer support. You must be flexible and able to solve clients' business problems without the goal of providing solutions.    
 We work with relevant vendors and partners to build effective solutions to the management issues and needs of our clients. We provide high quality support to our clients and manage projects and teams.
 
-### Specifically.
+#### Specifically.
 
 - Management of small to medium sized projects using Azure and Dynamics 365 (CRM)  
 - Meet with business and technical stakeholders to identify critical business requirements and propose solutions beyond Dynamics 365  
@@ -50,41 +51,40 @@ We work with relevant vendors and partners to build effective solutions to the m
 - Leadership and management in the implementation of project plans, as well as the evaluation and comparison of relevant third party products, as well as complementary products, before developing solutions.  
 - Effective communication with clients, facilitation of meetings, providing materials, samples, and minutes  
 - Support for migration from other CRM systems such as Salesforce to Microsoft products  
-- Acquire projects by preparing project plans, estimates, and scopes and making proposals     
-&nbsp;
-### Required（MUST）
+- Acquire projects by preparing project plans, estimates, and scopes and making proposals
 
-- Experience in project management（More than 5 years）
-- Experience writing functional and technical specifications for projects such as customization, data migration, and system integration（More than 3 years）
-- Experience in Azure or Dynamics 365 implementation, operation and maintenance（More than 3 years）
-- .NET, JavaScript, and SQL Server programming knowledge and experience
-- English proficiency（Ability to read, write and speak at a business level.）   
-&nbsp;
-### reception（WANT）
+#### Required（MUST）
 
-- Experience working on projects from order receipt through requirements definition, design, development, and implementation
-- Interest in and knowledge of new technologies
-- Professional certifications for related products
-- Familiarity with the Microsoft product suite（Example：Visual Studio、PowerBI、office365、SQL Server、DevOps etc.）   
-&nbsp;
-### Who we are looking for
+- Experience in project management（More than 5 years）  
+- Experience writing functional and technical specifications for projects such as customization, data migration, and system integration（More than 3 years）  
+- Experience in Azure or Dynamics 365 implementation, operation and maintenance（More than 3 years）  
+- .NET, JavaScript, and SQL Server programming knowledge and experience  
+- English proficiency（Ability to read, write and speak at a business level.）
 
-- Ability to recognize and respect others and each other
-- Ability to work autonomously on projects
-- Ability to analyze business operations based on logic, insight, and proposals
-- Curiosity, honesty and flexibility to try new things
-- Client-focused, long-term success orientation    
-&nbsp;
-### Workplace and working hours
+#### welcome（WANT）
 
-- Full flexible system
-- Percentage of employees who go to work or travel: Less than 25    
-&nbsp;
+- Experience working on projects from order receipt through requirements definition, design, development, and implementation  
+- Interest in and knowledge of new technologies  
+- Professional certifications for related products  
+- Familiarity with the Microsoft product suite（Example：Visual Studio、PowerBI、office365、SQL Server、DevOps, etc.）
 
-### Recruitment Background
+#### Who we are looking for
+
+- Ability to recognize and respect others and each other  
+- Ability to work autonomously on projects  
+- Ability to analyze business operations based on logic, insight, and proposals  
+- Curiosity, honesty and flexibility to try new things  
+- Client-focused, long-term success orientation
+
+#### Workplace and working hours
+
+- Full flexible system  
+- Percentage of employees who go to work or travel: Less than 25
+
+#### Recruitment Background
 
 We provide IT consulting and implementation support to companies in a wide range of industries, including finance, broadcasting, and real estate. Thanks to the trust and achievements we have cultivated over the years, we have received many requests for our services. However, there are many cases where we have no choice but to decline because we do not have enough staff. We have decided to increase the number of staff this time in order to respond to the increasing number of projects in the future and to expand our business further.
 
 ---
-{{< nextButtonBox >}}
 
+{{< nextButtonBox >}}

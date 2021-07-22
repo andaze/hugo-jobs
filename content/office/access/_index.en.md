@@ -22,6 +22,7 @@ jsonld: {
 {{< subpagetopimage src="officeslider.jpg" path="office" >}}
 
 ### Access
+
 Wework in Chiyoda Ward, where Andaze's headquarters is located, is a one-minute walk from Exit 6 of Hanzomon Station on the Hanzomon Line. It's just one block away, and if you run in the rain, you'll only get a little wet. It's also a three-minute walk from Exit 1 of Kojimachi Station on the Yurakucho Line. It is a short walk from Shinjuku-dori. It is also very accessible from major areas such as Shinjuku Station, Shibuya Station, and Tokyo Station.
 &nbsp;
 
@@ -29,22 +30,22 @@ Wework in Chiyoda Ward, where Andaze's headquarters is located, is a one-minute 
 
 &nbsp;
 
-Expert Office 1F, 2-10-3 Kojimachi, Chiyoda-ku, Tokyo 102-0083, Japan      
+Expert Office 1F, 2-10-3 Kojimachi, Chiyoda-ku, Tokyo 102-0083, Japan
 
-＜From Tokyo Station Travel time: about 14 minutes＞     
-■Tokyo Station      
-　↓Tokyo Metro Marunouchi Line     
-■Otemachi Station      
-　↓Tokyo Metro Hanzomon Line      
-■Hanzomon Station      
- 
-＜Travel time from Haneda Airport: Approx. 60 minutes＞     
-■Haneda Airport Terminal 1 and 2 Station     
-　↓Keihin Kyuko Line      
-■Mita Station     
-　↓Toei Mita Line     
-■Jimbocho Station     
-　↓Tokyo Metro Hanzomon Line     
-■Hanzomon Station      
+＜From Tokyo Station Travel time: about 14 minutes＞  
+■Tokyo Station  
+　↓Tokyo Metro Marunouchi Line  
+■Otemachi Station  
+　↓Tokyo Metro Hanzomon Line  
+■Hanzomon Station
+
+＜Travel time from Haneda Airport: Approximately 60 minutes＞  
+■Haneda Airport Terminal 1 and 2 Station  
+　↓Keihin Kyuko Line  
+■Mita Station  
+　↓Toei Mita Line  
+■Jimbocho Station  
+　↓Tokyo Metro Hanzomon Line  
+■Hanzomon Station  
 
 Thank you for reading this far. If you are interested in our company, please feel free to apply. We look forward to hearing from you.

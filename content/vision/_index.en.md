@@ -3,7 +3,7 @@ title:  "Vision and Training Policy"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 3
-intro: "Andaz has been confronting the challenges faced by companies in Japan and India by making full use of its globally advanced IT technology. We would like to share with you the vision and development policy that lies at the foundation of our company."
+intro: "Andaze has been confronting the challenges faced by companies in Japan and India by making full use of its globally advanced IT technology. We would like to share with you the vision and development policy that lies at the foundation of our company."
 sliderheading: "VISION"
 slidersubheading: "Vision and Training Policy"
 jsonld: {
