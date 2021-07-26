@@ -547,8 +547,21 @@ footer .footer-linking .footer-link-box p {
   }
   .sectionblock>h4 
   {
-    padding-top: 68px;
+    /* padding-top: 68px; */
+    padding-top: 75px;
+    margin-top: -75px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
     
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  nav  > h2{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
   .sectionblock > ul{
   list-style-type: disc !important;
