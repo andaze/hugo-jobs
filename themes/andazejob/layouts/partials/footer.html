@@ -40,15 +40,29 @@
 </footer>
 <button onclick="topFunction()" id="myBtn" class="back-to-top"><img  src="{{ `images/back_to_top.webp` | absURL  }}" width="25px" alt=""></button>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-  crossorigin="anonymous"></script>
+<!-- Slider Js -->
+
+{{ $square1 := resources.Get "js/square1.js" | minify }}
+<script defer src="{{ $square1.Permalink }}" integrity="{{ $square1.Data.Integrity }}"></script> 
+
+{{ $menu := resources.Get "js/menu.js"  | minify }}
+<script defer src="{{ $menu.Permalink }}" integrity="{{ $menu.Data.Integrity }}"></script> 
+
+{{ $jquery_wasing := resources.Get "js/jquery.easing.min.js" }}
+<script defer src="{{ $jquery_wasing.Permalink }}" integrity="{{ $jquery_wasing.Data.Integrity }}"></script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<!-- end Slider Js -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="{{ `plugins/bootstrap/js/bootstrap.min.js` | absURL }}" ></script>
+
 {{ $lazysize :=  resources.Get "js/lazysizes.min.js" }}
 <script defer src="{{ $lazysize.Permalink }}" async></script>
+
+<!-- Back to TOp Button -->
 <script>
   var mybutton = document.getElementById("myBtn");
 
