@@ -579,7 +579,7 @@ img {
 
 /* for Back to top Button */
 .back-to-top {
-  /* display: none; */
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
