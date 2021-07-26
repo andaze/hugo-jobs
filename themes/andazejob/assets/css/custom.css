@@ -567,6 +567,10 @@ footer .footer-linking .footer-link-box p {
   list-style-type: disc !important;
   margin-left: 15px;
 }
+nav > #TableOfContents
+{
+  margin: 1.5rem 0;
+}
 
 img {
   max-width: 100%;
