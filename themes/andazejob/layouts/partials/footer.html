@@ -38,6 +38,7 @@
     </div>
   </div>
 </footer>
+<button onclick="topFunction()" id="myBtn" class="back-to-top"><img  src="{{ `images/back_to_top.webp` | absURL  }}" width="25px" alt=""></button>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -48,3 +49,10 @@
 <script src="{{ `plugins/bootstrap/js/bootstrap.min.js` | absURL }}" ></script>
 {{ $lazysize :=  resources.Get "js/lazysizes.min.js" }}
 <script defer src="{{ $lazysize.Permalink }}" async></script>
+<script>
+  var mybutton = document.getElementById("myBtn");
+  function topFunction() {
+    document.body.scrollTop = 10;
+    document.documentElement.scrollTop = 10;
+  }
+</script>

@@ -576,3 +576,37 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* for Back to top Button */
+.back-to-top {
+  /* display: none; */
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:darkgrey;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+
+.back-to-top:focus {
+  background:darkgrey;
+  color: #fff;
+  outline: none;
+}
+
+.back-to-top:hover {
+  background: red;
+  color: #fff;
+}
