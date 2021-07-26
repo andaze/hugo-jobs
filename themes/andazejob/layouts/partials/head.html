@@ -12,15 +12,12 @@
   {{ end }}
   
   <link rel="stylesheet" type="text/css" href="{{ `plugins/bootstrap/css/bootstrap.css` | absURL }}">
+  
   {{ $style := resources.Get "css/custom.css" }}
-  {{ $styles := slice $style | resources.Concat "bundle.css" | minify | fingerprint }}
+  {{ $square := resources.Get "css/square1.css" }} <!-- slider Css -->
+  {{ $styles := slice $style $square | resources.Concat "bundle.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
-
-  <!-- slider css -->
-  {{ $square := resources.Get "css/square1.css" | minify }}
-  <link rel="stylesheet" href="{{ $square.Permalink }}" integrity="{{ $square.Data.Integrity }}">
-  <!-- End slider css -->
-
+  
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
