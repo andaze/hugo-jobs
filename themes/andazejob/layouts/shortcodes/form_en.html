@@ -11,7 +11,7 @@
     
 */}}
 <div class="container">
-    <form name="infoForm" class="contact-form width-normal" action="/en/job/merit/" method="POST" data-netlify="true">
+    <form name="infoForm" class="contact-form width-normal" action="/thank-you/" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <!-- Text input-->
         <div class="form-group">
@@ -38,6 +38,22 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for=""></label>
             <textarea class="form-control" id="contact-form-message" name="Message" placeholder="What's up?" rows="8"></textarea>
+        </div>
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-12 col-sm-4" style="font-weight:800;">
+                <label for="">resume<span style="color: #a9a46c;"> *</span></label>
+            </div>
+            <div class="col-12 col-sm-8">
+                <input class="form-control" type="file" name="resume" id="resume" />
+            </div>
+        </div>
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-12 col-sm-4" style="font-weight:800;">
+                <label for="">resume showing career and job history<span style="color: #a9a46c;"> *</span></label>
+            </div>
+            <div class="col-12 col-sm-8">
+                <input class="form-control" type="file" name="jobhistory" id="jobhistory" />
+            </div>
         </div>
         <!-- Button -->
         <div class="form-group">
