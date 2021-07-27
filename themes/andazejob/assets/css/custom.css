@@ -143,7 +143,8 @@ header {
           align-items: center;
   width: 90px;
   background: #0b3859;
-  padding: 8px;
+  /* padding: 8px; */
+  padding: 10px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
