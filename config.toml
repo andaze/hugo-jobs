@@ -110,7 +110,7 @@ home = "EN Home"
 logo = "images/logo.png"
 menufixed = false
 headerTitle = "Andaze, Inc. recruitment site"
-advantagetitle =  "Benefits of working at Bage"
+advantagetitle =  "Benefits of working at Andaze"
 visionTitle = "Vision and development policy"
 messageTitle = "Message to applicants"
 officeid = "Four"
@@ -148,7 +148,7 @@ expire_days = 2
 [Languages.en.params.hero]
 enable  = true
 advheading1 = "ADVANTAGE"
-advheading2 = "Benefits of Working at Vage"
+advheading2 = "Benefits of Working at Andaze"
 visionheading1 = "VISION"
 visionheading2 = "Vision and Training Policy"
 messageheading1 = "MESSAGE"
