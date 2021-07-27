@@ -21,11 +21,9 @@
                         {{ range .Pages }}
                             {{ if .Params.Name }}
                                 <div class="sectionblock">
-                                    <img src = "ico_arw_page_anchor.gif"/>
                                     {{ $id := replaceRE "(\\s)" "" .Params.Name }}                
-                                    <a href="#{{ $id }}" style="color: #0b3859">{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a>
+                                    <li><a href="#{{ $id }}" >{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a></li>
                                 </div>
-                                <br>
                             {{ end }}
                         {{ end }}
                         <br>
