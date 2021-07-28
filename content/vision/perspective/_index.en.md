@@ -35,11 +35,15 @@ Our mission is to provide overwhelming development speed like a start-up within 
 
 Take the logistics industry, for example. Until now, logistics delivery information management has been based on the experience and intuition of skilled staff and experienced drivers. However, various conditions are involved in delivery operations, such as the progress of work, ever-changing road conditions, and the condition of workers and drivers. This is why we are using high-performance AI to solve problems that are beyond human capabilities, such as managing optimal delivery routes and driving details, and sorting packages, to create innovations that will dominate B2B logistics. In addition, we are also developing
 
+<div class="table-width">
+
 |**Chat-based customer communication**|"Connect the major chat apps."|
 |---|---|
 |**WebAssembly**|Fast and crisp execution of programs on any browser or device|
 |**Azure Active Directory**|We use the latest technology to provide access to cloud services with greater security and peace of mind. We are able to provide highly satisfactory services with the highest level of security and ease of use.|
- 
+
+</div>
+
 We use the latest technology such as We are able to provide highly satisfactory services with the highest level of security and ease of use.
 
 ##### （*Means to achieve the mission）
@@ -64,6 +68,8 @@ As a means of increasing development speed, we have adopted an "iterative proces
 The birth of Andaze can be traced back to the representative's experience in Mumbai, India, where he was staying on business. The Indians working there were all demonstrating a high level of technical skills on a global level. However, the environment at that time was such that following plans and budgets were considered to be of utmost importance, and results were put on the back burner. The representative questioned such methods and returned to Japan in 2016. He founded Andaze, a company that can commit to "discovery" and "goals" using the latest technology. In order to achieve Andaze's mission, the power of talented Indian engineers is indispensable. To this end, we will hire a series of talented engineers from India's highest academic institutions to form a development team specializing in Microsoft's cloud technology.  
 Currently, there are about 20 employees in India and 12 Japanese and non-Japanese employees in Japan. Conversations are mainly in English, but some departments use real-time translation tools for communication.
 
+<div class="table-width">
+
 |**＜ Chronology >**| |
 |---|---|
 |Year 2011|Mr. Arai, the representative of the company, arrived in Japan.|
@@ -74,6 +80,8 @@ Currently, there are about 20 employees in India and 12 Japanese and non-Japanes
 |Year 2019|Head office moved from Toranomon to Kojimachi.{{<br>}}increase of capital （5 million to 10 million）|
 |Year 2020|Development base established at WeWork Hanzomon{{<br>}}Obtained Microsoft Gold Partner Certification|
 |Year 2021|ISO9001 and ISO27001 certified{{<br>}}increase of capital（10 million to 20 million）|
+
+</div>
 
 #### Hiring Indians who are valued by global IT companies
 

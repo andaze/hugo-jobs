@@ -63,6 +63,9 @@ Andaze is looking for people who are excited by the word "pioneering" and who wa
 #### Working in a way that allows room and latitude is directly related to results.
 
 We believe that in order to create innovation, we need to work in a way that is not bound by time or place. On the other hand, the term "black company," which became the buzzword of the year in 2013, was rooted in the old value system that "employees are supposed to slack off. With this way of thinking.  
+
+<div class="table-width">
+
 |**Company side**|**Employee side**|
 |---|---|
 |Difficulty in making bold demands due to the guilt of low wages|Low requirements prevent you from realizing your full potential.|
@@ -70,6 +73,8 @@ We believe that in order to create innovation, we need to work in a way that is 
 |Evaluate by workload, not by results.|I don't have a good relationship with the company.|
 | |Realizing that you were a "frog in a well" at your next new job.|
 | |I'm so bogged down in miscellaneous tasks that I can't concentrate on the work I should be doing.|
+
+</div>
 
 There are many disadvantages in exchange for low wages. There will be few situations where we can feel the sense of accomplishment and fun that we value.  
 At Andaze, to put it another way, whether you work today or take the day off is irrelevant to your evaluation. We are fully remote, fully flexible, and do not manage time. On the other hand, based on our extensive know-how of performance management, we evaluate people regardless of their working hours. In other words, just sitting at your desk is not enough to be evaluated. In addition, since we are involved in system development that is a pioneer for IT companies in Japan, we will be required to work at a very high level. Because of this, the speed of growth is obvious. It can be said that the technical skills you will acquire in just two to three years will be the envy of the industry.

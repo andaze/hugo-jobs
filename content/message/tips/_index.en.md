@@ -40,9 +40,13 @@ You don't need to write a big reason for your application. What do you think is 
 Are there any technologies or services that you think are superior or intriguing, such as "this AI function is amazing" or "that company's system is getting better and better"? As you use and research various IT tools on a daily basis, you will naturally keep up to date with fresh information. What services have you found to be great?  
 For example, in the past they have mentioned
 
+<div class="table-width">
+
 |**DeepL translation**|This is a revolutionary service that surpasses the translation functions of Google and Microsoft. The accuracy is so high that professional translators have praised it, and the number of Japanese users is increasing dramatically.|
 |---|---|
 |**Amazon Customer Service**|If you have any questions about shipping problems, you will get an answer in a matter of seconds and the chat will solve the problem in no time. There is no stress of not being able to get through to customer service or having to wait.|
+
+</div>
 
 etc. If you're a regular reader, you'll often see the latest technology-related news on Google Discover on your smartphone. If there is a technology that you think is great, please talk about it in the interview.
 

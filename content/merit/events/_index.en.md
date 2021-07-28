@@ -37,11 +37,16 @@ Telecommuting is allowed, and we have a full-flex system with 8 hours of core ti
 #### Implement the latest IT technology and security
 
 Within the company, we have the following state-of-the-art development environment.
+
+<div class='table-width'>
+
 |**Virtual development team on Azure**|It is a development environment that allows each member to function as a single team despite being located far from each other.|
 |---|---|
 |**Team collaboration with Microsoft365**|We use Microsoft Teams, which allows us to chat, video conference, and collaboratively edit word, Excel, and other documents in real time.|
 |**Productive process management through DevOps**|DevOps, a method that can speed up the development process while increasing its accuracy, will be used to run frequent operational cycles.|
 |**Using Microsoft products with Visual Studio Subscription**|As a Microsoft Gold Partner, we have unlimited access to hundreds of Microsoft products and clouds.|
+
+</div>
 
 #### Training and study sessions
 

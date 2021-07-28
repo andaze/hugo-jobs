@@ -24,6 +24,9 @@ pygmentsCodeFences = true
 defaultContentLanguageInSubdir = true
 DefaultContentLanguage = "ja"
 
+[markup.goldmark.renderer]
+  unsafe = true
+  
 # Site Params
 [params]
 logo = "images/logo.png"

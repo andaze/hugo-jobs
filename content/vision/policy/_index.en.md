@@ -42,6 +42,8 @@ Today, IoT is becoming more and more widespread in the home, with home appliance
 In recent years, the speed at which new businesses and projects can be launched in about six months is required. System development for this purpose is essential. **Creating a system that allows mobile phones, tablets, and PCs to work together in the cloud** is also necessary, as well as strengthening security to prevent information leaks.  
 **We have obtained ISO27001 certification, the international standard for information security. Quality is managed by ISO9001**. In addition, we use the DevOps** methodology to accelerate our development speed. We respond to the needs of a market that demands speed.
 
+<div class="table-width">
+
 |**Main services offered**| |
 |:---:|---|
 |Chatbot Development|AZURE BOT FRAMEWORK|
@@ -56,6 +58,8 @@ In recent years, the speed at which new businesses and projects can be launched 
 |NOSQL database development|AZURE COSMOS DATABASE|
 |Big Data Analysis Development|AZURE TABLE STORAGE|
 |Telework 2.0|TELEWORK 2.0 |
+
+</div>
 
 **Main Clients**:Distribution, real estate, transportation, retail, services, etc.
 

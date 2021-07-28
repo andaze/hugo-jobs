@@ -719,3 +719,19 @@ img {
 code{
   color: black;
 }
+
+/* For table width */
+.table-width th:first-child, td:first-child
+{
+  width: 30%;
+}
+.table-width  table, .table-width th, .table-width td
+{
+  border: 1px solid black;
+  border-style: dotted;
+  padding: 5px;
+}
+.table-width  table
+{
+  margin: 1.5rem 0;
+}
