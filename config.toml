@@ -1,9 +1,8 @@
 # baseURL = "http://andaze.ameio.in/"
 # baseURL = "https://gallant-einstein-eab8cc.netlify.app"
-# baseURL = "http://localhost/andaze/"
 # baseURL = "https://hugojob.ameio.in/"
-# baseURL = "https://newandaze.ameio.in/job/"
-baseURL = "https://www.andaze.com/job"
+# baseURL = "https://www.andaze.com/job"
+baseURL = "https://newandaze.ameio.in/job/"
 
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
