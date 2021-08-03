@@ -11,17 +11,16 @@
     
 */}}
 <div class="container">
-    <form name="contact" class="contact-form width-normal" action="/thank-you/" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="contact" />
+    <form name="infoForm" class="contact-form width-normal" action="/ja/job/merit" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="infoForm" />
         <h1 class="">Entry（input screen）</h1>
-        <p>If you are interested in joining us, please fill in the required information and submit your application.(*
-            is a required field)</p>
+        <p>If you are interested in joining us, please fill in the required information and submit your application.(*is a required field)</p>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">Type of work<span style="color: #a9a46c;"> *</span></label>
+                <label for="">Type of work<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <select name="" id="" class="form-control">
+                <select name="typeofwork" id="typeofwork" class="form-control">
                     <option>Marketers/Researchers</option>
                     <option>director</option>
                     <option>Lead Designer</option>
@@ -31,15 +30,14 @@
                     <option>HTML coder</option>
                     <option>Writer / editorial staff</option>
                 </select>
-
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">Application Type<span style="color: #a9a46c;"> *</span></label>
+                <label for="">Application Type<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <select name="" id="" class="form-control">
+                <select name="applicationtype" id="applicationtype" class="form-control">
                     <option>mid-career recruitment</option>
                     <option>New Graduate Recruitment</option>
                 </select>
@@ -47,10 +45,10 @@
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">Industry experience<span style="color: #a9a46c;"> *</span></label>
+                <label for="">Industry experience<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <select name="" id="" class="form-control">
+                <select name="experience" id="experience" class="form-control">
                     <option>inexperience</option>
                     <option>Less than 1 year</option>
                     <option>Within 1 to 2 years</option>
@@ -62,78 +60,78 @@
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">Your name（kanji）<span style="color: #a9a46c;"> *</span></label>
+                <label for="">Your name（kanji）<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="text" name="" id="" value="" />
+                <input class="form-control" type="text" name="name" id="name" value="" />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">Your name（furigana）<span style="color: #a9a46c;"> *</span></label>
+                <label for="">Your name（furigana）<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="text" name="" id="" value="" />
+                <input class="form-control" type="text" name="surname" id="surname" value="" />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                gender<span style="color: #a9a46c;"> *</span>
+                gender<span style="color: #0b3859;"> *</span>
             </div>
             <div class="col-12 col-sm-8">
-                <input name="gender" type="radio" id="" value="Male" />
+                <input name="gender" type="radio" id="male" value="Male" />
                 <label for="">Male</label>
-                <input name="gender" type="radio" id="" value="Female" />
+                <input name="gender" type="radio" id="female" value="Female" />
                 <label for="">Female</label>
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">(present) address<span style="color: #a9a46c;"> *</span></label>
+                <label for="">(present) address<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="text" name="" id="" value="" />
+                <input class="form-control" type="text" name="address" id="address" value="" />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">Email<span style="color: #a9a46c;"> *</span></label>
+                <label for="">Email<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="email" name="" id="" value="" />
+                <input class="form-control" type="email" name="email" id="email" value="" />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">Phone number<span style="color: #a9a46c;"> *</span></label>
+                <label for="">Phone number<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="text" name="" id="" value="" />
+                <input class="form-control" type="text" name="mobile_number" id="mobile_number" value="" />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">Reason for applying<span style="color: #a9a46c;"> *</span><br />
+                <label for="">Reason for applying<span style="color: #0b3859;"> *</span><br />
                     （500 words or less）</label>
             </div>
             <div class="col-12 col-sm-8">
-                <textarea class="form-control" name="" id="" cols="45" rows="5"></textarea>
+                <textarea class="form-control" name="reasonforapply" id="reasonforapply" cols="45" rows="5"></textarea>
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">resume<span style="color: #a9a46c;"> *</span></label>
+                <label for="">resume<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="file" name="" id="" />
+                <input class="form-control" type="file" name="resume" id="resume" />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">resume showing career and job history<span style="color: #a9a46c;"> *</span></label>
+                <label for="">resume showing career and job history<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="file" name="" id="" />
+                <input class="form-control" type="file" name="jobhistory" id="jobhistory" />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -141,15 +139,15 @@
                 <label for="">work （URLs, etc.）</label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="text" name="" id="" value="" />
+                <input class="form-control" type="text" name="work" id="work" value="" />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">How I first learned about Bage.<span style="color: #a9a46c;"> *</span></label>
+                <label for="">How I first heard of Andaze.<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <select class="form-control" name="" id="">
+                <select class="form-control" name="heardandaze" id="heardandaze">
                     <option value="" selected="selected">Please make a selection.</option>
                     <option>search engine</option>
                     <option>Twitter</option>
@@ -164,10 +162,10 @@
         </div>
         <div class="row" style="padding-top: 10px;">
             <div class="col-12 col-sm-4" style="font-weight:800;">
-                <label for="">When I first learned about Bage<span style="color: #a9a46c;"> *</span></label>
+                <label for="">When I learned about Andaze<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <select class="form-control" name="" id="">
+                <select class="form-control" name="learnandaze" id="learnandaze">
                     <option value="" selected="selected">Please make a selection.</option>
                     <option>Since I started job hunting and job searching</option>
                     <option>Within 3 months</option>
@@ -183,8 +181,10 @@
 
             </div>
             <div class="col-12 col-sm-8">
-                <button class="btn btn-primary" type="submit" value="Submit" id="">Submit</button>
+                <button class="btn btn-primary" type="submit" value="Submit" id="Form-submit">Submit</button>
             </div>
         </div>
     </form>
 </div>
+<br>
+<br>

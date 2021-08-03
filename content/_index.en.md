@@ -6,13 +6,15 @@ weight: 1
 ---
 {{< sliderstart >}}
 
-{{< slide src="homeSlider1.jpg" heading="CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER." subheading="Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry." >}}
+{{< slide src="homeSlider1.png" heading="You will be exposed to the latest technologies such as AI, IoT, and the use of big data" subheading="Select jobs that are valuable to engineers. Even if it's only 2-3 years, you will experience an overwhelming speed of growth!" >}}
 
-{{< slide src="homeSlider2.jpg" heading="WE AIM AT THE FUSION OF MARKETING AND CREATIVE." subheading="Baisi's goal is to combine marketing and creativity at a high level. It is not a routine job of creating designs and systems according to specifications. The habit of thinking about things from a business perspective will help you grow by leaps and bounds." >}}
+{{< slide src="homeSlider2.jpg" heading="This is an environment where you can communicate your ideas with ease and grow freely" subheading="By adopting a modern management style that is not bound by time, we provide a place where you can work as yourself in the long run." >}}
 
-{{< slide src="homeSlider3.jpg" heading="OUR EXCELLENT ENVIRONMENT WILL MAXIMIZE YOUR VALUE." subheading="The office at Baisi is a great place to work. We are a small company, so you can communicate your wishes right away. Please try to create the ideal work environment you want by yourself." >}}
+{{< slide src="homeSlider3.jpg" heading="We welcome people who want to create a new genre in the business scene with IT technology" subheading="We are using global technologies that have not yet penetrated Japan to provide beneficial services to domestic companies." >}}
 
-{{< slide src="homeSlider4.jpg" heading="WE'RE IN THE GROWTH PHASE, YOUR FUTURE IS SPREADING." subheading="Bayzi has a clear vision for the future of the industry and the company. We are currently in the phase of increasing the number of talented staff and creating the foundation for future development. Because we are still developing, you can become the core of the company if you choose." >}}
+{{< slide src="homeSlider4.jpg" heading="We work in a diverse workspace with international members" subheading="We work together with staff of various nationalities, including Japanese and Indian. You can also enjoy international exchange within the company!" >}}
+
+{{< slide src="homeSlider5.jpg" heading="Our clients trust us and entrust us with many projects." subheading="You will be able to lead IT projects while utilizing our accumulated knowledge and your own ideas." >}}
 
 {{< sliderend >}}
 

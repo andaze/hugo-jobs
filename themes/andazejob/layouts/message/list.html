@@ -1,46 +1,57 @@
 {{ define "main" }}
-    {{ partial "message-slider.html" . }}
-        <div class="container"> 
-            <div class="artical_heading">
-                {{ .Params.Intro }}
-            </div>
-            <div class="sectionblock">        
-                {{ .Content}}
-            </div>
-            
-            {{ range .Pages }}
-                {{ if .Params.Name }}
-                <div class="sectionblock">
-                    <img src = "ico_arw_page_anchor.gif"/>
-                    {{ $id := replaceRE "(\\s)" "" .Params.Name }}                
-                    <a href="#{{ $id }}" style="color: #afa86f">{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a>
-                </div>
-                <br>
-                {{ end }}
-            {{ end }}
-                    
-            {{ range .Pages }}
-                {{ partial "voice-senior.html" (dict "page" . ) }}
-            {{ end }}
+{{ $heading := .Params.sliderheading }}
+{{ $subheading := .Params.slidersubheading }}
 
-            {{ if .Params.voicelast }}
-                <hr>
-                <div class="row" style="padding-bottom: 60px;">
-                    <div class="col-12" style="text-align: center;">
-                        {{ .Params.voicelast }}
+{{ $detailheading := .Params.advtitle3 }}
+{{ $detailsubheading := .Params.advtitle2 }}
+
+{{ if $heading }}
+    {{ partial "subpage-slider.html" (dict "page" . "sliderheading" $heading "slidersubheading" $subheading ) }}
+{{ else }}
+    {{ partial "subpage-slider.html" (dict "page" . "sliderheading" $detailheading "slidersubheading" $detailsubheading ) }}
+{{ end }}
+    <section>
+        <div class="container">
+            <div class="list-page-wrapper">
+                <div class="inner-wrapper-page">
+                    <h4 class="text-center">{{.Params.Intro}}</h4>
+                    <div class="sectionblock">        
+                        {{ .Content}}
+                    </div>                                
+                        {{ range .Pages }}
+                            {{ if .Params.Name }}
+                                <div class="sectionblock">
+                                    {{ $id := replaceRE "(\\s)" "" .Params.Name }}                
+                                    <li><a href="#{{ $id }}" >{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a></li>
+                                </div>
+                            {{ end }}
+                        {{ end }}
+                        <br>
+                                    
+                        {{ range .Pages }}
+                            {{ partial "voice-senior.html" (dict "page" .) }}
+                        {{ end }}
+                        <br>
+                    {{ if .Params.voicelast }}
+                        <hr>
+                        <div class="row" style="padding-bottom: 60px;">
+                            <div class="col-12" style="text-align: center;">
+                                {{ .Params.voicelast }}
+                            </div>
+                        </div>
+                    {{ end }}
+                    {{ partial "nextPageBtn.html" . }}
+                    <div class="artical_head1">
+                        <span><b>{{ .Params.advtitle2 }}</b></span>
                     </div>
+                    <div class="artical_head2">
+                        <h6><b>{{ .Params.advtitle3}}</b></h6> 
+                    </div>       
+                    {{ partial "listContentBox.html" . }}
                 </div>
-            {{ end }}
-            
-            {{ partial "nextPageBtn.html" . }}
-            <div class="artical_head1">
-                <span><b>{{ .Params.advtitle2 }}</b></span>
-               </div>
-            <div class="artical_head2">
-                <h6><b>{{ .Params.advtitle3}}</b></h6> 
-             </div>       
+            </div>
         </div>
-     {{ partial "merit-advantage.html" . }}
+    </section>
     {{ partial "home-requirment.html" . }}
     {{ partial "home-website.html" . }}
 {{ end }}

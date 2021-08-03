@@ -40,12 +40,15 @@
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12" style="margin: 0 auto;">
                 <div class="well-middle">
-                    <ul class="ulBtnEntry" style="list-style: none !important;">
+                    <!-- <ul class="ulBtnEntry" style="list-style: none !important;">
                         <li style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;"><a
                                 style="color: #afa86f;" href="{{ $nextUrl | absURL }}"> <img class="lazyload" src="{{ `images/imageLoading.gif` | absURL }}" data-src="../../ico_arw_btn_entry1.webp">
                                 <span>{{ $nextName }}</span></a>
                         </li>
-                    </ul>
+                    </ul> -->
+                    <div class="link-container">
+                        <a href="{{ $nextUrl | absURL }}" class="btn btn-primary btn-block">{{ $nextName }}</a>            
+                    </div>
                 
                 </div>
             </div>

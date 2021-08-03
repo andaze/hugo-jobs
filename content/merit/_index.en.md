@@ -4,6 +4,8 @@ date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 2
 intro: "What makes Andaze different from other IT companies? \nWhat will I gain by working here? \nWe will answer the 'I want to know' questions you may have."
+sliderheading: "ADVANTAGE"
+slidersubheading: "Benefits of Working at Andaze"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

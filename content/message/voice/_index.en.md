@@ -21,8 +21,7 @@ jsonld: {
     }
 ---
 {{< subpagetopimage src="messageslider.jpg" path="message" >}}
+
 ### Voices of Seniors
 
 **Why don't you listen to the voices of our senior staff members who have been working at Andaze for a while? We asked four of our staff members to tell us why they wanted to work here and what they felt after actually working here. We hope this helps you in your application.**
-
----

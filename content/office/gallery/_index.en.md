@@ -20,7 +20,9 @@ jsonld: {
     }
 ---
 {{< subpagetopimage src="officeslider.jpg" path="office" >}}
+
 ### Office Gallery
+
 Our office is located in the Expert Office. It is a high-quality space where you can concentrate on your business in a relaxed atmosphere.
 &nbsp;
 
@@ -54,6 +56,6 @@ Our office is located in the Expert Office. It is a high-quality space where you
 ----
 &nbsp; 
 
-The next page introduces the characteristics of the Hanzomon area where the office is located and recommended gourmet spots. There are also many delicious places to have lunch.
+On the next page, we will introduce the characteristics of the Hanzomon area, where our office is located, and some recommended gourmet spots. There are also many delicious places to have lunch.
 
 {{< nextButtonBox >}}

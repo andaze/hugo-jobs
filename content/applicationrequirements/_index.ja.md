@@ -3,6 +3,8 @@ title:  "募集要項 "
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 6
+sliderheading: "REQUIREMENT"
+slidersubheading: "募集要項"
 jsonld: '{
       "@context" : "https://schema.org/",
       "@type" : "JobPosting",
