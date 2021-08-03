@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        "datePosted": {{ .Params.Date }},
+        "description": {{ .Params.Description }},
+        "hiringOrganization": {
+            "@type": "Organization",
+            "name": {{.Params.CompanyName }}
+          },
+        "jobLocation" : {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": {{ .Params.StreetAddress }},
+            "addressLocality": {{ .Params.AddressLocality }},
+            "postalCode": {{ .Params.PostalCode }},
+            "addressCountry": {{ .Params.AddressCountry }} 
+          }
+        },
+        "title": {{ .Title }},
+        "validThrough": {{ .Params.ValidThrough }},
+        "baseSalary": {
+            "@type": "MonetaryAmount",
+            "currency": {{.Params.Currency }},
+            "value": {
+              "@type": "QuantitativeValue",
+              "value": {{.Params.Value }},
+              "unitText": {{ .Params.UnitText }}
+            }
+          },
+          "employmentType": {{ .Params.EmploymentType }}
+      }
+    </script>

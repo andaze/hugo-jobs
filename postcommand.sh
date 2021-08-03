@@ -4,14 +4,14 @@ echo
 pwd
 echo
 hugo version
-sudo rm -rf /home/dameio/public_html/hugo-baigie/deploy/public
+sudo rm -rf /home/dameio/public_html/hugo-jobs/deploy/public
 echo
 #sudo ./hugo -d deploy/public
 hugo -d deploy/public
 echo
-cd /home/dameio/public_html/hugo-baigie/deploy
+cd /home/dameio/public_html/hugo-jobs/deploy
 git add --all
 git commit -m'update code'
 git push origin master
-cd /home/dameio/public_html/hugo-baigie
+cd /home/dameio/public_html/hugo-jobs
 #mkdir ashish

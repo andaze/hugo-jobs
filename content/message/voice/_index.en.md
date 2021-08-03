@@ -1,18 +1,27 @@
 ---
-title:  "Voices of our seniors"
-date:   2020-08-05T15:53:27+06:00
+title:  "Voices of Seniors"
 draft: false
-description: "This is event description"
 weight: 2
-advtitle2: "Message to Applicants"
+advtitle2: "Message"
 advtitle3: "MESSAGE"
-voice_description: "We would like to introduce our seniors who are actually working at BAYJ. You may find someone who can be your role model."
+description: "Why don't you listen to the voices of our senior staff members who have been working at Andaze for a while? We asked four of our staff members to tell us why they wanted to work here and what they felt after actually working here. We hope this helps you in your application."
 nextPageBtn: true
-
+voicelast: "Next, I'd like to share some tips on how to pass the Andaze employment exam. I would like to share a few tips with you so that your employment or career change will be a meaningful one. "
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
+{{< subpagetopimage src="messageslider.jpg" path="message" >}}
 
-### **Voices of Seniors**
-&nbsp;
-###### If you are considering BAYJ as an option for a career change, you probably already have some kind of specialty. Of the three areas necessary for creators, your technical skills have probably increased considerably.
+### Voices of Seniors
 
----
+**Why don't you listen to the voices of our senior staff members who have been working at Andaze for a while? We asked four of our staff members to tell us why they wanted to work here and what they felt after actually working here. We hope this helps you in your application.**

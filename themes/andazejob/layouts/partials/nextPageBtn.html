@@ -1,0 +1,57 @@
+{{ if .Params.nextPageBtn }}
+    {{ $currentUrl := printf "%s" .RelPermalink }}
+    {{ $getpage := .Page.Section }}
+    {{ $Scratch := newScratch}}
+    {{ $Scratch.Set "nextUrl" "" }}
+    {{ $Scratch.Set "Name" "" }}
+    {{ $Scratch.Set "nextFlag" false }}
+
+    {{ with .Site.GetPage $getpage }}
+        {{ range .Sections.ByWeight }}
+            {{ $url := .URL }}
+            {{ $title := .Title }}
+            {{ $nextFlagGet := $Scratch.Get "nextFlag" }}
+            {{ if eq ($nextFlagGet) (true) }}
+                {{ $Scratch.Set "nextUrl" $url }}
+                {{ $Scratch.Set "Name" $title }}
+                {{ $Scratch.Set "nextFlag" false }}
+            {{ end }}
+
+            {{ if eq ($url) ($currentUrl) }}
+                {{ $Scratch.Set "nextFlag" true }}
+            {{ end }}
+
+        {{ end }}
+    {{ end}}
+
+    {{ $nextUrlGet := $Scratch.Get "nextUrl" }}
+    {{ $nextName := $Scratch.Get "Name" }}
+    
+    {{ if eq (print site.Language) ("en") }}
+        {{$changeurl:= replace $nextUrlGet "/job/en/" "/en/job/" }}
+        {{ $Scratch.Set "changeurl" $changeurl }}
+    {{ else }}
+        {{$changeurl:= replace $nextUrlGet "/job/ja/" "/ja/job/" }}
+        {{ $Scratch.Set "changeurl" $changeurl }}
+    {{ end }}
+    {{ $nextUrl := $Scratch.Get "changeurl" }}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12" style="margin: 0 auto;">
+                <div class="well-middle">
+                    <!-- <ul class="ulBtnEntry" style="list-style: none !important;">
+                        <li style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;"><a
+                                style="color: #afa86f;" href="{{ $nextUrl | absURL }}"> <img class="lazyload" src="{{ `images/imageLoading.gif` | absURL }}" data-src="../../ico_arw_btn_entry1.webp">
+                                <span>{{ $nextName }}</span></a>
+                        </li>
+                    </ul> -->
+                    <div class="link-container">
+                        <a href="{{ $nextUrl | absURL }}" class="btn btn-primary btn-block">{{ $nextName }}</a>            
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}

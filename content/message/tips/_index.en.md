@@ -1,79 +1,83 @@
 ---
 title:  "Hiring Tips"
 date:   2020-08-05T15:53:27+06:00
-image: en/merit/8things/1.jpg
 draft: false
-description: "This is 8 Things description"
 weight: 3
-advtitle2: "Message to Applicants"
+advtitle2: "Message"
 advtitle3: "MESSAGE"
-tips_description: "In this section, we have compiled some advice for those who are thinking of applying for a job based on the Bayesian hiring criteria."
+description: "For those who are interested in joining Andaze. We have put together some useful advice for your entry and interview process. We hope that you will find this information useful when applying for a job and that it will make your job search more meaningful."
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
+---
+{{< subpagetopimage src="messageslider.jpg" path="message" >}}
+
+### Hiring Tips
+
+**For those who are interested in joining Andaze. We have put together some useful advice for your entry and interview process. We hope that you will find this information useful when applying for a job and that it will make your job search more meaningful.**
+
+{{< tableofcontent >}}
+
+#### I'll look into Andaze.
+
+https://andaze.com/jobs/ The job site of Andaze has information about the features of Andaze and the people we want. Also, check out https://www.andaze.com/ja/services to see what kind of technology they offer. If there is a word that interests you, check it out, it may stimulate a new interest.
+
+#### Your motivation will give you an edge.
+
+You don't need to write a big reason for your application. What do you think is right for you at Andaze, what do you think you can learn, and what do you want to do? Put together the natural thoughts that come to your mind.
+
+#### Let's talk about technologies and services that have impressed you.
+
+Are there any technologies or services that you think are superior or intriguing, such as "this AI function is amazing" or "that company's system is getting better and better"? As you use and research various IT tools on a daily basis, you will naturally keep up to date with fresh information. What services have you found to be great?  
+For example, in the past they have mentioned
+
+<div class="table-width">
+
+|**DeepL translation**|This is a revolutionary service that surpasses the translation functions of Google and Microsoft. The accuracy is so high that professional translators have praised it, and the number of Japanese users is increasing dramatically.|
+|---|---|
+|**Amazon Customer Service**|If you have any questions about shipping problems, you will get an answer in a matter of seconds and the chat will solve the problem in no time. There is no stress of not being able to get through to customer service or having to wait.|
+
+</div>
+
+etc. If you're a regular reader, you'll often see the latest technology-related news on Google Discover on your smartphone. If there is a technology that you think is great, please talk about it in the interview.
+
+#### Be honest about why you left your previous job.
+
+I would like to hear positive reasons such as "because I want to grow more," but I think some of you may have been struggling in an environment where you cannot foresee the future. You may not be satisfied with the work you are doing, you may feel that there is a lot of waste, you may not enjoy it, and you may not feel motivated. Please tell us honestly why you decided to resign. I promise you that you will not experience the same kind of distress as you did in your previous job.
+
+#### I'll be able to tell you my shortcomings.
+
+No one is perfect without flaws or weaknesses. If you are concerned that you are not good at explaining things, for example, please don't hesitate to talk about it. What may be a weakness to you may be attractive to us. The important thing is that you are aware of your weaknesses. It's important to be aware of your weaknesses, because "knowing your weaknesses = knowing where to improve". The right person in the right place can make up for the weaknesses of each member, so I don't think there is a problem as long as there is a balance with the strengths.
+
+#### You're a nerd. You're a respectable person who is passionate about one thing.
+
+If you feel that you might be a geek, I think it is more of an advantage. Otaku are often perceived as "eccentric," but in reality, they are pure people who are interested in and passionate about one thing at a time. There is a purity to them that allows them to feel joy as if it were a game when even a small process produces the expected result. This personality is worthy of our respect. Please don't be shy to share your love of otaku with us.
+
+#### The ability to speak is not directly related to the results.
+
+If you don't have the confidence to speak well at an interview, or if you feel nervous, don't worry. We welcome even those who are not good at speaking. In our company, we have engineers who work quietly and reticently, but all of them have achieved results beyond our expectations. All of them have achieved more than expected results, and we have a great deal of trust in them as they quietly polish their technical skills and master a variety of technologies. If you don't have any language skills, there is no problem at all by using the machine translation service.  
+During the interview, we will focus on your technical skills rather than your communication skills, so please tell us about your experience and the knowledge you have learned.  
+Incidentally, overseas, IT technology is more advanced in Northern Europe, where people spend more time indoors due to shorter daylight hours, than in Southern countries, where outdoor culture is thriving and communication between people is active. Even if you don't usually go outside or talk to people, there is a high possibility that you will be able to play an active role in our company.
+
+#### Ask a lot of questions during the interview.
+
+It is too late to say, "This wasn't supposed to happen! It's too late to say, "This wasn't supposed to happen!", so please ask as many questions as you can during the interview. "Will I be evaluated properly even if I work full-time remotely? "What kind of country is Japan? "What kind of work will I be entrusted with? These questions will be answered honestly and without embellishment. The fact that you have so many questions to ask us is a sign that you are interested in us.
+
+#### Actively apply to other companies in your industry!
+
+Changing jobs is a great opportunity to get to know a variety of companies. If you find a company that interests you, apply and listen to what they have to say. If, after comparing with other companies in your industry, you decide that you want to join Andaze, we will be happy to welcome you.
+
 ---
 
-
-### **Recruitment Tips**
-&nbsp;
-###### In the words of Sun Tzu, "If you know him and know yourself, you will never be defeated in a hundred battles. If you are going to apply for a job, you should know the hiring criteria of the company.
-
-###### By the way, this is a method that will work well for other companies as well. I hope that these tips will help you in your job search and employment activities.    
-
-&nbsp;
-
-![Images Not Available](../../ico_arw_page_anchor.webp)[**Think of a natural motive for applying.**](#think-of-a-natural-motive-for-applying)
-
-![Images Not Available](../../ico_arw_page_anchor.webp)[**Prepare as many pieces as possible.**](#prepare-as-many-pieces-as-possible)
-
-![Images Not Available](../../ico_arw_page_anchor.webp)[**I'll show you what I'm clipping, too.**](#ill-show-you-what-im-clipping-too)
-
-![Images Not Available](../../ico_arw_page_anchor.webp)[**Peruse web sites, blogs, and daily reports.**](#peruse-web-sites-blogs-and-daily-reports)
-
-![Images Not Available](../../ico_arw_page_anchor.webp)[**Clarify the reason for leaving your previous job.**](#clarify-the-reason-for-leaving-your-previous-job)
-
-![Images Not Available](../../ico_arw_page_anchor.webp)[**Let's sort out the pros and cons.**](#lets-sort-out-the-pros-and-cons)
-
-![Images Not Available](../../ico_arw_page_anchor.webp)[**Ask a lot of questions during the interview.**](#ask-a-lot-of-questions-during-the-interview)
-
-![Images Not Available](../../ico_arw_page_anchor.webp)[**Apply to as many companies in your industry as possible.**](#apply-to-as-many-companies-in-your-industry-as-possible)
-
-#### **Think of a natural motive for applying.**
-&nbsp;
-###### There are many people who apply for jobs on job change sites without writing (or thinking about) a motive for their application, but not having a motive for your application will only put you at a disadvantage. You don't have to compose a unique, grand story to explain your motivation. All you need to do is to put into words what you want to do and what you feel is right for you.
-
-#### **Prepare as many pieces as possible.**
-&nbsp;
-###### Unfortunately, "I love the web" and "I will do my best once I join the company" are not enough to prove your enthusiasm. However, if you have many works, they will eloquently demonstrate your strong enthusiasm. There, quantity is more important than quality. Also, the more work you have done independently in your personal life as well as for work or school assignments, the better your reputation will be. This is because it shows that your desire to create is not an obligation, but a strong desire that comes from within.
-
-#### **I'll show you what I'm clipping, too.**
-&nbsp;
-###### If you are actively gathering information on a daily basis, you may have posted useful information and reference designs on social bookmarks, Tumblr, Pinterest, etc. This kind of history will also prove your enthusiasm and willingness to gather information. If you can present not only what you have created, but also what you have been inspired by, we will be very interested.
-
-#### **Peruse web sites, blogs, and daily reports.**
-&nbsp;
-###### At Baisi, we disseminate information through various channels such as our website, blog and daily reports. In particular, the blog and the daily report provide a glimpse into the values of the staff, their know-how, and the way they work. If you want to know more about Baisi, you should read through these websites as much as possible to get a better understanding of the company.
-* `BAYJ Corporation (corporate site)`
-* `President Bage's Blog`
-* `Bage's Daily Report`
-
-#### **Clarify the reason for leaving your previous job.**
-&nbsp;
-###### If you are changing jobs, there will always be a reason why you are (or were) leaving your previous job. Try to be as honest as possible about this. This is because if the problems you felt at your previous job are something that cannot be properly solved at the baiji, the relationship will not last long after all. In order to avoid negative comments, some people can answer with a single statement, "I want to go higher," but in the end, that will not help us understand what you really want. Please be honest and tell us what you think.
-
-#### **Let's sort out the pros and cons.**
-&nbsp;
-###### Strengths and weaknesses are usually two sides of the same coin. Everyone has weaknesses, but not many people are aware of their own weaknesses. There is a technique for interviewing where you don't answer your weaknesses but replace them with your strengths, but this will only lead to the judgment that you don't know your weaknesses and won't say anything inconvenient. Make sure you have a clear idea of what you are good at and what you are not good at, and then speak honestly.
-
-#### **Ask a lot of questions during the interview.**
-&nbsp;
-###### What is more important than what you answered in the interview is what questions you asked. If you don't ask any questions at all, or if you ask questions that can be easily understood by looking at the website, you may be judged as not being that interested in the company, or as having poor information gathering skills. Of course, this is not the only factor in deciding whether or not to hire someone, but if you have applied for a job and have been given the opportunity to interview, you should definitely gather information with the intention of being hired, and you should prepare as much as possible of what you want to ask.
-&nbsp;
-
-#### **Apply to as many companies in your industry as possible.**
-&nbsp;
-###### Some companies in the world don't like it when you apply to other companies in the same industry, but we think quite the opposite. We think it is natural for people to apply to multiple companies in the same industry if they have a strong interest in that job or profession. We are also happy if you choose us after looking at many different companies. We hope that you will find the best company for you after looking at many different companies. If you find the best company for you, we will welcome you with open arms.
-
-&nbsp;
-
----
-As our final message to you, we would like to share with you something that you will not find on most recruitment websites: our own experiences of failure.
+Next, I will introduce "automation" which has greatly increased the efficiency of our work and the quality of our products. All of these methods are currently being worked on by Andaze.
 
 {{< nextButtonBox >}}

@@ -1,0 +1,13 @@
+<div class="slideshow example-1">
+  {{ $url:= .Permalink }}
+  {{ range .Site.Params.heading }}
+  <div>
+    <img srcset="{{ $url }}{{ .srcsetImg }}" src="{{ .srcimg }}" data-src="{{ $url }}{{ .dataSrcImg }}" alt="" class="lazyload">
+      <div class="text_content">
+        <h2 class="title1">{{ .heading }}</h2>
+        <h1 class="title2">{{ .subheading }} </h1>
+      </div>  
+  </div>
+  {{ end }}
+</div>
+    

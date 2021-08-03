@@ -1,103 +1,61 @@
 ---
-title:  "Office gallery"
+title:  "Office Gallery"
 date:   2020-08-05T15:53:27+06:00
 draft: false
-description: "This is Future description"
 weight: 1
 advtitle2: "Office and surroundings"
 advtitle3: "OFFICE"
-gallery_description: "Here is our office. It's not a big office, but it's laid out in a spacious environment where you can concentrate on your work."
+description: "Our office is located in the Expert Office. It is a high-quality space where you can concentrate on your business in a relaxed atmosphere."
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
-### **Office Gallery**
+{{< subpagetopimage src="officeslider.jpg" path="office" >}}
 
-###### Here is our office. It's not a big office, but it's laid out in a spacious environment where you can concentrate on your work.
+### Office Gallery
 
-{{< imagedisplay galleryimg1 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg2 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg3 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg4 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg5 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg6 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg7 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg8 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg9 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg10 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg11 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg12 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg13 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg14 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg15 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg16 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg17 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg18 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg19 "290" "690" "760" >}}
-
-{{< imagedisplay galleryimg20 "290" "690" "760" >}}
-
+Our office is located in the Expert Office. It is a high-quality space where you can concentrate on your business in a relaxed atmosphere.
 &nbsp;
-<!-- ![Image Not Available](galleryimg1.jpg "TITLE")
 
-![Image Not Available](galleryimg2.jpg "TITLE")
-
-![Image Not Available](galleryimg3.jpg "TITLE")
-
-![Image Not Available](galleryimg4.jpg "TITLE")
-
-![Image Not Available](galleryimg5.jpg "TITLE")
-
-![Image Not Available](galleryimg6.jpg "TITLE")
-
-![Image Not Available](galleryimg7.jpg "TITLE")
-
-![Image Not Available](galleryimg8.jpg "TITLE")
-
-![Image Not Available](galleryimg9.jpg "TITLE")
-
-![Image Not Available](galleryimg10.jpg "TITLE")
-
-![Image Not Available](galleryimg11.jpg "TITLE")
-
-![Image Not Available](galleryimg12.jpg "TITLE")
-
-![Image Not Available](galleryimg13.jpg "TITLE")
-
-![Image Not Available](galleryimg14.jpg "TITLE")
-
-![Image Not Available](galleryimg15.jpg "TITLE")
-
-![Image Not Available](galleryimg16.jpg "TITLE")
-
-![Image Not Available](galleryimg17.jpg "TITLE")
-
-![Image Not Available](galleryimg18.jpg "TITLE")
-
-![Image Not Available](galleryimg19.jpg "TITLE")
-
-![Image Not Available](galleryimg20.jpg "TITLE") -->
-
-&nbsp; 
+{{< imagedisplay src="スライド41.PNG" >}}       
+&nbsp;  
+{{< imagedisplay src="スライド42.PNG" >}}  
+&nbsp;
+{{< imagedisplay src="スライド34.PNG" >}}  
+&nbsp;
+{{< imagedisplay src="スライド37.PNG" >}}  
+&nbsp;
+{{< imagedisplay src="スライド31.PNG" >}}  
+&nbsp;
+{{< imagedisplay src="スライド38.PNG" >}}  
+&nbsp;
+{{< imagedisplay src="スライド43.PNG" >}}   
+&nbsp;
+{{< imagedisplay src="スライド44.PNG" >}}   
+&nbsp;
+{{< imagedisplay src="スライド45.PNG" >}}   
+&nbsp;
+{{< imagedisplay src="スライド46.PNG" >}}   
+&nbsp;
+{{< imagedisplay src="スライド47.PNG" >}}   
+&nbsp;
+{{< imagedisplay src="スライド48.PNG" >}}   
+&nbsp;
+{{< imagedisplay src="スライド49.PNG" >}}   
+&nbsp;
 
 ----
 &nbsp; 
 
-On the next page, we will introduce some of the stores in the area that we often use for shopping and eating. There are many stores in Shimokitazawa, and I am sure you will enjoy them.
+On the next page, we will introduce the characteristics of the Hanzomon area, where our office is located, and some recommended gourmet spots. There are also many delicious places to have lunch.
 
 {{< nextButtonBox >}}

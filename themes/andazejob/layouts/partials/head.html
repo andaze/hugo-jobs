@@ -1,0 +1,26 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{ partial "google_analytics.html" . }}
+  
+  {{ if eq (.Params.SitejobPosting) (true) }}
+    {{ partial "schema.html" . }}
+  {{ end }}
+  {{ if .Params.Jsonld }}
+    <script type="application/ld+json">{{.Params.jsonld}}</script>
+  {{ end }}
+  
+  <link rel="stylesheet" type="text/css" href="{{ `plugins/bootstrap/css/bootstrap.css` | absURL }}">
+  
+  {{ $style := resources.Get "css/custom.css" }}
+  {{ $square := resources.Get "css/square1.css" }} <!-- slider Css -->
+  {{ $styles := slice $style $square | resources.Concat "bundle.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <title>{{ with .Site.Title }} {{ . }}  {{ end }}</title>
+  <!-- <link href="{{ `images/titleLogo.png` | absURL }}" rel="icon"> -->
+</head>

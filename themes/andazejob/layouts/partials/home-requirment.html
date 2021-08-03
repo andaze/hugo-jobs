@@ -1,0 +1,34 @@
+<section>
+  <div class="container">
+      <div class="row">
+          <div class="col-12 col-md-6">
+              <div class="box-content box-content-left box-content-transparent">
+                  <span class="symbol"></span>
+                  <h2 class="title">REQUIREMENT</h2>
+                  <p class="text-muted sub-title">{{.Site.Params.requirementTitle}}</p>
+                  {{ with .Site.GetPage "applicationrequirements" }}
+                  <p class="text-content">{{.Params.Intro}}</p>
+                  <div class="link-container">
+                      {{ range .Sections.ByWeight }}
+                        {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title "class" "link" "homeavm" "true") }}
+                      {{ end }}
+                    </div>
+                  {{ end }}
+              </div>
+          </div>
+          <div class="col-12 col-md-6">
+              <div class="box-content box-content-left box-content-transparent p6">
+                  <span class="symbol"></span>
+                  <h2 class="title">ENTRY</h2>
+                  <p class="text-muted sub-title">{{.Site.Params.entryTitle}}</p>
+                  {{ with .Site.GetPage "entry"}}
+                  <p class="text-content">{{.Params.Intro}}</p>
+                  <div class="link-container">
+                      {{ partial "homeurlchange.html" (dict "path" .URL "title" .Site.Params.entryBoxTitle "target" "_blank" "class" "btn btn-primary btn-lg" ) }}
+                  </div>
+                  {{ end }}
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

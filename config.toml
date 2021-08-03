@@ -1,16 +1,20 @@
-# baseURL = "http://baigie.ameio.in/"
-baseURL = "https://clever-edison-02034e.netlify.app/"
-# baseURL = "http://localhost/baigie/"
+# baseURL = "http://andaze.ameio.in/"
+# baseURL = "https://gallant-einstein-eab8cc.netlify.app"
+# baseURL = "http://localhost/andaze/"
 # baseURL = "https://hugojob.ameio.in/"
+# baseURL = "https://newandaze.ameio.in/job/"
+baseURL = "https://www.andaze.com/job"
+
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
-theme = "navigator-hugo"
+theme = "andazejob"
 summaryLength = 10
+timeout = 600000
 
 # Build robots.txt file
 enableRobotsTXT = true
 # google analytics tracking id
-googleAnalytics = "" # your analitics ID
+googleAnalytics = "UA-144087233-7" # your analitics ID
 
 enableGitInfo = false
 pygmentsCodeFences = true
@@ -18,15 +22,19 @@ pygmentsCodeFences = true
 # Multilangues setup
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
 defaultContentLanguageInSubdir = true
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "ja"
 
+[markup.goldmark.renderer]
+  unsafe = true
+  
 # Site Params
 [params]
 logo = "images/logo.png"
 
-# Gestion des langues : JP / EN 
+
+# Gestion des langues : JA / EN 
 [[Params.listeLangues]]
-code = "jp"
+code = "ja"
 [[Params.listeLangues]]
 code = "en"
 
@@ -35,105 +43,61 @@ author = "Themefisher"
 description = "This is meta description"
 
 
-# slider Area Images And Content
-[[Languages.en.params.heading]]
-srcimg = "/images/imageLoading.gif"
-srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
-dataSrcImg = "/images/slider/img_keyvisual_01.webp"
-heading = "CHANGE YOURSELF WITH US, WE'LL SUPPORT YOUR CAREER."
-subheading = "Vage is an environment where you can acquire the technical and work skills you need for your career. We are actively recruiting not only veterans but also enthusiastic inexperienced people. Come join us and make your life brilliant while aiming for the top of the web industry."
-[[Languages.en.params.heading]]
-srcimg = "/images/imageLoading.gif"
-srcsetImg = "/images/slider/img_keyvisual_02_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_02_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_02_320x0_resize_box.webp 640w"
-dataSrcImg = "/images/slider/img_keyvisual_02.webp"
-heading = "WE AIM AT THE FUSION OF MARKETING AND CREATIVE."
-subheading = "Baisi's goal is to combine marketing and creativity at a high level. It is not a routine job of creating designs and systems according to specifications. The habit of thinking about things from a business perspective will help you grow by leaps and bounds."
-[[Languages.en.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "/images/slider/img_keyvisual_05_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_05_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_05_320x0_resize_box.webp 640w"
-dataSrcImg = "/images/slider/img_keyvisual_05.webp"
-heading = "OUR EXCELLENT ENVIRONMENT WILL MAXIMIZE YOUR VALUE."
-subheading = "The office at Baisi is a great place to work. We are a small company, so you can communicate your wishes right away. Please try to create the ideal work environment you want by yourself."
-[[Languages.en.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "/images/slider/img_keyvisual_04_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_04_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_04_320x0_resize_box.webp 640w"
-dataSrcImg = "/images/slider/img_keyvisual_04.webp"
-heading = "WE'RE IN THE GROWTH PHASE, YOUR FUTURE IS SPREADING."
-subheading = "Bayzi has a clear vision for the future of the industry and the company. We are currently in the phase of increasing the number of talented staff and creating the foundation for future development. Because we are still developing, you can become the core of the company if you choose."
-
-[[Languages.jp.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "/images/slider/img_keyvisual_01_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_01_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_01_320x0_resize_box.webp 640w"
-dataSrcImg = "/images/slider/img_keyvisual_01.webp"
-heading = "私たちと一緒に自分を変えよう, あなたのキャリアをサポートします。"
-subheading = "ベイジは、あなたのキャリアに必要な技術力と仕事力が身に付く環境です。ベテランだけではなく、熱意ある未経験者も積極的に採用しています。 私たちとともに、Web業界の頂点を目指しながら人生を輝かしいものにしませんか。"
-[[Languages.jp.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "/images/slider/img_keyvisual_02_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_02_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_02_320x0_resize_box.webp 640w"
-dataSrcImg = "/images/slider/img_keyvisual_02.webp"
-heading = "私たちはマーケティングとクリエイティブの融合を目指し。"
-subheading = "ベイジが目指すのは、マーケティングとクリエイティブの高次元での融合です。 仕様通りにデザインやシステムを作るルーチンワークではありません。 ビジネス発想で物事を考える習慣が、あなたを飛躍的に成長させるでしょう。"
-[[Languages.jp.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "/images/slider/img_keyvisual_05_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_05_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_05_320x0_resize_box.webp 640w"
-dataSrcImg = "/images/slider/img_keyvisual_05.webp"
-heading = "優れた環境でお客様の価値を最大化する。"
-subheading = "ベイジのオフィスには、仕事がしやすい環境が整っています。 小さな会社なので、希望はすぐに伝えることができます。 あなたの望む理想の職場環境を、あなた自身の力で作ってみてください。"
-[[Languages.jp.params.heading]]
-srcimg = "images/imageLoading.gif"
-srcsetImg = "/images/slider/img_keyvisual_04_1403x0_resize_box.webp 2500w, /images/slider/img_keyvisual_04_768x0_resize_box.webp 1024w, /images/slider/img_keyvisual_04_320x0_resize_box.webp 640w"
-dataSrcImg = "/images/slider/img_keyvisual_04.webp"
-heading = "我々は成長段階にある, あなたの未来は広がっている。"
-subheading = "ベイジは、業界や会社の未来に明確なビジョンを持っています。 今は、優秀なスタッフを増やし、将来の発展の基盤を作るフェーズ。 発展途上だから、あなた次第で会社の中核にだってなることができます。"
-
 # Gestion des langues : FR / EN / NL / DE
 [Languages]
 ############ 1 - Site en Japanese
-[Languages.jp]
-languageName = "JP"
+[Languages.ja]
+languageName = "JA"
 weight = 1
-languageCode = "jp-jp"
-title = "採用サイト｜東京のWeb制作会社・ホームページ制作会社｜株式会社ベイジ｜Hugo Job inc."
+languageCode = "ja-jp"
+title = "採用サイト｜株式会社アンダーズ"
 dateFormat = "2 January 2006"
 logo = "images/logo.png"
 menufixed = false
-headerTitle = " 株式会社ベイジ 採用サイト"
+headerTitle = " 株式会社アンダーズ 採用サイト"
 homeavm = ["ADVANTAGE", "VISION", "MESSAGE" ]
-advantagetitle = "ベイジで働くメリット"
+advantagetitle = "アンダーズで働くメリット"
 visionTitle =   "ビジョンと育成方針"
-messageTitle = "応募者へのメッセージ"
+messageTitle = "メッセージ"
 officeid    =   "4"
 officeTitle = "オフィスと周辺"
-requirementTitle = "募集職種と募集要項"
+requirementTitle = "募集要項"
 entryTitle  = "応募専用フォーム"
-entryBoxTitle = ">応募はこちらから"
+entryBoxTitle = "応募はこちらから"
 footerEmpInformationTitle = "雇用情報ホーム"
 footerVisionAndDevlopmenTitle = "ビジョンと育成方針"
 footerLogo = "{{ `images/h_logo.png` | absURL }}"
 footerOfficeTitle = "オフィスと周辺"
 footerEntryTitle = "エントリー"
-footerAddress = "株式会社ベイジ / Hugo Job inc.〒155-0033東京都世田谷区代田6-6-1TOKYU REIT下北沢スクエア 3F"
-footerMail = "mail.info@Hugo Job.me"
-footerTel =  "tel. 03-6407-8750"
-footerfax = "fax. 03-6407-8751"
-footerhome = "株式会社ベイジ：ホーム"
-footerblog = "ベイジ社長ブログ"
-footerReport =  "ベイジの日報"
-Endtitle = "> 詳しく見る"
-
+footerAddress = "株式会社アンダーズ 〒102-0083 東京都千代田区麹町2-10-3 エキスパートオフィス 1F"
+footerMail = "support@andaze.com"
+footerTel =  "tel. 03-3230-0401"
+footerhome = "株式会社アンダーズ：ホーム"
+footerblog = ""
+footerReport =  ""
+Endtitle = "詳しく見る"
+imagesize1 = "290"
+imagesize2 = "596"
+imagesize3 = "796"
+imageratio = "1 1.5 2 3"
+imagewidth = "1440"
+fillposition = "center"
+format= "webp"
+srcimg = "images/imageLoading.gif"
+backgroundimageposition = "center"
 # Hero Area Section
-[Languages.jp.params.hero]
+[Languages.ja.params.hero]
 enable  = true
 advheading1 = "ADVANTAGE"
-advheading2 = "ベイジで働くメリット"
+advheading2 = "アンダーズで働くメリット"
 visionheading1 = "VISION"
 visionheading2 = "ビジョンと育成方針"
 messageheading1 = "MESSAGE"
-messageheading2 = "応募者へのメッセージ"
+messageheading2 = "メッセージ"
 officeheading1 = "OFFICE"
 officeheading2 = "オフィスと周辺"
 requirementheading1 = "REQUIREMENT"
-requirementheading2 = "募集職種・募集要項"
+requirementheading2 = "募集要項"
 button  = true
 btnText = "Know More"
 
@@ -148,29 +112,36 @@ dateFormat = "January 2, 2006"
 home = "EN Home"
 logo = "images/logo.png"
 menufixed = false
-headerTitle = "Beiji Co., Ltd. recruitment site"
-advantagetitle =  "Benefits of working at Bage"
+headerTitle = "Andaze, Inc. recruitment site"
+advantagetitle =  "Benefits of working at Andaze"
 visionTitle = "Vision and development policy"
 messageTitle = "Message to applicants"
 officeid = "Four"
 officeTitle = "Office and surroundings"
 requirementTitle = "Recruitment type and recruitment guidelines"
 entryTitle  = "Application-only form"
-entryBoxTitle = "> Click here to apply"
+entryBoxTitle = "Click here to apply"
 footerLogo = "images/h_logo.png"
 footerEmpInformationTitle = "Employment Information Home"
 footerVisionAndDevlopmenTitle = "Vision and development policy"
 footerOfficeTitle = "Office and surroundings"
 footerEntryTitle = "entry"
-footerAddress = "Co., Ltd. Beiji / Hugo Job inc.Yubinbango155-0033, Setagaya-ku, Tokyo Shirota 6-6-1, TOKYU REIT Shimokitazawa Square 3F"
-footerMail = "Mail.info@Hugo Job.me"
-footerTel =  "Tel. 03-6407-8750"
-footerfax = "Fax. 03-6407-8751"
-footerhome = "Beiji Co., Ltd .: Home"
-footerblog = "Beiji President's Blog"
-footerReport =  "Beiji's daily report"
-Endtitle = "> Read more."
-
+footerAddress = "Co., Ltd. Andaze / 2-10-3 Kojimachi, Chiyoda Tokyo, Japan"
+footerMail = "support@andaze.com"
+footerTel =  "Tel. 03-3230-0401"
+footerhome = "Andaze Ltd. Home"
+footerblog = "Andaze President's Blog"
+footerReport =  "Andaze's daily report"
+Endtitle = "Read more."
+imagesize1 = "290"
+imagesize2 = "596"
+imagesize3 = "796"
+imageratio = "1 1.5 2 3"
+imagewidth = "1440"
+fillposition = "center"
+format= "webp"
+srcimg = "images/imageLoading.gif"
+backgroundimageposition = "center"
 # cookies
 [params.cookies]
 enable = true
@@ -180,7 +151,7 @@ expire_days = 2
 [Languages.en.params.hero]
 enable  = true
 advheading1 = "ADVANTAGE"
-advheading2 = "Benefits of Working at Vage"
+advheading2 = "Benefits of Working at Andaze"
 visionheading1 = "VISION"
 visionheading2 = "Vision and Training Policy"
 messageheading1 = "MESSAGE"
@@ -223,3 +194,9 @@ weight = 6
 name   = "entry"
 url    = "entry"
 weight = 7
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 4

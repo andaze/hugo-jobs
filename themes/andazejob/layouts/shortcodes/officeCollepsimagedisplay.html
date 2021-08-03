@@ -1,0 +1,69 @@
+<section class="p-90">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 col-lg-6">
+              <div class="box-content box-content-left p6">
+                  <div class="number">4</div>
+                  <h2 class="title">OFFICE</h2>
+                  <p class="text-muted sub-title">{{.Site.Params.messageTitle}}</p>
+                  {{ with .Site.GetPage "office" }}
+                  <p class="text-content">{{.Params.Intro}}</p>
+                  <div class="link-container">
+                    {{ range .Sections.ByWeight }}
+                      {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title "class" "link" "homeavm" "true") }}
+                    {{ end }}
+                    </div>
+                  {{ end }}
+              </div>
+          </div>
+          <div class="col-12 col-lg-6">
+              <div class="gallery-listing">
+                {{ $allparams := .Params }}
+                    {{ range $allparams }}
+
+                        {{ $defaultBackground := "Image Not Available" }}
+                        {{ $srcimg := $.Page.Resources.GetMatch . | default $defaultBackground }}
+                        
+                        {{ if eq $srcimg $defaultBackground }}
+                            <span><a href="{{.}}">{{$defaultBackground}}</a></span>
+                        {{ else }}
+                        
+                            {{ $srcimg_width := $srcimg.Width }}
+                            {{ $srcimg_height := $srcimg.Height }}
+                            {{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
+
+                            {{ $width := 150 }}
+                            {{ $ratio := float $srcimg_ratio }}
+                            {{ $height := 106 }}
+
+                            {{ $getdata:= split site.Params.Imageratio " " }}
+                            {{ $array := $getdata }}
+                            {{ $dict := dict }}
+
+                            {{ $fillposition:= string (default site.Params.fillposition ) }}
+                            {{ $format:= string (default site.Params.format ) }}
+                            {{ $positionFormat:= print " " $fillposition " " $format }}
+                        
+                            {{ range $array }}
+                                {{ $imgratio:= float . }}
+                                {{ $crop_prm := printf "%dx%d %s" (int (mul $width $imgratio)) (int (mul $height $imgratio)) ($positionFormat) }}
+                                {{ $cropsize:= print $crop_prm}}
+                                {{ $crop_img := $srcimg.Fill $cropsize }}
+                                {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
+                            {{ end }}
+                            
+                            <div class="gallery-list">
+                              <div class="photos">
+                                  <img class="lazyload" src="{{ `images/imageLoading.gif` | absURL }}" width='{{ $width }}' height='{{ $height }}' alt="img" srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'/>
+                              </div>
+                            </div>
+                        {{ end }}
+                    {{ end }}      
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+    {{ partial "home-website.html" . }}
+    {{ partial "home-requirment.html" . }}
