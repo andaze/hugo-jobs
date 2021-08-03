@@ -23,7 +23,7 @@ jsonld: {
 
 {{< subpagetopimage src="meritslider.jpg" path="merit" >}}
 
-### Andaze Features Master
+### Andaze Features
 
 **We are a company that makes full use of global IT technology across borders. The speed of our development and the highest level of quality are unparalleled, and we have brought about numerous innovations.** 
 
