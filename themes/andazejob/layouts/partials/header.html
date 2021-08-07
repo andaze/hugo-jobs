@@ -1,5 +1,6 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
       <a class="navbar-brand" href="javascript:;">
           <div class="logo-container">
               <img  src="{{ `images/andazeLogo.webp` | absURL }}" width="170px" alt="Image Not Available"/>
@@ -20,14 +21,7 @@
               </li>
             {{ end }} 
           </ul>
-          <div class="lan-content">
-              <label class="select">
-                  {{ partial "language_change.html" . }}
-                  <svg class="" viewbox="0 0 10 6">
-                      <polyline points="1 1 5 5 9 1"></polyline>
-                  </svg>
-              </label>
-          </div>
       </div>
+    </div>
   </nav>
 </header>
