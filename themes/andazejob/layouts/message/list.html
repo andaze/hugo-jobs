@@ -15,15 +15,15 @@
             <div class="list-page-wrapper">
                 <div class="inner-wrapper-page">
                     <h4 class="text-center">{{.Params.Intro}}</h4>
-                    <div class="sectionblock">        
                         {{ .Content}}
-                    </div>                                
                         {{ range .Pages }}
                             {{ if .Params.Name }}
-                                <div class="sectionblock">
-                                    {{ $id := replaceRE "(\\s)" "" .Params.Name }}                
-                                    <li><a href="#{{ $id }}" >{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a></li>
-                                </div>
+                                    {{ $id := replaceRE "(\\s)" "" .Params.Name }}      
+                                    <div id="TableOfContents">
+                                        <ul>
+                                            <li><a href="#{{ $id }}" >{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a></li>
+                                        </ul>
+                                    </div>          
                             {{ end }}
                         {{ end }}
                         <br>
@@ -41,12 +41,8 @@
                         </div>
                     {{ end }}
                     {{ partial "nextPageBtn.html" . }}
-                    <div class="artical_head1">
                         <span><b>{{ .Params.advtitle2 }}</b></span>
-                    </div>
-                    <div class="artical_head2">
                         <h6><b>{{ .Params.advtitle3}}</b></h6> 
-                    </div>       
                     {{ partial "listContentBox.html" . }}
                 </div>
             </div>

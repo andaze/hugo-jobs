@@ -548,77 +548,11 @@ footer .footer-linking .footer-link-box p {
 /*# sourceMappingURL=custom.css.map */
 
 /* Custom Css For Old Theme */
-@media only screen and (min-width: 1200px)
-  {
-    .sectionblock
-    {
-      /* width: 760px; */
-      margin: 0 auto;
-    }
-  }
-
-  @media screen and (max-width: 762px)
-  {
-    .sectionblock
-    {
-     width:100%;
-     margin:0 auto;
-     }
-    
-  }
-
-  .sectionblock > p > a
-  {
-      color: #0b3859;
-  }
-  .sectionblock > h6 
-  {
-    line-height: 30px;
-    font-size: 18px;
-  }
-  .sectionblock>h4 
-  {
-    /* padding-top: 68px; */
-    padding-top: 75px;
-    margin-top: -75px;
-    -webkit-background-clip: content-box;
-    background-clip: content-box;
-    
-  }
-  .artical_head1
-  {
-      display: block;
-      font-size: 24px;
-      margin-bottom: 10px;
-      text-align: center;
-      margin-top: 50px;
-  }
-  .artical_head2
-  {
-      display: block;
-      font-family: "Source Sans Pro", sans-serif;
-      font-size: 16px;
-      text-align: center;
-
-  }
 
   html {
     scroll-behavior: smooth;
   }
-  nav  > h2{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .sectionblock > ul{
-  list-style-type: disc !important;
-  margin-left: 15px;
-}
-nav > #TableOfContents
-{
-  margin: 1.5rem 0;
-}
-
+  
 #TableOfContents ul{
   padding: 0;
   margin: 0;
