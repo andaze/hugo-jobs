@@ -68,7 +68,7 @@ footerVisionAndDevlopmenTitle = "ビジョンと育成方針"
 footerLogo = "{{ `images/h_logo.png` | absURL }}"
 footerOfficeTitle = "オフィスと周辺"
 footerEntryTitle = "エントリー"
-footerAddress = "株式会社アンダーズ 〒102-0083 東京都千代田区麹町2-10-3 エキスパートオフィス 1F"
+footerAddress = """アンダーズ株式会社 〒102-0083 東京都千代田区麹町2-10-3"""
 footerMail = "support@andaze.com"
 footerTel =  "tel. 03-3230-0401"
 footerhome = "株式会社アンダーズ：ホーム"
@@ -199,3 +199,5 @@ weight = 7
     endLevel = 4
     ordered = false
     startLevel = 4
+[blackfriday]
+    extensions = ["hardLineBreak"]

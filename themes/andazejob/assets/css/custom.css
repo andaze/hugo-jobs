@@ -85,7 +85,7 @@ header {
 }
 
 .navbar .navbar-brand {
-  background: var(--primary);
+  /* background: var(--primary); */
   min-width: 280px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -256,9 +256,10 @@ header {
 .banner-text{
   width: fit-content;
   margin: 0 auto;
-  background: rgba(0,0,0,0.4);
+  /* background: rgba(0,0,0,0.4); */
   padding: 15px;
   border-radius: 8px;
+  color: #021859;
 }
 
 @media screen and (max-width:767px) {
