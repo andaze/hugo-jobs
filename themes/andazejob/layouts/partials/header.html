@@ -1,12 +1,23 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="javascript:;">
-          <div class="logo-container">
-              <!-- <img  src="{{ `images/andazeLogo.webp` | absURL }}" width="170px" alt="Image Not Available"/> -->
-              <img class="lazyload" src="{{ `images/imageLoading.gif` | absURL }}"  data-src="{{ `images/andazeLogo.png` | absURL }}" alt="Image Not Available"/>
+      {{ $Scratch := newScratch}}
+      {{ $Scratch.Set "url" "" }}
+      {{ $lang:= print site.Language }}
 
-          </div>
+      {{ if eq ($lang) ("en")  }}  
+        {{$seturl:= replace (.Site.BaseURL | relLangURL)  "/job/en" "/en/job" }}
+        {{ $Scratch.Set "url" $seturl }}
+      {{ else }}
+        {{$seturl:= replace (.Site.BaseURL | relLangURL)  "/job/ja" "/ja/job" }}
+        {{ $Scratch.Set "url" $seturl }}
+      {{ end }}
+      {{ $url := $Scratch.Get "url" }}
+      <a class="navbar-brand" href="{{ $url }}">
+        <div class="logo-container">
+          <!-- <img  src="{{ `images/andazeLogo.webp` | absURL }}" width="170px" alt="Image Not Available"/> -->
+          <img class="lazyload" src="{{ `images/imageLoading.gif` | absURL }}"  data-src="{{ `images/andazeLogo.png` | absURL }}" alt="Image Not Available"/>
+        </div>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
           aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
