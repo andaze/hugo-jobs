@@ -19,7 +19,7 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-{{< subpagetopimage src="requirementslider.jpg" path="applicationrequirements" >}}
+{{< subpagetopimage src="requirementslider.png" path="applicationrequirements" fillposition="top">}}
 ### About Us
 
 Our main business is consulting to deploy solutions based on Microsoft products. We propose solutions to our clients' problems while incorporating new technologies and the latest industry trends. We use our deep understanding, tenacity, collaboration, and know-how to help our clients utilize the best solutions.

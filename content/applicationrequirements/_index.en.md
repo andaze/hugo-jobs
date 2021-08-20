@@ -19,4 +19,4 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-{{< subpagetopimage src="requirementslider.jpg" path="applicationrequirements" >}}
+{{< subpagetopimage src="requirementslider.png" path="applicationrequirements" fillposition="top">}}

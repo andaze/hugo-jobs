@@ -47,4 +47,4 @@ jsonld: '{
     }'
 intro: "アンダーズでは現在、下記の職種で人材を募集しています。新しいことに挑戦したい方、最新技術に触れてみたい方、新規ビジネスに携わってみたいという方のご応募をお待ちしています。"
 ---
-{{< subpagetopimage src="requirementslider.jpg" path="applicationrequirements" >}}
+{{< subpagetopimage src="requirementslider.png" path="applicationrequirements" fillposition="top">}}
