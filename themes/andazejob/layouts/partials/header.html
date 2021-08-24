@@ -16,7 +16,7 @@
       <a class="navbar-brand" href="{{ $url }}">
         <div class="logo-container">
           <!-- <img  src="{{ `images/andazeLogo.webp` | absURL }}" width="170px" alt="Image Not Available"/> -->
-          <img class="lazyload" src="{{ `images/imageLoading.gif` | absURL }}"  data-src="{{ `images/andazeLogo.png` | absURL }}" alt="Image Not Available"/>
+          <img src="{{ `images/andazeLogo.png` | absURL }}" alt="Image Not Available"/>
         </div>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
@@ -26,8 +26,12 @@
 
       <div class="collapse navbar-collapse" id="navbarColor03">
           <ul class="navbar-nav ml-auto" itemscope itemtype= "http://www.schema.org/SiteNavigationElement">
+            {{ $currentPage := . }}
             {{ range .Site.Menus.item }}
-              <li itemprop="name" class="nav-item">
+              {{ $menu_item_url := .URL | relLangURL   }}
+              {{ $page_url:= $currentPage.RelPermalink }}
+              {{ $data := path.Dir $page_url }}
+              <li itemprop="name" class="nav-item {{ if or (eq (path.Base $menu_item_url) (path.Base $page_url)) (eq ($menu_item_url) (path.Dir $data)) }} active {{ end }} ">
                 {{ partial "homeurlchange.html" (dict "path" (.URL | absLangURL) "title" (i18n .Name) "class" "nav-link" "itemprop" "url") }}
               </li>
             {{ end }} 

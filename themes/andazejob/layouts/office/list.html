@@ -16,9 +16,12 @@
                 <div class="inner-wrapper-page">
                     <h4 class="text-center">{{.Params.Intro}}</h4>
                         {{ .Content}}
-                        <span><b>{{ .Params.advtitle2 }}</b></span>
-                        <h6><b>{{ .Params.advtitle3}}</b></h6> 
+                        <!-- <span><b>{{ .Params.advtitle2 }}</b></span>
+                        <h6><b>{{ .Params.advtitle3}}</b></h6>  -->
+                        <span  class="text-center d-block mt-4"><b>{{ .Params.advtitle2 }}</b></span>
+                        <h6  class="text-center"><b>{{ .Params.advtitle3}}</b></h6>
                     {{ partial "listContentBox.html" . }}
+                    {{ partial "detailContentBox.html" . }}
                 </div>
             </div>
         </div>
