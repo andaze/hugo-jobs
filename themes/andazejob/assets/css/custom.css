@@ -650,18 +650,17 @@ img {
 /* for Back to top Button */
 .back-to-top {
   display: none;
+  border-radius: 50px;
   position: fixed;
   bottom: 20px;
   right: 30px;
   z-index: 99;
   font-size: 18px;
-  border: "5px solid white";
   outline: none;
-  background-color:#90bfe1;
+  background-color:#808080;
   color: white;
   cursor: pointer;
   padding: 10px;
-  border-radius: 4px;
 }
 
 @media (max-width: 768px) {
@@ -671,14 +670,14 @@ img {
 }
 
 .back-to-top:focus {
-  background:#90bfe1(187, 172, 172);
-  color: #90bfe1;
+  background:#808080(187, 172, 172);
+  color: #808080;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #fff;
-  color: #fff;
+  background: #808080;
+  color: #808080;
 }
 
 /* For Slider Css */
@@ -787,4 +786,8 @@ code{
 .table-width  table
 {
   margin: 1.5rem 0;
+}
+
+.listBox:hover{
+  background-color: #eeeeee;
 }
