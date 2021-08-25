@@ -362,7 +362,7 @@ header {
   content: "";
   width: 18px;
   height: 18px;
-  background: #bbe4ff;
+  background: #009fe8;
   left: 6px;
   top: 6px;
 }
@@ -790,4 +790,10 @@ code{
 
 .listBox:hover{
   background-color: #eeeeee;
+}
+
+/* For Next Buttom */
+.nextBtn{
+  background-color: white;
+  color:black;
 }

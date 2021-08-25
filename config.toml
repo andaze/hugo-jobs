@@ -13,7 +13,7 @@ timeout = 600000
 # Build robots.txt file
 enableRobotsTXT = true
 # google analytics tracking id
-googleAnalytics = "UA-144087233-7" # your analitics ID
+googleAnalytics = "G-2RBG11HF44" # your analitics ID
 
 enableGitInfo = false
 pygmentsCodeFences = true
