@@ -11,7 +11,12 @@ birthplaceHeading :
 birthplaceAnswer :
 workexpHeading :
 workexpAnswer :
+showDetailPage: true
 ---
+{{< voice-senior >}}
+
+<div class="row">
+<div class="col-12" style="text-align: justify;">
 
 #### `--Why did you decide to join Andaze?`
 
@@ -24,3 +29,6 @@ When I first joined the company, I was a university student, so I was involved i
 #### `--Message to Applicants`
 
 Andaze is a progressive company with a good work environment and allows remote work. I feel that the opinions and ideas of employees like me can be freely expressed and are respected. In the rapidly changing IT industry, it is very important to keep up with the latest technologies and tools. You will be able to adapt to the changes of the next generation by taking on new challenges.
+
+</div>
+</div>

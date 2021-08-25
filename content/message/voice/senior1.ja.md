@@ -10,8 +10,13 @@ dobAnswer:
 birthplaceHeading : 
 birthplaceAnswer : 
 workexpHeading : 
-workexpAnswer :  
+workexpAnswer : 
+showDetailPage: true 
 ---
+{{< voice-senior >}}
+
+<div class="row">
+<div class="col-12" style="text-align: justify;">
 
 #### `――アンダーズ入社を決めた理由`
 
@@ -24,3 +29,6 @@ AzureやBlazorのような新しいテクノロジーを習得できましたし
 #### `――応募者へのメッセージ`
 
 アンダーズはとてもクールで、未来のビジョンを持っている会社だと思います。初心者の技術者にとっても素晴らしい企業と言えるでしょう。もし最新の技術に触れてみたいと考えているなら、ぜひ私たちと一緒に働きませんか。
+
+</div>
+</div>
