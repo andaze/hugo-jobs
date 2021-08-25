@@ -322,7 +322,7 @@ header {
 
 .box-content .text-content {
   color: #505050;
-  line-height: 27px;
+  line-height: 30px;
   margin-bottom: 40px;
 }
 
@@ -556,7 +556,7 @@ footer .footer-linking .footer-link-box a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 36px;
+  min-height: 30px;
   font-size: 13px;
   color: #b5cedf;
 }
@@ -796,4 +796,9 @@ code{
 .nextBtn{
   background-color: white;
   color:black;
+}
+
+.list-page-wrapper
+{
+  line-height: 36px;
 }
