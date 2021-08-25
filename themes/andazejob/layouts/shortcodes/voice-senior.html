@@ -1,0 +1,115 @@
+{{ $Scratch := newScratch}}
+{{ $Scratch.Set "width" "" }}
+{{ $Scratch.Set "height" "" }}
+    
+{{ $src := .Page.Params.image }}
+{{ $path:= site.GetPage "voice" }}
+{{ $defaultBackground := "Image Not Available" }}
+{{ $srcimg := $path.Resources.GetMatch $src | default $defaultBackground  }}
+
+{{ if eq $srcimg $defaultBackground }}
+    <a href="{{.Page.Permalink}}{{$src}}" target="_blank"> <h3 style="color: red;">{{$defaultBackground}}</h3></a>
+{{ else }}
+    {{ $srcimg_width := $srcimg.Width }}
+    {{ $srcimg_height := $srcimg.Height }}
+    {{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
+
+    {{ if gt $srcimg.Width .Site.Params.Imagewidth }}
+        {{ $getwidth := int (default .Site.Params.Imagewidth (.Get "width")) }}
+        {{ $Scratch.Set "width" $getwidth }}
+    {{ else }}
+        {{ $getwidth := int (default $srcimg_width (.Get "width")) }}
+        {{ $Scratch.Set "width" $getwidth }}
+    {{ end }}
+    {{ $width := $Scratch.Get "width" }}
+
+    {{ $ratio := float (default $srcimg_ratio (.Get "ratio")) }}
+    {{ $layout := .Get "layout" }}
+
+    {{ if .Get "height" }}
+        {{ $getheight:= int (.Get "height") }}
+        {{ $Scratch.Set "height" $getheight }}
+    {{ else }}
+        {{ $getheight := int (mul $width $ratio) }}
+        {{ $Scratch.Set "height" $getheight }}
+    {{ end }}
+    {{ $height := $Scratch.Get "height" }}
+
+    {{ $getdata:= split .Site.Params.Imageratio " " }}
+
+    {{ $array := $getdata }}
+    {{ $dict := dict }}
+
+    {{$fillposition:= string (default .Site.Params.fillposition (.Get "fillposition")) }}
+    {{$format:= string (default .Site.Params.format (.Get "format")) }}
+    {{ $positionFormat:= print " " $fillposition " " $format }}
+    {{ range $array }}
+        {{$imgratio:= float .}}
+        {{ $crop_prm := printf "%dx%d %s" (int (mul $width $imgratio)) (int (mul $height $imgratio)) ($positionFormat) }}
+        {{ $cropsize:= print $crop_prm}}
+        {{/* {{ $cropsize:= print $crop_prm " webp"}} */}}
+        {{ $crop_img := $srcimg.Fill $cropsize }}
+        {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
+    {{ end }}
+
+    <!-- Display Seiors Image Part -->
+    {{ $id := replaceRE "(\\s)" "" .Page.Params.Name }}
+    {{ if .Page.Params.Name }}
+        <div id ="{{ $id }}" class="sectionblock" style="padding-top: 75px; margin-top: -75px; -webkit-background-clip: content-box; background-clip:content-box" ></div>
+        
+        <div class="row">
+            {{ if eq (.Page.Params.image) ("") }}
+            {{ else }}
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3" style="text-align: center;">
+                <img src='{{ `images/imageLoading.gif` }}' width='{{ $width }}' height='{{ $height }}' srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}' alt='Images Not Available'  class="lazyload"></img>
+            </div>
+            {{ end }}  
+            <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+        
+                {{ if eq (.Page.Params.Name) ("") }}
+                {{ else }}
+                <div class="row seniormargin">
+                    <div class="col"> <h3><b>{{ .Page.Params.Name }}</b></h3></div>
+                </div>
+                {{ end }}
+                {{ if eq (.Page.Params.TypeofworkAnswer) ("") }}
+                {{ else }}
+                <div class="row seniormargin">
+                    <div class="col-5"><b>{{ .Page.Params.TypeofworkHeading }}</b></div>
+                    <div class="col-7">{{ .Page.Params.TypeofworkAnswer }}</div>
+                </div>
+                {{ end }}
+                {{ if eq (.Page.Params.JoiningAnswer) ("") }}
+                {{ else }}
+                <div class="row seniormargin">
+                    <div class="col-5"><b>{{ .Page.Params.JoiningHeading }}</b></div>
+                    <div class="col-7">{{ .Page.Params.JoiningAnswer }}</div>
+                </div>
+                {{ end }}
+                {{ if eq (.Page.Params.DobAnswer) ("") }}
+                {{ else }}
+                <div class="row seniormargin">
+                    <div class="col-5"><b>{{ .Page.Params.DobHeading }}</b></div>
+                    <div class="col-7">{{ .Page.Params.DobAnswer }}</div>
+                </div>
+                {{ end }}
+                {{ if eq (.Page.Params.BirthplaceAnswer) ("") }}
+                {{ else }}
+                <div class="row seniormargin">
+                    <div class="col-5"><b>{{ .Page.Params.BirthplaceHeading }}</b></div>
+                    <div class="col-7">{{ .Page.Params.BirthplaceAnswer }}</div>
+                </div>
+                {{ end }}
+                {{ if eq (.Page.Params.WorkexpAnswer) ("") }}
+                {{ else }}
+                <div class="row seniormargin">
+                    <div class="col-5"><b>{{ .Page.Params.WorkexpHeading }}</b></div>
+                    <div class="col-7">{{ .Page.Params.WorkexpAnswer }}</div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        <br>
+    {{ end }}
+
+{{ end }}

@@ -11,7 +11,12 @@ birthplaceHeading :
 birthplaceAnswer :
 workexpHeading :
 workexpAnswer :
+showDetailPage: true
 ---
+{{< voice-senior >}}
+
+<div class="row">
+<div class="col-12" style="text-align: justify;">
 
 #### `--Why did you decide to join Andaze?`
 
@@ -24,3 +29,6 @@ I've been able to learn new technologies such as Azure and Blazor, and I've been
 #### `--Message to Applicants`
 
 I think Andaze is a very cool company and has a great vision for the future. It's also a great company for novice technicians. If you are interested in working with the latest technology, come and work with us.
+
+</div>
+</div>
