@@ -2,13 +2,13 @@
   {{ $getpage:= .File.Dir }}
   {{ $path := path.Dir $getpage }}
   {{ $data := path.Dir $path }}
-  
+  {{ $currentPage := .RelPermalink }}
   {{ $section := site.GetPage (strings.TrimRight "\\//" $data ) }}
   {{ range $section.Pages.ByWeight }}
   {{ if .Title }} 
   <br>
   <div class="col-12 col-md-6 mb-4">
-    {{ partial "advantageurlchange.html" (dict "path" .URL "title" .Title "description" .Params.description "endtitle" .Site.Params.Endtitle )}}
+    {{ partial "advantageurlchange.html" (dict "path" .URL "title" .Title "description" .Params.description "endtitle" .Site.Params.Endtitle "currentPage" $currentPage )}}
   </div>
   {{ end }}
   {{ end }}
