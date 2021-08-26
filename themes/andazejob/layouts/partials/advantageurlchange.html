@@ -11,7 +11,7 @@
 {{ end }}
 
 {{ $url := $Scratch.Get "url" }}
-<a href=" {{ $url }}" class="card listBox"> 
+<a href=" {{ $url }}" class="card listBox" {{if eq (.path) (.currentPage) }} style="pointer-events: none; background-color: #eeeeee;"{{ end  }}> 
   <div class="card-body">
   <h4 class="card-title"> {{ .title }}</h4>
   <p class="desc">{{ .description }}</p>
