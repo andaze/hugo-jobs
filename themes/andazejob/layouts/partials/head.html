@@ -2,7 +2,12 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Put your description here.">
+  {{ $lang:= print site.Language }}
+  {{ if eq ($lang) ("en")}}
+    <meta name="description" content="Andaz has been facing the challenges faced by businesses in Japan and India by using its high level of global IT skills. We would like to share with you the vision and development policy that lies at the foundation of our company.">
+  {{ else }}
+    <meta name="description" content="アンダーズは世界的な高いIT技術力を駆使し、日本とインドで企業が抱える課題と向き合ってきました。そんな当社の土台にある、ビジョンや育成方針をお伝えします。">
+  {{ end }}
   {{ partial "google_analytics.html" . }}
   
   {{ if eq (.Params.SitejobPosting) (true) }}

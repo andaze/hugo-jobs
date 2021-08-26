@@ -23,10 +23,10 @@ weight: 1
     <div class="container">
         <div class="andaze-img-con">
             <div class="img-left">
-                {{< imagedisplay  src="andazehome1.jpg"  >}}
+                {{< imagedisplay  src="andaze1.png"  >}}
             </div>
             <div class="img-right">
-                {{< imagedisplay  src="andazehome2.jpg"  >}}
+                {{< imagedisplay  src="andaze2.png"  >}}
             </div>
         </div>
     </div>

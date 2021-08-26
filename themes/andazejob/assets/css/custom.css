@@ -322,7 +322,7 @@ header {
 
 .box-content .text-content {
   color: #505050;
-  line-height: 27px;
+  line-height: 30px;
   margin-bottom: 40px;
 }
 
@@ -362,7 +362,7 @@ header {
   content: "";
   width: 18px;
   height: 18px;
-  background: #bbe4ff;
+  background: #009fe8;
   left: 6px;
   top: 6px;
 }
@@ -556,7 +556,7 @@ footer .footer-linking .footer-link-box a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 36px;
+  min-height: 30px;
   font-size: 13px;
   color: #b5cedf;
 }
@@ -790,4 +790,15 @@ code{
 
 .listBox:hover{
   background-color: #eeeeee;
+}
+
+/* For Next Buttom */
+.nextBtn{
+  background-color: white;
+  color:black;
+}
+
+.list-page-wrapper
+{
+  line-height: 36px;
 }

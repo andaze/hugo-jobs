@@ -11,7 +11,12 @@ birthplaceHeading :
 birthplaceAnswer : 
 workexpHeading : 
 workexpAnswer :
+showDetailPage: true
 ---
+{{< voice-senior >}}
+
+<div class="row">
+<div class="col-12" style="text-align: justify;">
 
 #### `――アンダーズ入社を決めた理由`
 
@@ -25,3 +30,6 @@ workexpAnswer :
 #### `――応募者へのメッセージ`
 
 アンダーズは、WEBデザインから開発、CRM、eコマースのソリューション、アプリケーション開発まで、数多くの革新的で創造的なサービスを提供しています。また、高品質なソフトウェアをお客様に提供している点でも魅力的な企業です。もしあなたが、最新技術に触れながらキャリアを強化したいと考えるなら、アンダーズで働くことをおすすめします。
+
+</div>
+</div>

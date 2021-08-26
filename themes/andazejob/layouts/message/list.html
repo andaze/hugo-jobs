@@ -10,7 +10,7 @@
 {{ else }}
     {{ partial "subpage-slider.html" (dict "page" . "sliderheading" $detailheading "slidersubheading" $detailsubheading ) }}
 {{ end }}
-    <section>
+    <section style="padding-bottom: 0px;">
         <div class="container">
             <div class="list-page-wrapper">
                 <div class="inner-wrapper-page">
@@ -29,7 +29,10 @@
                         <br>
                                     
                         {{ range .Pages }}
-                            {{ partial "voice-senior.html" (dict "page" .) }}
+                            {{ if .Params.showDetailPage }}
+                                <!-- {{ partial "voice-senior.html" (dict "page" .) }} -->
+                                {{ .Content }}
+                            {{ end }}
                         {{ end }}
                         <br>
                     {{ if .Params.voicelast }}
@@ -51,6 +54,7 @@
             </div>
         </div>
     </section>
+    <hr>
     {{ partial "home-requirment.html" . }}
     {{ partial "home-website.html" . }}
 {{ end }}
