@@ -28,5 +28,7 @@
       rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <title>{{ with .Site.Title }} {{ . }}  {{ end }}</title>
-  <link href="{{ `images/favicon.ico` | absURL }}" rel="icon">
+  <meta name="og:image" content="{{ `images/favicon.ico` | absURL }}"/>
+  <link id="favicon" rel="shortcut icon" href="{{ `images/favicon.ico` | absURL }}" type="image/png"/>
+  <!-- <link href="{{ `images/favicon.ico` | absURL }}" rel="icon"> -->
 </head>
