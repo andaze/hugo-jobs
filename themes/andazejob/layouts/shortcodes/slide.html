@@ -53,6 +53,7 @@
     <figure>
         <picture>
         <source srcset="{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}"> 
+        <source srcset="{{ $src | absLangURL }}" type="image/jpeg"> 
         <img src="{{ `images/imageLoading.gif` | absURL }}" data-src="{{ $src | absLangURL }}" class="lazyload" alt="Slider Images Not Available" />
     </picture>
   </figure>
