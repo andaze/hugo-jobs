@@ -72,6 +72,6 @@
     {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
 {{ end }}
 
-<img src='{{ `images/imageLoading.gif` }}' width='{{ $width }}' height='{{ $height }}'
-srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}' alt='Images Not Available'></img>
+<img src='{{ `images/imageLoading.gif` | absURL }}' width='{{ $width }}' height='{{ $height }}'
+data-srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}' alt='Images Not Available' class="lazyload"></img>
 {{ end }}
