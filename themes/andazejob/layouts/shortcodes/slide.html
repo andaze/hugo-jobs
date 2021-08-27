@@ -49,13 +49,13 @@
     {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
 {{ end }}
 <div>
-    <!-- <img srcset="{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}" src="{{ .Site.Params.srcimg }}" data-src="{{ $src | absLangURL }}" alt="Image Not Available" class="lazyload"> -->
-    <figure>
+    <img srcset="{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}" src="{{ .Site.Params.srcimg }}" data-src="{{ $src | absLangURL }}" alt="Image Not Available" class="lazyload">
+    <!-- <figure>
         <picture>
         <source srcset="{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}"> 
         <img src="{{ `images/imageLoading.gif` | absURL }}" data-src="{{ $src | absLangURL }}" class="lazyload" alt="Slider Images Not Available" />
     </picture>
-  </figure>
+  </figure> -->
     <div class="text_content">
         {{ $heading:= .Get ("heading")}}
         {{ $subheading:= .Get ("subheading")}}
