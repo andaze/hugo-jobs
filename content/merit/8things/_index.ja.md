@@ -5,7 +5,7 @@ draft: false
 weight: 2 
 advtitle2: "アンダーズで働くメリット"
 advtitle3: "ADVANTAGE"
-description: "アンダーズならではの特徴が社員にどのような価値をもたらすのでしょうか。次のページでは「アンダーズで働くメリット」について解説します。"
+description: "アンダーズならではの特徴が社員にどのような価値をもたらすのでしょうか。「アンダーズで働くメリット」について解説します。"
 # nextPageBtn: true
 jsonld: {
       "@context": "https://schema.org",
