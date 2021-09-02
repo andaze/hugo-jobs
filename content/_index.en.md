@@ -6,7 +6,7 @@ weight: 1
 ---
 {{< sliderstart >}}
 
-{{< slide src="homeSlider1.png" heading="You will be exposed to the latest technologies such as AI, IoT, and the use of big data" subheading="Select jobs that are valuable to engineers. Even if it's only 2-3 years, you will experience an overwhelming speed of growth!" >}}
+{{< slide src="homeSlider1.png" heading="You will be exposed to the latest technologies such as AI, IoT, and the use of big data" subheading=" Select jobs that are valuable to engineers. Even if it's only 2-3 years, you will experience an overwhelming speed of growth!" >}}
 
 {{< slide src="homeSlider2.jpg" heading="This is an environment where you can communicate your ideas with ease and grow freely" subheading="By adopting a modern management style that is not bound by time, we provide a place where you can work as yourself in the long run." >}}
 
