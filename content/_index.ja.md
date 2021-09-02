@@ -7,20 +7,20 @@ weight: 1
 ---
 {{< sliderstart >}}
 
-{{< slide src="homeSlider1.png" heading="AIやIoT、ビッグデータの活用。" subheading="技術者にとって価値のある仕事を選び抜いています。  
-短期間で成長の手ごたえを感じることができるはずです。" >}}
+{{< slide src="homeSlider1.png" heading="AIやIoT、ビッグデータの活用。" subheading=`技術者にとって価値のある仕事を選び抜いています。  
+短期間で成長の手ごたえを感じることができるはずです。` >}}
 
-{{< slide src="homeSlider2.jpg" heading="時間に縛られない働き方を取り入れています。 " subheading="仕事もプライベートも大事にしながら、  
-あなたらしく生き生きと成長できる環境を用意しました。" >}}
+{{< slide src="homeSlider2.jpg" heading="時間に縛られない働き方を取り入れています。 " subheading=`仕事もプライベートも大事にしながら、  
+あなたらしく生き生きと成長できる環境を用意しました。` >}}
 
-{{< slide src="homeSlider3.jpg" heading="IT技術でビジネスシーンに新ジャンルを。 " subheading="私たちは日本にはまださほど浸透していないグローバルな技術を駆使し、  
-国内向けにサービスを提供しています。" >}}
+{{< slide src="homeSlider3.jpg" heading="IT技術でビジネスシーンに新ジャンルを。 " subheading=`私たちは日本にはまださほど浸透していないグローバルな技術を駆使し、  
+国内向けにサービスを提供しています。` >}}
 
-{{< slide src="homeSlider4.jpg" heading="多様化する世界にマッチした働き方を。" subheading="インドをはじめとする国際色豊かなメンバー・多彩なワークスペース。  
-社内での国際交流も楽しんでください。" >}}
+{{< slide src="homeSlider4.jpg" heading="多様化する世界にマッチした働き方を。" subheading=`インドをはじめとする国際色豊かなメンバー・多彩なワークスペース。  
+社内での国際交流も楽しんでください。` >}}
 
-{{< slide src="homeSlider5.jpg" heading="クライアントからは信頼して数々のプロジェクトを任されています。" subheading="培ってきた知見や自分たちのアイデアを活かしながら、  
-ITプロジェクトをリードすることができるでしょう" >}}
+{{< slide src="homeSlider5.jpg" heading="クライアントからは信頼して数々のプロジェクトを任されています。" subheading=`培ってきた知見や自分たちのアイデアを活かしながら、  
+ITプロジェクトをリードすることができるでしょう` >}}
 
 {{< sliderend >}}
 

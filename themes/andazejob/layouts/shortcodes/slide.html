@@ -61,7 +61,7 @@
         {{ $heading:= .Get ("heading")}}
         {{ $subheading:= .Get ("subheading")}}
         <h2 class="title1">{{ $heading }}</h2>
-        <h1 class="title2">{{ $subheading }} </h1>
+        <h1 class="title2">{{ $subheading | markdownify}} </h1>
     </div>  
 </div> 
 {{ end }}
