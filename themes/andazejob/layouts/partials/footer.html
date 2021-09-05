@@ -6,8 +6,8 @@
           <!-- <img src="{{`images/andazeLogo.webp` | absURL }}" alt="Image Not Available" /> -->
           <img src="{{ `images/andazeFooter.png` | absURL }}" width="150px"  alt="Image Not Available"/>
         </div>
-        <div class="footer-linking">
-          <div class="footer-link-box">
+        <div class="footer-linking row">
+          <div class="footer-link-box col-3">
             <p class="m0">
               {{if eq (.Lang) ("ja")}}
                 アンダーズ株式会社<br />
@@ -26,25 +26,27 @@
               <label class="select">
                   {{ partial "language_change.html" . }}
               </label>
-          </div>
+            </div>
           </div>
 
+          <div class="col-9 row">
           {{ with .Site.GetPage "/" }}
           {{ range .Sections.ByWeight }}
-          <div class="footer-link-box">
-              {{ $footertitel := .File.Dir }}
-              {{ $demo := strings.TrimRight "\\//" $footertitel }}
-              {{ if where .Site.Menus.item "Name" "in" $demo  }}
-                {{ partial "homeurlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "footer-title") }}
-                {{ with .Site.GetPage $demo }}
-                {{ range .Sections.ByWeight }}
-                  {{ partial "homeurlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "link" "homeavm" "true") }}
+            <div class="footer-link-box col-3">
+                {{ $footertitel := .File.Dir }}
+                {{ $demo := strings.TrimRight "\\//" $footertitel }}
+                {{ if where .Site.Menus.item "Name" "in" $demo  }}
+                  {{ partial "homeurlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "footer-title") }}
+                  {{ with .Site.GetPage $demo }}
+                  {{ range .Sections.ByWeight }}
+                    {{ partial "homeurlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "link" "homeavm" "true") }}
+                  {{ end }}
+                  {{ end }}
                 {{ end }}
-                {{ end }}
-              {{ end }}
+            </div>
+            {{ end }}
+            {{ end }}
           </div>
-          {{ end }}
-          {{ end }}
         </div>
       </div>
       <div class="text-center">
