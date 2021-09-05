@@ -781,7 +781,7 @@ code{
 .table-width  table, .table-width th, .table-width td
 {
   border: 1px solid black;
-  border-style: dotted;
+  border-style: solid;
   padding: 5px;
 }
 .table-width  table
