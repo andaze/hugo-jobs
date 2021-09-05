@@ -9,12 +9,17 @@
 # Set max-age to 1 year (31536000 seconds) for stuff not expected to
 # update any time soon.
 [[headers]]
-  for = "/css/*"
+   for = "/*.js"
   [headers.values]
     Cache-Control = "public, max-age=31536000"
 
 [[headers]]
-  for = "/js/*"
+   for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+    
+[[headers]]
+   for = "/*.webp"
   [headers.values]
     Cache-Control = "public, max-age=31536000"
 
