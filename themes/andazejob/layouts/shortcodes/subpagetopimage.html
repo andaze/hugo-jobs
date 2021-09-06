@@ -71,7 +71,8 @@
         {
             background:url('{{ index $dict "3" }}');
             background-size:cover;
-            background-position-x: {{$backgroundimageposition}}
+            background-attachment:fixed;
+            background-position-x: {{$backgroundimageposition}};
         }
   
         @media only screen and (min-device-width: 320px) and (max-device-width: 414px) 
