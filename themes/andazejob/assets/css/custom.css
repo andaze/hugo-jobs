@@ -125,12 +125,12 @@ header {
 
 .navbar .nav-item .nav-link {
   color: var(--primary);
-  font-weight: 600;
-  font-size: 14px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  font-size: 15px;
+  /* font-weight: 600;
+  font-size: 14px; */
+  /* -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; */
 }
-
 .navbar .nav-item .nav-link::before {
   content: unset;
 }
