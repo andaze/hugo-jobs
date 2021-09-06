@@ -520,6 +520,7 @@ footer .footer-linking {
       flex-wrap: wrap;
   border-bottom: 1px solid #2e638b;
   margin-bottom: 40px;
+  margin: 0;
 }
 
 footer .footer-linking .footer-link-box {
