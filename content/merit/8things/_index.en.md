@@ -5,7 +5,7 @@ draft: false
 weight: 2
 advtitle2: "Benefits of Working at Andaze"
 advtitle3: "ADVANTAGE"
-description: "How do the unique features of Andaze bring value to employees? On the next page, we will discuss the benefits of working at Andaze."
+description: "What value do the unique features of Andaz bring to our employees? Here we explain the 'benefits of working at Andaz.'"
 # nextPageBtn: true
 jsonld: {
       "@context": "https://schema.org",
@@ -35,7 +35,7 @@ Andaze has a unique management style that sets it apart from other non-operating
 
 <div class='table-width'>
 
-|**General business company**|This refers to companies that are primarily in the business of developing their own services and products. In addition, there is a lot of work to be done within the company, so you may need to make your own way to expand your network or catch up on new technical skills.{{<br>}}In the workplace, you will often be asked to manage whether you are on schedule, whether you are making progress, and whether you are working properly. If you don't meet the requirements, your boss will press you, and if you're not making progress in a timely manner, you run the risk of having your staff cut. There may be many workplaces with a top-down decision-making style where people who do what they are told are highly valued.|
+|**General business company**|These are companies that are primarily in the business of developing their own services and products. You'll often be working in-house, so you'll need to make your own way to expand your network and catch up on new technical skills.{{<br>}}In the workplace, you're likely to be asked to check that things are going according to plan, that you're making progress and that you're working properly. If you're not doing what you're supposed to, you'll be chastised by your bosses, and if you're making slow progress, you'll be at risk of redundancy. You may also find that many workplaces have a top-down decision-making style and value people who do what they are told.|
 |---|---|
 |**General Trustee Company（non-business corporation）**|There are two main types of IT contracting companies: those that provide consultation and services to clients, and those that provide services to clients.{{<br>}} - **SES（Systems Engineering Services）**：A company that provides labor by dispatching engineers to client companies and receives compensation in the form of monthly or hourly wages. Since you will be working at the client company, you may face barriers to improving your skills or feel that you are not being fairly evaluated by the company.{{<br>}} - **Solutions Company**：A company that leads client companies to solutions for their challenges and issues through AI and IoT development. In many cases, the fee is paid in system units. In the case of companies that do not choose their clients, the type and position of the contact person for the client will determine whether or not the engineer can take the initiative in the project.|
 |**Andaze**|While providing solutions that utilize AI and IoT to clients with whom we can communicate fairly, we have also started developing our own products. By introducing products to the market as an operating company, we acquire marketing knowledge and stay close to our clients' demands and needs. Since we can lead projects while learning about business in a position close to the management of our clients, it is easy to draw a career path from engineer to consultant at will. You can work in a way that allows you to focus on the future while improving your specialized knowledge.|
@@ -73,6 +73,6 @@ To ensure smooth remote communication even when fully remote across borders, we 
 
 ---   
 
-andaze is a company where engineers and professionals can grow by leaps and bounds, and we have employees in a variety of positions. On the next page, we will introduce you to some of our job categories. 
+At Andaze, where you can grow exponentially as a technician and a member of society, we have a wide range of employees in a variety of positions. Find out more about our job roles on the next page.
 
 {{< nextButtonBox >}}

@@ -6,15 +6,20 @@ weight: 1
 ---
 {{< sliderstart >}}
 
-{{< slide src="homeSlider1.png" heading="You will be exposed to the latest technologies such as AI, IoT, and the use of big data" subheading="Select jobs that are valuable to engineers. Even if it's only 2-3 years, you will experience an overwhelming speed of growth!" >}}
+{{< slide src="homeSlider1.png" heading="Use of AI, IoT and Big Data. " subheading=`We select jobs that are of value to our technicians.  
+In a short space of time, you will be able to feel the benefits of growth.` >}}
 
-{{< slide src="homeSlider2.jpg" heading="This is an environment where you can communicate your ideas with ease and grow freely" subheading="By adopting a modern management style that is not bound by time, we provide a place where you can work as yourself in the long run." >}}
+{{< slide src="homeSlider2.jpg" heading="We have adopted a time-bound way of working. " subheading=`You'll be able to take care of your professional and personal life.  
+We offer an environment where you can thrive and grow in your own way.` >}}
 
-{{< slide src="homeSlider3.jpg" heading="We welcome people who want to create a new genre in the business scene with IT technology" subheading="We are using global technologies that have not yet penetrated Japan to provide beneficial services to domestic companies." >}}
+{{< slide src="homeSlider3.jpg" heading="IT technology brings a new genre to the business scene. " subheading=`We use global technology, which has not yet penetrated Japan to any great extent.  
+We provide services for the domestic market.` >}}
 
-{{< slide src="homeSlider4.jpg" heading="We work in a diverse workspace with international members" subheading="We work together with staff of various nationalities, including Japanese and Indian. You can also enjoy international exchange within the company!" >}}
+{{< slide src="homeSlider4.jpg" heading="A way of working that matches the diversity of the world. " subheading=`International members, including from India, and a variety of workspaces.  
+Enjoy the international exchange within the company.` >}}
 
-{{< slide src="homeSlider5.jpg" heading="Our clients trust us and entrust us with many projects." subheading="You will be able to lead IT projects while utilizing our accumulated knowledge and your own ideas." >}}
+{{< slide src="homeSlider5.jpg" heading="Our clients have trusted us with a number of projects." subheading=`We can use our knowledge and our own ideas.  
+You will be able to lead IT projects` >}}
 
 {{< sliderend >}}
 
