@@ -106,6 +106,15 @@ header {
   }
 }
 
+.show_sidebar{
+  overflow: hidden;
+}
+.show_sidebar .navbar{
+  height: 100vh;
+  transition: all 0.2s ease-in-out;
+  align-items: flex-start;
+}
+
 .navbar .navbar-collapse {
   padding-left: 1.2rem;
 }
@@ -117,7 +126,7 @@ header {
 }
 
 @media screen and (max-width: 991px) {
-  .navbar .navbar-collapse {
+  .show_sidebar .navbar .navbar-collapse {
     overflow: auto;
     height: calc(100vh - 74px);
   }
