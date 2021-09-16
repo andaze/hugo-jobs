@@ -173,11 +173,45 @@
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
-            <div class="col-12 col-sm-4">
-
+            <div class="col-12 col-sm-4" style="font-weight:800;">
+                <label for="">個人情報利用について</label>
             </div>
             <div class="col-12 col-sm-8">
-                <button class="btn btn-primary" type="submit" value="Submit" id="Form-submit">送信</button>
+                <div style="padding:10px; border: 1px solid lightgray; overflow-y: scroll;opacity: 0.8; height: 100px; resize: vertical;">
+                    <dl>
+                        <dt>1. 事業者の氏名又は名称</dt>
+                        <dd> アンダーズ株式会社</dd>
+                        <dt>2.  個人情報保護管理者（若しくはその代理人）の氏名又は職名、 所属及び連絡先</dt>
+                        <dd>個人情報保護管理者　管理部</dd>
+                        <dd>連絡先：03-3230-0401</dd>
+                        <dt>3. 個人情報の利用目的</dt>
+                        <dd> 採用応募者の個人情報は、弊社の人事採用活動（書類審査、面接、評価、応募者への連絡等）のために利用いたします。</dd>
+                        <dt>4. 個人情報の第三者への提供</dt>
+                        <dd> 業務担当者又は担当候補者の紹介のために、氏名、所属、業務経歴書を、直接持参するか電子メール添付(パスワード付)で、当社取引先に提供します。</dd>
+                        <dt>5. 個人情報取扱いの委託</dt>
+                        <dd>当社は事業運営上、前項利用目的の範囲に限って個人情報を外部に委託することがあります。この場合、個人情報保護水準の高い委託先を選定し、個人情報の適正管理・機密保持についての契約を交わし、適切な管理を実施させます。</dd>
+                        <dt>6. 個人情報の開示等の請求</dt>
+                        <dd>ご本人様は、当社に対してご自身の個人情報の開示等（利用目的の通知、開示、内容の訂正・追加・削除、利用の停止または消去、第三者への提供の停止）に関して、下記の当社問合わせ窓口に申し出ることができます。その際、当社はお客様ご本人を確認させていただいたうえで、合理的な期間内に対応いたします。</dd>
+                        <dt>【お問合せ窓口】</dt>
+                        <dd>アンダーズ株式会社</dd>
+                        <dt>個人情報問合せ窓口</dt>
+                        <dd>〒102-0083 東京都千代田区麹町2-10-3 エキスパートオフィス1F</dd>
+                        <dd>TEL：03-6893-2121</dd>
+                        <dd> Mail：privacy@andaze.com</dd>
+                        <dd> 受付時間：9:00～18:00 </dd>
+                        <dd>（土・日曜日・祝日・年末年始は除く）</dd>
+                        <dt>7.  個人情報を提供されることの任意性について　</dt>
+                        <dd>ご本人様が当社に個人情報を提供されるかどうかは任意によるものです。 ただし、必要な項目をいただけない場合、適切な対応ができない場合があります。</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center" style="padding-top: 25px;">
+            <div class="col-12">
+                <h6><input type="checkbox"  name="terms" id="terms" onchange="document.getElementById('Form-submit').disabled = !this.checked;"  > 個人情報利用に同意</h6>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit" value="Submit" id="Form-submit" disabled>送信</button>
             </div>
         </div>
     </form>

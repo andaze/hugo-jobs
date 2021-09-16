@@ -179,11 +179,45 @@
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
-            <div class="col-12 col-sm-4">
-
+            <div class="col-12 col-sm-4" style="font-weight:800;">
+                <label for="">About privacy policy</label>
             </div>
             <div class="col-12 col-sm-8">
-                <button class="btn btn-primary" type="submit" value="Submit" id="Form-submit">Submit</button>
+                <div style="padding:10px; border: 1px solid lightgray; overflow-y: scroll;opacity: 0.8; height: 100px; resize: vertical;">
+                    <dl>
+                        <dt>1. Name of the business</dt>
+                        <dd>Andaze Ltd.</dd>
+                        <dt>2. The name or title of the personal data protection manager (or his/her representative), and Affiliation and contact details</dt>
+                        <dd>Personal Data Protection Manager Administration Department</dd>
+                        <dd>Contact us: 03-3230-0401</dd>
+                        <dt>3. How we use your personal data</dt>
+                        <dd>The personal data of applicants for employment will be used for the purpose of our personnel recruitment activities (e.g. screening of applications, interviews, evaluation and contacting applicants).</dd>
+                        <dt>4. Provision of personal data to third parties</dt>
+                        <dd>We will provide our business partners with your name, affiliation and work history, either in person or as an e-mail attachment (with password), for the purpose of introducing you to the person in charge of your work or the candidate in charge. </dd>
+                        <dt>5. Outsourcing of the processing of personal data</dt>
+                        <dd>In the course of our business operations, we may outsource personal information only within the scope of the purposes of use described above. In this case, we will select a contractor with a high level of personal information protection, sign an agreement on the proper management of personal information and confidentiality, and have them implement appropriate management.</dd>
+                        <dt>6. Request for disclosure of personal information</dt>
+                        <dd>You may ask us to disclose your personal information (notice of purpose of use, disclosure, correction, addition, deletion, cessation of use or deletion, cessation of provision to third parties) by contacting us at the contact details below. We will respond to your request within a reasonable period of time after confirming your identity.</dd>
+                        <dt>[Contact us]</dt>
+                        <dd>Andaze Ltd.</dd>
+                        <dt>Personal Information Contact</dt>
+                        <dd>Expert Office 1F,2-10-3 Kojimachi, Chiyoda-ku,Tokyo,102-0083, Japan.</dd>
+                        <dd>TEL：03-6893-2121</dd>
+                        <dd> Mail：privacy@andaze.com</dd>
+                        <dd> Reception times: 9:00～18:00 </dd>
+                        <dd>(Excluding Saturdays, Sundays, public holidays and year-end and New Year holidays)</dd>
+                        <dt>7. The voluntariness of providing personal information</dt>
+                        <dd>Whether or not you choose to provide us with your personal information is voluntary. However, if you do not provide the required information, we may not be able to respond to you appropriately.</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center" style="padding-top: 25px;">
+            <div class="col-12">
+                <h6><input type="checkbox"  name="terms" id="terms" onchange="document.getElementById('Form-submit').disabled = !this.checked;"  > I agree to the use of my personal data</h6>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit" value="Submit" id="Form-submit" disabled>Submit</button>
             </div>
         </div>
     </form>
