@@ -39,10 +39,14 @@ jsonld: {
 
 <div class='table-width'>
 
-- **Azure上の仮想開発チーム**:各メンバーが離れた場所に居ながら1つのチームとして機能することができる開発環境です。  
-- **Microsoft365によるチームコラボレーション**:チャットやビデオ会議、word、Excelなどの共同編集もリアルタイムで行えるMicrosoft Teamsを活用しています。  
-- **DevOpsによる生産的なプロセス管理**:開発の精度を上げながらスピードも早められる手法「DevOps」で、運用サイクルを頻繁に回します。  
-- **Visual Studio SubscriptionによるMicrosoft製品の利用**:Microsoftゴールドパートナーである当社は、数百種類におよぶMicrosoft製品やクラウドが自由に使い放題です。  
+- **Azure上の仮想開発チーム**
+  - 各メンバーが離れた場所に居ながら1つのチームとして機能することができる開発環境です。  
+- **Microsoft365によるチームコラボレーション**
+  - チャットやビデオ会議、word、Excelなどの共同編集もリアルタイムで行えるMicrosoft Teamsを活用しています。  
+- **DevOpsによる生産的なプロセス管理**
+  - 開発の精度を上げながらスピードも早められる手法「DevOps」で、運用サイクルを頻繁に回します。  
+- **Visual Studio SubscriptionによるMicrosoft製品の利用**
+  - Microsoftゴールドパートナーである当社は、数百種類におよぶMicrosoft製品やクラウドが自由に使い放題です。  
 
 </div>
 
