@@ -33,6 +33,8 @@ jsonld: {
 ---
 {{< subpagetopimage src="requirementslider.png" path="applicationrequirements" fillposition="top">}}
 
+### クラウド コンサルタント
+
 ### 当社について
 
 Microsoft 製品を中心としたソリューションを展開するコンサルティングが主な業務です。新しい技術、最新の業界トレンドを取り入れながら、クライアントの課題を解決するための提案を行います。深い理解、粘り強さ、コラボレーション、ノウハウを駆使し、クライアントが最適なソリューションを活用できるよう、サポートします。
