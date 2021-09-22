@@ -3,7 +3,7 @@ title:  "アンダーズで働くメリット"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 2
-intro: "アンダーズは他のIT企業と何が違うのか、ここで働くことで、何が得られるのか。   
+intro: "アンダーズは他のIT企業と何が違うのか、ここで働くことで、何が得られるのか。<br>   
 興味を持ったあなたが感じる「知りたい」に答えます。"
 sliderheading: "ADVANTAGE"
 slidersubheading: "アンダーズで働くメリット"
