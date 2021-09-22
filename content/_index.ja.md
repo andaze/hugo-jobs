@@ -7,7 +7,7 @@ weight: 1
 ---
 {{< sliderstart >}}
 
-{{< slide src="homeSlider1.png" heading="AIやIoT、ビッグデータの活用。" subheading=`技術者にとって価値のある仕事を選び抜いています。  
+{{< slide src="homeSlider1.png" heading="AI・IoT・ビッグデータの活用。" subheading=`技術者にとって価値のある仕事を選び抜いています。  
 短期間で成長の手ごたえを感じることができるはずです。` >}}
 
 {{< slide src="homeSlider2.jpg" heading="時間に縛られない働き方を取り入れています。 " subheading=`仕事もプライベートも大事にしながら、  
