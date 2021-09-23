@@ -1,3 +1,17 @@
 {{ $page:= .Get "page"}}
 {{ $file := $.Site.GetPage $page }}
-<a href="{{ $file.URL | absURL }}" class="btn btn-primary btn-lg mb-3">Apply Now</a>
+
+{{ $Scratch := newScratch}}
+{{ $Scratch.Set "url" "" }}
+{{ $lang:= print site.Language }}
+
+{{ if eq ($lang) ("en")  }}  
+    {{$seturl:= replace ($file.URL | absURL)  "/job/en/" "/en/job/" }}
+    {{ $Scratch.Set "url" $seturl }}
+{{ else }}
+    {{$seturl:= replace ($file.URL | absURL)  "/job/ja/" "/ja/job/" }}
+    {{ $Scratch.Set "url" $seturl }}
+{{ end }}
+
+{{ $url := $Scratch.Get "url" }}
+<a href="{{ $url }}" class="btn btn-primary btn-lg mb-3">Apply Now</a>
