@@ -1,7 +1,18 @@
 {{ define "main" }}
+{{ $heading := .Params.sliderheading }}
+{{ $subheading := .Params.slidersubheading }}
+
+{{ $detailheading := .Params.advtitle3 }}
+{{ $detailsubheading := .Params.advtitle2 }}
+
+{{ if $heading }}
+    {{ partial "subpage-slider.html" (dict "page" . "sliderheading" $heading "slidersubheading" $subheading ) }}
+{{ else }}
+    {{ partial "subpage-slider.html" (dict "page" . "sliderheading" $detailheading "slidersubheading" $detailsubheading ) }}
+{{ end }}
     <div class="container" style="padding-top: 100px;"> 
-        <div class="sectionblock">        
+        <div class="sectionblock">     
             {{ .Content }}
-        </div>       
+        </div>    
     </div>
 {{ end }}

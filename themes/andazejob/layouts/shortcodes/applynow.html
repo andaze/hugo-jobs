@@ -1,0 +1,3 @@
+{{ $page:= .Get "page"}}
+{{ $file := $.Site.GetPage $page }}
+<a href="{{ $file.URL | absURL }}" class="btn btn-primary btn-lg mb-3">Apply Now</a>
