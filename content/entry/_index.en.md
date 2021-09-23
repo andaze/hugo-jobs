@@ -20,9 +20,18 @@ jsonld: {
 
 {{< subpagetopimage src="requirementslider.png" path="applicationrequirements" fillposition="top">}}
 
-# Title
-
-### Your Career With Andaze
+# Careers
+---
+### Experienced dot net developers
 Hi There ! We welcome your interest for working with Andaze Japan Ltd.
 
+{{< applynow  page="dotnet">}}
+
+---
+
+### Freshers
+Hi There! Kindly reply to all the queries below.
+
 {{< applynow  page="fresher">}}
+
+---

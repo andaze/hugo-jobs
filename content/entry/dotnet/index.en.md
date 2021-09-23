@@ -1,8 +1,8 @@
 ---
-title:  "Fresher"
+title:  "Dot Net Devloper"
 date:   2020-08-05T15:53:27+06:00
 draft: false
-weight: 2
+weight: 1
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -16,4 +16,4 @@ jsonld: {
       "dateModified": "2015-02-05T09:20:00+08:00"
     }
 ---
-{{< iframe src="https://airtable.com/embed/shr3xc4cPKOru5zzS" >}}
+{{< iframe src="https://airtable.com/embed/shrU5QL8cCo7cYfLS" >}}
