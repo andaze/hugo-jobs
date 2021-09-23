@@ -1,0 +1,44 @@
+{{ $src:= .Get "src"}}
+<div class="row">
+    <div class="col-12">
+        <iframe  id="iframe" src="{{ $src }}" width="100%" frameborder="0"></iframe>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) { 
+    window.addEventListener('load', function() {
+	let message = { height: document.body.scrollHeight};	
+
+	// window.top refers to parent window
+	window.top.postMessage(message, "*");
+}   );
+
+	var iframe = document.querySelector("#iframe");
+	window.addEventListener('message', function(e) {
+		// message that was passed from iframe page
+		let message = e.data;
+        if (matchMedia('only screen and (max-width: 480px)').matches) {
+            console.log("480px");
+            iframe.style.height = (message.height -680) + 'px';   
+        }
+        else if(matchMedia('only screen and (max-width: 736px)').matches)
+        {
+            console.log("812px");
+            iframe.style.height = (message.height - 682) + 'px';  
+        }
+        else if(matchMedia('only screen and (max-width: 1023px)').matches)
+        {
+            iframe.style.height = (message.height - 130) + 'px'; 
+        }
+        else
+        {
+            iframe.style.height = (message.height -250) + 'px';
+
+        }
+	} , false);
+    window.addEventListener("orientationchange", function() {
+        location.reload();
+        console.log(screen.orientation);
+    }, false);
+}); 
+</script>

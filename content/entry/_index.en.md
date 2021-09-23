@@ -18,4 +18,11 @@ jsonld: {
     }
 ---
 
-{{< form_en >}}
+{{< subpagetopimage src="requirementslider.png" path="applicationrequirements" fillposition="top">}}
+
+# Title
+
+### Your Career With Andaze
+Hi There ! We welcome your interest for working with Andaze Japan Ltd.
+
+{{< applynow  page="fresher">}}
