@@ -21,7 +21,7 @@ jsonld: {
 ---
 {{< subpagetopimage src="requirementslider.png" path="applicationrequirements" fillposition="top">}}
 
-### クラウド エンジニア
+## クラウド エンジニア
 
 ### 当社について
 
@@ -57,6 +57,26 @@ Microsoft クラウドソリューションを検討されているクライア�
 - コグニティブサービスなどの Azure Platform as a Service ワークロードの経験  
 - Azure 仮想マシンと仮想マシンスケールセットを活用した Infrastructure as a Service 機能のアーキテクチャー経験  
 - Azure Active Directory との統合に加え、Exchange Online、SharePoint Online、Teams などの Microsoft 365 ワークロードの管理と設定の経験
+
+#### 求める人物像
+
+- 他と認め合い、互いを尊重できる力 
+- プロジェクトを自律的に進行する力 
+- 論理に基づいた業務分析力、洞察力、提案力 
+- 新しいことに挑戦する好奇心、素直さや柔軟性 
+- クライアントの立場で、長期的な成功を目指す志向性 
+
+#### 勤務先・勤務時間
+
+- 勤務先：wework（〒102-0083 東京都千代田区麹町２丁目５−１・シェアオフィス） 
+- 勤務時間：完全フルフレックス制 
+- 出社・出張比率：25%未満（完全在宅勤務と週２日出社制）
+
+#### 処遇 
+
+- 年俸制：金額は面談にて相談 
+- 諸手当：社会保険完備・交通費全額支給 
+- 福利厚生：シェアオフィス内フリードリンク 
 
 #### 募集背景
 
