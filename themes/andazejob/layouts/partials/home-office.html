@@ -9,7 +9,7 @@
             <h2 class="headlineLv02NumEn" style="color: #afa86f;"><span class="headlineNumber" >4</span> 
             <span class="headlineEn">OFFICE</span>   {{ with .Site.Params.messageTitle }} {{ . }}  {{ end }}</h2>
             {{ with .Site.GetPage "office" }}
-              <p>{{ .Params.Intro }}</p>
+              <p>{{ .Params.Intro | safeHTML }}</p>
               {{ range .Sections.ByWeight }}
                 <ul class="listLink01">
                   <li>

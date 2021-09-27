@@ -7,7 +7,7 @@
                   <h2 class="title text-center">ADVANTAGE</h2>
                   <p class="text-muted text-center">{{.Site.Params.advantageTitle}}</p>
                   {{ with .Site.GetPage "merit" }}
-                  <p class="text-content">{{ .Params.Intro }}</p>
+                  <p class="text-content">{{ .Params.Intro | safeHTML }}</p>
                   <div class="link-container">
                     {{ range .Sections.ByWeight }}
                       {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title "class" "link" "homeavm" "true") }}
@@ -22,7 +22,7 @@
                   <h2 class="title text-center">VISIONS</h2>
                   <p class="text-muted text-center">{{.Site.Params.visionTitle}}</p>
                   {{ with .Site.GetPage "vision" }}
-                  <p class="text-content">{{ .Params.Intro }}</p>
+                  <p class="text-content">{{ .Params.Intro | safeHTML}}</p>
                   <div class="link-container">
                     {{ range .Sections.ByWeight }}
                       {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title "class" "link" "homeavm" "true") }}
@@ -37,7 +37,7 @@
                   <h2 class="title text-center">MESSAGE</h2>
                   <p class="text-muted text-center">{{.Site.Params.messageTitle}}</p>
                   {{ with .Site.GetPage "message" }}
-                  <p class="text-content">{{.Params.Intro}}</p>
+                  <p class="text-content">{{.Params.Intro | safeHTML}}</p>
                   <div class="link-container">
                       {{ range .Sections.ByWeight }}
                         {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title "class" "link" "homeavm" "true") }}

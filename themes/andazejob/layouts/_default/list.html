@@ -1,7 +1,7 @@
 {{ define "main" }}
         <div class="container"> 
             <div class="artical_heading">
-                {{ .Params.Intro }}
+                {{ .Params.Intro | safeHTML }}
             </div>
             <div class="sectionblock">        
             {{ .Content}}

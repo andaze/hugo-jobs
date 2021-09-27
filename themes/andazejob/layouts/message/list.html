@@ -14,7 +14,7 @@
         <div class="container">
             <div class="list-page-wrapper">
                 <div class="inner-wrapper-page">
-                    <h4 class="text-center">{{.Params.Intro}}</h4>
+                    <h4 class="text-center">{{.Params.Intro | safeHTML}}</h4>
                         {{ .Content}}
                         {{ range .Pages }}
                             {{ if .Params.Name }}
