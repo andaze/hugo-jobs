@@ -55,61 +55,62 @@
     <!-- Display Seiors Image Part -->
     {{ $id := replaceRE "(\\s)" "" .Page.Params.Name }}
     {{ if .Page.Params.Name }}
-        <div id ="{{ $id }}" class="sectionblock" style="padding-top: 75px; margin-top: -75px; -webkit-background-clip: content-box; background-clip:content-box" ></div>
-        
-        <div class="row">
+            <div id ="{{ $id }}" class="sectionblock" style="padding-top: 73px; margin-top: -73px; -webkit-background-clip: content-box; background-clip:content-box" ></div>
             {{ if eq (.Page.Params.image) ("") }}
             {{ else }}
-            <div class="col-12 col-sm-12 col-md-4 col-lg-3" style="text-align: center;">
-                <img src='{{ `images/imageLoading.gif` }}' width='{{ $width }}' height='{{ $height }}' srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}' alt='Images Not Available'  class="lazyload"></img>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4" >
+                <div class="row">
+                    <div class="col-12 text-center">
+                        {{ if eq (.Page.Params.Name) ("") }}
+                        {{ else }}
+                        <div class="row">
+                            <div class="col"> <h3><b>{{ .Page.Params.Name }}</b></h3></div>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <div class="col-12 text-center">
+                        <img src='{{ `images/imageLoading.gif` }}' width='{{ $width }}' height='{{ $height }}' srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}' alt='Images Not Available'  class="lazyload"></img>
+                    </div>
+                    <div class="col-12">
+                        {{ if eq (.Page.Params.TypeofworkAnswer) ("") }}
+                        {{ else }}
+                        <div class="row">
+                            <div class="col-5 text-right"><b>{{ .Page.Params.TypeofworkHeading }}</b></div>
+                            <div class="col-7 text-left">{{ .Page.Params.TypeofworkAnswer }}</div>
+                        </div>
+                        {{ end }}
+                        {{ if eq (.Page.Params.JoiningAnswer) ("") }}
+                        {{ else }}
+                        <div class="row">
+                            <div class="col-5 text-right"><b>{{ .Page.Params.JoiningHeading }}</b></div>
+                            <div class="col-7 text-left">{{ .Page.Params.JoiningAnswer }}</div>
+                        </div>
+                        {{ end }}
+                        {{ if eq (.Page.Params.DobAnswer) ("") }}
+                        {{ else }}
+                        <div class="row">
+                            <div class="col-5 text-right"><b>{{ .Page.Params.DobHeading }}</b></div>
+                            <div class="col-7 text-left">{{ .Page.Params.DobAnswer }}</div>
+                        </div>
+                        {{ end }}
+                        {{ if eq (.Page.Params.BirthplaceAnswer) ("") }}
+                        {{ else }}
+                        <div class="row">
+                            <div class="col-5 text-right"><b>{{ .Page.Params.BirthplaceHeading }}</b></div>
+                            <div class="col-7 text-left">{{ .Page.Params.BirthplaceAnswer }}</div>
+                        </div>
+                        {{ end }}
+                        {{ if eq (.Page.Params.WorkexpAnswer) ("") }}
+                        {{ else }}
+                        <div class="row">
+                            <div class="col-5 text-right"><b>{{ .Page.Params.WorkexpHeading }}</b></div>
+                            <div class="col-7 text-left">{{ .Page.Params.WorkexpAnswer }}</div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
             </div>
             {{ end }}  
-            <div class="col-12 col-sm-12 col-md-8 col-lg-9">
-        
-                {{ if eq (.Page.Params.Name) ("") }}
-                {{ else }}
-                <div class="row seniormargin">
-                    <div class="col"> <h3><b>{{ .Page.Params.Name }}</b></h3></div>
-                </div>
-                {{ end }}
-                {{ if eq (.Page.Params.TypeofworkAnswer) ("") }}
-                {{ else }}
-                <div class="row seniormargin">
-                    <div class="col-5"><b>{{ .Page.Params.TypeofworkHeading }}</b></div>
-                    <div class="col-7">{{ .Page.Params.TypeofworkAnswer }}</div>
-                </div>
-                {{ end }}
-                {{ if eq (.Page.Params.JoiningAnswer) ("") }}
-                {{ else }}
-                <div class="row seniormargin">
-                    <div class="col-5"><b>{{ .Page.Params.JoiningHeading }}</b></div>
-                    <div class="col-7">{{ .Page.Params.JoiningAnswer }}</div>
-                </div>
-                {{ end }}
-                {{ if eq (.Page.Params.DobAnswer) ("") }}
-                {{ else }}
-                <div class="row seniormargin">
-                    <div class="col-5"><b>{{ .Page.Params.DobHeading }}</b></div>
-                    <div class="col-7">{{ .Page.Params.DobAnswer }}</div>
-                </div>
-                {{ end }}
-                {{ if eq (.Page.Params.BirthplaceAnswer) ("") }}
-                {{ else }}
-                <div class="row seniormargin">
-                    <div class="col-5"><b>{{ .Page.Params.BirthplaceHeading }}</b></div>
-                    <div class="col-7">{{ .Page.Params.BirthplaceAnswer }}</div>
-                </div>
-                {{ end }}
-                {{ if eq (.Page.Params.WorkexpAnswer) ("") }}
-                {{ else }}
-                <div class="row seniormargin">
-                    <div class="col-5"><b>{{ .Page.Params.WorkexpHeading }}</b></div>
-                    <div class="col-7">{{ .Page.Params.WorkexpAnswer }}</div>
-                </div>
-                {{ end }}
-            </div>
-        </div>
-        <br>
     {{ end }}
 
 {{ end }}

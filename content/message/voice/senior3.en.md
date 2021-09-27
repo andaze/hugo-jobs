@@ -15,8 +15,7 @@ showDetailPage: true
 ---
 {{< voice-senior >}}
 
-<div class="row">
-<div class="col-12" style="text-align: justify;">
+<div class="col-12 col-sm-12 col-md-8 col-lg-8" >
 
 #### `--Why did you decide to join Andaze?`
 
@@ -31,5 +30,4 @@ My experience in the field, where Japanese is spoken, has strengthened my techni
 
 Andaze offers a number of innovative and creative services ranging from web design to development, CRM and e-commerce solutions, and application development. We are also an attractive company in that we provide our customers with high quality software. If you are looking to enhance your career while staying up-to-date with the latest technology, then working at Andaze is the place for you.
 
-</div>
 </div>

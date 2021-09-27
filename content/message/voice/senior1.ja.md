@@ -15,8 +15,7 @@ showDetailPage: true
 ---
 {{< voice-senior >}}
 
-<div class="row">
-<div class="col-12" style="text-align: justify;">
+<div class="col-12 col-sm-12 col-md-8 col-lg-8" >
 
 #### `――アンダーズ入社を決めた理由`
 
@@ -30,5 +29,4 @@ AzureやBlazorのような新しいテクノロジーを習得できましたし
 
 アンダーズはとてもクールで、未来のビジョンを持っている会社だと思います。初心者の技術者にとっても素晴らしい企業と言えるでしょう。もし最新の技術に触れてみたいと考えているなら、ぜひ私たちと一緒に働きませんか。
 
-</div>
 </div>

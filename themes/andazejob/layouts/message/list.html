@@ -31,7 +31,10 @@
                         {{ range .Pages }}
                             {{ if .Params.showDetailPage }}
                                 <!-- {{ partial "voice-senior.html" (dict "page" .) }} -->
-                                {{ .Content }}
+                                <div class="row">
+                                    {{ .Content }}
+                                </div>
+                                <br>
                             {{ end }}
                         {{ end }}
                         <br>

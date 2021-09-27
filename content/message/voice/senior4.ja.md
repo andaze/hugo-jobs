@@ -15,8 +15,7 @@ showDetailPage: true
 ---
 {{< voice-senior >}}
 
-<div class="row">
-<div class="col-12" style="text-align: justify;">
+<div class="col-12 col-sm-12 col-md-8 col-lg-8" >
 
 #### `――アンダーズ入社を決めた理由`
 
@@ -30,5 +29,4 @@ showDetailPage: true
 
 職場環境の整っているアンダーズは、リモートワークを許可するなど先進的な企業です。私のような従業員の意見やアイデアも自由に述べることができ、尊重されていると感じています。急速に変化するIT業界では、常に最新の技術やツールを取り入れることがとても重要です。あなたも新たな課題に挑戦することで、次世代の変化に適応することができるでしょう。
 
-</div>
 </div>

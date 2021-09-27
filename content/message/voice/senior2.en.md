@@ -15,8 +15,7 @@ showDetailPage: true
 ---
 {{< voice-senior >}}
 
-<div class="row">
-<div class="col-12" style="text-align: justify;">
+<div class="col-12 col-sm-12 col-md-8 col-lg-8" >
 
 #### `--Why did you decide to join Andaze?`
 
@@ -30,5 +29,4 @@ Currently, I am assisting the PM in managing the progress of the entire project 
 
 "If you feel that the IT industry seems difficult, don't worry. The people around me will teach you what you don't know, and I was able to make a comfortable career change even though I had no experience in the industry. We also welcome people who want to start their careers with a second job, so let's realize a variety of work styles at Andaze.
 
-</div>
 </div>

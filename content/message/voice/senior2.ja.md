@@ -15,8 +15,7 @@ showDetailPage: true
 ---
 {{< voice-senior >}}
 
-<div class="row">
-<div class="col-12" style="text-align: justify;">
+<div class="col-12 col-sm-12 col-md-8 col-lg-8" >
 
 #### `――アンダーズ入社を決めた理由`
 
@@ -30,5 +29,4 @@ showDetailPage: true
 
 「IT業界って難しそう」と感じている方も心配しなくて大丈夫です。分からないことは周りの方々が教えてくれるので、業界未経験の私も無理のないキャリアチェンジが叶いました。副業から始めるというスタイルも大歓迎ですので、アンダーズで多様な働き方を実現しましょう。
 
-</div>
 </div>
