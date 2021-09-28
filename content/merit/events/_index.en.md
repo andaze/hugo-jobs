@@ -87,3 +87,5 @@ We plan to have opportunities for them to come to Japan for business trips and t
 ---
 
 Do you have an idea of what it is like to work at Andaze? The following Andaze vision and policies will give you a more concrete idea of what we are all about.
+
+{{< nextListPageButton >}}

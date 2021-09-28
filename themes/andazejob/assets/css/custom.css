@@ -813,3 +813,8 @@ code{
 {
   line-height: 36px;
 }
+.logo-title{
+  color: white;
+  font-size: small;
+  text-align: center;
+}
