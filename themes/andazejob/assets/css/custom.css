@@ -505,6 +505,10 @@ header {
   color: #fff;
 }
 
+.section-two{
+  background-image: url("https://i.imgur.com/S8eZk5q.jpeg");
+}
+
 footer {
   background: var(--primary);
   padding: 3rem 0;
