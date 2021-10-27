@@ -1,6 +1,7 @@
 # Introduction
-## How to Run this project
+## How to Run this project locally
 hugo server --config config.toml,config_devlop.toml
+
 ### Install Go
 [Install go link](https://golang.org/doc/install)
 
