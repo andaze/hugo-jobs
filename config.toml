@@ -38,8 +38,8 @@ code = "ja"
 code = "en"
 
 # meta data
-author = "Themefisher"
-description = "This is meta description"
+author = ""
+description = ""
 
 
 # Gestion des langues : FR / EN / NL / DE
