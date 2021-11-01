@@ -15,6 +15,8 @@
   {{ end }}
   {{ if .Params.Jsonld }}
     <script type="application/ld+json">{{.Params.jsonld}}</script>
+  {{ else }}
+    {{ partial "json-ld.html" . }}
   {{ end }}
   
   <link rel="stylesheet" type="text/css" href="{{ `plugins/bootstrap/css/bootstrap.css` | absURL }}">
