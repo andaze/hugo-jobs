@@ -1,0 +1,11 @@
+<script type="application/ld+json">
+{
+  "@context" : "https://schema.org",
+  "@graph":[
+  {{- (partial "WebSite-json" .) | htmlUnescape | safeJS }},
+  {{- (partial "Corporation-json" .) | htmlUnescape | safeJS }},
+  {{- (partial "WebPage-json" .) | htmlUnescape | safeJS }},
+  {{- (partial "breadcrumb-json" .) | htmlUnescape | safeJS }}
+  ]
+}
+</script>

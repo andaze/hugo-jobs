@@ -1,0 +1,32 @@
+{
+  "@type" : "Corporation",
+  "@id": "{{$.Site.BaseURL}}#corporation",
+  "name": "{{$.Site.Params.JsonLd.CompanyName}}",
+  "description": "{{$.Site.Params.JsonLd.description}}",
+  "url": "{{.Permalink | absLangURL}}",
+  "logo": "{{"/img/andaze.png" | absURL }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "{{$.Site.Params.JsonLd.addressCountry}}",
+    "postalCode": "{{$.Site.Params.JsonLd.postalCode}}",
+    "addressRegion": "{{$.Site.Params.JsonLd.addressRegion}}",
+    "addressLocality": "{{$.Site.Params.JsonLd.addressLocality}}",
+    "streetAddress": "{{$.Site.Params.JsonLd.streetAddress}}"
+  },
+    "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "{{$.Site.Params.JsonLd.email}}",
+    "telephone": "{{$.Site.Params.JsonLd.telephone}}",
+    "hoursAvailable": "{{$.Site.Params.JsonLd.hoursAvailable}}",
+    "availableLanguage": [
+      {
+        "@type": "Language",
+        "name": "Japanese"
+      },
+      {
+        "@type": "Language",
+        "name": "English"
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@ baseURL = "https://newandaze.ameio.in/job/"
 # baseURL = "https://www.andaze.com/job"
 
 languageCode = "en-us"
-title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
+title = ""
 theme = "andazejob"
 summaryLength = 10
 timeout = 600000
@@ -69,7 +69,6 @@ footerVisionAndDevlopmenTitle = "ビジョンと育成方針"
 footerLogo = "{{ `images/h_logo.png` | absURL }}"
 footerOfficeTitle = "オフィスと周辺"
 footerEntryTitle = "エントリー"
-footerAddress = """アンダーズ株式会社 〒102-0083 東京都千代田区麹町2-10-3"""
 footerMail = "人事採用担当. hr@andaze.com"
 footerTel =  "tel. 03-3230-0401"
 footerhome = "株式会社アンダーズ：ホーム"
@@ -101,6 +100,20 @@ requirementheading2 = "募集要項"
 button  = true
 btnText = "Know More"
 
+# Variable For JsonLD in Japanese
+[Languages.ja.params.jsonLd]
+CompanyName = "アンダーズ株式会社"
+description = '技術者にとって価値のある仕事を選んでいます。短時間で、成長の効果を実感することができます。'
+addressCountry = "JP"
+postalCode ="102-0083"
+addressRegion = "東京都"
+addressLocality = "千代田区"
+streetAddress = "麹町2-10-3 エキスパートオフィス1F"
+email = "contact-us@andaze.com"
+telephone = "03-3230-0401"
+hoursAvailable = "Mo-Fr 9:00-18:00"
+
+
 
 ############# 2 - Site en ENGLISH
 [Languages.en]
@@ -127,7 +140,6 @@ footerEmpInformationTitle = "Employment Information Home"
 footerVisionAndDevlopmenTitle = "Vision and development policy"
 footerOfficeTitle = "Office and surroundings"
 footerEntryTitle = "entry"
-footerAddress = "Co., Ltd. Andaze / 2-10-3 Kojimachi, Chiyoda Tokyo, Japan"
 footerMail = "Human Resources Recruiter. hr@andaze.com"
 footerTel =  "Tel. 03-3230-0401"
 footerhome = "Andaze Ltd. Home"
@@ -143,6 +155,20 @@ fillposition = "center"
 format= "webp"
 srcimg = "images/imageLoading.gif"
 backgroundimageposition = "center"
+
+# Variable For JsonLD in ENGLISH
+[Languages.en.params.jsonLd]
+CompanyName = "Andaze Ltd."
+description = 'We select jobs that are of value to our technicians. In a short space of time, you will be able to feel the benefits of growth.'
+addressCountry = "JP"
+postalCode ="102-0083"
+addressRegion = "Tokyo"
+addressLocality = "Chiyoda-ku"
+streetAddress = "Expert Office 1F, 2-10-3 Kojimachi"
+email = "contact-us@andaze.com"
+telephone = "03-3230-0401"
+hoursAvailable = "Mo-Fr 9:00-18:00"
+
 # cookies
 [params.cookies]
 enable = true
