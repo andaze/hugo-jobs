@@ -25,14 +25,14 @@ jsonld: {
 
 ### Andaze Features
 
-**We are a company that makes full use of global IT technology across borders. The speed of our development and the highest level of quality are unparalleled, and we have brought about numerous innovations.** 
+**We are a company that makes full use of global IT technology across borders. The speed of our development and the highest level of quality are unparalleled, and we have brought numerous innovations.** 
 
 {{< tableofcontent >}}
 
 #### Providing start-up development speed with corporate rules.
 
-After graduating from university, our CEO, Mr. Arai, studied management information systems at a foreign automobile manufacturer. Later, he moved to India to study IT solutions in earnest. However, the mainstream there was software development for major companies, which valued "following a plan rather than the content of the product. Arai had doubts about this and returned to Japan. Wanting to provide Japanese companies with speedy development, he started Andaze.  
-This is because, while many companies want to go digital, they say they don't know how to ask for help. Even if they find a company to outsource the work, the budget and delivery date may be far from what they expected, or they may only focus on nominal business improvement effects. I think the reason why such discrepancies occur is because many IT projects place the highest priority on planning and budgeting, which Arai witnessed in India.  
+After graduating from university, our CEO, Ms. Arai, studied management information systems at a foreign automobile manufacturer. Later, she moved to India to study IT solutions in earnest. However, the mainstream there was software development for major companies, which valued "following a plan rather than the content of the product. Arai had doubts about this and returned to Japan. She started Andaze with the thought of providing speedy development to Japanese companies. 
+This is because, while many companies want to go digitalize, they say they don't know how to ask for help. Even if they find a outsourcing company, the budget and delivery date may be far from what they expected, or they may only focus on nominal business improvement effects. I think the reason why such discrepancies occur is because many IT projects place the highest priority on planning and budgeting, which Arai witnessed in India.  
 Andaze has released numerous sophisticated software products in a short period of time. By adopting innovative development frameworks and preparing the latest software development environment, we select clients who trust us and projects that we can lead with initiative. In addition, we support our clients' "digital shift" within the scope of social rules, morals, and compliance at the level of large corporations.
 
 - **Find gaps that could be digitized and make suggestions.**

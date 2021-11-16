@@ -14,7 +14,7 @@
 {{if .itemprop}}
 <a itemprop = "{{.itemprop}}" href="{{ $url }}" class="{{.class}}" target="{{.target}}" >{{ .title }}</a>
 {{ else if .homeavm }}
-<a href="{{ $url }}" class="{{.class}}" target="{{.target}}" ><span class="material-icons">chevron_right</span>{{ .title }}</a>
+<a href="{{ $url }}" class="{{.class}}" target="{{.target}}" ><!--<span class="material-icons">chevron_right</span>-->{{ .title }}</a>
 {{ else }}
 <a href="{{ $url }}" class="{{.class}}" target="{{.target}}" >{{ .title }}</a>
 {{ end }}

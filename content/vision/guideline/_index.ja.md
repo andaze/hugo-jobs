@@ -5,7 +5,7 @@ draft: false
 weight: 4
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"
-description: "従業員が働くうえで、どんな技術を学び、何を意識して業務に取り組めば良いのかを定めるために、当社では3つの行動指針を用意しています。"
+description: "当社では、３つの行動方針を定めています。どんな技術を学び、何を意識して業務に取り組むのか。それはあなたの生き方にもつながります。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

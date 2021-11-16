@@ -2,7 +2,7 @@
 title:  "先輩たちの声"
 draft: false
 weight: 2
-advtitle2: "Message to Applicants"
+advtitle2: "メッセージ"
 advtitle3: "MESSAGE"
 description: "一足先にアンダーズで活躍している先輩たちの声を聞いてみませんか。なぜここで働きたいと思ったのか、実際に働いてみて感じたことを4名のスタッフに語ってもらいました。応募の参考になれば嬉しいです。"
 nextPageBtn: true
