@@ -54,7 +54,7 @@
                             
                             <div class="gallery-list">
                               <div class="photos">
-                                  <img class="lazyload" src="{{ `images/imageLoading.gif` | absURL }}" width='{{ $width }}' height='{{ $height }}' alt="img" data-srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'/>
+                                  <img class="lazyload" src="{{ `images/imageLoading3.gif` | absURL }}"  alt="img" data-srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'/>
                               </div>
                             </div>
                         {{ end }}
