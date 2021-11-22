@@ -28,7 +28,7 @@ You will be able to lead IT projects` >}}
     <div class="container">
         <div class="andaze-img-con">
             <div class="img-left">
-                {{< imagedisplay  src="andaze1.png"  >}}
+                {{< imagedisplay  src="andaze11.png"  >}}
             </div>
             <div class="img-right">
                 {{< imagedisplay  src="andaze2.png"  >}}
