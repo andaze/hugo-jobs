@@ -46,7 +46,7 @@ description = ""
 [Languages]
 ############ 1 - Site en Japanese
 [Languages.ja]
-languageName = "JA"
+languageName = "JP"
 weight = 1
 languageCode = "ja-jp"
 title = "採用情報｜アンダーズ株式会社"
