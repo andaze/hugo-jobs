@@ -19,7 +19,7 @@ showDetailPage: true
 
 #### `--Why did you decide to join Andaze?`
 
-Previously, I worked as an office clerk at a publishing company. When I thought about my future career, I decided to join the IT industry because I thought it would be the industry that would drive the future trends. At first, I started out as a "side hustle" while remaining registered at my previous job. Six months later, I officially joined Andaze as a full-time employee.
+Previously, I worked as an office clerk at a publishing company. When I thought about my future career, I decided to join the IT industry because I thought it would be the industry that would drive the future trends. At first, I started out as a "side job" while remaining registered at my previous job. Six months later, I officially joined Andaze as a full-time employee.
 
 #### `--Growth and change after joining the company`
 
@@ -27,6 +27,6 @@ Currently, I am assisting the PM in managing the progress of the entire project 
 
 #### `--Message to Applicants`
 
-"If you feel that the IT industry seems difficult, don't worry. The people around me will teach you what you don't know, and I was able to make a comfortable career change even though I had no experience in the industry. We also welcome people who want to start their careers with a second job, so let's realize a variety of work styles at Andaze.
+If you feel that the IT industry seems difficult, don't worry. The people around you will teach you what you don't know, and I was able to make a comfortable career change even though I had no experience in the industry. We also welcome people who want to start their careers with a second job, so let's realize a variety of work styles at Andaze.
 
 </div>

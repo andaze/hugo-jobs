@@ -9,14 +9,12 @@ description: "For those who are interested in joining Andaze. We have put togeth
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      "headline": "Article headline",
+      "headline": "Hiring Tips",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "messageslider.jpg"
        ],
-      "datePublished": "2015-02-05T08:00:00+08:00",
-      "dateModified": "2015-02-05T09:20:00+08:00"
+      "datePublished": "2020-08-05T15:53:27+06:00",
+      "dateModified": "2021-12-01T08:00:00+08:00"
     }
 ---
 {{< subpagetopimage src="messageslider.jpg" path="message" >}}
@@ -27,22 +25,22 @@ jsonld: {
 
 {{< tableofcontent >}}
 
-#### I'll look into Andaze.
+#### Let’s find out about Andaze.
 
 https://andaze.com/jobs/ The job site of Andaze has information about the features of Andaze and the people we want. Also, check out https://www.andaze.com/ja/services to see what kind of technology they offer. If there is a word that interests you, check it out, it may stimulate a new interest.
 
 #### Your motivation will give you an edge.
 
-You don't need to write a big reason for your application. What do you think is right for you at Andaze, what do you think you can learn, and what do you want to do? Put together the natural thoughts that come to your mind.
+You don't need to write a big reason for your application. What do you think is right for you, what do you think you can learn, and what do you want to do? Put together the natural thoughts that come to your mind.
 
 #### Let's talk about technologies and services that have impressed you.
 
 Are there any technologies or services that you think are superior or intriguing, such as "this AI function is amazing" or "that company's system is getting better and better"? As you use and research various IT tools on a daily basis, you will naturally keep up to date with fresh information. What services have you found to be great?  
-For example, in the past they have mentioned
+For example, what was mentioned in the past
 
 <div class="table-width">
 
-|**DeepL translation**|This is a revolutionary service that surpasses the translation functions of Google and Microsoft. The accuracy is so high that professional translators have praised it, and the number of Japanese users is increasing dramatically.|
+|**DeepL translation**|This is a revolutionary service that surpasses the translation functions of Google and Microsoft. The accuracy is so high that professional translators have praised it, and the number of Japanese users have been increasing dramatically.|
 |---|---|
 |**Amazon Customer Service**|If you have any questions about shipping problems, you will get an answer in a matter of seconds and the chat will solve the problem in no time. There is no stress of not being able to get through to customer service or having to wait.|
 

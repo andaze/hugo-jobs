@@ -30,8 +30,9 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family:'Noto Sans JP','ヒラギノ角ゴ Pro W3',Meiryo,'メイリオ',Osaka,'MS PGothic',arial,helvetica,sans-serif;
 }
+
 h4{
-  margin-bottom:5rem;
+  margin-bottom:1rem;
 }
 th{
   font-weight: normal;
@@ -125,6 +126,9 @@ header {
   font-size:13px;
   height:auto;
 
+}
+hr{
+  border:none;
 }
 .language_btn:hover {
   color: #fff;

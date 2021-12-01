@@ -21,14 +21,12 @@ EmploymentType: ["Full_Time", "Part_Time"]
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      "headline": "Article headline",
+      "headline": "Cloud Consultant",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "requirementslider.png"
        ],
-      "datePublished": "2015-02-05T08:00:00+08:00",
-      "dateModified": "2015-02-05T09:20:00+08:00"
+      "datePublished": "2020-08-05T15:53:27+06:00",
+      "dateModified": "2021-12-01T08:00:00+08:00"
     }
 ---
 {{< subpagetopimage src="requirementslider.png" path="applicationrequirements" fillposition="top">}}
@@ -68,18 +66,25 @@ We work with relevant vendors and partners to build effective solutions to the m
 - Professional certifications for related products  
 - Familiarity with the Microsoft product suite（Example：Visual Studio、PowerBI、office365、SQL Server、DevOps, etc.）
 
-#### Who we are looking for
+#### Ideal candidates
 
-- Ability to recognize and respect others and each other  
-- Ability to work autonomously on projects  
-- Ability to analyze business operations based on logic, insight, and proposals  
+- Ability to recognize and respect each other  
+- Ability to autonomously proceed with the project 
+- Logic-based business analysis, insight and proposal capabilities 
 - Curiosity, honesty and flexibility to try new things  
-- Client-focused, long-term success orientation
+- Orientation to aim for long term success from the client’s point of view
 
 #### Workplace and working hours
-
+Workplace: Expert Office 2F, 2-10-3 Kojimachi, Chiyoda-ku, Tokyo 102-0083, Japan 
 - Full flexible system  
-- Percentage of employees who go to work or travel: Less than 25
+- Percentage of employees who go to work or business trips: Less than 25%
+
+
+#### Treatment
+
+- Annual salary system: consult the amount by interview 
+- Allowance: Social insurance included 
+- Welfare: free drink
 
 #### Recruitment Background
 

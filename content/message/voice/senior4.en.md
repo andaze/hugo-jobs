@@ -19,7 +19,7 @@ showDetailPage: true
 
 #### `--Why did you decide to join Andaze?`
 
-There are many reasons. I was greatly attracted to the work environment and the company culture: working on interesting projects, using the latest and most popular technologies for development, and having experienced and cooperative senior staff who were flexible and helpful.
+There are many reasons. I was greatly attracted to the work environment and the company culture: working on interesting projects, using the latest and most popular technologies for development, and having experienced and cooperative senior staff who are flexible and helpful.
 
 #### `--Growth and change after joining the company`
 

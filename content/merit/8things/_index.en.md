@@ -10,14 +10,12 @@ description: "What value do the unique features of Andaz bring to our employees?
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      "headline": "Article headline",
+      "headline": "The Value of Working at Andaze",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "meritslider.jpg"
        ],
-      "datePublished": "2015-02-05T08:00:00+08:00",
-      "dateModified": "2015-02-05T09:20:00+08:00"
+      "datePublished": "2020-08-05T15:53:27+06:00",
+      "dateModified": "2021-12-01T08:00:00+08:00"
     }
 ---
 
@@ -35,10 +33,11 @@ Andaze has a unique management style that sets it apart from other non-operating
 
 <div class='table-width'>
 
-|**General business company**|These are companies that are primarily in the business of developing their own services and products. You'll often be working in-house, so you'll need to make your own way to expand your network and catch up on new technical skills.{{<br>}}In the workplace, you're likely to be asked to check that things are going according to plan, that you're making progress and that you're working properly. If you're not doing what you're supposed to, you'll be chastised by your bosses, and if you're making slow progress, you'll be at risk of redundancy. You may also find that many workplaces have a top-down decision-making style and value people who do what they are told.|
-|---|---|
-|**General Trustee Company（non-business corporation）**|There are two main types of IT contracting companies: those that provide consultation and services to clients, and those that provide services to clients.{{<br>}} - **SES（Systems Engineering Services）**：A company that provides labor by dispatching engineers to client companies and receives compensation in the form of monthly or hourly wages. Since you will be working at the client company, you may face barriers to improving your skills or feel that you are not being fairly evaluated by the company.{{<br>}} - **Solutions Company**：A company that leads client companies to solutions for their challenges and issues through AI and IoT development. In many cases, the fee is paid in system units. In the case of companies that do not choose their clients, the type and position of the contact person for the client will determine whether or not the engineer can take the initiative in the project.|
 |**Andaze**|While providing solutions that utilize AI and IoT to clients with whom we can communicate fairly, we have also started developing our own products. By introducing products to the market as an operating company, we acquire marketing knowledge and stay close to our clients' demands and needs. Since we can lead projects while learning about business in a position close to the management of our clients, it is easy to draw a career path from engineer to consultant at will. You can work in a way that allows you to focus on the future while improving your specialized knowledge.|
+|---|---|
+|**General business company**|These are companies that are primarily in the business of developing their own services and products. You'll often be working in-house, so you'll need to make your own way to expand your network and catch up on new technical skills.{{<br>}}In the workplace, you're likely to be asked to check that things are going according to plan, that you're making progress and that you're working properly. If you're not doing what you're supposed to, you'll be chastised by your bosses, and if you're making slow progress, you'll be at risk of redundancy. You may also find that many workplaces have a top-down decision-making style and value people who do what they are told.||---|---|
+|**General Trustee Company（non-business corporation）**|There are two main types of IT contracting companies: those that provide consultation and services to clients, and those that provide services to clients.{{<br>}} - **SES（Systems Engineering Services）**：A company that provides labor by dispatching engineers to client companies and receives compensation in the form of monthly or hourly wages. Since you will be working at the client company, you may face barriers to improving your skills or feel that you are not being fairly evaluated by the company.{{<br>}} - **Solutions Company**：A company that leads client companies to solutions for their challenges and issues through AI and IoT development. In many cases, the fee is paid in system units. In the case of companies that do not choose their clients, the type and position of the contact person for the client will determine whether or not the engineer can take the initiative in the project.|
+
 
 </div>
 
