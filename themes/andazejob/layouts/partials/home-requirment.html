@@ -1,10 +1,10 @@
-<section>
+<section class="grey-light p-90">
   <div class="container">
-      <div class="row">
-          <div class="col-12 col-md-6">
-              <div class="box-content box-content-left box-content-transparent">
-                  <span class="symbol"></span>
-                  <h2 class="title">REQUIREMENT</h2>
+      <div class="row ">
+          <div class="col-12 col-md-6 ">
+              <div class=" box-content-left box-content-transparent space">
+                  
+                  <h2 class="title"><img src="{{ `images/icon3.png` | absURL }}" width="6px"  alt="Image Not Available" class="symbol"/> REQUIREMENT</h2>
                   <p class="text-muted sub-title">{{.Site.Params.requirementTitle}}</p>
                   {{ with .Site.GetPage "applicationrequirements" }}
                   <p class="text-content">{{.Params.Intro | safeHTML}}</p>
@@ -17,9 +17,9 @@
               </div>
           </div>
           <div class="col-12 col-md-6">
-              <div class="box-content box-content-left box-content-transparent p6">
-                  <span class="symbol"></span>
-                  <h2 class="title">ENTRY</h2>
+              <div class=" box-content-left box-content-transparent p6">
+                  <h2 class="title"><img src="{{ `images/icon3.png` | absURL }}" width="6px"  alt="Image Not Available" class="symbol"/> 
+                    ENTRY</h2>
                   <p class="text-muted sub-title">{{.Site.Params.entryTitle}}</p>
                   {{ with .Site.GetPage "entry"}}
                   <p class="text-content">{{.Params.Intro | safeHTML}}</p>

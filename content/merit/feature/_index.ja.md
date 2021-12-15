@@ -10,14 +10,14 @@ description: " グローバルなIT技術を、国境を越えて駆使してい
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      "headline": "Article headline",
+      "headline": "アンダーズの特徴",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "meritslider.jpg",
+        "スライド18.png",
+        "785615671.png"
        ],
-      "datePublished": "2015-02-05T08:00:00+08:00",
-      "dateModified": "2015-02-05T09:20:00+08:00"
+      "datePublished": "2020-08-05T15:53:27+06:00",
+      "dateModified": "2021-12-01T08:00:00+08:00"
     }
 ---
 
@@ -72,7 +72,7 @@ jsonld: {
 
 アンダーズは日本、インドをはじめとする多国籍メンバーで構成されています。 国際色豊かなチームでシステム開発に取り組むことで、一人ひとりが得意な分野に特化することができます。たとえば、技術開発はインド人が強みを最大限に発揮できる仕事のひとつ。またクライアントとのコミュニケーションは、お辞儀の文化が根付くミャンマー人や日本人の持ち場です。またベトナム人は、偏りが少なく比較的マルチに対応できるタイプ。このように、それぞれの強みを活かすことで適材適所の活躍、すなわち「スキルの最適化」が叶います。
 
-{{< imagedisplay  src="スライド19.PNG"  >}}
+{{< imagedisplay  src="スライド18.png"  >}}
 
 #### 働く場所とデータの分散でリスクとコストを低減
 

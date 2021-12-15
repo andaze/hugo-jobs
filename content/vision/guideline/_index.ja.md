@@ -5,18 +5,16 @@ draft: false
 weight: 4
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"
-description: "従業員が働くうえで、どんな技術を学び、何を意識して業務に取り組めば良いのかを定めるために、当社では3つの行動指針を用意しています。"
+description: "当社では、３つの行動方針を定めています。どんな技術を学び、何を意識して業務に取り組むのか。それはあなたの生き方にもつながります。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      "headline": "Article headline",
+      "headline": "行動指針",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "visionslider.jpg"
        ],
-      "datePublished": "2015-02-05T08:00:00+08:00",
-      "dateModified": "2015-02-05T09:20:00+08:00"
+      "datePublished": "2020-08-05T15:53:27+06:00",
+      "dateModified": "2021-12-01T08:00:00+08:00"
     }
 ---
 {{< subpagetopimage src="visionslider.jpg" path="vision" >}}

@@ -10,7 +10,7 @@
 {{ else }}
     {{ partial "subpage-slider.html" (dict "page" . "sliderheading" $detailheading "slidersubheading" $detailsubheading ) }}
 {{ end }}
-    <div class="container" style="padding-top: 100px;"> 
+    <div class="container" style="padding-top: 100px; padding-bottom: 100px;"> 
         <div class="sectionblock">     
             {{ .Content }}
         </div>    

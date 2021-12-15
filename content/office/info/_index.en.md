@@ -9,14 +9,15 @@ description: "The Andaze office is located in Hanzomon, a popular area of Tokyo 
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      "headline": "Article headline",
+      "headline": "Introduction to the area",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "officeslider.jpg",
+        "スライド25.PNG",
+        "スライド24.PNG",
+        "スライド55.PNG"
        ],
-      "datePublished": "2015-02-05T08:00:00+08:00",
-      "dateModified": "2015-02-05T09:20:00+08:00"
+      "datePublished": "2020-08-05T15:53:27+06:00",
+      "dateModified": "2021-12-01T08:00:00+08:00"
     }
 ---
 {{< subpagetopimage src="officeslider.jpg" path="office" >}}
@@ -39,19 +40,19 @@ The Imperial Palace, built on the site of the former Edo Castle, was meticulousl
 
 {{< imagedisplay  src="スライド24.PNG"  >}}
 
-#### Dotted with theaters of traditional performing arts where you can enjoy Japanese culture.
+#### Scattered theaters of traditional performing arts where you can enjoy Japanese culture.
 
 Since there are many major companies headquartered in Hanzomon, it is a safe area where office workers come and go during the day and it is relatively quiet at night. Also, if you walk south of the station, you will find the National Theatre and the National Engeijo, which have over 50 years of history. It is the premier theater for traditional performing arts and is visited by many tourists from overseas to enjoy Japanese culture.
 
 #### Japan's unique landscape, dotted with famous cherry blossom and fall foliage spots.
 
-The Hanzomon area is also famous as one of the most beautiful spots in Tokyo. The area around the Imperial Palace, Kitanomaru Park, and Chidorigafuchi Greenway are filled with cherry blossoms in spring and colorful autumn leaves in fall. All of these places are within walking distance from our office, so be sure to take a stroll during the best time of year.
+The Hanzomon area is also famous as one of the most beautiful spots in Tokyo. The area around the Imperial Palace, Kitanomaru Park, and Chidorigafuchi Greenway are filled with cherry blossoms in spring and colorful autumn leaves in fall. All of these places are within walking distance from our office, don’t forget to take a stroll during the best time of year.
 
 {{< imagedisplay  src="スライド55.PNG"  >}}
 
 #### Recommended gourmet spots in Hanzomon
 
-There are many places around the office where you can have a delicious lunch. Why not enjoy some Hanzomon gourmet food during your lunch break or after work?
+There are many places around the office where you can have a delicious lunch. Why don't you enjoy some Hanzomon gourmet food during your lunch break or after work?
 
 **Ajanta**（South Indian cuisine / 6 min. walk from office）  
 Address: 3-11 Nibancho, Chiyoda-ku, Tokyo  
@@ -59,7 +60,7 @@ The founder's wish was "to give Japanese customers a taste of the pure cuisine o
 
 **Curry House CoCo Ichibanya Chiyoda-Ku Kojimachi Store**（Curry / 4 min. walk from office）  
 Address: 101 Marumasu Kojimachi Building, 3-3 Kojimachi, Chiyoda-ku, Tokyo  
-This is a popular curry restaurant that has stores not only in Japan but also in the United States, China, and Thailand. Vegetarians can also enjoy dishes such as the "Coco Ich Veggie Curry," which does not use ingredients of animal origin.
+This is a popular curry restaurant that has stores not only in Japan but also in the United States, China, and Thailand. Vegetarians can also enjoy dishes such as the "Coco Ich Veggie Curry," which does not use ingredients of animal-based products.
 
 **Sushi Restaurant Hirakawa**（Japanese Cuisine / 8 min. walk from the office）  
 Address: 2-4-3 Hirakawacho, Chiyoda-ku, Tokyo  
@@ -75,7 +76,7 @@ With the concept of "making it easy for women to go to a ramen shop by themselve
 
 **Toryu Kojimachi Branch**（Chinese / 5 min walk from office）  
 Address: 4-2-2 Kojimachi, Chiyoda-ku, Tokyo  
-This is a high-class Sichuan restaurant where you can enjoy high-quality Chinese cuisine such as shark's fin, Peking duck, and Sichuan (Tantan) noodles made with the finest ingredients. The restaurant also has private rooms where you can relax and enjoy authentic Chinese food.
+This is a high-class Sichuan restaurant where you can enjoy high-quality Chinese cuisine such as shark's fin, Peking duck, and Sichuan (Tantan) noodles made with the selected ingredients. The restaurant also has private rooms where you can relax and enjoy authentic Chinese food.
 
 ---
 

@@ -9,14 +9,14 @@ description: "We want to nurture engineers who can take a leap forward in the in
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      "headline": "Article headline",
+      "headline": "Andaze Mission",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "visionslider.jpg",
+        "スライド8.PNG",
+        "スライド4.PNG"
        ],
-      "datePublished": "2015-02-05T08:00:00+08:00",
-      "dateModified": "2015-02-05T09:20:00+08:00"
+      "datePublished": "2020-08-05T15:53:27+06:00",
+      "dateModified": "2021-12-01T08:00:00+08:00"
     }
 ---
 {{< subpagetopimage src="visionslider.jpg" path="vision" >}}
@@ -33,7 +33,7 @@ Our mission is to provide overwhelming development speed like a start-up within 
 
 ##### （*Examples of Mission Fulfillment）
 
-Take the logistics industry, for example. Until now, logistics delivery information management has been based on the experience and intuition of skilled staff and experienced drivers. However, various conditions are involved in delivery operations, such as the progress of work, ever-changing road conditions, and the condition of workers and drivers. This is why we are using high-performance AI to solve problems that are beyond human capabilities, such as managing optimal delivery routes and driving details, and sorting packages, to create innovations that will dominate B2B logistics. In addition, we are also developing
+Take the distribution industry, for example. Until now, logistics delivery information management has been based on the experience and intuition of skilled staff and experienced drivers. However, various conditions are involved in delivery operations, such as the progress of work, ever-changing road conditions, and the condition of workers and drivers. This is why we are using high-performance AI to solve problems that are beyond human capabilities, such as managing optimal delivery routes and driving details, and sorting packages, to create innovations that will dominate B2B logistics. In addition, we are also developing
 
 <div class="table-width">
 
@@ -46,7 +46,7 @@ Take the logistics industry, for example. Until now, logistics delivery informat
 
 We use the latest technology such as We are able to provide highly satisfactory services with the highest level of security and ease of use.
 
-##### （*Means to achieve the mission）
+##### （*Measures to achieve the mission）
 
 **An iterative process will bring you closer to your ideal world.**  
 As a means of increasing development speed, we have adopted an "iterative process". The iterative process is a development method that improves the quality of a system by repeating the following sequence of steps over and over again.
@@ -72,20 +72,20 @@ Currently, there are about 20 employees in India and 12 Japanese and non-Japanes
 
 |**＜ Chronology >**| |
 |---|---|
-|Year 2011|Mr. Arai, the representative of the company, arrived in Japan.|
+|Year 2011|Ms. Arai, the representative of the company, arrived in India.|
 |Year 2015|Returned from India. Began preparations to establish a company.|
 |Year 2016|Andaze Corporation is established.|
-|Year 2017|Microsoft Network Partner Certification|
+|Year 2017|Obtained Microsoft Network Partner Certification|
 |Year 2018|Obtained Microsoft Silver Partner Certification|
-|Year 2019|Head office moved from Toranomon to Kojimachi.{{<br>}}increase of capital （5 million to 10 million）|
+|Year 2019|Head office moved from Toranomon to Kojimachi.{{<br>}}Capital increase （5 million to 10 million）|
 |Year 2020|Development base established at WeWork Hanzomon{{<br>}}Obtained Microsoft Gold Partner Certification|
-|Year 2021|ISO9001 and ISO27001 certified{{<br>}}increase of capital（10 million to 20 million）|
+|Year 2021|Obtained ISO9001 and ISO27001 certified{{<br>}}Capital increase（10 million to 20 million）|
 
 </div>
 
 #### Hiring Indians who are valued by global IT companies
 
-Global companies are actively accepting Indians.It is well known that the CEOs of prestigious organizations such as Google, Microsoft and Adobe are Indians.And it's not just about being selected for a top management position.  
+Global companies are actively accepting Indians.It is well known that the CEOs of prestigious organizations such as Google, Microsoft and Adobe are Indians. Not only are they selected as top management, but also Indians are employed in high positions at a high rate.
 - **36% of people working at NASA**  
 - **34% of people working at Microsoft**  
 - **38% of physicians working in the U.S.**

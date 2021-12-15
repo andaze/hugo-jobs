@@ -1,22 +1,20 @@
 ---
-title:  "業界の課題"
+title:  "私たちのビジョン"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 2
 advtitle2: "ビジョンと育成方針"
 advtitle3: "VISIONS"
-description: "企業の多種多様な挑戦をサポートするため、グローバルイノベーションクラスの技術力で主に3種類のサービスを提供しています。新しいことに挑戦できる場面も多いでしょう。"
+description: "企業の多種多様な挑戦をサポートするため、トップクラスの技術力で主に3種類のサービスを提供しています。新しいことに挑戦できる場面も多いでしょう。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      "headline": "Article headline",
+      "headline": "私たちのビジョン",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "visionslider.jpg"
        ],
-      "datePublished": "2015-02-05T08:00:00+08:00",
-      "dateModified": "2015-02-05T09:20:00+08:00"
+      "datePublished": "2020-08-05T15:53:27+06:00",
+      "dateModified": "2021-12-01T08:00:00+08:00"
     }
 ---
 {{< subpagetopimage src="visionslider.jpg" path="vision" >}}

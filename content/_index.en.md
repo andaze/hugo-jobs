@@ -3,11 +3,10 @@ title:  "Employment Information Home"
 date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 1
-description: ""
 ---
 {{< sliderstart >}}
 
-{{< slide src="homeSlider1.png" heading="Use of AI, IoT and Big Data. " subheading=`We select jobs that are of value to our technicians.  
+{{< slide src="homeSlider1.jpg" heading="Use of AI, IoT and Big Data. " subheading=`We select jobs that are of value to our technicians.  
 In a short space of time, you will be able to feel the benefits of growth.` >}}
 
 {{< slide src="homeSlider2.jpg" heading="We have adopted a time-bound way of working. " subheading=`You'll be able to take care of your professional and personal life.  
@@ -24,7 +23,7 @@ You will be able to lead IT projects` >}}
 
 {{< sliderend >}}
 
-<section class="image-section">
+<!--<section class="image-section">
     <div class="container">
         <div class="andaze-img-con">
             <div class="img-left">
@@ -35,6 +34,6 @@ You will be able to lead IT projects` >}}
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 {{< officeCollepsimagedisplay src1="office1.jpg" src2="office2.jpg" src3="office3.jpg" src4="office4.jpg" src5="office5.jpg" src6="office6.jpg" src7="office7.jpg" src8="office8.jpg" src9="office9.jpg"  >}}

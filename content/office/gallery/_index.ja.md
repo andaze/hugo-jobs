@@ -9,21 +9,33 @@ description: "私たちのオフィスはエキスパートオフィスの中に
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      "headline": "Article headline",
+      "headline": "オフィスギャラリー",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+         "officeslider.jpg",
+        "スライド41.PNG",
+        "スライド42.PNG",
+        "スライド34.PNG",
+        "スライド37.PNG",
+        "スライド31.PNG",
+        "スライド38.PNG",
+        "スライド43.PNG",
+        "スライド44.PNG",
+        "スライド45.PNG",
+        "スライド46.PNG",
+        "スライド47.PNG",
+        "スライド48.PNG",
+        "スライド49.PNG"
+
        ],
-      "datePublished": "2015-02-05T08:00:00+08:00",
-      "dateModified": "2015-02-05T09:20:00+08:00"
+      "datePublished": "2020-08-05T15:53:27+06:00",
+      "dateModified": "2021-12-01T08:00:00+08:00"
     }
 ---
 {{< subpagetopimage src="officeslider.jpg" path="office" >}}
 
 ### オフィスギャラリー
 
-私たちのオフィスはエキスパートオフィスの中にあります。落ち着いた雰囲気の中でビジネスに集中できる上質な空間です。
+私たちのオフィスはWeWork 半蔵門 PREX Southの中にあります。落ち着いた雰囲気の中でビジネスに集中できる上質な空間です。
 &nbsp;
 
 {{< imagedisplay src="スライド41.PNG" >}}       

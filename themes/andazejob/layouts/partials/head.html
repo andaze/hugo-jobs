@@ -15,8 +15,6 @@
   {{ end }}
   {{ if .Params.Jsonld }}
     <script type="application/ld+json">{{.Params.jsonld}}</script>
-  {{ else }}
-    {{ partial "json-ld.html" . }}
   {{ end }}
   
   <link rel="stylesheet" type="text/css" href="{{ `plugins/bootstrap/css/bootstrap.css` | absURL }}">
@@ -29,6 +27,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
   <title>{{ with .Site.Title }} {{ . }}  {{ end }}</title>
   <meta name="og:image" content="{{ `images/favicon.ico` | absURL }}"/>
   <link id="favicon" rel="shortcut icon" href="{{ `images/favicon.ico` | absURL }}" type="image/png"/>

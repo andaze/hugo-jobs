@@ -9,14 +9,14 @@ description: "アンダーズに興味を持たれたみなさまへ、代表の
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      "headline": "Article headline",
+      "headline": "代表メッセージ",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "messageslider.jpg",
+        "会社側従業員側.PNG",
+        "スライド28.PNG"
        ],
-      "datePublished": "2015-02-05T08:00:00+08:00",
-      "dateModified": "2015-02-05T09:20:00+08:00"
+      "datePublished": "2020-08-05T15:53:27+06:00",
+      "dateModified": "2021-12-01T08:00:00+08:00"
     }
 ---
 {{< subpagetopimage src="messageslider.jpg" path="message" >}}
@@ -27,7 +27,7 @@ jsonld: {
 
 {{< imagedisplay  src="スライド28.PNG"  >}}
 
-本サイトをご覧いただき、ありがとうございます。  
+本サイトをご覧いただき、ありがとうございます。代表の新井です。 
 私たちが大切にしているのは、どうしたらみなさんがワクワクしながら仕事を楽しめるかということ。あなたが開発に没頭できるように、下記のような最新テクノロジーを取り入れています。たとえば機械学習の精度を画期的に上げたり、データ検索のスピードを格段に速めたり、高速の画面遷移を実現したり。「おー！すごい！」と、思わず好奇心を掻き立てられるようなモノづくりを体験することができます。
 
 **AutoML**  
@@ -79,6 +79,6 @@ jsonld: {
 
 ---
 
-次は応募を検討されている方へ、代表や先輩たちからのメッセージをお届けします。実際に現場で働くメンバーの生の声をご覧ください。
+次は応募を検討されている方へ、先輩たちからのメッセージをお届けします。実際に現場で働くメンバーの生の声をご覧ください。
 
 {{< nextButtonBox >}}

@@ -1,6 +1,6 @@
 {{ $Scratch := newScratch}}
 {{ if .IsTranslated }}
-    <select class="custom-selector" onchange="location = this.value;">
+    <div class="custom-selector" onchange="location = this.value;">
         {{ $siteLanguages := site.Languages}}
         {{ $pageLang := .Page.Lang}}
         
@@ -20,12 +20,18 @@
                 {{ if eq $translation.Lang .Lang }}
                     {{ $selected := false }}
                     {{ if eq $pageLang .Lang}}
-                            <option value="{{ $langurl }}" selected>{{ .LanguageName }}</option>
+                        <a href="{{ $langurl }}" selected class="language_btn jp_btn">{{ .LanguageName }}</a>
+                        {{ if eq ($pageLang) ("ja") }}
+                        <span class="slash">/</span>
+                        {{end}}
                     {{ else }}
-                            <option value="{{ $langurl }}">{{ .LanguageName }}</option>
+                        <a href="{{ $langurl }}" class="language_btn en_btn">{{ .LanguageName }}</a>
+                        {{ if eq ($pageLang) ("en") }}
+                        <span class="slash">/</span>
+                        {{end}}
                     {{ end }}
                 {{ end }}
             {{ end }}
         {{ end }}
-    </select>
+    </div>
 {{ end }}

@@ -8,39 +8,34 @@ slidersubheading: "募集要項"
 jsonld: '{
       "@context" : "https://schema.org/",
       "@type" : "JobPosting",
-      "title" : "Software Engineer",
-      "description" : "<p>Google aspires to be an organization that reflects the globally diverse audience that our products and technology serve. We believe that in addition to hiring the best talent, a diversity of perspectives, ideas and cultures leads to the creation of better products and services.</p>",
-      "identifier": {
-        "@type": "PropertyValue",
-        "name": "Google",
-        "value": "1234567"
-      },
-      "datePosted" : "2017-01-18",
-      "validThrough" : "2017-03-18T00:00",
+      "title" : "募集要項",
+      "description" : "アンダーズでは現在、下記の職種で人材を募集しています。新しいことに挑戦したい方、最新技術に触れてみたい方、新規ビジネスに携わってみたいという方のご応募をお待ちしています。",
+      "datePosted" : "2021-12-01",
+      "validThrough" : "2021-12-01T00:00",
       "employmentType" : "CONTRACTOR",
       "hiringOrganization" : {
         "@type" : "Organization",
-        "name" : "Google",
-        "sameAs" : "http://www.google.com",
-        "logo" : "http://www.example.com/images/logo.png"
+        "name" : "アンダーズ株式会社",
+        "sameAs" : "https://www.andaze.com/ja/",
+        "logo" : "favicon.ico"
       },
       "jobLocation": {
       "@type": "Place",
         "address": {
         "@type": "PostalAddress",
-        "streetAddress": "1600 Amphitheatre Pkwy",
-        "addressLocality": "Mountain View",
-        "addressRegion": "CA",
-        "postalCode": "94043",
-        "addressCountry": "US"
+        "streetAddress": "2-10-3",
+        "addressLocality": "千代田区麹町",
+        "addressRegion": "東京都",
+        "postalCode": "102-0083",
+        "addressCountry": "JP"
         }
       },
       "baseSalary": {
         "@type": "MonetaryAmount",
-        "currency": "USD",
+        "currency": "JPY",
         "value": {
           "@type": "QuantitativeValue",
-          "value": 40.00,
+          "value": 1320,
           "unitText": "HOUR"
         }
       }

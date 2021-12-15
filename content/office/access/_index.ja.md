@@ -9,14 +9,12 @@ description: "アンダーズの本社がある千代田区のWeworkは、半蔵
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      "headline": "Article headline",
+      "headline": "アクセス",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "officeslider.jpg"
        ],
-      "datePublished": "2015-02-05T08:00:00+08:00",
-      "dateModified": "2015-02-05T09:20:00+08:00"
+      "datePublished": "2020-08-05T15:53:27+06:00",
+      "dateModified": "2021-12-01T08:00:00+08:00"
     }
 ---
 {{< subpagetopimage src="officeslider.jpg" path="office" >}}
@@ -26,7 +24,7 @@ jsonld: {
 アンダーズの本社がある千代田区のWeworkは、半蔵門線半蔵門駅6番出口から徒歩1分。ワンブロックで雨でも走れば少し濡れる程度の距離です。また有楽町線麹町駅1番出口からは徒歩3分。新宿通りからすぐの場所です。新宿駅や渋谷駅、東京駅といった主要エリアからのアクセスも抜群です。
 &nbsp;
 
-{{< imagedisplay  src="スライド29.PNG"  >}}
+{{< googlemap  >}}
 
 &nbsp;
 
