@@ -1,0 +1,6 @@
+{
+    "require": {
+        "algolia/algoliasearch-client-php": "^3.1",
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}
