@@ -40,6 +40,14 @@
       </div>
       <!--language選択・変更-->
       
+      <div class="header-searchbar" id="searchIcon">
+        <!-- <a class="nav-link" href="javascript:;"> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="17.997" height="18" viewBox="0 0 17.997 18">
+            <path id="search-solid"
+              d="M17.752,15.562l-3.5-3.5a.843.843,0,0,0-.6-.246h-.573a7.308,7.308,0,1,0-1.266,1.266v.573a.843.843,0,0,0,.246.6l3.5,3.5a.84.84,0,0,0,1.192,0l.995-.995A.848.848,0,0,0,17.752,15.562ZM7.312,11.811a4.5,4.5,0,1,1,4.5-4.5A4.5,4.5,0,0,1,7.312,11.811Z" />
+          </svg>
+        <!-- </a> -->
+      </div>
       <label class="select">
         
         {{ partial "language_change.html" . }}
@@ -49,4 +57,27 @@
 
     </div>
   </nav>
+  <div id="searchBox" class="search-container">
+    <div class="inner-search-wrap">
+        <a href="#" class="search-close">
+          <svg id="close_black_24dp" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+            <path id="Path_108" data-name="Path 108" d="M0,0H24V24H0Z" fill="none" />
+            <path id="Path_109" data-name="Path 109"
+              d="M19,6.41,17.59,5,12,10.59,6.41,5,5,6.41,10.59,12,5,17.59,6.41,19,12,13.41,17.59,19,19,17.59,13.41,12Z" />
+          </svg>
+        </a>
+  
+        <div class="search-form-field">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 17.997 18">
+            <path id="search-solid"
+              d="M17.752,15.562l-3.5-3.5a.843.843,0,0,0-.6-.246h-.573a7.308,7.308,0,1,0-1.266,1.266v.573a.843.843,0,0,0,.246.6l3.5,3.5a.84.84,0,0,0,1.192,0l.995-.995A.848.848,0,0,0,17.752,15.562ZM7.312,11.811a4.5,4.5,0,1,1,4.5-4.5A4.5,4.5,0,0,1,7.312,11.811Z" />
+          </svg>
+          <input type="text" id="search-input" name="name" placeholder="Search..." />
+        </div>
+        
+          <input type="hidden" id="searchLang" name="searchLang" value="{{.Lang}}">
+          <div class="search-menu-container search-menu-container-top" id="searchTitle"></div>
+      <!-- </form> -->
+    </div>
+  </div>
 </header>
