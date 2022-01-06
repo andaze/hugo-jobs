@@ -186,20 +186,6 @@ requirementheading2 = "Job Categories and Application Guidelines"
 button  = true
 btnText = "Know More"
 
-
-[outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
-
-[params.algolia]
-vars = ["title", "date", "permalink", "content"]
-
-[outputs]
-home = ["HTML", "RSS", "Algolia"]
-
-
 [[menu.item]]
 name    ="home"
 url     ="/"
@@ -236,3 +222,15 @@ weight = 7
     startLevel = 4
 [blackfriday]
     extensions = ["hardLineBreak"]
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "date", "permalink", "content"]
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
