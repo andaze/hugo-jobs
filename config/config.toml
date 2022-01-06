@@ -21,18 +21,6 @@ DefaultContentLanguage = "ja"
 
 [markup.goldmark.renderer]
   unsafe = true
-  
-[outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
-
-[params.algolia]
-vars = ["title", "date", "permalink", "content"]
-
-[outputs]
-home = ["HTML", "RSS", "Algolia"]
 
 # Site Params
 [params]
@@ -199,6 +187,17 @@ button  = true
 btnText = "Know More"
 
 
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "date", "permalink", "content"]
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
 
 
 [[menu.item]]
