@@ -6,6 +6,18 @@ theme = "andazejob"
 summaryLength = 10
 timeout = 600000
 
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "date", "permalink", "content"]
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+
 # Build robots.txt file
 enableRobotsTXT = true
 # google analytics tracking id
@@ -21,18 +33,6 @@ DefaultContentLanguage = "ja"
 
 [markup.goldmark.renderer]
   unsafe = true
-
-[outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
-
-[params.algolia]
-vars = ["title", "date", "permalink", "content"]
-
-[outputs]
-home = ["HTML", "RSS", "Algolia"]
   
 # Site Params
 [params]
