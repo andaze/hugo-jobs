@@ -11,6 +11,17 @@ enableRobotsTXT = true
 # google analytics tracking id
 googleAnalytics = "G-2RBG11HF44" # your analitics ID
 
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "ja"
+
+[markup.goldmark.renderer]
+  unsafe = true
+  
 [outputFormats.Algolia]
 baseName = "algolia"
 isPlainText = true
@@ -23,17 +34,6 @@ vars = ["title", "date", "permalink", "content"]
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
 
-enableGitInfo = false
-pygmentsCodeFences = true
-
-# Multilangues setup
-# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
-defaultContentLanguageInSubdir = true
-DefaultContentLanguage = "ja"
-
-[markup.goldmark.renderer]
-  unsafe = true
-  
 # Site Params
 [params]
 logo = "images/logo.png"
