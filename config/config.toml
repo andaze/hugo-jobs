@@ -19,6 +19,9 @@ pygmentsCodeFences = true
 defaultContentLanguageInSubdir = true
 DefaultContentLanguage = "ja"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [outputFormats.Algolia]
 baseName = "algolia"
 isPlainText = true
@@ -30,9 +33,6 @@ vars = ["title", "date", "permalink", "content"]
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
-
-[markup.goldmark.renderer]
-  unsafe = true
   
 # Site Params
 [params]
