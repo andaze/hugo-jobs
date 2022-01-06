@@ -6,6 +6,11 @@ theme = "andazejob"
 summaryLength = 10
 timeout = 600000
 
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = "G-2RBG11HF44" # your analitics ID
+
 [outputFormats.Algolia]
 baseName = "algolia"
 isPlainText = true
@@ -17,11 +22,6 @@ vars = ["title", "date", "permalink", "content"]
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
-
-# Build robots.txt file
-enableRobotsTXT = true
-# google analytics tracking id
-googleAnalytics = "G-2RBG11HF44" # your analitics ID
 
 enableGitInfo = false
 pygmentsCodeFences = true
