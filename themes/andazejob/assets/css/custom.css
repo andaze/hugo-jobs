@@ -972,3 +972,124 @@ code{
   font-size: small;
   text-align: center;
 }
+
+/* css use for search functionality */
+.search-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 9;
+}
+.inner-search-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 12px 24px;
+}
+.search-close {
+  position: absolute;
+  top: 30%;
+  right: 30px;
+  z-index: 9;
+}
+.search-form-field {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  max-width: 500px;
+}
+.search-form-field svg {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search-form-field input {
+  height: 50px;
+  width: 100%;
+  max-width: 500px;
+  border: none;
+  border-bottom: 2px solid #333;
+  padding-left: 45px;
+  font-size: 22px;
+}
+.search-form-field input:focus {
+  border-color: var(--primary);
+}
+.search-menu-container-top{
+  overflow: auto;
+  padding: 12px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+  border-radius: 8px;
+  background-color: #f6f6f6;
+}
+.search-menu-container-top.active{
+  padding: 12px 0;
+}
+.search-menu-container{
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+.search-menu-container ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;    
+}
+.search-menu-container ul li{
+  background-color: #f6f6f6;
+}
+.search-menu-container ul li a{
+  min-height: 40px;
+  padding: 4px 12px;  
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+.search-menu-container ul li > ul li{
+  padding-left: 20px;
+  position: relative;
+}
+.search-menu-container ul li > ul li a{
+  position: relative;
+}
+.search-menu-container ul li > ul li a:after {
+  content: "";
+  background: #d5c9ff;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  left: -10px;
+  top: 52%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.header-searchbar{
+  background-color: white;
+  padding: 3px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 414px) {
+  .header-searchbar{
+    position: sticky;
+    right: 23%;
+  }
+}
+@media only screen and (min-device-width: 568px) and (max-device-width: 812px) {
+  .header-searchbar{
+    position: sticky;
+    right: 15%;
+  }
+}

@@ -9,6 +9,7 @@ $(document).ready(function() {
   $(".title1").css("display","block");
   $(".title2").css("display","block");
 });
+$('#searchBox').hide();
 
 $('.navbar-toggler').on('click', function(e) {
   const bodyCon = $("body").hasClass("show_sidebar");
@@ -21,4 +22,13 @@ $('.navbar-toggler').on('click', function(e) {
   }
 });
 
+$('#searchIcon').on('click', function(){
+  $('#searchBox').show();
+});
 
+$('.search-close').on('click', function(){
+  $('#searchBox').hide();
+  $('#search-input').val('');
+  $('#searchTitle').empty();
+  $('#searchTitle').removeClass('active');
+})
