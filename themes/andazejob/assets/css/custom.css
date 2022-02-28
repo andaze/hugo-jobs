@@ -191,6 +191,11 @@ hr{
   height: 74px;
 }
 
+@media screen and (max-width: 374px) {
+  .navbar .navbar-brand {
+    margin-left: 40px;
+  }
+}
 @media screen and (max-width: 767px) {
   .navbar .navbar-brand {
     width:auto;
@@ -1078,17 +1083,28 @@ code{
 }
 .header-searchbar{
   padding: 3px;
+  position: relative;
+  z-index: 1;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 414px) {
   .header-searchbar{
-    position: sticky;
-    right: 23%;
+    position: absolute;
+    right: 76px;
+    top: 16px;
   }
 }
 @media only screen and (min-device-width: 568px) and (max-device-width: 812px) {
   .header-searchbar{
-    position: sticky;
-    right: 15%;
+    position: absolute;
+    right: 82px;
+    top: 16px;
+  }
+}
+@media only screen and (min-device-width: 813px) and (max-device-width: 991px) {
+  .header-searchbar{
+    position: absolute;
+    right: 95px;
+    top: 16px;
   }
 }
