@@ -14,10 +14,8 @@ $('#searchBox').hide();
 $('.navbar-toggler').on('click', function(e) {
   const bodyCon = $("body").hasClass("show_sidebar");
   if(bodyCon === true){
-    console.log('sdfsfsdf')
     $('body').removeClass('show_sidebar');
   } else {
-    console.log('false')
     $('body').addClass('show_sidebar');
   }
 });
