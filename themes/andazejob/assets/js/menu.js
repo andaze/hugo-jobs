@@ -23,6 +23,10 @@ $('.navbar-toggler').on('click', function(e) {
 });
 
 $('#searchIcon').on('click', function(){
+  $("button").attr("aria-expanded", "false");
+  $("button").addClass("collapsed");
+  $("#navbarColor03").removeClass("show");
+  $('body').removeClass('show_sidebar');
   $('#searchBox').show();
 });
 
