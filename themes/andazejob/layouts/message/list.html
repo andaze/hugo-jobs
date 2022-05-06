@@ -15,9 +15,38 @@
             <div class="list-page-wrapper">
                 <div class="inner-wrapper-page">
                     <h4 class="text-center">{{.Params.Intro | safeHTML}}</h4>  
-
-                    {{ .Content }}
-                        
+                        {{ .Content}}
+                        {{ range .Pages }}
+                            {{ if .Params.Name }}
+                                    {{ $id := replaceRE "(\\s)" "" .Params.Name }}      
+                                    <div id="TableOfContents">
+                                        <ul>
+                                            <li><a href="#{{ $id }}" >{{ .Params.Name }} ({{ .Params.TypeofworkAnswer }} )</a></li>
+                                        </ul>
+                                    </div>          
+                            {{ end }}
+                        {{ end }}
+                        <br>
+                                    
+                        {{ range .Pages }}
+                            {{ if .Params.showDetailPage }}
+                                <!-- {{ partial "voice-senior.html" (dict "page" .) }} -->
+                                <div class="row">
+                                    {{ .Content }}
+                                </div>
+                                <br>
+                            {{ end }}
+                        {{ end }}
+                        <br>
+                    {{ if .Params.voicelast }}
+                        <hr>
+                        <div class="row" style="padding-bottom: 60px;">
+                            <div class="col-12" style="text-align: center;">
+                                {{ .Params.voicelast }}
+                            </div>
+                        </div>
+                    {{ end }}
+                    {{ partial "nextPageBtn.html" . }}
                         <span  class="text-center d-block mt-4"><b>{{ .Params.advtitle2 }}</b></span>
                         <h6  class="text-center"><b>{{ .Params.advtitle3}}</b></h6>
                     {{ partial "listContentBox.html" . }}
