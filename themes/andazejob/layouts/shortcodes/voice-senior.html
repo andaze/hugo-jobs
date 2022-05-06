@@ -69,7 +69,7 @@
                         {{ end }}
                     </div>
                     <div class="col-12 text-center">
-                        <img src='{{ `images/imageLoading.gif` }}' width='{{ $width }}' height='{{ $height }}' srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}' alt='Images Not Available'  class="lazyload"></img>
+                        <img src='{{ `images/imageLoading.gif` }}' width='{{ $width }}' height='{{ $height }}' srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}' alt='Images Not Available'  class="lazyload voiceImage"></img>
                     </div>
                     <div class="col-12">
                         {{ if eq (.Page.Params.TypeofworkAnswer) ("") }}

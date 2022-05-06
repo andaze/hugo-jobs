@@ -1116,3 +1116,8 @@ code{
     top: 16px;
   }
 }
+
+.voiceImage{
+  width: auto !important;
+  height: auto !important;
+}
