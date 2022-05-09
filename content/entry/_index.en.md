@@ -23,16 +23,9 @@ jsonld: {
 
 # Careers
 ---
-### Experienced dot net developers
-Hi There ! We welcome your interest for working with Andaze Japan Ltd.
 
-{{< applynow  page="dotnet">}}
+If you would like to join Andaze family please apply with blow link.
 
----
-
-### Freshers
-Hi There! Kindly reply to all the queries below.
-
-{{< applynow  page="fresher">}}
+<a href="https://mycareer.andaze.com/careers" target="_blank" class="btn btn-primary btn-lg mb-3">Apply Now</a>
 
 ---
