@@ -9,7 +9,7 @@
                   <p class="text-content">{{ .Params.Intro | safeHTML }}</p>
                   <div class="link-container">
                     {{ range .Sections.ByWeight }}
-                      {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title "class" "link" "homeavm" "true") }}
+                      {{ partial "homeurlchange.html" (dict "path" .Permalink "title" .Title "class" "link" "homeavm" "true") }}
                     {{ end }}
                   </div>
                   {{ end }}
@@ -23,7 +23,7 @@
                   <p class="text-content">{{ .Params.Intro | safeHTML}}</p>
                   <div class="link-container">
                     {{ range .Sections.ByWeight }}
-                      {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title "class" "link" "homeavm" "true") }}
+                      {{ partial "homeurlchange.html" (dict "path" .Permalink "title" .Title "class" "link" "homeavm" "true") }}
                     {{ end }}
                   </div>
                   {{ end }}
@@ -37,7 +37,7 @@
                   <p class="text-content">{{.Params.Intro | safeHTML}}</p>
                   <div class="link-container">
                       {{ range .Sections.ByWeight }}
-                        {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title "class" "link" "homeavm" "true") }}
+                        {{ partial "homeurlchange.html" (dict "path" .Permalink "title" .Title "class" "link" "homeavm" "true") }}
                       {{ end }}
                   </div>
                   {{ end }}

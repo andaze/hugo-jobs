@@ -29,7 +29,7 @@
           <ul class="navbar-nav ml-auto" itemscope itemtype= "http://www.schema.org/SiteNavigationElement">
             {{ $currentPage := . }}
             {{ range .Site.Menus.item }}
-              {{ $menu_item_url := .URL | relLangURL   }}
+              {{ $menu_item_url := (.URL | relLangURL)   }}
               {{ $page_url:= $currentPage.RelPermalink }}
               {{ $data := path.Dir $page_url }}
               <li itemprop="name" class="nav-item {{ if or (eq (path.Base $menu_item_url) (path.Base $page_url)) (eq ($menu_item_url) (path.Dir $data)) }} active {{ end }} ">

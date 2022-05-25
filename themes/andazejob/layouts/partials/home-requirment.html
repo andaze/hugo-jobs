@@ -10,7 +10,7 @@
                   <p class="text-content">{{.Params.Intro | safeHTML}}</p>
                   <div class="link-container">
                       {{ range .Sections.ByWeight }}
-                        {{ partial "homeurlchange.html" (dict "path" .URL "title" .Title "class" "link" "homeavm" "true") }}
+                        {{ partial "homeurlchange.html" (dict "path" .Permalink "title" .Title "class" "link" "homeavm" "true") }}
                       {{ end }}
                     </div>
                   {{ end }}
@@ -24,7 +24,7 @@
                   {{ with .Site.GetPage "entry"}}
                   <p class="text-content">{{.Params.Intro | safeHTML}}</p>
                   <div class="link-container">
-                      {{ partial "homeurlchange.html" (dict "path" .URL "title" .Site.Params.entryBoxTitle "target" "_blank" "class" "btn btn-primary btn-lg" ) }}
+                      {{ partial "homeurlchange.html" (dict "path" .Permalink "title" .Site.Params.entryBoxTitle "target" "_blank" "class" "btn btn-primary btn-lg" ) }}
                   </div>
                   {{ end }}
               </div>

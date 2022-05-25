@@ -8,7 +8,7 @@
 
     {{ with .Site.GetPage $getpage }}
         {{ range .Sections.ByWeight }}
-            {{ $url := .URL }}
+            {{ $url := .Permalink }}
             {{ $title := .Title }}
             {{ $nextFlagGet := $Scratch.Get "nextFlag" }}
             {{ if eq ($nextFlagGet) (true) }}

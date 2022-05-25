@@ -6,7 +6,7 @@
   {{- range .Site.AllPages -}}
     {{- if eq (print .Site.Language) ("ja") -}}
       {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
-        {{ $url:= .URL | absURL }}
+        {{ $url:= .Permalink | absURL }}
         {{ $Scratch := newScratch}}
         {{ $Scratch.Set "url" "" }}
   
@@ -26,7 +26,7 @@
   
     {{- if eq (print .Site.Language) ("en") -}}
       {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
-        {{ $url:= .URL | absURL }}
+        {{ $url:= .Permalink | absURL }}
         {{ $Scratch := newScratch}}
         {{ $Scratch.Set "url" "" }}
   
