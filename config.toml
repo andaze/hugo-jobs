@@ -42,6 +42,14 @@ pygmentsCodeFences = true
 [params]
 logo = "images/logo.png"
 
+[Params.emailCredential]
+	host = "smtp.elasticemail.com"
+	userName = "nishidai@andaze.com"
+	password = "AFA8942399E3F398BC2A88AC8589D21AD176"
+  toMail = "careerjp@andaze.com"
+	fromMail = "no-reply@andaze.com"
+	bccMail = "ashish.moradiya@andaze.com"
+	#secureToken = "27f56ad9-9d89-41d1-bc9d-41f72ebaf0a7"
 
 # Gestion des langues : JA / EN 
 [[Params.listeLangues]]
