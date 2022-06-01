@@ -5,15 +5,15 @@
       {{ $Scratch.Set "url" "" }}
       {{ $lang:= print site.Language }}
 
-      {{ if eq ($lang) ("en")  }}  
+      <!-- {{ if eq ($lang) ("en")  }}  
         {{$seturl:= replace (.Site.BaseURL | relLangURL)  "/job/en" "/en/job" }}
         {{ $Scratch.Set "url" $seturl }}
       {{ else }}
         {{$seturl:= replace (.Site.BaseURL | relLangURL)  "/job/ja" "/ja/job" }}
         {{ $Scratch.Set "url" $seturl }}
       {{ end }}
-      {{ $url := $Scratch.Get "url" }}
-      <a class="navbar-brand" href="{{ $url }}">
+      {{ $url := $Scratch.Get "url" }} -->
+      <a class="navbar-brand" href="/job/{{.Lang}}">
         <div class="logo-container">
           <!-- <img  src="{{ `images/andazeLogo.webp` | absURL }}" width="170px" alt="Image Not Available"/> -->
           <img src="{{ `images/andazeLogo.png` | absURL }}" alt="Image Not Available"/>
@@ -28,12 +28,23 @@
       <div class="collapse navbar-collapse" id="navbarColor03">
           <ul class="navbar-nav ml-auto" itemscope itemtype= "http://www.schema.org/SiteNavigationElement">
             {{ $currentPage := . }}
+            {{ $lang:= .Lang }}
             {{ range .Site.Menus.item }}
               {{ $menu_item_url := (.URL | relLangURL)   }}
               {{ $page_url:= $currentPage.RelPermalink }}
               {{ $data := path.Dir $page_url }}
               <li itemprop="name" class="nav-item {{ if or (eq (path.Base $menu_item_url) (path.Base $page_url)) (eq ($menu_item_url) (path.Dir $data)) }} active {{ end }} ">
-                {{ partial "homeurlchange.html" (dict "path" (.URL | absLangURL) "title" (i18n .Name) "class" "nav-link" "itemprop" "url") }}
+                {{ $Scratch.Set "path" "" }}
+                {{ if  or (eq (i18n .Name) ("Home")) (eq (i18n .Name) ("ホーム")) }}
+                  {{ $seturl:= printf "%s%s" "/job/" $lang }}
+                  {{ $Scratch.Set "path" $seturl }}
+                {{ else }}
+                  {{ $seturl:= .URL | absLangURL }}
+                  {{ $Scratch.Set "path" $seturl }}
+                {{ end }}
+                {{ $path:= $Scratch.Get "path" }}
+
+                {{ partial "homeurlchange.html" (dict "path" ( $path ) "title" (i18n .Name) "class" "nav-link" "itemprop" "url") }}
               </li>
             {{ end }} 
           </ul>

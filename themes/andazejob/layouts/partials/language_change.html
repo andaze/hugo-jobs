@@ -6,7 +6,7 @@
         
         {{ range .Page.AllTranslations }}
             {{ $translation := .}}
-            {{ if eq (print site.Language) ("en") }}
+            <!-- {{ if eq (print site.Language) ("en") }}
                 {{$changeurl:= replace $translation.Permalink "/job/ja/" "/ja/job/" }}
                 {{ $Scratch.Set "changeurl" $changeurl }}
             {{ else }}
@@ -14,18 +14,18 @@
                 {{ $Scratch.Set "changeurl" $changeurl }}
             {{ end }}
         
-            {{ $langurl := $Scratch.Get "changeurl" }}
+            {{ $langurl := $Scratch.Get "changeurl" }} -->
             
             {{ range $siteLanguages }}
                 {{ if eq $translation.Lang .Lang }}
                     {{ $selected := false }}
                     {{ if eq $pageLang .Lang}}
-                        <a href="{{ $langurl }}" selected class="language_btn jp_btn">{{ .LanguageName }}</a>
+                        <a href="{{ $translation.Permalink }}" selected class="language_btn jp_btn">{{ .LanguageName }}</a>
                         {{ if eq ($pageLang) ("ja") }}
                         <span class="slash">/</span>
                         {{end}}
                     {{ else }}
-                        <a href="{{ $langurl }}" class="language_btn en_btn">{{ .LanguageName }}</a>
+                        <a href="{{ $translation.Permalink }}" class="language_btn en_btn">{{ .LanguageName }}</a>
                         {{ if eq ($pageLang) ("en") }}
                         <span class="slash">/</span>
                         {{end}}
