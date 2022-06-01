@@ -8,19 +8,19 @@
       {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
         {{ $url:= .Permalink | absURL }}
         {{ $Scratch := newScratch}}
-        {{ $Scratch.Set "url" "" }}
+        {{/* {{ $Scratch.Set "url" "" }}
   
-        {{ if in ($url) ("en") }}
-          {{$seturl:= replace ($url)  "/job/en" "/en/job" }}
-          {{ $Scratch.Set "url" $seturl }}
-        {{ end }}
-        {{ if in ($url) ("ja") }}
-          {{$seturl:= replace ($url)  "/job/ja" "/ja/job" }}
-          {{ $Scratch.Set "url" $seturl }}
-        {{ end }}
+          {{ if in ($url) ("en") }}
+            {{$seturl:= replace ($url)  "/job/en" "/en/job" }}
+            {{ $Scratch.Set "url" $seturl }}
+          {{ end }}
+          {{ if in ($url) ("ja") }}
+            {{$seturl:= replace ($url)  "/job/ja" "/ja/job" }}
+            {{ $Scratch.Set "url" $seturl }}
+          {{ end }}
 
-        {{ $pageurl := $Scratch.Get "url" }}          
-        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .File.Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section )}}
+          {{ $pageurl := $Scratch.Get "url" */}}          
+        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $url  "description" .Description "dir" .File.Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section )}}
       {{- end -}}
     {{- end -}}
   
@@ -28,19 +28,19 @@
       {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
         {{ $url:= .Permalink | absURL }}
         {{ $Scratch := newScratch}}
-        {{ $Scratch.Set "url" "" }}
+        {{/* {{ $Scratch.Set "url" "" }}
   
-        {{ if in ($url) ("en") }}
-            {{$seturl:= replace ($url)  "/dynamics365/en" "/en/dynamics365" }}
-            {{ $Scratch.Set "url" $seturl }}
-        {{ end }}
-        {{ if in ($url) ("ja") }}
-            {{$seturl:= replace ($url)  "/dynamics365/ja" "/ja/dynamics365" }}
-            {{ $Scratch.Set "url" $seturl }}
-        {{ end }}
+           {{ if in ($url) ("en") }}
+               {{$seturl:= replace ($url)  "/dynamics365/en" "/en/dynamics365" }}
+               {{ $Scratch.Set "url" $seturl }}
+           {{ end }}
+           {{ if in ($url) ("ja") }}
+               {{$seturl:= replace ($url)  "/dynamics365/ja" "/ja/dynamics365" }}
+               {{ $Scratch.Set "url" $seturl }}
+           {{ end }}
 
-        {{ $pageurl := $Scratch.Get "url" }}
-        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .File.Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section )}}
+           {{ $pageurl := $Scratch.Get "url" }} */}}  
+        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $url  "description" .Description "dir" .File.Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section )}}
         
       {{- end -}}
     {{- end -}}
