@@ -41,7 +41,7 @@
 
 [build]
 publish = "public"
-command = "hugo --gc --minify --config config/config.toml"
+command = "hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.87.0"
