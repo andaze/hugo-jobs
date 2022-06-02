@@ -2,7 +2,7 @@
 {{ $Scratch.Set "url" "" }}
 {{ $lang:= print site.Language }}
 
-{{ if eq ($lang) ("en")  }}  
+<!-- {{ if eq ($lang) ("en")  }}  
     {{$seturl:= replace (.path)  "/job/en/" "/en/job/" }}
     {{ $Scratch.Set "url" $seturl }}
 {{ else }}
@@ -10,8 +10,9 @@
     {{ $Scratch.Set "url" $seturl }}
 {{ end }}
 
-{{ $url := $Scratch.Get "url" }}
-<a href=" {{ $url }}" class="card listBox" {{if eq (.path) (.currentPage) }} style="pointer-events: none; background-color: #eeeeee;"{{ end  }}> 
+{{ $url := $Scratch.Get "url" }} -->
+
+<a href=" {{ .path }}" class="card listBox" {{if eq (.path) (.currentPage | absURL) }} style="pointer-events: none; background-color: #eeeeee;"{{ end  }}> 
   <div class="card-body">
   <h4 class="card-title"> {{ .title }}</h4>
   <p class="desc">{{ .description }}</p>

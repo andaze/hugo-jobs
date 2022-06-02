@@ -2,7 +2,7 @@
 {{ $Scratch.Set "url" "" }}
 {{ $lang:= print site.Language }}
 
-{{ if eq ($lang) ("en")  }}  
+<!-- {{ if eq ($lang) ("en")  }}  
     {{$seturl:= replace (.path)  "/job/en/" "/en/job/" }}
     {{ $Scratch.Set "url" $seturl }}
 {{ else }}
@@ -10,11 +10,12 @@
     {{ $Scratch.Set "url" $seturl }}
 {{ end }}
 
-{{ $url := $Scratch.Get "url" }}
+{{ $url := $Scratch.Get "url" }} -->
 {{if .itemprop}}
-<a itemprop = "{{.itemprop}}" href="{{ $url }}" class="{{.class}}" target="{{.target}}" >{{ .title }}</a>
+
+<a itemprop = "{{.itemprop}}" href="{{ .path }}" class="{{.class}}" target="{{.target}}" >{{ .title }}</a>
 {{ else if .homeavm }}
-<a href="{{ $url }}" class="{{.class}}" target="{{.target}}" ><!--<span class="material-icons">chevron_right</span>-->{{ .title }}</a>
+<a href="{{ .path }}" class="{{.class}}" target="{{.target}}" ><!--<span class="material-icons">chevron_right</span>-->{{ .title }}</a>
 {{ else }}
-<a href="{{ $url }}" class="{{.class}}" target="{{.target}}" >{{ .title }}</a>
+<a href="{{ .path }}" class="{{.class}}" target="{{.target}}" >{{ .title }}</a>
 {{ end }}
