@@ -6,10 +6,10 @@
 {{ $lang:= print site.Language }}
 
 {{ if eq ($lang) ("en")  }}  
-    {{$seturl:= replace ($file.URL | absURL)  "/job/en/" "/en/job/" }}
+    {{$seturl:= replace ($file.Permalink | absURL)  "/job/en/" "/en/job/" }}
     {{ $Scratch.Set "url" $seturl }}
 {{ else }}
-    {{$seturl:= replace ($file.URL | absURL)  "/job/ja/" "/ja/job/" }}
+    {{$seturl:= replace ($file.Permalink | absURL)  "/job/ja/" "/ja/job/" }}
     {{ $Scratch.Set "url" $seturl }}
 {{ end }}
 

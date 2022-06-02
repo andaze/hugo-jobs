@@ -14,15 +14,17 @@ $('#searchBox').hide();
 $('.navbar-toggler').on('click', function(e) {
   const bodyCon = $("body").hasClass("show_sidebar");
   if(bodyCon === true){
-    console.log('sdfsfsdf')
     $('body').removeClass('show_sidebar');
   } else {
-    console.log('false')
     $('body').addClass('show_sidebar');
   }
 });
 
 $('#searchIcon').on('click', function(){
+  $("button").attr("aria-expanded", "false");
+  $("button").addClass("collapsed");
+  $("#navbarColor03").removeClass("show");
+  $('body').removeClass('show_sidebar');
   $('#searchBox').show();
 });
 

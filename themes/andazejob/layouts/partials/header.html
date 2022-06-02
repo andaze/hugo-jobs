@@ -29,7 +29,7 @@
           <ul class="navbar-nav ml-auto" itemscope itemtype= "http://www.schema.org/SiteNavigationElement">
             {{ $currentPage := . }}
             {{ range .Site.Menus.item }}
-              {{ $menu_item_url := .URL | relLangURL   }}
+              {{ $menu_item_url := (.URL | relLangURL)   }}
               {{ $page_url:= $currentPage.RelPermalink }}
               {{ $data := path.Dir $page_url }}
               <li itemprop="name" class="nav-item {{ if or (eq (path.Base $menu_item_url) (path.Base $page_url)) (eq ($menu_item_url) (path.Dir $data)) }} active {{ end }} ">
@@ -41,11 +41,12 @@
       <!--language選択・変更-->
       
       <div class="header-searchbar" id="searchIcon">
+        <img id="searchIcon" src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png"/>
         <!-- <a class="nav-link" href="javascript:;"> -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="17.997" height="18" viewBox="0 0 17.997 18">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="17.997" height="18" viewBox="0 0 17.997 18">
             <path id="search-solid"
               d="M17.752,15.562l-3.5-3.5a.843.843,0,0,0-.6-.246h-.573a7.308,7.308,0,1,0-1.266,1.266v.573a.843.843,0,0,0,.246.6l3.5,3.5a.84.84,0,0,0,1.192,0l.995-.995A.848.848,0,0,0,17.752,15.562ZM7.312,11.811a4.5,4.5,0,1,1,4.5-4.5A4.5,4.5,0,0,1,7.312,11.811Z" />
-          </svg>
+          </svg> -->
         <!-- </a> -->
       </div>
       <label class="select">
@@ -57,7 +58,7 @@
 
     </div>
   </nav>
-  <div id="searchBox" class="search-container">
+  <div id="searchBox" class="search-container" style="display:none;">
     <div class="inner-search-wrap">
         <a href="#" class="search-close">
           <svg id="close_black_24dp" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">

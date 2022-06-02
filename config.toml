@@ -1,5 +1,9 @@
 baseURL = "https://www.andaze.com/job/"
 
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = ""
 theme = "andazejob"
@@ -14,10 +18,6 @@ googleAnalytics = "G-2RBG11HF44" # your analitics ID
 enableGitInfo = false
 pygmentsCodeFences = true
 
-# Multilangues setup
-# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
-defaultContentLanguageInSubdir = true
-DefaultContentLanguage = "ja"
 
 [markup.goldmark.renderer]
   unsafe = true

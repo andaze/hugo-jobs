@@ -9,7 +9,7 @@ $client = \Algolia\AlgoliaSearch\SearchClient::create(
  
 $index_en = $client->initIndex('job_english_content');
 $index_ja = $client->initIndex('job_japanese_content');
-$records = json_decode(file_get_contents('https://www.andaze.com/ja/algolia.json'), true);
+$records = json_decode(file_get_contents('https://www.andaze.com/ja/job/algolia.json'), true);
  
 $en_result = array_filter($records, function ($item) {
   if (stripos($item['lang'], 'en' ) !== false) {

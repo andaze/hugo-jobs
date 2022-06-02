@@ -1,6 +1,6 @@
-# hugo-jobs
+# Hugo-Jobs
 ## How to Run this project locally
-hugo server --config config/config.toml,config/config_devlop.toml
+hugo server
 
-## How To Build Project Server Side
-hugo --gc --minify --config config/config.toml
+## How to Build Project Server Side
+hugo --gc --minify

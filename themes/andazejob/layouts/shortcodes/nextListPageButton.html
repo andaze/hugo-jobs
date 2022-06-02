@@ -19,7 +19,7 @@
 
 {{ with .Site.GetPage "" }}
   {{ range .Sections.ByWeight }}
-    {{$url:=  .URL | absURL }}
+    {{$url:=  .Permalink | absURL }}
     {{ $title := .Title }}
     {{ $nextFlagGet := $Scratch.Get "nextFlag" }}
     
