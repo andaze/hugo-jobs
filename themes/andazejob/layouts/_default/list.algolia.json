@@ -6,7 +6,7 @@
   {{- range .Site.AllPages -}}
     {{- if eq (print .Site.Language) ("ja") -}}
       {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
-        {{ $url:= .URL | absURL }}
+        {{ $url:= .Permalink | absURL }}
         {{ $Scratch := newScratch}}
         {{ $Scratch.Set "url" "" }}
   
@@ -20,13 +20,13 @@
         {{ end }}
 
         {{ $pageurl := $Scratch.Get "url" }}          
-        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section )}}
+        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .File.Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section )}}
       {{- end -}}
     {{- end -}}
   
     {{- if eq (print .Site.Language) ("en") -}}
       {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
-        {{ $url:= .URL | absURL }}
+        {{ $url:= .Permalink | absURL }}
         {{ $Scratch := newScratch}}
         {{ $Scratch.Set "url" "" }}
   
@@ -40,7 +40,7 @@
         {{ end }}
 
         {{ $pageurl := $Scratch.Get "url" }}
-        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section )}}
+        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .File.Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section )}}
         
       {{- end -}}
     {{- end -}}

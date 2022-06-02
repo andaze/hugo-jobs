@@ -31,10 +31,10 @@
                 {{ $footertitel := .File.Dir }}
                 {{ $demo := strings.TrimRight "\\//" $footertitel }}
                 {{ if where .Site.Menus.item "Name" "in" $demo  }}
-                  {{ partial "homeurlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "footer-title") }}
+                  {{ partial "homeurlchange.html" (dict "path" (.Permalink | absURL) "title" (.Title) "class" "footer-title") }}
                   {{ with .Site.GetPage $demo }}
                   {{ range .Sections.ByWeight }}
-                    {{ partial "homeurlchange.html" (dict "path" (.URL | absURL) "title" (.Title) "class" "link" "homeavm" "true") }}
+                    {{ partial "homeurlchange.html" (dict "path" (.Permalink | absURL) "title" (.Title) "class" "link" "homeavm" "true") }}
                   {{ end }}
                   {{ end }}
                 {{ end }}
