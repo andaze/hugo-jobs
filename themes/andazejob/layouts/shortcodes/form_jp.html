@@ -223,13 +223,11 @@
 <script>
     function sendEmail()
     {  
-        let host = {{ .Site.Params.emailCredential.host }};
-        let userName = {{ .Site.Params.emailCredential.userName }};
-        let password = {{ .Site.Params.emailCredential.password }};
+        
+        let secureToken = {{ .Site.Params.emailCredential.secureToken }};
         let bccMail = {{ .Site.Params.emailCredential.bccMail }};
         let toMail = {{ .Site.Params.emailCredential.toMail }};
         let fromMail = {{ .Site.Params.emailCredential.fromMail }};
-        // let secureToken = {{ .Site.Params.emailCredential.secureToken }};
 
         let w = document.getElementById("typeofwork");
         let typeOfWork = w.value;
@@ -290,9 +288,7 @@
             var curriculum_vitae_uri = "data:" + curriculum_vitae.type + ";base64," + btoa(cvReader.result);
 
             Email.send({
-            Host : host,
-            Username : userName,
-            Password : password,
+            SecureToken : secureToken,
             To : toMail,
             From : fromMail,
             Bcc : bccMail,
@@ -309,8 +305,8 @@
                 }
             ]
             }).then(
-            message => alert("Your Form has Been submitted");
-            document.getElementById("entryForm").reset();
+            message => alert("Your Form has Been submitted"),
+            document.getElementById("entryForm").reset()
             );
         });
     }
