@@ -58,7 +58,7 @@
                 <label for="">お名前（漢字）<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="text" name="name" id="name" value="" />
+                <input class="form-control" type="text" name="name" id="name" value="" required />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -66,7 +66,7 @@
                 <label for="">お名前（ふりがな）<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="text" name="surname" id="surname" value="" />
+                <input class="form-control" type="text" name="surname" id="surname" value="" required  />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -87,7 +87,7 @@
                 <label for="">現住所<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="text" name="address" id="address" value="" />
+                <input class="form-control" type="text" name="address" id="address" value="" required  />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -95,7 +95,7 @@
                 <label for="">Eメール<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="email" name="email" id="email" value="" />
+                <input class="form-control" type="email" name="email" id="email" value="" required  />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -103,7 +103,7 @@
                 <label for="">電話番号<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="text" name="mobile_number" id="mobile_number" value="" />
+                <input class="form-control" type="text" name="mobile_number" id="mobile_number" value="" required  />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -112,7 +112,7 @@
                     (500字以内)</label>
             </div>
             <div class="col-12 col-sm-8">
-                <textarea class="form-control" name="reasonforapply" id="reasonforapply" cols="45" rows="5"></textarea>
+                <textarea class="form-control" name="reasonforapply" id="reasonforapply" cols="45" rows="5" required ></textarea>
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -120,7 +120,7 @@
                 <label for="">履歴書<span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="file" name="resume" id="resume" />
+                <input class="form-control" type="file" name="resume" id="resume" required  />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -128,7 +128,7 @@
                 <label for="">職務経歴書 <span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="file" name="curriculum_vitae" id="curriculum_vitae" />
+                <input class="form-control" type="file" name="curriculum_vitae" id="curriculum_vitae" required  />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -136,7 +136,7 @@
                 <label for="">作品（URLなど）</label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="text" name="work" id="work" value="" />
+                <input class="form-control" type="text" name="work" id="work" value="" required  />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -220,94 +220,97 @@
 <br>
 <br>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
 <script>
     function sendEmail()
     {  
+        let validateForm = $('#entryForm').valid();
+        if(validateForm)
+        {
+            let secureToken = {{ .Site.Params.emailCredential.secureToken }};
+            let bccMail = {{ .Site.Params.emailCredential.bccMail }};
+            let fromMail = {{ .Site.Params.emailCredential.fromMail }};
+
+            let w = document.getElementById("typeofwork");
+            let typeOfWork = w.value;
+            let a = document.getElementById("applicationtype");
+            let applicationType = a.value;
+            let exp = document.getElementById("experience");
+            let experience = exp.value;
+            let name = document.getElementById('name').value;
+            let surname = document.getElementById('surname').value;
+            let gender = document.querySelector('input[name = gender]:checked').value;
+            let address = document.getElementById('address').value;
+            let email = document.getElementById('email').value;
+            let mobile_number = document.getElementById('mobile_number').value;
+            let reasonforapply = document.getElementById('reasonforapply').value;
+            let work = document.getElementById('work').value;
+            let h = document.getElementById("heardandaze");
+            let heardandaze = h.value;
+            let l = document.getElementById("learnandaze");
+            let learnandaze = l.value;
+            let resume = document.getElementById('resume').files[0];
+            let curriculum_vitae = document.getElementById('curriculum_vitae').files[0];
+            var resumeReader = new FileReader();
+            var cvReader = new FileReader();
+            resumeReader.readAsBinaryString(resume);
+            cvReader.readAsBinaryString(curriculum_vitae);
+
+            let body = `Hello,<br>Following are detail come from Entry form:
+                <hr> 
+                <br>
+                応募職種 :=  ${typeOfWork},<br> 
+                応募種別 := ${applicationType},<br> 
+                業界経験 := ${experience},<br> 
+                お名前（漢字） := ${name},<br> 
+                お名前（ふりがな）:= ${surname},<br> 
+                性別 := ${gender},<br> 
+                現住所 := ${address},<br> 
+                Eメール := ${email},<br> 
+                電話番号 := ${mobile_number},<br> 
+                志望動機など := ${reasonforapply},<br> 
+                作品（URLなど） := ${work},<br> 
+                最初にアンダーズを知ったキッカケ  := ${heardandaze},<br> 
+                アンダーズを知った時期  := ${learnandaze},<br> `;
+
         
-        let secureToken = {{ .Site.Params.emailCredential.secureToken }};
-        let bccMail = {{ .Site.Params.emailCredential.bccMail }};
-        let toMail = {{ .Site.Params.emailCredential.toMail }};
-        let fromMail = {{ .Site.Params.emailCredential.fromMail }};
+            const resumePromice = new Promise((resolve, reject) => {
+                resumeReader.onload = function () {
+                    resolve(1)
+                };
+            });
+            const cvPromice = new Promise((resolve, reject) => {
+                cvReader.onload = function () {
+                    resolve(2)
+                };
+            });
 
-        let w = document.getElementById("typeofwork");
-        let typeOfWork = w.value;
-        let a = document.getElementById("applicationtype");
-        let applicationType = a.value;
-        let exp = document.getElementById("experience");
-        let experience = exp.value;
-        let name = document.getElementById('name').value;
-        let surname = document.getElementById('surname').value;
-        let gender = document.querySelector('input[name = gender]:checked').value;
-        let address = document.getElementById('address').value;
-        let email = document.getElementById('email').value;
-        let mobile_number = document.getElementById('mobile_number').value;
-        let reasonforapply = document.getElementById('reasonforapply').value;
-        let work = document.getElementById('work').value;
-        let h = document.getElementById("heardandaze");
-        let heardandaze = h.value;
-        let l = document.getElementById("learnandaze");
-        let learnandaze = l.value;
-        let resume = document.getElementById('resume').files[0];
-        let curriculum_vitae = document.getElementById('curriculum_vitae').files[0];
-        var resumeReader = new FileReader();
-        var cvReader = new FileReader();
-        resumeReader.readAsBinaryString(resume);
-        cvReader.readAsBinaryString(curriculum_vitae);
+            Promise.all([resumePromice, cvPromice]).then((values) => {  
+                var resumeUri = "data:" + resume.type + ";base64," + btoa(resumeReader.result);
+                var curriculum_vitae_uri = "data:" + curriculum_vitae.type + ";base64," + btoa(cvReader.result);
 
-        let body = `Hello,<br>Following are detail come from Entry form:
-            <hr> 
-            <br>
-            応募職種 :=  ${typeOfWork},<br> 
-            応募種別 := ${applicationType},<br> 
-            業界経験 := ${experience},<br> 
-            お名前（漢字） := ${name},<br> 
-            お名前（ふりがな）:= ${surname},<br> 
-            性別 := ${gender},<br> 
-            現住所 := ${address},<br> 
-            Eメール := ${email},<br> 
-            電話番号 := ${mobile_number},<br> 
-            志望動機など := ${reasonforapply},<br> 
-            作品（URLなど） := ${work},<br> 
-            最初にアンダーズを知ったキッカケ  := ${heardandaze},<br> 
-            アンダーズを知った時期  := ${learnandaze},<br> `;
-
-       
-        const resumePromice = new Promise((resolve, reject) => {
-            resumeReader.onload = function () {
-                resolve(1)
-            };
-        });
-        const cvPromice = new Promise((resolve, reject) => {
-            cvReader.onload = function () {
-                resolve(2)
-            };
-        });
-
-        Promise.all([resumePromice, cvPromice]).then((values) => {  
-            var resumeUri = "data:" + resume.type + ";base64," + btoa(resumeReader.result);
-            var curriculum_vitae_uri = "data:" + curriculum_vitae.type + ";base64," + btoa(cvReader.result);
-
-            Email.send({
-            SecureToken : secureToken,
-            To : toMail,
-            From : fromMail,
-            Bcc : bccMail,
-            Subject : `Entry Form filled By ${name} ${surname}`,
-            Body : body,
-            Attachments : [
-                {
-                    name : resume.name,
-                    data : resumeUri
-                },
-                {
-                    name : curriculum_vitae.name,
-                    data : curriculum_vitae_uri
-                }
-            ]
-            }).then(
-            message => alert("Your Form has Been submitted"),
-            document.getElementById("entryForm").reset()
-            );
-        });
+                Email.send({
+                SecureToken : secureToken,
+                To : email,
+                From : fromMail,
+                Bcc : bccMail,
+                Subject : `Entry Form filled By ${name} ${surname}`,
+                Body : body,
+                Attachments : [
+                    {
+                        name : resume.name,
+                        data : resumeUri
+                    },
+                    {
+                        name : curriculum_vitae.name,
+                        data : curriculum_vitae_uri
+                    }
+                ]
+                }).then(
+                message => alert("Your Form has Been submitted"),
+                document.getElementById("entryForm").reset()
+                );
+            });
+        }
     }
 </script>
