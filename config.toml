@@ -42,6 +42,11 @@ pygmentsCodeFences = true
 [params]
 logo = "images/logo.png"
 
+[Params.emailCredential]
+  toMail = "careerjp@andaze.com"
+	fromMail = "no-reply@andaze.com"
+	bccMail = "ashish.moradiya@andaze.com"
+	secureToken = "7670de06-d726-44e6-af6c-96dca7e5b64f"
 
 # Gestion des langues : JA / EN 
 [[Params.listeLangues]]

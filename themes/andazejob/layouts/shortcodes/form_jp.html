@@ -11,8 +11,9 @@
     
 */}}
 <div class="container">
-    <form name="infoForm" class="contact-form width-normal" action="/ja/job/merit" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="infoForm" />
+    <form id="entryForm"class="contact-form width-normal" action="/job/ja/merit" method="POST">
+        <!-- <form name="infoForm" class="contact-form width-normal" action="/job/ja/merit" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="infoForm" /> this both line no 15,16 use for netlify email -->
         <h1 class="">エントリー（入力画面）</h1>
         <p>アンダーズへの入社をご希望の方は、必要事項を入力の上、ご応募ください。（*は必須入力）</p>
         <div class="row" style="padding-top: 10px;">
@@ -21,8 +22,8 @@
             </div>
             <div class="col-12 col-sm-8">
                 <select name="typeofwork" id="typeofwork" class="form-control">
-                    <option>クラウド コンサルタント</option>
-                    <option>クラウド エンジニア</option>
+                    <option value="クラウド コンサルタント">クラウド コンサルタント</option>
+                    <option value="クラウド エンジニア">クラウド エンジニア</option>
                 </select>
             </div>
         </div>
@@ -32,8 +33,8 @@
             </div>
             <div class="col-12 col-sm-8">
                 <select name="applicationtype" id="applicationtype" class="form-control">
-                    <option>中途採用</option>
-                    <option>新卒採用</option>
+                    <option value="中途採用">中途採用</option>
+                    <option value="新卒採用">新卒採用</option>
                 </select>
             </div>
         </div>
@@ -43,12 +44,12 @@
             </div>
             <div class="col-12 col-sm-8">
                 <select name="experience" id="experience" class="form-control">
-                    <option>未経験</option>
-                    <option>1年未満</option>
-                    <option>1～2年以内</option>
-                    <option>2～3年以内</option>
-                    <option>3～5年以内</option>
-                    <option>5年以上</option>
+                    <option value="未経験">未経験</option>
+                    <option value="1年未満">1年未満</option>
+                    <option value="1～2年以内">1～2年以内</option>
+                    <option value="2～3年以内">2～3年以内</option>
+                    <option value="3～5年以内">3～5年以内</option>
+                    <option value="5年以上">5年以上</option>
                 </select>
             </div>
         </div>
@@ -127,7 +128,7 @@
                 <label for="">職務経歴書 <span style="color: #0b3859;"> *</span></label>
             </div>
             <div class="col-12 col-sm-8">
-                <input class="form-control" type="file" name="jobhistory" id="jobhistory" />
+                <input class="form-control" type="file" name="curriculum_vitae" id="curriculum_vitae" />
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -145,14 +146,14 @@
             <div class="col-12 col-sm-8">
                 <select class="form-control" name="heardandaze" id="heardandaze">
                     <option value="" selected="selected">選択してください</option>
-                    <option>検索エンジン</option>
-                    <option>Twitter</option>
-                    <option>Facebook</option>
-                    <option>イベント（登壇・セミナー）</option>
-                    <option>転職サイト</option>
-                    <option>他サイト・他ブログ等での紹介</option>
-                    <option>知人の紹介</option>
-                    <option>昔からずっと（キッカケ不明）</option>
+                    <option value="検索エンジン">検索エンジン</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="イベント（登壇・セミナー）">イベント（登壇・セミナー）</option>
+                    <option value="転職サイト">転職サイト</option>
+                    <option value="他サイト・他ブログ等での紹介">他サイト・他ブログ等での紹介</option>
+                    <option value="知人の紹介">知人の紹介</option>
+                    <option value="昔からずっと（キッカケ不明）">昔からずっと（キッカケ不明）</option>
                 </select>
             </div>
         </div>
@@ -163,12 +164,12 @@
             <div class="col-12 col-sm-8">
                 <select class="form-control" name="learnandaze" id="learnandaze">
                     <option value="" selected="selected">選択してください</option>
-                    <option>就職活動・転職活動を始めてから</option>
-                    <option>3か月以内</option>
-                    <option>半年以内</option>
-                    <option>1年以内</option>
-                    <option>2年以内</option>
-                    <option>それ以上前</option>
+                    <option value="就職活動・転職活動を始めてから">就職活動・転職活動を始めてから</option>
+                    <option value="3か月以内">3か月以内</option>
+                    <option value="半年以内">半年以内</option>
+                    <option value="1年以内">1年以内</option>
+                    <option value="2年以内">2年以内</option>
+                    <option value="それ以上前">それ以上前</option>
                 </select>
             </div>
         </div>
@@ -211,10 +212,102 @@
                 <h6><input type="checkbox"  name="terms" id="terms" onchange="document.getElementById('Form-submit').disabled = !this.checked;"  > 個人情報利用に同意</h6>
             </div>
             <div class="col-12">
-                <button class="btn btn-primary" type="submit" value="Submit" id="Form-submit" disabled>送信</button>
+                <button class="btn btn-primary" type="button" onclick="sendEmail()" id="Form-submit" disabled>送信</button>
             </div>
         </div>
     </form>
 </div>
 <br>
 <br>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail()
+    {  
+        
+        let secureToken = {{ .Site.Params.emailCredential.secureToken }};
+        let bccMail = {{ .Site.Params.emailCredential.bccMail }};
+        let toMail = {{ .Site.Params.emailCredential.toMail }};
+        let fromMail = {{ .Site.Params.emailCredential.fromMail }};
+
+        let w = document.getElementById("typeofwork");
+        let typeOfWork = w.value;
+        let a = document.getElementById("applicationtype");
+        let applicationType = a.value;
+        let exp = document.getElementById("experience");
+        let experience = exp.value;
+        let name = document.getElementById('name').value;
+        let surname = document.getElementById('surname').value;
+        let gender = document.querySelector('input[name = gender]:checked').value;
+        let address = document.getElementById('address').value;
+        let email = document.getElementById('email').value;
+        let mobile_number = document.getElementById('mobile_number').value;
+        let reasonforapply = document.getElementById('reasonforapply').value;
+        let work = document.getElementById('work').value;
+        let h = document.getElementById("heardandaze");
+        let heardandaze = h.value;
+        let l = document.getElementById("learnandaze");
+        let learnandaze = l.value;
+        let resume = document.getElementById('resume').files[0];
+        let curriculum_vitae = document.getElementById('curriculum_vitae').files[0];
+        var resumeReader = new FileReader();
+        var cvReader = new FileReader();
+        resumeReader.readAsBinaryString(resume);
+        cvReader.readAsBinaryString(curriculum_vitae);
+
+        let body = `Hello,<br>Following are detail come from Entry form:
+            <hr> 
+            <br>
+            応募職種 :=  ${typeOfWork},<br> 
+            応募種別 := ${applicationType},<br> 
+            業界経験 := ${experience},<br> 
+            お名前（漢字） := ${name},<br> 
+            お名前（ふりがな）:= ${surname},<br> 
+            性別 := ${gender},<br> 
+            現住所 := ${address},<br> 
+            Eメール := ${email},<br> 
+            電話番号 := ${mobile_number},<br> 
+            志望動機など := ${reasonforapply},<br> 
+            作品（URLなど） := ${work},<br> 
+            最初にアンダーズを知ったキッカケ  := ${heardandaze},<br> 
+            アンダーズを知った時期  := ${learnandaze},<br> `;
+
+       
+        const resumePromice = new Promise((resolve, reject) => {
+            resumeReader.onload = function () {
+                resolve(1)
+            };
+        });
+        const cvPromice = new Promise((resolve, reject) => {
+            cvReader.onload = function () {
+                resolve(2)
+            };
+        });
+
+        Promise.all([resumePromice, cvPromice]).then((values) => {  
+            var resumeUri = "data:" + resume.type + ";base64," + btoa(resumeReader.result);
+            var curriculum_vitae_uri = "data:" + curriculum_vitae.type + ";base64," + btoa(cvReader.result);
+
+            Email.send({
+            SecureToken : secureToken,
+            To : toMail,
+            From : fromMail,
+            Bcc : bccMail,
+            Subject : `Entry Form filled By ${name} ${surname}`,
+            Body : body,
+            Attachments : [
+                {
+                    name : resume.name,
+                    data : resumeUri
+                },
+                {
+                    name : curriculum_vitae.name,
+                    data : curriculum_vitae_uri
+                }
+            ]
+            }).then(
+            message => alert("Your Form has Been submitted"),
+            document.getElementById("entryForm").reset()
+            );
+        });
+    }
+</script>
