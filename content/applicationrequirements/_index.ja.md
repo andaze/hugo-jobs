@@ -16,7 +16,7 @@ jsonld: '{
       "hiringOrganization" : {
         "@type" : "Organization",
         "name" : "アンダーズ株式会社",
-        "sameAs" : "https://www.andaze.com/ja/",
+        "sameAs" : "https://andaze.com/ja/",
         "logo" : "favicon.ico"
       },
       "jobLocation": {

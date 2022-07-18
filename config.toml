@@ -2,7 +2,7 @@
 # baseURL = "https://gallant-einstein-eab8cc.netlify.app"
 # baseURL = "https://hugojob.ameio.in/"
 # baseURL = "https://newandaze.ameio.in/job/"
-baseURL = "https://www.andaze.com/job"
+baseURL = "https://andaze.com/job"
 
 # Multilangues setup
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/

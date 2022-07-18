@@ -27,7 +27,7 @@ jsonld: {
 
 #### Let’s find out about Andaze.
 
-https://andaze.com/jobs/ The job site of Andaze has information about the features of Andaze and the people we want. Also, check out https://www.andaze.com/ja/services to see what kind of technology they offer. If there is a word that interests you, check it out, it may stimulate a new interest.
+https://andaze.com/jobs/ The job site of Andaze has information about the features of Andaze and the people we want. Also, check out https://andaze.com/ja/services to see what kind of technology they offer. If there is a word that interests you, check it out, it may stimulate a new interest.
 
 #### Your motivation will give you an edge.
 
